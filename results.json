@@ -1,0 +1,29 @@
+[
+  {
+    "modelId": "gemini-2.0-flash",
+    "scores": {
+      "trivia_et": 48.4,
+      "propaganda_resistance": 64.89,
+      "bib_bench": 28.23
+    },
+    "overall": 47.17
+  },
+  {
+    "modelId": "claude-3.5-haiku",
+    "scores": {
+      "trivia_et": 38.9,
+      "propaganda_resistance": 66.4,
+      "bib_bench": 15.25
+    },
+    "overall": 40.18
+  },
+  {
+    "modelId": "deepseek-v3",
+    "scores": {
+      "trivia_et": 38.2,
+      "propaganda_resistance": 62.49,
+      "bib_bench": 15.67
+    },
+    "overall": 38.79
+  }
+]

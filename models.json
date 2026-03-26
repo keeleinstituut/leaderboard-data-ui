@@ -1,0 +1,18 @@
+[
+  {
+    "id": "deepseek-v3",
+    "name": "DeepSeek V3",
+    "provider": "DeepSeek",
+    "tags": ["open"]
+  },
+  {
+    "id": "gemini-2.0-flash",
+    "name": "Gemini 2.0 Flash",
+    "provider": "Google"
+  },
+  {
+    "id": "claude-3.5-haiku",
+    "name": "Claude 3.5 Haiku",
+    "provider": "Anthropic"
+  }
+]

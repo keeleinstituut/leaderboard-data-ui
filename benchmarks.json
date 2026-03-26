@@ -1,0 +1,17 @@
+[
+  {
+    "id": "trivia_et",
+    "name": "Trivia",
+    "tags": ["knowledge"]
+  },
+  {
+    "id": "propaganda_resistance",
+    "name": "Propaganda Resistance Benchmark",
+    "tags": ["reasoning"]
+  },
+  {
+    "id": "bib_bench",
+    "name": "Estonian Book Recommendation Benchmark",
+    "tags": ["knowledge"]
+  }
+]
