@@ -1,28 +1,28 @@
 [
   {
-    "modelId": "google/gemini-2.0-flash-001",
+    "model_id": "google/gemini-2.0-flash-001",
     "scores": {
-      "trivia_et": 48.4,
-      "propaganda_resistance": 64.89,
-      "bib_bench": 28.23
+      "keeleinstituut/trivia-bench-2": 48.4,
+      "keeleinstituut/propa-bench": 64.89,
+      "keeleinstituut/bib-bench": 28.23
     },
     "overall": 47.17
   },
   {
-    "modelId": "anthropic/claude-3.5-haiku",
+    "model_id": "anthropic/claude-3.5-haiku",
     "scores": {
-      "trivia_et": 38.9,
-      "propaganda_resistance": 66.4,
-      "bib_bench": 15.25
+      "keeleinstituut/trivia-bench-2": 38.9,
+      "keeleinstituut/propa-bench": 66.4,
+      "keeleinstituut/bib-bench": 15.25
     },
     "overall": 40.18
   },
   {
-    "modelId": "deepseek/deepseek-chat",
+    "model_id": "deepseek/deepseek-chat",
     "scores": {
-      "trivia_et": 38.2,
-      "propaganda_resistance": 62.49,
-      "bib_bench": 15.67
+      "keeleinstituut/trivia-bench-2": 38.2,
+      "keeleinstituut/propa-bench": 62.49,
+      "keeleinstituut/bib-bench": 15.67
     },
     "overall": 38.79
   }

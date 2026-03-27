@@ -1,16 +1,16 @@
 [
   {
-    "id": "trivia_et",
+    "id": "keeleinstituut/trivia-bench-2",
     "name": "Trivia",
     "tags": ["knowledge"]
   },
   {
-    "id": "propaganda_resistance",
+    "id": "keeleinstituut/propa-bench",
     "name": "Propaganda Resistance Benchmark",
     "tags": ["reasoning"]
   },
   {
-    "id": "bib_bench",
+    "id": "keeleinstituut/bib-bench",
     "name": "Estonian Book Recommendation Benchmark",
     "tags": ["knowledge"]
   }
