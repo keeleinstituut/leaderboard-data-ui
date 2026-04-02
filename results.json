@@ -1,29 +1,19 @@
 [
   {
-    "model_id": "google/gemini-2.0-flash-001",
+    "modelId": "claude-haiku-4-5",
     "scores": {
-      "keeleinstituut/trivia-bench-2": 48.4,
-      "keeleinstituut/propa-bench": 64.89,
-      "keeleinstituut/bib-bench": 28.23
+      "keelenou": 36.67
     },
-    "overall": 47.17
-  },
-  {
-    "model_id": "anthropic/claude-3.5-haiku",
-    "scores": {
-      "keeleinstituut/trivia-bench-2": 38.9,
-      "keeleinstituut/propa-bench": 66.4,
-      "keeleinstituut/bib-bench": 15.25
-    },
-    "overall": 40.18
-  },
-  {
-    "model_id": "deepseek/deepseek-chat",
-    "scores": {
-      "keeleinstituut/trivia-bench-2": 38.2,
-      "keeleinstituut/propa-bench": 62.49,
-      "keeleinstituut/bib-bench": 15.67
-    },
-    "overall": 38.79
+    "overall": 36.67,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 38.89,
+          "open": 33.33,
+          "short": 22.92,
+          "tf": 45.83
+        }
+      }
+    }
   }
 ]

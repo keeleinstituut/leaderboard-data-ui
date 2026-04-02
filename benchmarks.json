@@ -1,17 +1,7 @@
 [
   {
-    "id": "keeleinstituut/trivia-bench-2",
-    "name": "Trivia",
-    "tags": ["knowledge"]
-  },
-  {
-    "id": "keeleinstituut/propa-bench",
-    "name": "Propaganda Resistance Benchmark",
-    "tags": ["reasoning"]
-  },
-  {
-    "id": "keeleinstituut/bib-bench",
-    "name": "Estonian Book Recommendation Benchmark",
-    "tags": ["knowledge"]
+    "id": "keelenou",
+    "name_en": "Estonian Language Advice",
+    "name_et": "Keelenõu"
   }
 ]
