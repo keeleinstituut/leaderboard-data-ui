@@ -1,7 +1,101 @@
 [
   {
-    "id": "claude-haiku-4-5",
-    "name": "claude-haiku-4-5",
-    "provider": "anthropic"
+    "id": "openai/gpt-3.5-turbo",
+    "name": "GPT-3.5 Turbo",
+    "provider": "OpenAI"
+  },
+  {
+    "id": "openai/gpt-4",
+    "name": "GPT-4",
+    "provider": "OpenAI"
+  },
+  {
+    "id": "openai/gpt-4o",
+    "name": "GPT-4o",
+    "provider": "OpenAI"
+  },
+  {
+    "id": "openai/gpt-4o-mini",
+    "name": "GPT-4o Mini",
+    "provider": "OpenAI"
+  },
+  {
+    "id": "openai/gpt-4.1",
+    "name": "GPT-4.1",
+    "provider": "OpenAI"
+  },
+  {
+    "id": "openai/gpt-5-chat",
+    "name": "GPT-5",
+    "provider": "OpenAI"
+  },
+  {
+    "id": "openai/gpt-5.4",
+    "name": "GPT-5.4",
+    "provider": "OpenAI"
+  },
+  {
+    "id": "openai/gpt-5.4-mini",
+    "name": "GPT-5.4 Mini",
+    "provider": "OpenAI"
+  },
+  {
+    "id": "openai/gpt-oss-120b",
+    "name": "GPT-OSS 120B",
+    "provider": "OpenAI",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "anthropic/claude-3-haiku",
+    "name": "Claude 3 Haiku",
+    "provider": "Anthropic"
+  },
+  {
+    "id": "anthropic/claude-3.7-sonnet",
+    "name": "Claude 3.7 Sonnet",
+    "provider": "Anthropic"
+  },
+  {
+    "id": "anthropic/claude-haiku-4.5",
+    "name": "Claude 4.5 Haiku",
+    "provider": "Anthropic"
+  },
+  {
+    "id": "anthropic/claude-sonnet-4.6",
+    "name": "Claude Sonnet 4.6",
+    "provider": "Anthropic"
+  },
+  {
+    "id": "anthropic/claude-opus-4.6",
+    "name": "Claude Opus 4.6",
+    "provider": "Anthropic"
+  },
+  {
+    "id": "mistralai/mistral-large-2512",
+    "name": "Mistral Large 2512",
+    "provider": "Mistral"
+  },
+  {
+    "id": "moonshotai/kimi-k2-0905",
+    "name": "Kimi K2",
+    "provider": "Moonshot",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "nvidia/nemotron-3-super-120b-a12b",
+    "name": "Nemotron 3 Super 120B",
+    "provider": "NVIDIA",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "deepseek/deepseek-chat",
+    "name": "deepseek-chat",
+    "provider": "deepseek"
   }
 ]

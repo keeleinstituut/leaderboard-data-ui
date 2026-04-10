@@ -1,6 +1,681 @@
 [
   {
-    "modelId": "claude-haiku-4-5",
+    "modelId": "google/gemini-3-flash-preview",
+    "scores": {
+      "keelenou": 63.75,
+      "trivia_et_2": 76.1,
+      "idiom_bench": 59.0
+    },
+    "overall": 66.28,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 56.94,
+          "open": 60.42,
+          "short": 54.17,
+          "tf": 79.17
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 81.9,
+          "varia": 71.77,
+          "sport": 71.74,
+          "kultuur": 75.64,
+          "loodus-geograafia": 79.25
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 44.78,
+          "cross-lingual": 67.52,
+          "grey-zone": 58.62
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-5.2-chat",
+    "scores": {
+      "keelenou": 55.21
+    },
+    "overall": 55.21,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 45.83,
+          "open": 53.12,
+          "short": 54.17,
+          "tf": 66.67
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-5.4",
+    "scores": {
+      "keelenou": 52.29,
+      "trivia_et_2": 52.1,
+      "idiom_bench": 61.0,
+      "bib_bench": 36.72
+    },
+    "overall": 50.53,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 43.06,
+          "open": 51.04,
+          "short": 50.0,
+          "tf": 63.89
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 61.54,
+          "varia": 45.16,
+          "sport": 44.2,
+          "kultuur": 49.57,
+          "loodus-geograafia": 60.38
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 46.27,
+          "cross-lingual": 65.81,
+          "grey-zone": 64.66
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 62.5,
+          "luule": 15.62,
+          "ajaloo": 31.25,
+          "krimi": 37.5,
+          "laste": 65.62,
+          "populaarteaduslikku": 21.88,
+          "eluloo": 15.62,
+          "fantaasia": 43.75
+        },
+        "by_dial": {
+          "baseline": 50.0,
+          "lesser_known": 14.06,
+          "recent": 26.56,
+          "classic": 56.25
+        }
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-opus-4.6",
+    "scores": {
+      "keelenou": 51.25,
+      "trivia_et_2": 54.4,
+      "idiom_bench": 48.33,
+      "bib_bench": 34.43
+    },
+    "overall": 47.1,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 41.67,
+          "open": 58.33,
+          "short": 50.0,
+          "tf": 56.94
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 66.06,
+          "varia": 48.39,
+          "sport": 47.83,
+          "kultuur": 51.28,
+          "loodus-geograafia": 57.86
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 28.36,
+          "cross-lingual": 60.68,
+          "grey-zone": 47.41
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 72.22,
+          "luule": 31.25,
+          "ajaloo": 36.36,
+          "krimi": 31.25,
+          "laste": 47.22,
+          "populaarteaduslikku": 12.5,
+          "eluloo": 10.81,
+          "fantaasia": 31.43
+        },
+        "by_dial": {
+          "baseline": 43.48,
+          "lesser_known": 23.61,
+          "recent": 30.77,
+          "classic": 40.3
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-4o",
+    "scores": {
+      "keelenou": 46.88,
+      "trivia_et_2": 54.1,
+      "idiom_bench": 45.67,
+      "bib_bench": 39.92
+    },
+    "overall": 46.64,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 34.72,
+          "open": 40.62,
+          "short": 39.58,
+          "tf": 68.06
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 62.9,
+          "varia": 45.56,
+          "sport": 49.28,
+          "kultuur": 54.27,
+          "loodus-geograafia": 59.12
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 35.82,
+          "cross-lingual": 58.12,
+          "grey-zone": 38.79
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 66.67,
+          "luule": 12.5,
+          "ajaloo": 37.5,
+          "krimi": 27.78,
+          "laste": 68.75,
+          "populaarteaduslikku": 18.18,
+          "eluloo": 28.12,
+          "fantaasia": 60.61
+        },
+        "by_dial": {
+          "baseline": 54.69,
+          "lesser_known": 18.18,
+          "recent": 39.71,
+          "classic": 47.69
+        }
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-3.7-sonnet",
+    "scores": {
+      "keelenou": 44.58,
+      "trivia_et_2": 50.7,
+      "idiom_bench": 51.33,
+      "bib_bench": 33.98
+    },
+    "overall": 45.15,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 40.28,
+          "open": 47.92,
+          "short": 37.5,
+          "tf": 51.39
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 61.99,
+          "varia": 43.55,
+          "sport": 42.03,
+          "kultuur": 49.15,
+          "loodus-geograafia": 55.97
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 38.81,
+          "cross-lingual": 62.39,
+          "grey-zone": 47.41
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 56.25,
+          "luule": 3.12,
+          "ajaloo": 40.62,
+          "krimi": 40.62,
+          "laste": 68.75,
+          "populaarteaduslikku": 21.88,
+          "eluloo": 12.5,
+          "fantaasia": 28.12
+        },
+        "by_dial": {
+          "baseline": 50.0,
+          "lesser_known": 6.25,
+          "recent": 31.25,
+          "classic": 48.44
+        }
+      }
+    }
+  },
+  {
+    "modelId": "google/gemini-2.0-flash-001",
+    "scores": {
+      "keelenou": 47.29,
+      "trivia_et_2": 48.6,
+      "idiom_bench": 37.67
+    },
+    "overall": 44.52,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 48.61,
+          "open": 30.21,
+          "short": 41.67,
+          "tf": 61.11
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 60.63,
+          "varia": 39.92,
+          "sport": 45.65,
+          "kultuur": 46.15,
+          "loodus-geograafia": 51.57
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 23.88,
+          "cross-lingual": 48.72,
+          "grey-zone": 34.48
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-4.1",
+    "scores": {
+      "keelenou": 45.0,
+      "trivia_et_2": 53.2,
+      "idiom_bench": 48.67,
+      "bib_bench": 30.94
+    },
+    "overall": 44.45,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 37.5,
+          "open": 50.0,
+          "short": 35.42,
+          "tf": 55.56
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 59.73,
+          "varia": 47.18,
+          "sport": 50.72,
+          "kultuur": 52.99,
+          "loodus-geograafia": 55.97
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 41.79,
+          "cross-lingual": 59.83,
+          "grey-zone": 41.38
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 56.25,
+          "luule": 9.38,
+          "ajaloo": 18.75,
+          "krimi": 35.29,
+          "laste": 62.5,
+          "populaarteaduslikku": 6.25,
+          "eluloo": 18.75,
+          "fantaasia": 38.46
+        },
+        "by_dial": {
+          "baseline": 40.62,
+          "lesser_known": 16.9,
+          "recent": 23.44,
+          "classic": 43.94
+        }
+      }
+    }
+  },
+  {
+    "modelId": "x-ai/grok-4.1-fast",
+    "scores": {
+      "keelenou": 44.17
+    },
+    "overall": 44.17,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 38.89,
+          "open": 33.33,
+          "short": 29.17,
+          "tf": 66.67
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-5-chat",
+    "scores": {
+      "keelenou": 50.62,
+      "trivia_et_2": 53.3,
+      "idiom_bench": 42.67,
+      "bib_bench": 26.06
+    },
+    "overall": 43.16,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 40.28,
+          "open": 51.04,
+          "short": 35.42,
+          "tf": 70.83
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 60.18,
+          "varia": 46.77,
+          "sport": 51.45,
+          "kultuur": 51.28,
+          "loodus-geograafia": 58.49
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 29.85,
+          "cross-lingual": 58.12,
+          "grey-zone": 34.48
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 60.61,
+          "luule": 24.24,
+          "ajaloo": 21.21,
+          "krimi": 13.51,
+          "laste": 50.0,
+          "populaarteaduslikku": 11.36,
+          "eluloo": 21.88,
+          "fantaasia": 15.0
+        },
+        "by_dial": {
+          "baseline": 39.44,
+          "lesser_known": 10.45,
+          "recent": 26.03,
+          "classic": 27.4
+        }
+      }
+    }
+  },
+  {
+    "modelId": "x-ai/grok-3",
+    "scores": {
+      "keelenou": 43.12
+    },
+    "overall": 43.12,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 25.0,
+          "open": 32.29,
+          "short": 43.75,
+          "tf": 68.06
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-5.4-mini",
+    "scores": {
+      "keelenou": 45.21,
+      "trivia_et_2": 50.8,
+      "idiom_bench": 42.33,
+      "bib_bench": 33.85
+    },
+    "overall": 43.05,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 37.5,
+          "open": 46.88,
+          "short": 35.42,
+          "tf": 58.33
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 57.92,
+          "varia": 43.95,
+          "sport": 44.2,
+          "kultuur": 47.86,
+          "loodus-geograafia": 61.64
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 32.84,
+          "cross-lingual": 53.85,
+          "grey-zone": 36.21
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 53.12,
+          "luule": 12.5,
+          "ajaloo": 25.0,
+          "krimi": 21.88,
+          "laste": 68.75,
+          "populaarteaduslikku": 18.75,
+          "eluloo": 27.27,
+          "fantaasia": 43.75
+        },
+        "by_dial": {
+          "baseline": 50.77,
+          "lesser_known": 18.75,
+          "recent": 20.31,
+          "classic": 45.31
+        }
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-sonnet-4.6",
+    "scores": {
+      "keelenou": 45.42,
+      "trivia_et_2": 45.7,
+      "idiom_bench": 37.33,
+      "bib_bench": 39.76
+    },
+    "overall": 42.05,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 41.67,
+          "open": 50.0,
+          "short": 29.17,
+          "tf": 56.94
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 55.2,
+          "varia": 41.53,
+          "sport": 39.86,
+          "kultuur": 39.32,
+          "loodus-geograafia": 53.46
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 20.9,
+          "cross-lingual": 44.44,
+          "grey-zone": 39.66
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 47.22,
+          "luule": 25.0,
+          "ajaloo": 18.18,
+          "krimi": 47.37,
+          "laste": 46.67,
+          "populaarteaduslikku": 25.0,
+          "eluloo": 29.41,
+          "fantaasia": 61.11
+        },
+        "by_dial": {
+          "baseline": 50.77,
+          "lesser_known": 7.69,
+          "recent": 38.89,
+          "classic": 52.27
+        }
+      }
+    }
+  },
+  {
+    "modelId": "x-ai/grok-3-mini",
+    "scores": {
+      "keelenou": 41.46
+    },
+    "overall": 41.46,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 41.67,
+          "open": 28.12,
+          "short": 31.25,
+          "tf": 56.94
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-4",
+    "scores": {
+      "keelenou": 45.83,
+      "trivia_et_2": 46.4,
+      "idiom_bench": 36.67,
+      "bib_bench": 27.6
+    },
+    "overall": 39.12,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 41.67,
+          "open": 33.33,
+          "short": 39.58,
+          "tf": 62.5
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 52.94,
+          "varia": 37.5,
+          "sport": 44.93,
+          "kultuur": 46.58,
+          "loodus-geograafia": 52.2
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 17.91,
+          "cross-lingual": 48.72,
+          "grey-zone": 35.34
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 59.38,
+          "luule": 0.0,
+          "ajaloo": 15.62,
+          "krimi": 31.25,
+          "laste": 40.62,
+          "populaarteaduslikku": 21.43,
+          "eluloo": 21.88,
+          "fantaasia": 28.12
+        },
+        "by_dial": {
+          "baseline": 37.5,
+          "lesser_known": 17.74,
+          "recent": 14.06,
+          "classic": 41.67
+        }
+      }
+    }
+  },
+  {
+    "modelId": "deepseek/deepseek-r1",
+    "scores": {
+      "keelenou": 38.75
+    },
+    "overall": 38.75,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 33.33,
+          "open": 35.42,
+          "short": 33.33,
+          "tf": 50.0
+        }
+      }
+    }
+  },
+  {
+    "modelId": "x-ai/grok-4-fast",
+    "scores": {
+      "keelenou": 38.33
+    },
+    "overall": 38.33,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 41.67,
+          "open": 0.0,
+          "short": 31.25,
+          "tf": 65.28
+        }
+      }
+    }
+  },
+  {
+    "modelId": "xiaomi/mimo-v2-pro",
+    "scores": {
+      "keelenou": 37.71
+    },
+    "overall": 37.71,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 40.28,
+          "open": 19.79,
+          "short": 35.42,
+          "tf": 48.61
+        }
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-haiku-4-5",
     "scores": {
       "keelenou": 36.67
     },
@@ -12,6 +687,658 @@
           "open": 33.33,
           "short": 22.92,
           "tf": 45.83
+        }
+      }
+    }
+  },
+  {
+    "modelId": "z-ai/glm-4.7",
+    "scores": {
+      "keelenou": 36.67
+    },
+    "overall": 36.67,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 26.39,
+          "open": 12.5,
+          "short": 31.25,
+          "tf": 66.67
+        }
+      }
+    }
+  },
+  {
+    "modelId": "minimax/minimax-m2.7",
+    "scores": {
+      "keelenou": 36.04
+    },
+    "overall": 36.04,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 27.78,
+          "open": 19.79,
+          "short": 27.08,
+          "tf": 61.11
+        }
+      }
+    }
+  },
+  {
+    "modelId": "qwen/qwen3.5-27b",
+    "scores": {
+      "keelenou": 36.04
+    },
+    "overall": 36.04,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 34.72,
+          "open": 26.04,
+          "short": 20.83,
+          "tf": 54.17
+        }
+      }
+    }
+  },
+  {
+    "modelId": "meta-llama/llama-3.1-70b-instruct",
+    "scores": {
+      "keelenou": 32.92
+    },
+    "overall": 32.92,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 34.72,
+          "open": 27.08,
+          "short": 27.08,
+          "tf": 38.89
+        }
+      }
+    }
+  },
+  {
+    "modelId": "mistralai/mistral-large-2512",
+    "scores": {
+      "keelenou": 42.71,
+      "idiom_bench": 22.67
+    },
+    "overall": 32.69,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 43.06,
+          "open": 28.12,
+          "short": 27.08,
+          "tf": 62.5
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 22.39,
+          "cross-lingual": 28.21,
+          "grey-zone": 17.24
+        }
+      }
+    }
+  },
+  {
+    "modelId": "google/gemma-4-31b-it",
+    "scores": {
+      "keelenou": 45.0,
+      "trivia_et_2": 34.7,
+      "idiom_bench": 18.33
+    },
+    "overall": 32.68,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 48.61,
+          "open": 29.17,
+          "short": 22.92,
+          "tf": 66.67
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 40.72,
+          "varia": 38.31,
+          "sport": 26.81,
+          "kultuur": 31.62,
+          "loodus-geograafia": 32.08
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 13.43,
+          "cross-lingual": 25.64,
+          "grey-zone": 13.79
+        }
+      }
+    }
+  },
+  {
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "scores": {
+      "keelenou": 31.67
+    },
+    "overall": 31.67,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 27.08,
+          "short": 27.08,
+          "tf": 33.33
+        }
+      }
+    }
+  },
+  {
+    "modelId": "moonshotai/kimi-k2-0905",
+    "scores": {
+      "keelenou": 37.5,
+      "trivia_et_2": 42.0,
+      "idiom_bench": 24.33,
+      "bib_bench": 13.49
+    },
+    "overall": 29.33,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 38.89,
+          "open": 25.0,
+          "short": 31.25,
+          "tf": 48.61
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 46.61,
+          "varia": 36.69,
+          "sport": 41.3,
+          "kultuur": 41.88,
+          "loodus-geograafia": 44.65
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 19.4,
+          "cross-lingual": 25.64,
+          "grey-zone": 25.86
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 31.43,
+          "luule": 5.71,
+          "ajaloo": 18.75,
+          "krimi": 8.11,
+          "laste": 16.22,
+          "populaarteaduslikku": 7.5,
+          "eluloo": 10.81,
+          "fantaasia": 11.11
+        },
+        "by_dial": {
+          "baseline": 22.5,
+          "lesser_known": 1.37,
+          "recent": 8.82,
+          "classic": 20.59
+        }
+      }
+    }
+  },
+  {
+    "modelId": "cohere/command-r-plus-08-2024",
+    "scores": {
+      "keelenou": 29.17
+    },
+    "overall": 29.17,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 30.56,
+          "open": 14.58,
+          "short": 12.5,
+          "tf": 48.61
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-3.5-turbo",
+    "scores": {
+      "keelenou": 38.54,
+      "trivia_et_2": 35.3,
+      "idiom_bench": 19.67,
+      "bib_bench": 22.83
+    },
+    "overall": 29.09,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 33.33,
+          "open": 23.96,
+          "short": 27.08,
+          "tf": 61.11
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 38.01,
+          "varia": 35.08,
+          "sport": 32.61,
+          "kultuur": 35.47,
+          "loodus-geograafia": 33.96
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 13.43,
+          "cross-lingual": 23.08,
+          "grey-zone": 19.83
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 53.33,
+          "luule": 18.75,
+          "ajaloo": 31.25,
+          "krimi": 15.62,
+          "laste": 28.12,
+          "populaarteaduslikku": 12.5,
+          "eluloo": 9.38,
+          "fantaasia": 15.62
+        },
+        "by_dial": {
+          "baseline": 34.38,
+          "lesser_known": 3.23,
+          "recent": 18.75,
+          "classic": 34.38
+        }
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-3-haiku",
+    "scores": {
+      "keelenou": 35.0,
+      "trivia_et_2": 32.6,
+      "idiom_bench": 22.67,
+      "bib_bench": 21.88
+    },
+    "overall": 28.04,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 27.08,
+          "short": 29.17,
+          "tf": 43.06
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 35.75,
+          "varia": 36.69,
+          "sport": 26.09,
+          "kultuur": 29.06,
+          "loodus-geograafia": 32.7
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 14.93,
+          "cross-lingual": 29.91,
+          "grey-zone": 19.83
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 37.5,
+          "luule": 6.25,
+          "ajaloo": 31.25,
+          "krimi": 12.5,
+          "laste": 46.88,
+          "populaarteaduslikku": 0.0,
+          "eluloo": 18.75,
+          "fantaasia": 21.88
+        },
+        "by_dial": {
+          "baseline": 31.25,
+          "lesser_known": 4.69,
+          "recent": 9.38,
+          "classic": 42.19
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-4o-mini",
+    "scores": {
+      "keelenou": 40.21,
+      "trivia_et_2": 35.7,
+      "idiom_bench": 18.33,
+      "bib_bench": 17.19
+    },
+    "overall": 27.86,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 37.5,
+          "open": 23.96,
+          "short": 16.67,
+          "tf": 69.44
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 8.96,
+          "cross-lingual": 28.21,
+          "grey-zone": 13.79
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 25.0,
+          "luule": 0.0,
+          "ajaloo": 6.25,
+          "krimi": 21.88,
+          "laste": 37.5,
+          "populaarteaduslikku": 0.0,
+          "eluloo": 12.5,
+          "fantaasia": 34.38
+        },
+        "by_dial": {
+          "baseline": 25.0,
+          "lesser_known": 0.0,
+          "recent": 7.81,
+          "classic": 35.94
+        }
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-haiku-4.5",
+    "scores": {
+      "keelenou": 35.21,
+      "trivia_et_2": 34.9,
+      "idiom_bench": 21.67,
+      "bib_bench": 16.08
+    },
+    "overall": 26.96,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 32.29,
+          "short": 22.92,
+          "tf": 44.44
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 41.18,
+          "varia": 33.87,
+          "sport": 28.99,
+          "kultuur": 33.76,
+          "loodus-geograafia": 34.59
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 13.43,
+          "cross-lingual": 27.35,
+          "grey-zone": 20.69
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 36.36,
+          "luule": 3.03,
+          "ajaloo": 9.38,
+          "krimi": 3.57,
+          "laste": 27.27,
+          "populaarteaduslikku": 8.0,
+          "eluloo": 29.41,
+          "fantaasia": 8.11
+        },
+        "by_dial": {
+          "baseline": 25.37,
+          "lesser_known": 2.99,
+          "recent": 5.88,
+          "classic": 33.96
+        }
+      }
+    }
+  },
+  {
+    "modelId": "google/gemini-3.1-pro-preview",
+    "scores": {
+      "keelenou": 40.0,
+      "trivia_et_2": 33.7,
+      "idiom_bench": 1.33
+    },
+    "overall": 25.01,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 37.5,
+          "open": 10.42,
+          "short": 50.0,
+          "tf": 55.56
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 33.48,
+          "varia": 34.68,
+          "sport": 34.06,
+          "kultuur": 32.48,
+          "loodus-geograafia": 33.96
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 1.49,
+          "cross-lingual": 0.85,
+          "grey-zone": 1.72
+        }
+      }
+    }
+  },
+  {
+    "modelId": "deepseek/deepseek-chat",
+    "scores": {
+      "keelenou": 32.92,
+      "idiom_bench": 18.0,
+      "bib_bench": 14.0
+    },
+    "overall": 21.64,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 0.0,
+          "short": 35.42,
+          "tf": 50.0
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 10.45,
+          "cross-lingual": 26.5,
+          "grey-zone": 13.79
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 28.57,
+          "luule": 7.14,
+          "ajaloo": 12.5,
+          "krimi": 7.5,
+          "laste": 23.53,
+          "populaarteaduslikku": 10.81,
+          "eluloo": 9.38,
+          "fantaasia": 12.2
+        },
+        "by_dial": {
+          "baseline": 18.06,
+          "lesser_known": 6.17,
+          "recent": 3.7,
+          "classic": 31.82
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-oss-120b",
+    "scores": {
+      "keelenou": 35.62,
+      "trivia_et_2": 20.2,
+      "idiom_bench": 8.33,
+      "bib_bench": 17.71
+    },
+    "overall": 20.46,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 15.62,
+          "short": 12.5,
+          "tf": 63.89
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 19.46,
+          "varia": 17.74,
+          "sport": 13.04,
+          "kultuur": 20.51,
+          "loodus-geograafia": 30.82
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 11.94,
+          "cross-lingual": 8.55,
+          "grey-zone": 6.03
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 36.36,
+          "luule": 17.86,
+          "ajaloo": 0.0,
+          "krimi": 13.64,
+          "laste": 34.78,
+          "populaarteaduslikku": 5.26,
+          "eluloo": 5.26,
+          "fantaasia": 17.39
+        },
+        "by_dial": {
+          "baseline": 21.82,
+          "lesser_known": 0.0,
+          "recent": 7.69,
+          "classic": 40.91
+        }
+      }
+    }
+  },
+  {
+    "modelId": "google/gemini-2.5-pro",
+    "scores": {
+      "keelenou": 30.21,
+      "trivia_et_2": 27.2,
+      "idiom_bench": 2.0
+    },
+    "overall": 19.8,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 38.89,
+          "open": 3.12,
+          "short": 27.08,
+          "tf": 41.67
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 27.15,
+          "varia": 18.55,
+          "sport": 27.54,
+          "kultuur": 25.64,
+          "loodus-geograafia": 42.77
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 2.99,
+          "cross-lingual": 1.71,
+          "grey-zone": 1.72
+        }
+      }
+    }
+  },
+  {
+    "modelId": "stepfun/step-3.5-flash",
+    "scores": {
+      "keelenou": 19.79
+    },
+    "overall": 19.79,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 18.06,
+          "open": 11.46,
+          "short": 14.58,
+          "tf": 30.56
+        }
+      }
+    }
+  },
+  {
+    "modelId": "nvidia/nemotron-3-super-120b-a12b",
+    "scores": {
+      "keelenou": 22.71,
+      "idiom_bench": 4.33,
+      "bib_bench": 22.58
+    },
+    "overall": 16.54,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 29.17,
+          "open": 1.04,
+          "short": 6.25,
+          "tf": 41.67
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 7.46,
+          "cross-lingual": 5.13,
+          "grey-zone": 1.72
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 12.5,
+          "luule": 30.77,
+          "ajaloo": 0.0,
+          "krimi": 0.0,
+          "laste": 28.57,
+          "populaarteaduslikku": 0.0,
+          "eluloo": 0.0,
+          "fantaasia": 0.0
+        },
+        "by_dial": {
+          "baseline": 28.57,
+          "lesser_known": 0.0,
+          "recent": 0.0,
+          "classic": 31.25
         }
       }
     }
