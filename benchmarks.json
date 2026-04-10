@@ -3,5 +3,20 @@
     "id": "bib_bench",
     "name_en": "Estonian Book Knowledge",
     "name_et": "Raamatusoovitused"
+  },
+  {
+    "id": "keelenou",
+    "name_en": "Estonian Language Advice",
+    "name_et": "Keelenõu"
+  },
+  {
+    "id": "trivia_et_2",
+    "name_en": "Estonian Trivia",
+    "name_et": "Eesti mäng"
+  },
+  {
+    "id": "idiom_bench",
+    "name_en": "Estonian Idioms",
+    "name_et": "Metafoorid"
   }
 ]
