@@ -73,9 +73,84 @@
     "provider": "Anthropic"
   },
   {
+    "id": "google/gemini-2.0-flash-001",
+    "name": "Gemini 2 Flash",
+    "provider": "Google"
+  },
+  {
+    "id": "google/gemini-2.5-pro",
+    "name": "Gemini 2.5 Pro",
+    "provider": "Google"
+  },
+  {
+    "id": "google/gemini-3-flash-preview",
+    "name": "Gemini 3 Flash Preview",
+    "provider": "Google"
+  },
+  {
+    "id": "google/gemini-3.1-pro-preview",
+    "name": "Gemini 3.1 Pro Preview",
+    "provider": "Google"
+  },
+  {
+    "id": "google/gemma-4-31b-it",
+    "name": "Gemma 4 31B",
+    "provider": "Google",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "x-ai/grok-3",
+    "name": "Grok 3",
+    "provider": "xAI"
+  },
+  {
+    "id": "x-ai/grok-3-mini",
+    "name": "Grok 3 Mini",
+    "provider": "xAI"
+  },
+  {
+    "id": "x-ai/grok-4-fast",
+    "name": "Grok 4 Fast",
+    "provider": "xAI"
+  },
+  {
+    "id": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Llama 3.1 70B Instruct",
+    "provider": "Meta",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Llama 3.3 70B Instruct",
+    "provider": "Meta",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "mistralai/mistral-large-2512",
     "name": "Mistral Large 2512",
     "provider": "Mistral"
+  },
+  {
+    "id": "deepseek/deepseek-chat",
+    "name": "DeepSeek V3",
+    "provider": "DeepSeek",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "deepseek/deepseek-r1",
+    "name": "DeepSeek R1",
+    "provider": "DeepSeek",
+    "tags": [
+      "open"
+    ]
   },
   {
     "id": "moonshotai/kimi-k2-0905",
@@ -86,16 +161,57 @@
     ]
   },
   {
+    "id": "qwen/qwen3.6-plus",
+    "name": "Qwen 3.6 Plus",
+    "provider": "Alibaba"
+  },
+  {
+    "id": "qwen/qwen3.5-27b",
+    "name": "Qwen 3.5 27B",
+    "provider": "Alibaba",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "xiaomi/mimo-v2-pro",
+    "name": "MiMo V2 Pro",
+    "provider": "Xiaomi"
+  },
+  {
+    "id": "minimax/minimax-m2.7",
+    "name": "MiniMax M2.7",
+    "provider": "MiniMax"
+  },
+  {
+    "id": "z-ai/glm-4.7",
+    "name": "GLM 4.7",
+    "provider": "Zhipu AI"
+  },
+  {
+    "id": "bytedance-seed/seed-2.0-mini",
+    "name": "Seed 2.0 Mini",
+    "provider": "ByteDance"
+  },
+  {
+    "id": "stepfun/step-3.5-flash",
+    "name": "Step 3.5 Flash",
+    "provider": "StepFun",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "cohere/command-r-plus-08-2024",
+    "name": "Command R+ (08-2024)",
+    "provider": "Cohere"
+  },
+  {
     "id": "nvidia/nemotron-3-super-120b-a12b",
     "name": "Nemotron 3 Super 120B",
     "provider": "NVIDIA",
     "tags": [
       "open"
     ]
-  },
-  {
-    "id": "deepseek/deepseek-chat",
-    "name": "deepseek-chat",
-    "provider": "deepseek"
   }
 ]

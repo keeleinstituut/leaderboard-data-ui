@@ -2,20 +2,12 @@
   {
     "modelId": "google/gemini-3-flash-preview",
     "scores": {
-      "keelenou": 63.75,
       "trivia_et_2": 76.1,
-      "idiom_bench": 59.0
+      "idiom_bench": 59.0,
+      "keelenou": 64.58
     },
-    "overall": 66.28,
+    "overall": 66.56,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 56.94,
-          "open": 60.42,
-          "short": 54.17,
-          "tf": 79.17
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 81.9,
@@ -31,22 +23,13 @@
           "cross-lingual": 67.52,
           "grey-zone": 58.62
         }
-      }
-    }
-  },
-  {
-    "modelId": "openai/gpt-5.2-chat",
-    "scores": {
-      "keelenou": 55.21
-    },
-    "overall": 55.21,
-    "details": {
+      },
       "keelenou": {
         "by_type": {
-          "mcq": 45.83,
-          "open": 53.12,
-          "short": 54.17,
-          "tf": 66.67
+          "mcq": 56.94,
+          "open": 60.42,
+          "short": 58.33,
+          "tf": 79.17
         }
       }
     }
@@ -54,21 +37,13 @@
   {
     "modelId": "openai/gpt-5.4",
     "scores": {
-      "keelenou": 52.29,
       "trivia_et_2": 52.1,
       "idiom_bench": 61.0,
-      "bib_bench": 36.72
+      "bib_bench": 36.72,
+      "keelenou": 53.12
     },
-    "overall": 50.53,
+    "overall": 50.73,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 43.06,
-          "open": 51.04,
-          "short": 50.0,
-          "tf": 63.89
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 61.54,
@@ -102,27 +77,27 @@
           "recent": 26.56,
           "classic": 56.25
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 43.06,
+          "open": 51.04,
+          "short": 54.17,
+          "tf": 63.89
+        }
       }
     }
   },
   {
     "modelId": "anthropic/claude-opus-4.6",
     "scores": {
-      "keelenou": 51.25,
       "trivia_et_2": 54.4,
       "idiom_bench": 48.33,
-      "bib_bench": 34.43
+      "bib_bench": 34.43,
+      "keelenou": 52.92
     },
-    "overall": 47.1,
+    "overall": 47.52,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 41.67,
-          "open": 58.33,
-          "short": 50.0,
-          "tf": 56.94
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 66.06,
@@ -156,27 +131,27 @@
           "recent": 30.77,
           "classic": 40.3
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 41.67,
+          "open": 58.33,
+          "short": 58.33,
+          "tf": 56.94
+        }
       }
     }
   },
   {
     "modelId": "openai/gpt-4o",
     "scores": {
-      "keelenou": 46.88,
       "trivia_et_2": 54.1,
       "idiom_bench": 45.67,
-      "bib_bench": 39.92
+      "bib_bench": 39.92,
+      "keelenou": 47.29
     },
-    "overall": 46.64,
+    "overall": 46.75,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 34.72,
-          "open": 40.62,
-          "short": 39.58,
-          "tf": 68.06
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 62.9,
@@ -210,27 +185,27 @@
           "recent": 39.71,
           "classic": 47.69
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 34.72,
+          "open": 40.62,
+          "short": 41.67,
+          "tf": 68.06
+        }
       }
     }
   },
   {
     "modelId": "anthropic/claude-3.7-sonnet",
     "scores": {
-      "keelenou": 44.58,
       "trivia_et_2": 50.7,
       "idiom_bench": 51.33,
-      "bib_bench": 33.98
+      "bib_bench": 33.98,
+      "keelenou": 45.83
     },
-    "overall": 45.15,
+    "overall": 45.46,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 40.28,
-          "open": 47.92,
-          "short": 37.5,
-          "tf": 51.39
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 61.99,
@@ -264,26 +239,26 @@
           "recent": 31.25,
           "classic": 48.44
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 40.28,
+          "open": 47.92,
+          "short": 43.75,
+          "tf": 51.39
+        }
       }
     }
   },
   {
     "modelId": "google/gemini-2.0-flash-001",
     "scores": {
-      "keelenou": 47.29,
       "trivia_et_2": 48.6,
-      "idiom_bench": 37.67
+      "idiom_bench": 37.67,
+      "keelenou": 48.12
     },
-    "overall": 44.52,
+    "overall": 44.8,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 48.61,
-          "open": 30.21,
-          "short": 41.67,
-          "tf": 61.11
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 60.63,
@@ -299,27 +274,27 @@
           "cross-lingual": 48.72,
           "grey-zone": 34.48
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 48.61,
+          "open": 30.21,
+          "short": 45.83,
+          "tf": 61.11
+        }
       }
     }
   },
   {
     "modelId": "openai/gpt-4.1",
     "scores": {
-      "keelenou": 45.0,
       "trivia_et_2": 53.2,
       "idiom_bench": 48.67,
-      "bib_bench": 30.94
+      "bib_bench": 30.94,
+      "keelenou": 46.25
     },
-    "overall": 44.45,
+    "overall": 44.77,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 37.5,
-          "open": 50.0,
-          "short": 35.42,
-          "tf": 55.56
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 59.73,
@@ -353,76 +328,13 @@
           "recent": 23.44,
           "classic": 43.94
         }
-      }
-    }
-  },
-  {
-    "modelId": "x-ai/grok-4.1-fast",
-    "scores": {
-      "keelenou": 44.17
-    },
-    "overall": 44.17,
-    "details": {
+      },
       "keelenou": {
         "by_type": {
-          "mcq": 38.89,
-          "open": 33.33,
-          "short": 29.17,
-          "tf": 66.67
-        }
-      }
-    }
-  },
-  {
-    "modelId": "openai/gpt-5-chat",
-    "scores": {
-      "keelenou": 50.62,
-      "trivia_et_2": 53.3,
-      "idiom_bench": 42.67,
-      "bib_bench": 26.06
-    },
-    "overall": 43.16,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 40.28,
-          "open": 51.04,
-          "short": 35.42,
-          "tf": 70.83
-        }
-      },
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 60.18,
-          "varia": 46.77,
-          "sport": 51.45,
-          "kultuur": 51.28,
-          "loodus-geograafia": 58.49
-        }
-      },
-      "idiom_bench": {
-        "by_type": {
-          "estonian-specific": 29.85,
-          "cross-lingual": 58.12,
-          "grey-zone": 34.48
-        }
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 60.61,
-          "luule": 24.24,
-          "ajaloo": 21.21,
-          "krimi": 13.51,
-          "laste": 50.0,
-          "populaarteaduslikku": 11.36,
-          "eluloo": 21.88,
-          "fantaasia": 15.0
-        },
-        "by_dial": {
-          "baseline": 39.44,
-          "lesser_known": 10.45,
-          "recent": 26.03,
-          "classic": 27.4
+          "mcq": 37.5,
+          "open": 50.0,
+          "short": 41.67,
+          "tf": 55.56
         }
       }
     }
@@ -430,15 +342,15 @@
   {
     "modelId": "x-ai/grok-3",
     "scores": {
-      "keelenou": 43.12
+      "keelenou": 43.54
     },
-    "overall": 43.12,
+    "overall": 43.54,
     "details": {
       "keelenou": {
         "by_type": {
           "mcq": 25.0,
           "open": 32.29,
-          "short": 43.75,
+          "short": 45.83,
           "tf": 68.06
         }
       }
@@ -447,21 +359,13 @@
   {
     "modelId": "openai/gpt-5.4-mini",
     "scores": {
-      "keelenou": 45.21,
       "trivia_et_2": 50.8,
       "idiom_bench": 42.33,
-      "bib_bench": 33.85
+      "bib_bench": 33.85,
+      "keelenou": 46.46
     },
-    "overall": 43.05,
+    "overall": 43.36,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 37.5,
-          "open": 46.88,
-          "short": 35.42,
-          "tf": 58.33
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 57.92,
@@ -495,27 +399,115 @@
           "recent": 20.31,
           "classic": 45.31
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 37.5,
+          "open": 46.88,
+          "short": 41.67,
+          "tf": 58.33
+        }
+      }
+    }
+  },
+  {
+    "modelId": "openai/gpt-5-chat",
+    "scores": {
+      "trivia_et_2": 53.3,
+      "idiom_bench": 42.67,
+      "bib_bench": 26.06,
+      "keelenou": 51.04
+    },
+    "overall": 43.27,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 60.18,
+          "varia": 46.77,
+          "sport": 51.45,
+          "kultuur": 51.28,
+          "loodus-geograafia": 58.49
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 29.85,
+          "cross-lingual": 58.12,
+          "grey-zone": 34.48
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 60.61,
+          "luule": 24.24,
+          "ajaloo": 21.21,
+          "krimi": 13.51,
+          "laste": 50.0,
+          "populaarteaduslikku": 11.36,
+          "eluloo": 21.88,
+          "fantaasia": 15.0
+        },
+        "by_dial": {
+          "baseline": 39.44,
+          "lesser_known": 10.45,
+          "recent": 26.03,
+          "classic": 27.4
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 40.28,
+          "open": 51.04,
+          "short": 37.5,
+          "tf": 70.83
+        }
+      }
+    }
+  },
+  {
+    "modelId": "x-ai/grok-3-mini",
+    "scores": {
+      "keelenou": 42.71
+    },
+    "overall": 42.71,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 41.67,
+          "open": 28.12,
+          "short": 37.5,
+          "tf": 56.94
+        }
+      }
+    }
+  },
+  {
+    "modelId": "x-ai/grok-4-fast",
+    "scores": {
+      "keelenou": 42.5
+    },
+    "overall": 42.5,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 37.5,
+          "open": 29.17,
+          "short": 33.33,
+          "tf": 62.5
+        }
       }
     }
   },
   {
     "modelId": "anthropic/claude-sonnet-4.6",
     "scores": {
-      "keelenou": 45.42,
       "trivia_et_2": 45.7,
       "idiom_bench": 37.33,
-      "bib_bench": 39.76
+      "bib_bench": 39.76,
+      "keelenou": 46.67
     },
-    "overall": 42.05,
+    "overall": 42.37,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 41.67,
-          "open": 50.0,
-          "short": 29.17,
-          "tf": 56.94
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 55.2,
@@ -549,21 +541,12 @@
           "recent": 38.89,
           "classic": 52.27
         }
-      }
-    }
-  },
-  {
-    "modelId": "x-ai/grok-3-mini",
-    "scores": {
-      "keelenou": 41.46
-    },
-    "overall": 41.46,
-    "details": {
+      },
       "keelenou": {
         "by_type": {
           "mcq": 41.67,
-          "open": 28.12,
-          "short": 31.25,
+          "open": 50.0,
+          "short": 35.42,
           "tf": 56.94
         }
       }
@@ -572,21 +555,13 @@
   {
     "modelId": "openai/gpt-4",
     "scores": {
-      "keelenou": 45.83,
       "trivia_et_2": 46.4,
       "idiom_bench": 36.67,
-      "bib_bench": 27.6
+      "bib_bench": 27.6,
+      "keelenou": 47.08
     },
-    "overall": 39.12,
+    "overall": 39.44,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 41.67,
-          "open": 33.33,
-          "short": 39.58,
-          "tf": 62.5
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 52.94,
@@ -620,39 +595,47 @@
           "recent": 14.06,
           "classic": 41.67
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 41.67,
+          "open": 33.33,
+          "short": 45.83,
+          "tf": 62.5
+        }
       }
     }
   },
   {
     "modelId": "deepseek/deepseek-r1",
     "scores": {
-      "keelenou": 38.75
+      "keelenou": 39.17
     },
-    "overall": 38.75,
+    "overall": 39.17,
     "details": {
       "keelenou": {
         "by_type": {
           "mcq": 33.33,
           "open": 35.42,
-          "short": 33.33,
+          "short": 35.42,
           "tf": 50.0
         }
       }
     }
   },
   {
-    "modelId": "x-ai/grok-4-fast",
+    "modelId": "bytedance-seed/seed-2.0-mini",
     "scores": {
-      "keelenou": 38.33
+      "keelenou": 38.96
     },
-    "overall": 38.33,
+    "overall": 38.96,
     "details": {
       "keelenou": {
         "by_type": {
-          "mcq": 41.67,
-          "open": 0.0,
-          "short": 31.25,
-          "tf": 65.28
+          "mcq": 44.44,
+          "open": 21.88,
+          "short": 12.5,
+          "tf": 62.5
         }
       }
     }
@@ -660,101 +643,16 @@
   {
     "modelId": "xiaomi/mimo-v2-pro",
     "scores": {
-      "keelenou": 37.71
+      "keelenou": 38.12
     },
-    "overall": 37.71,
+    "overall": 38.12,
     "details": {
       "keelenou": {
         "by_type": {
           "mcq": 40.28,
           "open": 19.79,
-          "short": 35.42,
+          "short": 37.5,
           "tf": 48.61
-        }
-      }
-    }
-  },
-  {
-    "modelId": "anthropic/claude-haiku-4-5",
-    "scores": {
-      "keelenou": 36.67
-    },
-    "overall": 36.67,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 38.89,
-          "open": 33.33,
-          "short": 22.92,
-          "tf": 45.83
-        }
-      }
-    }
-  },
-  {
-    "modelId": "z-ai/glm-4.7",
-    "scores": {
-      "keelenou": 36.67
-    },
-    "overall": 36.67,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 26.39,
-          "open": 12.5,
-          "short": 31.25,
-          "tf": 66.67
-        }
-      }
-    }
-  },
-  {
-    "modelId": "minimax/minimax-m2.7",
-    "scores": {
-      "keelenou": 36.04
-    },
-    "overall": 36.04,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 27.78,
-          "open": 19.79,
-          "short": 27.08,
-          "tf": 61.11
-        }
-      }
-    }
-  },
-  {
-    "modelId": "qwen/qwen3.5-27b",
-    "scores": {
-      "keelenou": 36.04
-    },
-    "overall": 36.04,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 34.72,
-          "open": 26.04,
-          "short": 20.83,
-          "tf": 54.17
-        }
-      }
-    }
-  },
-  {
-    "modelId": "meta-llama/llama-3.1-70b-instruct",
-    "scores": {
-      "keelenou": 32.92
-    },
-    "overall": 32.92,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 34.72,
-          "open": 27.08,
-          "short": 27.08,
-          "tf": 38.89
         }
       }
     }
@@ -762,24 +660,122 @@
   {
     "modelId": "mistralai/mistral-large-2512",
     "scores": {
-      "keelenou": 42.71,
-      "idiom_bench": 22.67
+      "idiom_bench": 22.67,
+      "trivia_et_2": 47.3,
+      "keelenou": 43.54
     },
-    "overall": 32.69,
+    "overall": 37.84,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 43.06,
-          "open": 28.12,
-          "short": 27.08,
-          "tf": 62.5
-        }
-      },
       "idiom_bench": {
         "by_type": {
           "estonian-specific": 22.39,
           "cross-lingual": 28.21,
           "grey-zone": 17.24
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 52.04,
+          "varia": 42.74,
+          "sport": 54.35,
+          "kultuur": 39.74,
+          "loodus-geograafia": 52.83
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 43.06,
+          "open": 28.12,
+          "short": 31.25,
+          "tf": 62.5
+        }
+      }
+    }
+  },
+  {
+    "modelId": "qwen/qwen3.5-27b",
+    "scores": {
+      "keelenou": 37.29
+    },
+    "overall": 37.29,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 34.72,
+          "open": 26.04,
+          "short": 27.08,
+          "tf": 54.17
+        }
+      }
+    }
+  },
+  {
+    "modelId": "minimax/minimax-m2.7",
+    "scores": {
+      "keelenou": 37.29
+    },
+    "overall": 37.29,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 27.78,
+          "open": 19.79,
+          "short": 33.33,
+          "tf": 61.11
+        }
+      }
+    }
+  },
+  {
+    "modelId": "meta-llama/llama-3.1-70b-instruct",
+    "scores": {
+      "trivia_et_2": 36.5,
+      "keelenou": 33.75
+    },
+    "overall": 35.12,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 41.63,
+          "varia": 34.68,
+          "sport": 37.68,
+          "kultuur": 32.48,
+          "loodus-geograafia": 37.11
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 34.72,
+          "open": 27.08,
+          "short": 31.25,
+          "tf": 38.89
+        }
+      }
+    }
+  },
+  {
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "scores": {
+      "trivia_et_2": 35.7,
+      "keelenou": 32.5
+    },
+    "overall": 34.1,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 45.7,
+          "varia": 30.65,
+          "sport": 37.68,
+          "kultuur": 30.77,
+          "loodus-geograafia": 35.22
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 27.08,
+          "short": 31.25,
+          "tf": 33.33
         }
       }
     }
@@ -787,20 +783,12 @@
   {
     "modelId": "google/gemma-4-31b-it",
     "scores": {
-      "keelenou": 45.0,
       "trivia_et_2": 34.7,
-      "idiom_bench": 18.33
+      "idiom_bench": 18.33,
+      "keelenou": 45.83
     },
-    "overall": 32.68,
+    "overall": 32.95,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 48.61,
-          "open": 29.17,
-          "short": 22.92,
-          "tf": 66.67
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 40.72,
@@ -816,22 +804,67 @@
           "cross-lingual": 25.64,
           "grey-zone": 13.79
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 48.61,
+          "open": 29.17,
+          "short": 27.08,
+          "tf": 66.67
+        }
       }
     }
   },
   {
-    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "modelId": "cohere/command-r-plus-08-2024",
     "scores": {
-      "keelenou": 31.67
+      "trivia_et_2": 31.9,
+      "keelenou": 29.58
     },
-    "overall": 31.67,
+    "overall": 30.74,
     "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 30.77,
+          "varia": 28.23,
+          "sport": 30.43,
+          "kultuur": 36.75,
+          "loodus-geograafia": 33.33
+        }
+      },
       "keelenou": {
         "by_type": {
-          "mcq": 36.11,
-          "open": 27.08,
-          "short": 27.08,
-          "tf": 33.33
+          "mcq": 30.56,
+          "open": 14.58,
+          "short": 14.58,
+          "tf": 48.61
+        }
+      }
+    }
+  },
+  {
+    "modelId": "z-ai/glm-4.7",
+    "scores": {
+      "trivia_et_2": 21.0,
+      "keelenou": 37.92
+    },
+    "overall": 29.46,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 20.81,
+          "varia": 15.73,
+          "sport": 19.57,
+          "kultuur": 21.79,
+          "loodus-geograafia": 29.56
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 26.39,
+          "open": 12.5,
+          "short": 37.5,
+          "tf": 66.67
         }
       }
     }
@@ -839,21 +872,13 @@
   {
     "modelId": "moonshotai/kimi-k2-0905",
     "scores": {
-      "keelenou": 37.5,
       "trivia_et_2": 42.0,
       "idiom_bench": 24.33,
-      "bib_bench": 13.49
+      "bib_bench": 13.49,
+      "keelenou": 37.92
     },
-    "overall": 29.33,
+    "overall": 29.43,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 38.89,
-          "open": 25.0,
-          "short": 31.25,
-          "tf": 48.61
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 46.61,
@@ -887,21 +912,12 @@
           "recent": 8.82,
           "classic": 20.59
         }
-      }
-    }
-  },
-  {
-    "modelId": "cohere/command-r-plus-08-2024",
-    "scores": {
-      "keelenou": 29.17
-    },
-    "overall": 29.17,
-    "details": {
+      },
       "keelenou": {
         "by_type": {
-          "mcq": 30.56,
-          "open": 14.58,
-          "short": 12.5,
+          "mcq": 38.89,
+          "open": 25.0,
+          "short": 33.33,
           "tf": 48.61
         }
       }
@@ -910,21 +926,13 @@
   {
     "modelId": "openai/gpt-3.5-turbo",
     "scores": {
-      "keelenou": 38.54,
       "trivia_et_2": 35.3,
       "idiom_bench": 19.67,
-      "bib_bench": 22.83
+      "bib_bench": 22.83,
+      "keelenou": 38.75
     },
-    "overall": 29.09,
+    "overall": 29.14,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 33.33,
-          "open": 23.96,
-          "short": 27.08,
-          "tf": 61.11
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 38.01,
@@ -958,27 +966,27 @@
           "recent": 18.75,
           "classic": 34.38
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 33.33,
+          "open": 25.0,
+          "short": 29.17,
+          "tf": 59.72
+        }
       }
     }
   },
   {
     "modelId": "anthropic/claude-3-haiku",
     "scores": {
-      "keelenou": 35.0,
       "trivia_et_2": 32.6,
       "idiom_bench": 22.67,
-      "bib_bench": 21.88
+      "bib_bench": 21.88,
+      "keelenou": 36.25
     },
-    "overall": 28.04,
+    "overall": 28.35,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 36.11,
-          "open": 27.08,
-          "short": 29.17,
-          "tf": 43.06
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 35.75,
@@ -1012,27 +1020,27 @@
           "recent": 9.38,
           "classic": 42.19
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 27.08,
+          "short": 35.42,
+          "tf": 43.06
+        }
       }
     }
   },
   {
     "modelId": "openai/gpt-4o-mini",
     "scores": {
-      "keelenou": 40.21,
       "trivia_et_2": 35.7,
       "idiom_bench": 18.33,
-      "bib_bench": 17.19
+      "bib_bench": 17.19,
+      "keelenou": 40.62
     },
-    "overall": 27.86,
+    "overall": 27.96,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 37.5,
-          "open": 23.96,
-          "short": 16.67,
-          "tf": 69.44
-        }
-      },
       "idiom_bench": {
         "by_type": {
           "estonian-specific": 8.96,
@@ -1057,27 +1065,27 @@
           "recent": 7.81,
           "classic": 35.94
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 37.5,
+          "open": 23.96,
+          "short": 18.75,
+          "tf": 69.44
+        }
       }
     }
   },
   {
     "modelId": "anthropic/claude-haiku-4.5",
     "scores": {
-      "keelenou": 35.21,
       "trivia_et_2": 34.9,
       "idiom_bench": 21.67,
-      "bib_bench": 16.08
+      "bib_bench": 16.08,
+      "keelenou": 35.62
     },
-    "overall": 26.96,
+    "overall": 27.07,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 36.11,
-          "open": 32.29,
-          "short": 22.92,
-          "tf": 44.44
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 41.18,
@@ -1111,26 +1119,26 @@
           "recent": 5.88,
           "classic": 33.96
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 32.29,
+          "short": 25.0,
+          "tf": 44.44
+        }
       }
     }
   },
   {
     "modelId": "google/gemini-3.1-pro-preview",
     "scores": {
-      "keelenou": 40.0,
       "trivia_et_2": 33.7,
-      "idiom_bench": 1.33
+      "idiom_bench": 1.33,
+      "keelenou": 41.25
     },
-    "overall": 25.01,
+    "overall": 25.43,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 37.5,
-          "open": 10.42,
-          "short": 50.0,
-          "tf": 55.56
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 33.48,
@@ -1146,26 +1154,26 @@
           "cross-lingual": 0.85,
           "grey-zone": 1.72
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 37.5,
+          "open": 10.42,
+          "short": 56.25,
+          "tf": 55.56
+        }
       }
     }
   },
   {
     "modelId": "deepseek/deepseek-chat",
     "scores": {
-      "keelenou": 32.92,
       "idiom_bench": 18.0,
-      "bib_bench": 14.0
+      "bib_bench": 14.0,
+      "keelenou": 39.79
     },
-    "overall": 21.64,
+    "overall": 23.93,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 36.11,
-          "open": 0.0,
-          "short": 35.42,
-          "tf": 50.0
-        }
-      },
       "idiom_bench": {
         "by_type": {
           "estonian-specific": 10.45,
@@ -1190,27 +1198,54 @@
           "recent": 3.7,
           "classic": 31.82
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 37.5,
+          "open": 28.12,
+          "short": 29.17,
+          "tf": 56.94
+        }
+      }
+    }
+  },
+  {
+    "modelId": "stepfun/step-3.5-flash",
+    "scores": {
+      "trivia_et_2": 25.7,
+      "keelenou": 20.21
+    },
+    "overall": 22.95,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 20.81,
+          "varia": 25.0,
+          "sport": 24.64,
+          "kultuur": 32.05,
+          "loodus-geograafia": 25.16
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 18.06,
+          "open": 11.46,
+          "short": 16.67,
+          "tf": 30.56
+        }
       }
     }
   },
   {
     "modelId": "openai/gpt-oss-120b",
     "scores": {
-      "keelenou": 35.62,
       "trivia_et_2": 20.2,
       "idiom_bench": 8.33,
-      "bib_bench": 17.71
+      "bib_bench": 17.71,
+      "keelenou": 36.88
     },
-    "overall": 20.46,
+    "overall": 20.78,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 36.11,
-          "open": 15.62,
-          "short": 12.5,
-          "tf": 63.89
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 19.46,
@@ -1244,26 +1279,26 @@
           "recent": 7.69,
           "classic": 40.91
         }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 15.62,
+          "short": 18.75,
+          "tf": 63.89
+        }
       }
     }
   },
   {
     "modelId": "google/gemini-2.5-pro",
     "scores": {
-      "keelenou": 30.21,
       "trivia_et_2": 27.2,
-      "idiom_bench": 2.0
+      "idiom_bench": 2.0,
+      "keelenou": 31.04
     },
-    "overall": 19.8,
+    "overall": 20.08,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 38.89,
-          "open": 3.12,
-          "short": 27.08,
-          "tf": 41.67
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 27.15,
@@ -1279,22 +1314,13 @@
           "cross-lingual": 1.71,
           "grey-zone": 1.72
         }
-      }
-    }
-  },
-  {
-    "modelId": "stepfun/step-3.5-flash",
-    "scores": {
-      "keelenou": 19.79
-    },
-    "overall": 19.79,
-    "details": {
+      },
       "keelenou": {
         "by_type": {
-          "mcq": 18.06,
-          "open": 11.46,
-          "short": 14.58,
-          "tf": 30.56
+          "mcq": 38.89,
+          "open": 3.12,
+          "short": 31.25,
+          "tf": 41.67
         }
       }
     }
@@ -1302,20 +1328,13 @@
   {
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "scores": {
-      "keelenou": 22.71,
       "idiom_bench": 4.33,
-      "bib_bench": 22.58
+      "bib_bench": 22.58,
+      "trivia_et_2": 25.2,
+      "keelenou": 23.54
     },
-    "overall": 16.54,
+    "overall": 18.91,
     "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 29.17,
-          "open": 1.04,
-          "short": 6.25,
-          "tf": 41.67
-        }
-      },
       "idiom_bench": {
         "by_type": {
           "estonian-specific": 7.46,
@@ -1339,6 +1358,23 @@
           "lesser_known": 0.0,
           "recent": 0.0,
           "classic": 31.25
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 21.72,
+          "varia": 27.42,
+          "sport": 31.16,
+          "kultuur": 22.22,
+          "loodus-geograafia": 25.79
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 29.17,
+          "open": 1.04,
+          "short": 10.42,
+          "tf": 41.67
         }
       }
     }
