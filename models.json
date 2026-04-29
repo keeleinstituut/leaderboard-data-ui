@@ -153,6 +153,14 @@
     ]
   },
   {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek V4 Flash",
+    "provider": "DeepSeek",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "moonshotai/kimi-k2-0905",
     "name": "Kimi K2",
     "provider": "Moonshot",
