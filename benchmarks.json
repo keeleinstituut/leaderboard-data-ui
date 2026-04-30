@@ -18,5 +18,15 @@
     "id": "idiom_bench",
     "name_en": "Estonian Idioms",
     "name_et": "Metafoorid"
+  },
+  {
+    "id": "term_bench",
+    "name_en": "Estonian Terminology Benchmark",
+    "name_et": "Eesti terminoloogia võrdlustest"
+  },
+  {
+    "id": "propaganda_resistance",
+    "name_en": "Propaganda Resistance",
+    "name_et": "Propagandakindlus"
   }
 ]
