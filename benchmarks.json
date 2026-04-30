@@ -2,7 +2,7 @@
   {
     "id": "bib_bench",
     "name_en": "Estonian Book Knowledge",
-    "name_et": "Raamatu�soovitused"
+    "name_et": "Raamatusoovitused"
   },
   {
     "id": "keelenou",
@@ -21,8 +21,8 @@
   },
   {
     "id": "term_bench",
-    "name_en": "Estonian Terminology Benchmark",
-    "name_et": "Eesti terminoloogia võrdlustest"
+    "name_en": "Terminology",
+    "name_et": "Oskussõnavara"
   },
   {
     "id": "propaganda_resistance",
