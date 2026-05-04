@@ -2,31 +2,50 @@
   {
     "id": "bib_bench",
     "name_en": "Estonian Book Knowledge",
-    "name_et": "Raamatusoovitused"
+    "name_et": "Raamatu�soovitused",
+    "tags": [
+      "knowledge"
+    ]
   },
   {
     "id": "keelenou",
     "name_en": "Estonian Language Advice",
-    "name_et": "Keelenõu"
+    "name_et": "Keelenõu",
+    "tags": [
+      "language"
+    ]
   },
   {
     "id": "trivia_et_2",
     "name_en": "Estonian Trivia",
-    "name_et": "Eesti mäng"
+    "name_et": "Eesti mäng",
+    "tags": [
+      "knowledge"
+    ]
   },
   {
     "id": "idiom_bench",
     "name_en": "Estonian Idioms",
-    "name_et": "Metafoorid"
+    "name_et": "Metafoorid",
+    "tags": [
+      "language"
+    ]
   },
   {
     "id": "term_bench",
     "name_en": "Terminology",
-    "name_et": "Oskussõnavara"
+    "name_et": "Oskussõnavara",
+    "tags": [
+      "language"
+    ]
   },
   {
     "id": "propaganda_resistance",
     "name_en": "Propaganda Resistance",
-    "name_et": "Propagandakindlus"
+    "name_et": "Propagandakindlus",
+    "tags": [
+      "alignment",
+      "safety"
+    ]
   }
 ]
