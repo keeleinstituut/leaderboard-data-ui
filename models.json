@@ -100,12 +100,18 @@
   {
     "id": "google/gemma-2-27b-it",
     "name": "Gemma 2 27B",
-    "provider": "Google"
+    "provider": "Google",
+    "tags": [
+      "open"
+    ]
   },
   {
     "id": "google/gemma-3-27b-it",
     "name": "Gemma 3 27B",
-    "provider": "Google"
+    "provider": "Google",
+    "tags": [
+      "open"
+    ]
   },
   {
     "id": "google/gemma-4-31b-it",
@@ -131,6 +137,19 @@
     "provider": "xAI"
   },
   {
+    "id": "x-ai/grok-4.20",
+    "name": "Grok 4.20",
+    "provider": "xAI"
+  },
+  {
+    "id": "meta-llama/llama-3-70b-instruct",
+    "name": "Llama 3 70B Instruct",
+    "provider": "Meta",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "meta-llama/llama-3.1-70b-instruct",
     "name": "Llama 3.1 70B Instruct",
     "provider": "Meta",
@@ -150,6 +169,14 @@
     "id": "meta-llama/llama-4-maverick",
     "name": "Llama 4 Maverick",
     "provider": "Meta",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "mistralai/mistral-large-2411",
+    "name": "Mistral Large 2411",
+    "provider": "Mistral",
     "tags": [
       "open"
     ]
