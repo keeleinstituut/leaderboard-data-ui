@@ -149,7 +149,26 @@
   {
     "id": "mistralai/mistral-large-2512",
     "name": "Mistral Large 2512",
-    "provider": "Mistral"
+    "provider": "Mistral",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "mistralai/mistral-medium-3-5",
+    "name": "Mistral Medium 3.5",
+    "provider": "Mistral",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "mistralai/mistral-small-2603",
+    "name": "Mistral Small 4",
+    "provider": "Mistral",
+    "tags": [
+      "open"
+    ]
   },
   {
     "id": "deepseek/deepseek-chat",
