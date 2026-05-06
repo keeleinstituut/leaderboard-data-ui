@@ -147,6 +147,14 @@
     ]
   },
   {
+    "id": "meta-llama/llama-4-maverick",
+    "name": "Llama 4 Maverick",
+    "provider": "Meta",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "mistralai/mistral-large-2512",
     "name": "Mistral Large 2512",
     "provider": "Mistral",
