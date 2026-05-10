@@ -2,7 +2,10 @@
   {
     "id": "bib_bench",
     "name_en": "Estonian Book Knowledge",
-    "name_et": "Raamatusoovitused"
+    "name_et": "Raamatusoovitused",
+    "tags": [
+      "knowledge"
+    ]
   },
   {
     "id": "keelenou",
@@ -39,6 +42,10 @@
   {
     "id": "propaganda_resistance",
     "name_en": "Propaganda Resistance",
-    "name_et": "Propagandakindlus"
+    "name_et": "Propagandakindlus",
+    "tags": [
+      "alignment",
+      "safety"
+    ]
   }
 ]
