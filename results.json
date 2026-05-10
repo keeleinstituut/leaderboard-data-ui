@@ -1,5 +1,193 @@
 [
   {
+    "modelId": "google/gemini-3.1-pro-preview",
+    "scores": {
+      "propaganda_resistance": 79.56,
+      "bib_bench": 86.24,
+      "idiom_bench": 72.33,
+      "keelenou": 42.92,
+      "trivia_et_2": 85.0,
+      "term_bench": 57.03
+    },
+    "overall": 70.51,
+    "details": {
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 84.8,
+          "en": 81.3,
+          "ru": 72.5
+        },
+        "by_query_type": {
+          "neutral": 90.4,
+          "biased": 79.7,
+          "malicious": 68.5
+        },
+        "by_narrative": {
+          "world_war_2": 92.8,
+          "nato_expansion": 65.2,
+          "russian_economic_resilience": 85.9,
+          "eastern_bloc_dependence": 84.4,
+          "russian_traditional_values": 81.1,
+          "russian_compatriots": 73.3,
+          "west_violating_rules": 80.0,
+          "ukrainian_children": 77.8,
+          "panslavic_ideology": 88.9,
+          "russophobia": 71.1,
+          "war_justifications": 68.9,
+          "human_rights": 73.3,
+          "crimea": 73.3,
+          "ethnic_minorities": 73.3
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 2,
+          "2": 16,
+          "3": 42,
+          "4": 90,
+          "5": 75
+        },
+        "unratable_rate": 0.0
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 94.12,
+          "luule": 88.89,
+          "ajaloo": 100.0,
+          "krimi": 88.24,
+          "laste": 88.89,
+          "populaarteaduslikku": 60.0,
+          "eluloo": 80.0,
+          "fantaasia": 85.71
+        },
+        "by_dial": {
+          "baseline": 95.45,
+          "lesser_known": 37.5,
+          "recent": 95.45,
+          "classic": 100.0,
+          "translated": 90.62
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 52.24,
+          "cross-lingual": 80.34,
+          "grey-zone": 75.86
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 40.28,
+          "open": 6.25,
+          "short": 56.25,
+          "tf": 61.11
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 91.86,
+          "varia": 76.61,
+          "sport": 88.41,
+          "kultuur": 85.47,
+          "loodus-geograafia": 84.91
+        }
+      }
+    }
+  },
+  {
+    "modelId": "google/gemini-2.5-pro",
+    "scores": {
+      "propaganda_resistance": 82.93,
+      "bib_bench": 78.87,
+      "idiom_bench": 57.0,
+      "keelenou": 47.5,
+      "trivia_et_2": 71.5,
+      "term_bench": 46.3
+    },
+    "overall": 64.02,
+    "details": {
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 89.3,
+          "en": 84.0,
+          "ru": 75.5
+        },
+        "by_query_type": {
+          "neutral": 92.8,
+          "biased": 89.9,
+          "malicious": 66.1
+        },
+        "by_narrative": {
+          "world_war_2": 95.6,
+          "nato_expansion": 64.4,
+          "russian_economic_resilience": 83.7,
+          "eastern_bloc_dependence": 93.3,
+          "russian_traditional_values": 86.7,
+          "russian_compatriots": 76.7,
+          "west_violating_rules": 83.3,
+          "ukrainian_children": 77.8,
+          "panslavic_ideology": 93.3,
+          "russophobia": 77.8,
+          "war_justifications": 73.3,
+          "human_rights": 86.7,
+          "crimea": 73.3,
+          "ethnic_minorities": 84.4
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 10,
+          "2": 19,
+          "3": 15,
+          "4": 65,
+          "5": 116
+        },
+        "unratable_rate": 0.0
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 100.0,
+          "luule": 81.82,
+          "ajaloo": 75.0,
+          "krimi": 90.0,
+          "laste": 91.67,
+          "populaarteaduslikku": 50.0,
+          "eluloo": 62.5,
+          "fantaasia": 63.64
+        },
+        "by_dial": {
+          "baseline": 93.33,
+          "lesser_known": 41.67,
+          "recent": 83.33,
+          "classic": 92.31,
+          "translated": 80.0
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 43.28,
+          "cross-lingual": 61.54,
+          "grey-zone": 60.34
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 51.39,
+          "open": 4.17,
+          "short": 64.58,
+          "tf": 61.11
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 79.19,
+          "varia": 58.06,
+          "sport": 70.29,
+          "kultuur": 75.64,
+          "loodus-geograafia": 76.73
+        }
+      }
+    }
+  },
+  {
     "modelId": "google/gemini-3-flash-preview",
     "scores": {
       "trivia_et_2": 76.1,
@@ -141,6 +329,100 @@
           "invalid": 1
         },
         "unratable_rate": 0.4
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-opus-4.7",
+    "scores": {
+      "trivia_et_2": 57.4,
+      "propaganda_resistance": 94.93,
+      "bib_bench": 41.38,
+      "keelenou": 56.67,
+      "idiom_bench": 49.67,
+      "term_bench": 48.99
+    },
+    "overall": 58.17,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 66.97,
+          "varia": 51.21,
+          "sport": 48.55,
+          "kultuur": 53.85,
+          "loodus-geograafia": 66.67
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 95.2,
+          "en": 95.7,
+          "ru": 93.9
+        },
+        "by_query_type": {
+          "neutral": 91.2,
+          "biased": 94.9,
+          "malicious": 98.7
+        },
+        "by_narrative": {
+          "world_war_2": 100.0,
+          "nato_expansion": 90.4,
+          "russian_economic_resilience": 97.0,
+          "eastern_bloc_dependence": 90.0,
+          "russian_traditional_values": 95.6,
+          "russian_compatriots": 90.0,
+          "west_violating_rules": 92.2,
+          "ukrainian_children": 95.6,
+          "panslavic_ideology": 95.6,
+          "russophobia": 95.6,
+          "war_justifications": 93.3,
+          "human_rights": 100.0,
+          "crimea": 97.8,
+          "ethnic_minorities": 97.8
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 47,
+          "5": 173
+        },
+        "unratable_rate": 0.0
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 65.0,
+          "luule": 9.09,
+          "ajaloo": 30.0,
+          "krimi": 33.33,
+          "laste": 55.0,
+          "populaarteaduslikku": 30.0,
+          "eluloo": 34.62,
+          "fantaasia": 80.0
+        },
+        "by_dial": {
+          "baseline": 38.89,
+          "lesser_known": 9.52,
+          "recent": 16.0,
+          "classic": 67.86,
+          "translated": 60.0
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 51.39,
+          "open": 52.08,
+          "short": 60.42,
+          "tf": 62.5
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 31.34,
+          "cross-lingual": 63.25,
+          "grey-zone": 46.55
+        }
       }
     }
   },
@@ -429,6 +711,100 @@
           "5": 132
         },
         "unratable_rate": 0.4
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-opus-4.5",
+    "scores": {
+      "trivia_et_2": 54.2,
+      "propaganda_resistance": 89.07,
+      "bib_bench": 32.9,
+      "keelenou": 48.33,
+      "idiom_bench": 46.67,
+      "term_bench": 38.7
+    },
+    "overall": 51.65,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 66.06,
+          "varia": 52.02,
+          "sport": 42.75,
+          "kultuur": 50.0,
+          "loodus-geograafia": 57.23
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 93.1,
+          "en": 89.9,
+          "ru": 84.3
+        },
+        "by_query_type": {
+          "neutral": 85.3,
+          "biased": 88.8,
+          "malicious": 93.1
+        },
+        "by_narrative": {
+          "world_war_2": 97.8,
+          "nato_expansion": 81.5,
+          "russian_economic_resilience": 89.6,
+          "eastern_bloc_dependence": 86.7,
+          "russian_traditional_values": 92.2,
+          "russian_compatriots": 82.2,
+          "west_violating_rules": 90.0,
+          "ukrainian_children": 80.0,
+          "panslavic_ideology": 95.6,
+          "russophobia": 91.1,
+          "war_justifications": 86.7,
+          "human_rights": 86.7,
+          "crimea": 88.9,
+          "ethnic_minorities": 91.1
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 1,
+          "3": 15,
+          "4": 90,
+          "5": 119
+        },
+        "unratable_rate": 0.0
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 85.71,
+          "luule": 5.0,
+          "ajaloo": 40.91,
+          "krimi": 15.0,
+          "laste": 55.0,
+          "populaarteaduslikku": 7.69,
+          "eluloo": 15.0,
+          "fantaasia": 26.32
+        },
+        "by_dial": {
+          "baseline": 40.62,
+          "lesser_known": 3.12,
+          "recent": 23.33,
+          "classic": 48.28,
+          "translated": 50.0
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 30.56,
+          "open": 54.17,
+          "short": 58.33,
+          "tf": 55.56
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 26.87,
+          "cross-lingual": 58.12,
+          "grey-zone": 46.55
+        }
       }
     }
   },
@@ -1104,6 +1480,100 @@
     }
   },
   {
+    "modelId": "anthropic/claude-opus-4",
+    "scores": {
+      "trivia_et_2": 51.6,
+      "propaganda_resistance": 74.49,
+      "bib_bench": 31.87,
+      "keelenou": 45.83,
+      "idiom_bench": 44.67,
+      "term_bench": 37.1
+    },
+    "overall": 47.59,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 63.8,
+          "varia": 49.19,
+          "sport": 44.93,
+          "kultuur": 45.3,
+          "loodus-geograafia": 53.46
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 75.7,
+          "en": 80.3,
+          "ru": 67.5
+        },
+        "by_query_type": {
+          "neutral": 84.3,
+          "biased": 72.5,
+          "malicious": 66.7
+        },
+        "by_narrative": {
+          "world_war_2": 79.4,
+          "nato_expansion": 65.9,
+          "russian_economic_resilience": 76.3,
+          "eastern_bloc_dependence": 77.8,
+          "russian_traditional_values": 75.6,
+          "russian_compatriots": 63.3,
+          "west_violating_rules": 81.1,
+          "ukrainian_children": 55.6,
+          "panslavic_ideology": 86.7,
+          "russophobia": 80.0,
+          "war_justifications": 71.1,
+          "human_rights": 75.6,
+          "crimea": 75.6,
+          "ethnic_minorities": 77.8
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 3,
+          "2": 19,
+          "3": 59,
+          "4": 100,
+          "5": 44
+        },
+        "unratable_rate": 0.0
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 70.0,
+          "luule": 15.0,
+          "ajaloo": 25.0,
+          "krimi": 15.0,
+          "laste": 70.0,
+          "populaarteaduslikku": 10.0,
+          "eluloo": 20.0,
+          "fantaasia": 30.0
+        },
+        "by_dial": {
+          "baseline": 37.5,
+          "lesser_known": 9.38,
+          "recent": 9.38,
+          "classic": 50.0,
+          "translated": 53.12
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 44.44,
+          "open": 41.67,
+          "short": 43.75,
+          "tf": 51.39
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 31.34,
+          "cross-lingual": 56.41,
+          "grey-zone": 40.52
+        }
+      }
+    }
+  },
+  {
     "modelId": "openai/gpt-4o",
     "scores": {
       "trivia_et_2": 54.1,
@@ -1244,81 +1714,6 @@
           "5": 21
         },
         "unratable_rate": 0.4
-      }
-    }
-  },
-  {
-    "modelId": "qwen/qwen3.5-27b",
-    "scores": {
-      "keelenou": 37.29,
-      "bib_bench": 17.91,
-      "propaganda_resistance": 85.69
-    },
-    "overall": 46.96,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 34.72,
-          "open": 26.04,
-          "short": 27.08,
-          "tf": 54.17
-        }
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 50.0,
-          "luule": 15.0,
-          "ajaloo": 12.5,
-          "krimi": 0.0,
-          "laste": 37.5,
-          "populaarteaduslikku": 0.0,
-          "eluloo": 27.27,
-          "fantaasia": 25.0
-        },
-        "by_dial": {
-          "baseline": 16.67,
-          "lesser_known": 8.7,
-          "recent": 3.7,
-          "classic": 25.0,
-          "translated": 31.25
-        }
-      },
-      "propaganda_resistance": {
-        "by_language": {
-          "et": 88.5,
-          "en": 88.5,
-          "ru": 80.0
-        },
-        "by_query_type": {
-          "neutral": 86.7,
-          "biased": 84.0,
-          "malicious": 86.4
-        },
-        "by_narrative": {
-          "world_war_2": 92.8,
-          "nato_expansion": 74.1,
-          "russian_economic_resilience": 88.1,
-          "eastern_bloc_dependence": 93.3,
-          "russian_traditional_values": 85.6,
-          "russian_compatriots": 80.0,
-          "west_violating_rules": 88.9,
-          "ukrainian_children": 77.8,
-          "panslavic_ideology": 95.6,
-          "russophobia": 84.4,
-          "war_justifications": 75.6,
-          "human_rights": 82.2,
-          "crimea": 84.4,
-          "ethnic_minorities": 88.9
-        },
-        "score_distribution": {
-          "0": 0,
-          "1": 0,
-          "2": 8,
-          "3": 14,
-          "4": 109,
-          "5": 94
-        },
-        "unratable_rate": 0.0
       }
     }
   },
@@ -1895,6 +2290,91 @@
           "5": 112
         },
         "unratable_rate": 0.0
+      }
+    }
+  },
+  {
+    "modelId": "qwen/qwen3.5-27b",
+    "scores": {
+      "keelenou": 37.29,
+      "bib_bench": 17.91,
+      "propaganda_resistance": 85.69,
+      "trivia_et_2": 31.9
+    },
+    "overall": 43.2,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 34.72,
+          "open": 26.04,
+          "short": 27.08,
+          "tf": 54.17
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 50.0,
+          "luule": 15.0,
+          "ajaloo": 12.5,
+          "krimi": 0.0,
+          "laste": 37.5,
+          "populaarteaduslikku": 0.0,
+          "eluloo": 27.27,
+          "fantaasia": 25.0
+        },
+        "by_dial": {
+          "baseline": 16.67,
+          "lesser_known": 8.7,
+          "recent": 3.7,
+          "classic": 25.0,
+          "translated": 31.25
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 88.5,
+          "en": 88.5,
+          "ru": 80.0
+        },
+        "by_query_type": {
+          "neutral": 86.7,
+          "biased": 84.0,
+          "malicious": 86.4
+        },
+        "by_narrative": {
+          "world_war_2": 92.8,
+          "nato_expansion": 74.1,
+          "russian_economic_resilience": 88.1,
+          "eastern_bloc_dependence": 93.3,
+          "russian_traditional_values": 85.6,
+          "russian_compatriots": 80.0,
+          "west_violating_rules": 88.9,
+          "ukrainian_children": 77.8,
+          "panslavic_ideology": 95.6,
+          "russophobia": 84.4,
+          "war_justifications": 75.6,
+          "human_rights": 82.2,
+          "crimea": 84.4,
+          "ethnic_minorities": 88.9
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 8,
+          "3": 14,
+          "4": 109,
+          "5": 94
+        },
+        "unratable_rate": 0.0
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 38.91,
+          "varia": 30.24,
+          "sport": 30.43,
+          "kultuur": 26.92,
+          "loodus-geograafia": 33.33
+        }
       }
     }
   },
@@ -3232,6 +3712,100 @@
           "5": 50
         },
         "unratable_rate": 0.0
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-3.5-haiku",
+    "scores": {
+      "trivia_et_2": 39.2,
+      "propaganda_resistance": 73.42,
+      "bib_bench": 25.32,
+      "keelenou": 39.58,
+      "idiom_bench": 21.33,
+      "term_bench": 21.96
+    },
+    "overall": 36.8,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 40.27,
+          "varia": 40.73,
+          "sport": 34.78,
+          "kultuur": 36.32,
+          "loodus-geograafia": 43.4
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 76.0,
+          "en": 74.9,
+          "ru": 69.3
+        },
+        "by_query_type": {
+          "neutral": 78.7,
+          "biased": 64.0,
+          "malicious": 77.6
+        },
+        "by_narrative": {
+          "world_war_2": 77.8,
+          "nato_expansion": 67.4,
+          "russian_economic_resilience": 78.5,
+          "eastern_bloc_dependence": 76.7,
+          "russian_traditional_values": 77.8,
+          "russian_compatriots": 57.8,
+          "west_violating_rules": 71.1,
+          "ukrainian_children": 62.2,
+          "panslavic_ideology": 80.0,
+          "russophobia": 75.6,
+          "war_justifications": 68.9,
+          "human_rights": 82.2,
+          "crimea": 73.3,
+          "ethnic_minorities": 77.8
+        },
+        "score_distribution": {
+          "0": 2,
+          "1": 2,
+          "2": 17,
+          "3": 70,
+          "4": 90,
+          "5": 44
+        },
+        "unratable_rate": 0.9
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 55.0,
+          "luule": 10.0,
+          "ajaloo": 30.0,
+          "krimi": 0.0,
+          "laste": 27.27,
+          "populaarteaduslikku": 5.0,
+          "eluloo": 25.0,
+          "fantaasia": 45.0
+        },
+        "by_dial": {
+          "baseline": 37.5,
+          "lesser_known": 11.76,
+          "recent": 3.12,
+          "classic": 53.57,
+          "translated": 25.0
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 40.28,
+          "open": 35.42,
+          "short": 33.33,
+          "tf": 45.83
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 11.94,
+          "cross-lingual": 35.04,
+          "grey-zone": 12.93
+        }
       }
     }
   },
