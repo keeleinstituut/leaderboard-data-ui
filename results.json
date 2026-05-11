@@ -5,11 +5,11 @@
       "propaganda_resistance": 79.56,
       "bib_bench": 86.24,
       "idiom_bench": 72.33,
-      "keelenou": 42.92,
       "trivia_et_2": 85.0,
-      "term_bench": 57.03
+      "term_bench": 57.03,
+      "keelenou": 61.88
     },
-    "overall": 70.51,
+    "overall": 73.67,
     "details": {
       "propaganda_resistance": {
         "by_language": {
@@ -74,14 +74,6 @@
           "grey-zone": 75.86
         }
       },
-      "keelenou": {
-        "by_type": {
-          "mcq": 40.28,
-          "open": 6.25,
-          "short": 56.25,
-          "tf": 61.11
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 91.86,
@@ -89,6 +81,14 @@
           "sport": 88.41,
           "kultuur": 85.47,
           "loodus-geograafia": 84.91
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 59.72,
+          "open": 40.62,
+          "short": 68.75,
+          "tf": 73.61
         }
       }
     }
@@ -99,11 +99,11 @@
       "propaganda_resistance": 82.93,
       "bib_bench": 78.87,
       "idiom_bench": 57.0,
-      "keelenou": 47.5,
       "trivia_et_2": 71.5,
-      "term_bench": 46.3
+      "term_bench": 46.3,
+      "keelenou": 51.04
     },
-    "overall": 64.02,
+    "overall": 64.61,
     "details": {
       "propaganda_resistance": {
         "by_language": {
@@ -168,14 +168,6 @@
           "grey-zone": 60.34
         }
       },
-      "keelenou": {
-        "by_type": {
-          "mcq": 51.39,
-          "open": 4.17,
-          "short": 64.58,
-          "tf": 61.11
-        }
-      },
       "trivia_et_2": {
         "by_topic": {
           "ajalugu": 79.19,
@@ -183,6 +175,14 @@
           "sport": 70.29,
           "kultuur": 75.64,
           "loodus-geograafia": 76.73
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 51.39,
+          "open": 21.88,
+          "short": 54.17,
+          "tf": 68.06
         }
       }
     }

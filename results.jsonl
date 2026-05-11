@@ -288,8 +288,6 @@
 {"model_id": "anthropic/claude-opus-4", "benchmark_id": "idiom_bench", "score": 44.67, "timestamp": "2026-05-10T19:37:52Z", "details": {"by_type": {"estonian-specific": 31.34, "cross-lingual": 56.41, "grey-zone": 40.52}}}
 {"model_id": "google/gemini-2.5-pro", "benchmark_id": "idiom_bench", "score": 57.0, "timestamp": "2026-05-10T20:23:10Z", "details": {"by_type": {"estonian-specific": 43.28, "cross-lingual": 61.54, "grey-zone": 60.34}}}
 {"model_id": "google/gemini-3.1-pro-preview", "benchmark_id": "idiom_bench", "score": 72.33, "timestamp": "2026-05-10T20:23:42Z", "details": {"by_type": {"estonian-specific": 52.24, "cross-lingual": 80.34, "grey-zone": 75.86}}}
-{"model_id": "google/gemini-2.5-pro", "benchmark_id": "keelenou", "score": 47.5, "timestamp": "2026-05-10T20:25:50Z", "details": {"by_type": {"mcq": 51.39, "open": 4.17, "short": 64.58, "tf": 61.11}}}
-{"model_id": "google/gemini-3.1-pro-preview", "benchmark_id": "keelenou", "score": 42.92, "timestamp": "2026-05-10T20:26:02Z", "details": {"by_type": {"mcq": 40.28, "open": 6.25, "short": 56.25, "tf": 61.11}}}
 {"model_id": "google/gemini-3.1-pro-preview", "benchmark_id": "trivia_et_2", "score": 85.0, "timestamp": "2026-05-10T20:44:05Z", "details": {"by_topic": {"ajalugu": 91.86, "varia": 76.61, "sport": 88.41, "kultuur": 85.47, "loodus-geograafia": 84.91}}}
 {"model_id": "google/gemini-2.5-pro", "benchmark_id": "trivia_et_2", "score": 71.5, "timestamp": "2026-05-10T20:44:20Z", "details": {"by_topic": {"ajalugu": 79.19, "varia": 58.06, "sport": 70.29, "kultuur": 75.64, "loodus-geograafia": 76.73}}}
 {"model_id": "google/gemini-3.1-pro-preview", "benchmark_id": "term_bench", "score": 57.03, "timestamp": "2026-05-10T20:50:07Z"}
@@ -298,3 +296,5 @@
 {"model_id": "anthropic/claude-opus-4.7", "benchmark_id": "term_bench", "score": 48.99, "timestamp": "2026-05-10T20:56:51Z"}
 {"model_id": "anthropic/claude-opus-4.5", "benchmark_id": "term_bench", "score": 38.7, "timestamp": "2026-05-10T20:56:59Z"}
 {"model_id": "anthropic/claude-opus-4", "benchmark_id": "term_bench", "score": 37.1, "timestamp": "2026-05-10T21:15:34Z", "partial": true}
+{"model_id": "google/gemini-3.1-pro-preview", "benchmark_id": "keelenou", "score": 61.88, "timestamp": "2026-05-11T07:39:26Z", "details": {"by_type": {"mcq": 59.72, "open": 40.62, "short": 68.75, "tf": 73.61}}}
+{"model_id": "google/gemini-2.5-pro", "benchmark_id": "keelenou", "score": 51.04, "timestamp": "2026-05-11T07:39:26Z", "details": {"by_type": {"mcq": 51.39, "open": 21.88, "short": 54.17, "tf": 68.06}}}
