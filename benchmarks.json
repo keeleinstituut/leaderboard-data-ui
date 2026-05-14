@@ -1,7 +1,7 @@
 [
   {
     "id": "bib_bench",
-    "name_en": "Estonian Book Knowledge",
+    "name_en": "Book Recommendations",
     "name_et": "Raamatusoovitused",
     "tags": [
       "knowledge"
@@ -9,7 +9,7 @@
   },
   {
     "id": "keelenou",
-    "name_en": "Estonian Language Advice",
+    "name_en": "Language Advice",
     "name_et": "Keelenõu",
     "tags": [
       "language"
@@ -17,7 +17,7 @@
   },
   {
     "id": "trivia_et_2",
-    "name_en": "Estonian Trivia",
+    "name_en": "Trivia",
     "name_et": "Eesti mäng",
     "tags": [
       "knowledge"
@@ -25,7 +25,7 @@
   },
   {
     "id": "idiom_bench",
-    "name_en": "Estonian Idioms",
+    "name_en": "Idioms",
     "name_et": "Metafoorid",
     "tags": [
       "language"
