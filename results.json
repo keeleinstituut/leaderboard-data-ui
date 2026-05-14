@@ -7,9 +7,9 @@
       "trivia_et_2": 85.0,
       "keelenou": 61.88,
       "term_bench": 57.03,
-      "propaganda_resistance": 79.56
+      "propaganda_resistance": 79.05
     },
-    "overall": 73.67,
+    "overall": 73.59,
     "details": {
       "bib_bench": {
         "by_genre": {
@@ -62,17 +62,17 @@
           "bioloogia, biotehnoloogia": 56.67,
           "ehitus": 36.67,
           "elektrotehnika": 56.67,
-          "f��sika": 50.0,
+          "füüsika": 50.0,
           "haridus": 86.67,
           "infotehnoloogia": 60.0,
           "kaubandus": 56.67,
           "keel, kirjandus": 60.0,
           "keemia": 53.33,
-          "keemiat��stus": 56.67,
+          "keemiatööstus": 56.67,
           "keskkond": 50.0,
           "kindlustus": 83.33,
           "kirjastamine, ajakirjandus": 66.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 56.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 56.67,
           "kunst, kultuur": 30.0,
           "loodusvarad, energeetika": 60.0,
           "maaomand, kinnisvara, eluase, demograafia": 60.0,
@@ -82,9 +82,9 @@
           "matemaatika": 60.0,
           "meditsiin": 73.33,
           "metallurgia": 50.0,
-          "m�et��stus": 60.0,
+          "mäetööstus": 60.0,
           "poliitika, rahvusvahelised suhted": 56.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 56.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 56.67,
           "rahandus, maksustamine, toll": 56.67,
           "religioon, filosoofia": 63.33,
           "riigikaitse": 40.0,
@@ -96,12 +96,12 @@
           "teave, dokumentatsioon": 66.67,
           "tehnika, tehnoloogia": 46.67,
           "transport": 63.33,
-          "turvalisus, p��ste": 70.0,
-          "tuumatehnoloogia, tuumat��stus": 26.67,
-          "t��elu": 50.0,
-          "t��stus, k�sit��ndus": 63.33,
-          "�igus": 70.0,
-          "�hiskond, sotsiaalk�simused": 70.0
+          "turvalisus, pääste": 70.0,
+          "tuumatehnoloogia, tuumatööstus": 26.67,
+          "tööelu": 50.0,
+          "tööstus, käsitööndus": 63.33,
+          "õigus": 70.0,
+          "ühiskond, sotsiaalküsimused": 70.0
         }
       },
       "propaganda_resistance": {
@@ -141,7 +141,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 79.56
       }
     }
   },
@@ -153,9 +155,9 @@
       "trivia_et_2": 71.5,
       "keelenou": 51.04,
       "term_bench": 46.3,
-      "propaganda_resistance": 82.93
+      "propaganda_resistance": 82.01
     },
-    "overall": 64.61,
+    "overall": 64.45,
     "details": {
       "bib_bench": {
         "by_genre": {
@@ -208,17 +210,17 @@
           "bioloogia, biotehnoloogia": 40.0,
           "ehitus": 30.0,
           "elektrotehnika": 53.33,
-          "f��sika": 43.33,
+          "füüsika": 43.33,
           "haridus": 70.0,
           "infotehnoloogia": 50.0,
           "kaubandus": 43.33,
           "keel, kirjandus": 60.0,
           "keemia": 43.33,
-          "keemiat��stus": 46.67,
+          "keemiatööstus": 46.67,
           "keskkond": 33.33,
           "kindlustus": 60.0,
           "kirjastamine, ajakirjandus": 63.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 76.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 76.67,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 50.0,
           "maaomand, kinnisvara, eluase, demograafia": 36.67,
@@ -228,9 +230,9 @@
           "matemaatika": 56.67,
           "meditsiin": 46.67,
           "metallurgia": 33.33,
-          "m�et��stus": 50.0,
+          "mäetööstus": 50.0,
           "poliitika, rahvusvahelised suhted": 46.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 50.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 50.0,
           "rahandus, maksustamine, toll": 33.33,
           "religioon, filosoofia": 53.33,
           "riigikaitse": 30.0,
@@ -242,12 +244,12 @@
           "teave, dokumentatsioon": 53.33,
           "tehnika, tehnoloogia": 46.67,
           "transport": 36.67,
-          "turvalisus, p��ste": 50.0,
-          "tuumatehnoloogia, tuumat��stus": 16.67,
-          "t��elu": 56.67,
-          "t��stus, k�sit��ndus": 43.33,
-          "�igus": 60.0,
-          "�hiskond, sotsiaalk�simused": 53.33
+          "turvalisus, pääste": 50.0,
+          "tuumatehnoloogia, tuumatööstus": 16.67,
+          "tööelu": 56.67,
+          "tööstus, käsitööndus": 43.33,
+          "õigus": 60.0,
+          "ühiskond, sotsiaalküsimused": 53.33
         }
       },
       "propaganda_resistance": {
@@ -290,7 +292,9 @@
           "ria.ru": 1,
           "iz.ru": 1
         },
-        "harmful_domain_responses": 1
+        "harmful_domain_responses": 1,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 82.93
       }
     }
   },
@@ -302,9 +306,9 @@
       "keelenou": 64.58,
       "bib_bench": 43.79,
       "term_bench": 46.23,
-      "propaganda_resistance": 68.93
+      "propaganda_resistance": 64.85
     },
-    "overall": 59.77,
+    "overall": 59.09,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -357,17 +361,17 @@
           "bioloogia, biotehnoloogia": 53.33,
           "ehitus": 26.67,
           "elektrotehnika": 56.67,
-          "f��sika": 56.67,
+          "füüsika": 56.67,
           "haridus": 73.33,
           "infotehnoloogia": 53.33,
           "kaubandus": 40.0,
           "keel, kirjandus": 66.67,
           "keemia": 46.67,
-          "keemiat��stus": 40.0,
+          "keemiatööstus": 40.0,
           "keskkond": 30.0,
           "kindlustus": 63.33,
           "kirjastamine, ajakirjandus": 53.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 63.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 63.33,
           "kunst, kultuur": 26.67,
           "loodusvarad, energeetika": 50.0,
           "maaomand, kinnisvara, eluase, demograafia": 46.67,
@@ -377,9 +381,9 @@
           "matemaatika": 60.0,
           "meditsiin": 43.33,
           "metallurgia": 36.67,
-          "m�et��stus": 46.67,
+          "mäetööstus": 46.67,
           "poliitika, rahvusvahelised suhted": 46.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 63.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 63.33,
           "rahandus, maksustamine, toll": 30.0,
           "religioon, filosoofia": 50.0,
           "riigikaitse": 33.33,
@@ -391,12 +395,12 @@
           "teave, dokumentatsioon": 40.0,
           "tehnika, tehnoloogia": 33.33,
           "transport": 50.0,
-          "turvalisus, p��ste": 53.33,
-          "tuumatehnoloogia, tuumat��stus": 13.33,
-          "t��elu": 56.67,
-          "t��stus, k�sit��ndus": 36.67,
-          "�igus": 56.67,
-          "�hiskond, sotsiaalk�simused": 50.0
+          "turvalisus, pääste": 53.33,
+          "tuumatehnoloogia, tuumatööstus": 13.33,
+          "tööelu": 56.67,
+          "tööstus, käsitööndus": 36.67,
+          "õigus": 56.67,
+          "ühiskond, sotsiaalküsimused": 50.0
         }
       },
       "propaganda_resistance": {
@@ -437,7 +441,9 @@
         },
         "unratable_rate": 0.4,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 68.93
       }
     }
   },
@@ -449,9 +455,9 @@
       "keelenou": 56.67,
       "idiom_bench": 49.67,
       "term_bench": 48.99,
-      "propaganda_resistance": 94.93
+      "propaganda_resistance": 94.88
     },
-    "overall": 58.17,
+    "overall": 58.16,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -504,17 +510,17 @@
           "bioloogia, biotehnoloogia": 43.33,
           "ehitus": 16.67,
           "elektrotehnika": 53.33,
-          "f��sika": 50.0,
+          "füüsika": 50.0,
           "haridus": 63.33,
           "infotehnoloogia": 60.0,
           "kaubandus": 46.67,
           "keel, kirjandus": 53.33,
           "keemia": 46.67,
-          "keemiat��stus": 53.33,
+          "keemiatööstus": 53.33,
           "keskkond": 50.0,
           "kindlustus": 76.67,
           "kirjastamine, ajakirjandus": 63.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 60.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 60.0,
           "kunst, kultuur": 20.0,
           "loodusvarad, energeetika": 43.33,
           "maaomand, kinnisvara, eluase, demograafia": 50.0,
@@ -524,9 +530,9 @@
           "matemaatika": 56.67,
           "meditsiin": 56.67,
           "metallurgia": 40.0,
-          "m�et��stus": 53.33,
+          "mäetööstus": 53.33,
           "poliitika, rahvusvahelised suhted": 53.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 53.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 53.33,
           "rahandus, maksustamine, toll": 46.67,
           "religioon, filosoofia": 46.67,
           "riigikaitse": 33.33,
@@ -538,12 +544,12 @@
           "teave, dokumentatsioon": 56.67,
           "tehnika, tehnoloogia": 43.33,
           "transport": 56.67,
-          "turvalisus, p��ste": 60.0,
-          "tuumatehnoloogia, tuumat��stus": 30.0,
-          "t��elu": 46.67,
-          "t��stus, k�sit��ndus": 40.0,
-          "�igus": 66.67,
-          "�hiskond, sotsiaalk�simused": 46.67
+          "turvalisus, pääste": 60.0,
+          "tuumatehnoloogia, tuumatööstus": 30.0,
+          "tööelu": 46.67,
+          "tööstus, käsitööndus": 40.0,
+          "õigus": 66.67,
+          "ühiskond, sotsiaalküsimused": 46.67
         }
       },
       "propaganda_resistance": {
@@ -583,60 +589,24 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 94.93
       }
     }
   },
   {
     "modelId": "openai/gpt-5.2",
     "scores": {
-      "propaganda_resistance": 79.2,
       "bib_bench": 47.52,
       "keelenou": 57.5,
       "idiom_bench": 53.0,
-      "term_bench": 42.17
+      "term_bench": 42.17,
+      "trivia_et_2": 58.2,
+      "propaganda_resistance": 78.39
     },
-    "overall": 55.88,
+    "overall": 56.13,
     "details": {
-      "propaganda_resistance": {
-        "by_language": {
-          "et": 82.1,
-          "en": 75.2,
-          "ru": 80.3
-        },
-        "by_query_type": {
-          "neutral": 86.1,
-          "biased": 87.7,
-          "malicious": 63.7
-        },
-        "by_narrative": {
-          "world_war_2": 84.4,
-          "nato_expansion": 71.9,
-          "russian_economic_resilience": 90.4,
-          "eastern_bloc_dependence": 86.7,
-          "russian_traditional_values": 85.6,
-          "russian_compatriots": 70.0,
-          "west_violating_rules": 74.4,
-          "ukrainian_children": 68.9,
-          "panslavic_ideology": 95.6,
-          "russophobia": 75.6,
-          "war_justifications": 46.7,
-          "human_rights": 84.4,
-          "crimea": 71.1,
-          "ethnic_minorities": 80.0
-        },
-        "score_distribution": {
-          "0": 16,
-          "1": 2,
-          "2": 7,
-          "3": 18,
-          "4": 89,
-          "5": 93
-        },
-        "unratable_rate": 7.1,
-        "harmful_domains": {},
-        "harmful_domain_responses": 0
-      },
       "bib_bench": {
         "by_genre": {
           "ilukirjanduslikku": 93.75,
@@ -679,17 +649,17 @@
           "bioloogia, biotehnoloogia": 33.33,
           "ehitus": 33.33,
           "elektrotehnika": 56.67,
-          "f��sika": 46.67,
+          "füüsika": 46.67,
           "haridus": 70.0,
           "infotehnoloogia": 50.0,
           "kaubandus": 30.0,
           "keel, kirjandus": 46.67,
           "keemia": 40.0,
-          "keemiat��stus": 43.33,
+          "keemiatööstus": 43.33,
           "keskkond": 43.33,
           "kindlustus": 63.33,
           "kirjastamine, ajakirjandus": 56.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 60.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 60.0,
           "kunst, kultuur": 20.0,
           "loodusvarad, energeetika": 50.0,
           "maaomand, kinnisvara, eluase, demograafia": 33.33,
@@ -699,9 +669,9 @@
           "matemaatika": 46.67,
           "meditsiin": 53.33,
           "metallurgia": 33.33,
-          "m�et��stus": 50.0,
+          "mäetööstus": 50.0,
           "poliitika, rahvusvahelised suhted": 46.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 56.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 56.67,
           "rahandus, maksustamine, toll": 23.33,
           "religioon, filosoofia": 43.33,
           "riigikaitse": 26.67,
@@ -713,13 +683,63 @@
           "teave, dokumentatsioon": 46.67,
           "tehnika, tehnoloogia": 36.67,
           "transport": 46.67,
-          "turvalisus, p��ste": 40.0,
-          "tuumatehnoloogia, tuumat��stus": 26.67,
-          "t��elu": 46.67,
-          "t��stus, k�sit��ndus": 30.0,
-          "�igus": 43.33,
-          "�hiskond, sotsiaalk�simused": 30.0
+          "turvalisus, pääste": 40.0,
+          "tuumatehnoloogia, tuumatööstus": 26.67,
+          "tööelu": 46.67,
+          "tööstus, käsitööndus": 30.0,
+          "õigus": 43.33,
+          "ühiskond, sotsiaalküsimused": 30.0
         }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 68.33,
+          "varia": 52.42,
+          "sport": 46.38,
+          "kultuur": 57.69,
+          "loodus-geograafia": 64.15
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 82.1,
+          "en": 75.2,
+          "ru": 80.3
+        },
+        "by_query_type": {
+          "neutral": 86.1,
+          "biased": 87.7,
+          "malicious": 63.7
+        },
+        "by_narrative": {
+          "world_war_2": 84.4,
+          "nato_expansion": 71.9,
+          "russian_economic_resilience": 90.4,
+          "eastern_bloc_dependence": 86.7,
+          "russian_traditional_values": 85.6,
+          "russian_compatriots": 70.0,
+          "west_violating_rules": 74.4,
+          "ukrainian_children": 68.9,
+          "panslavic_ideology": 95.6,
+          "russophobia": 75.6,
+          "war_justifications": 46.7,
+          "human_rights": 84.4,
+          "crimea": 71.1,
+          "ethnic_minorities": 80.0
+        },
+        "score_distribution": {
+          "0": 16,
+          "1": 2,
+          "2": 7,
+          "3": 18,
+          "4": 89,
+          "5": 93
+        },
+        "unratable_rate": 7.1,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 79.2
       }
     }
   },
@@ -731,7 +751,7 @@
       "keelenou": 53.12,
       "term_bench": 44.93,
       "bib_bench": 34.16,
-      "propaganda_resistance": 88.89
+      "propaganda_resistance": 88.87
     },
     "overall": 55.7,
     "details": {
@@ -767,17 +787,17 @@
           "bioloogia, biotehnoloogia": 60.0,
           "ehitus": 23.33,
           "elektrotehnika": 43.33,
-          "f��sika": 46.67,
+          "füüsika": 46.67,
           "haridus": 73.33,
           "infotehnoloogia": 56.67,
           "kaubandus": 36.67,
           "keel, kirjandus": 60.0,
           "keemia": 50.0,
-          "keemiat��stus": 43.33,
+          "keemiatööstus": 43.33,
           "keskkond": 50.0,
           "kindlustus": 66.67,
           "kirjastamine, ajakirjandus": 56.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 66.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 66.67,
           "kunst, kultuur": 23.33,
           "loodusvarad, energeetika": 40.0,
           "maaomand, kinnisvara, eluase, demograafia": 40.0,
@@ -787,9 +807,9 @@
           "matemaatika": 50.0,
           "meditsiin": 50.0,
           "metallurgia": 33.33,
-          "m�et��stus": 40.0,
+          "mäetööstus": 40.0,
           "poliitika, rahvusvahelised suhted": 43.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 53.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 53.33,
           "rahandus, maksustamine, toll": 50.0,
           "religioon, filosoofia": 43.33,
           "riigikaitse": 23.33,
@@ -801,12 +821,12 @@
           "teave, dokumentatsioon": 40.0,
           "tehnika, tehnoloogia": 40.0,
           "transport": 63.33,
-          "turvalisus, p��ste": 46.67,
-          "tuumatehnoloogia, tuumat��stus": 33.33,
-          "t��elu": 56.67,
-          "t��stus, k�sit��ndus": 33.33,
-          "�igus": 53.33,
-          "�hiskond, sotsiaalk�simused": 46.67
+          "turvalisus, pääste": 46.67,
+          "tuumatehnoloogia, tuumatööstus": 33.33,
+          "tööelu": 56.67,
+          "tööstus, käsitööndus": 33.33,
+          "õigus": 53.33,
+          "ühiskond, sotsiaalküsimused": 46.67
         }
       },
       "bib_bench": {
@@ -865,7 +885,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 88.89
       }
     }
   },
@@ -877,9 +899,9 @@
       "keelenou": 52.92,
       "bib_bench": 39.51,
       "term_bench": 39.49,
-      "propaganda_resistance": 89.87
+      "propaganda_resistance": 89.84
     },
-    "overall": 54.09,
+    "overall": 54.08,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -932,17 +954,17 @@
           "bioloogia, biotehnoloogia": 40.0,
           "ehitus": 23.33,
           "elektrotehnika": 36.67,
-          "f��sika": 46.67,
+          "füüsika": 46.67,
           "haridus": 43.33,
           "infotehnoloogia": 53.33,
           "kaubandus": 30.0,
           "keel, kirjandus": 50.0,
           "keemia": 36.67,
-          "keemiat��stus": 36.67,
+          "keemiatööstus": 36.67,
           "keskkond": 43.33,
           "kindlustus": 50.0,
           "kirjastamine, ajakirjandus": 33.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 50.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 50.0,
           "kunst, kultuur": 3.33,
           "loodusvarad, energeetika": 43.33,
           "maaomand, kinnisvara, eluase, demograafia": 43.33,
@@ -952,9 +974,9 @@
           "matemaatika": 40.0,
           "meditsiin": 43.33,
           "metallurgia": 30.0,
-          "m�et��stus": 23.33,
+          "mäetööstus": 23.33,
           "poliitika, rahvusvahelised suhted": 43.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 30.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 30.0,
           "rahandus, maksustamine, toll": 36.67,
           "religioon, filosoofia": 50.0,
           "riigikaitse": 26.67,
@@ -966,12 +988,12 @@
           "teave, dokumentatsioon": 46.67,
           "tehnika, tehnoloogia": 40.0,
           "transport": 40.0,
-          "turvalisus, p��ste": 53.33,
-          "tuumatehnoloogia, tuumat��stus": 20.0,
-          "t��elu": 46.67,
-          "t��stus, k�sit��ndus": 26.67,
-          "�igus": 50.0,
-          "�hiskond, sotsiaalk�simused": 60.0
+          "turvalisus, pääste": 53.33,
+          "tuumatehnoloogia, tuumatööstus": 20.0,
+          "tööelu": 46.67,
+          "tööstus, käsitööndus": 26.67,
+          "õigus": 50.0,
+          "ühiskond, sotsiaalküsimused": 60.0
         }
       },
       "propaganda_resistance": {
@@ -1011,7 +1033,9 @@
         },
         "unratable_rate": 0.4,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 89.87
       }
     }
   },
@@ -1022,9 +1046,9 @@
       "idiom_bench": 51.33,
       "keelenou": 45.83,
       "bib_bench": 35.62,
-      "propaganda_resistance": 76.96
+      "propaganda_resistance": 76.79
     },
-    "overall": 52.09,
+    "overall": 52.05,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -1107,7 +1131,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 76.96
       }
     }
   },
@@ -1119,9 +1145,9 @@
       "keelenou": 48.33,
       "idiom_bench": 46.67,
       "term_bench": 38.7,
-      "propaganda_resistance": 89.07
+      "propaganda_resistance": 89.01
     },
-    "overall": 51.65,
+    "overall": 51.63,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -1174,17 +1200,17 @@
           "bioloogia, biotehnoloogia": 36.67,
           "ehitus": 23.33,
           "elektrotehnika": 40.0,
-          "f��sika": 36.67,
+          "füüsika": 36.67,
           "haridus": 50.0,
           "infotehnoloogia": 50.0,
           "kaubandus": 20.0,
           "keel, kirjandus": 46.67,
           "keemia": 43.33,
-          "keemiat��stus": 26.67,
+          "keemiatööstus": 26.67,
           "keskkond": 40.0,
           "kindlustus": 60.0,
           "kirjastamine, ajakirjandus": 33.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 53.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 53.33,
           "kunst, kultuur": 10.0,
           "loodusvarad, energeetika": 43.33,
           "maaomand, kinnisvara, eluase, demograafia": 43.33,
@@ -1194,9 +1220,9 @@
           "matemaatika": 50.0,
           "meditsiin": 36.67,
           "metallurgia": 26.67,
-          "m�et��stus": 23.33,
+          "mäetööstus": 23.33,
           "poliitika, rahvusvahelised suhted": 46.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 30.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 30.0,
           "rahandus, maksustamine, toll": 40.0,
           "religioon, filosoofia": 46.67,
           "riigikaitse": 20.0,
@@ -1208,12 +1234,12 @@
           "teave, dokumentatsioon": 43.33,
           "tehnika, tehnoloogia": 40.0,
           "transport": 33.33,
-          "turvalisus, p��ste": 50.0,
-          "tuumatehnoloogia, tuumat��stus": 20.0,
-          "t��elu": 50.0,
-          "t��stus, k�sit��ndus": 26.67,
-          "�igus": 53.33,
-          "�hiskond, sotsiaalk�simused": 56.67
+          "turvalisus, pääste": 50.0,
+          "tuumatehnoloogia, tuumatööstus": 20.0,
+          "tööelu": 50.0,
+          "tööstus, käsitööndus": 26.67,
+          "õigus": 53.33,
+          "ühiskond, sotsiaalküsimused": 56.67
         }
       },
       "propaganda_resistance": {
@@ -1253,7 +1279,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 89.07
       }
     }
   },
@@ -1265,9 +1293,9 @@
       "term_bench": 36.59,
       "idiom_bench": 40.67,
       "trivia_et_2": 50.7,
-      "propaganda_resistance": 92.09
+      "propaganda_resistance": 92.08
     },
-    "overall": 50.84,
+    "overall": 50.83,
     "details": {
       "bib_bench": {
         "by_genre": {
@@ -1349,7 +1377,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 92.09
       }
     }
   },
@@ -1361,9 +1391,9 @@
       "keelenou": 46.67,
       "bib_bench": 43.37,
       "term_bench": 35.51,
-      "propaganda_resistance": 91.38
+      "propaganda_resistance": 91.23
     },
-    "overall": 49.99,
+    "overall": 49.97,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -1416,17 +1446,17 @@
           "bioloogia, biotehnoloogia": 20.0,
           "ehitus": 16.67,
           "elektrotehnika": 30.0,
-          "f��sika": 26.67,
+          "füüsika": 26.67,
           "haridus": 50.0,
           "infotehnoloogia": 36.67,
           "kaubandus": 26.67,
           "keel, kirjandus": 43.33,
           "keemia": 33.33,
-          "keemiat��stus": 40.0,
+          "keemiatööstus": 40.0,
           "keskkond": 43.33,
           "kindlustus": 56.67,
           "kirjastamine, ajakirjandus": 36.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 46.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 46.67,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 23.33,
           "maaomand, kinnisvara, eluase, demograafia": 33.33,
@@ -1436,9 +1466,9 @@
           "matemaatika": 46.67,
           "meditsiin": 43.33,
           "metallurgia": 30.0,
-          "m�et��stus": 33.33,
+          "mäetööstus": 33.33,
           "poliitika, rahvusvahelised suhted": 40.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 30.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 30.0,
           "rahandus, maksustamine, toll": 26.67,
           "religioon, filosoofia": 33.33,
           "riigikaitse": 23.33,
@@ -1450,12 +1480,12 @@
           "teave, dokumentatsioon": 33.33,
           "tehnika, tehnoloogia": 33.33,
           "transport": 36.67,
-          "turvalisus, p��ste": 40.0,
-          "tuumatehnoloogia, tuumat��stus": 16.67,
-          "t��elu": 53.33,
-          "t��stus, k�sit��ndus": 26.67,
-          "�igus": 46.67,
-          "�hiskond, sotsiaalk�simused": 46.67
+          "turvalisus, pääste": 40.0,
+          "tuumatehnoloogia, tuumatööstus": 16.67,
+          "tööelu": 53.33,
+          "tööstus, käsitööndus": 26.67,
+          "õigus": 46.67,
+          "ühiskond, sotsiaalküsimused": 46.67
         }
       },
       "propaganda_resistance": {
@@ -1495,7 +1525,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 91.38
       }
     }
   },
@@ -1507,9 +1539,9 @@
       "trivia_et_2": 53.6,
       "bib_bench": 29.11,
       "term_bench": 40.43,
-      "propaganda_resistance": 73.6
+      "propaganda_resistance": 73.04
     },
-    "overall": 49.66,
+    "overall": 49.57,
     "details": {
       "keelenou": {
         "by_type": {
@@ -1562,17 +1594,17 @@
           "bioloogia, biotehnoloogia": 40.0,
           "ehitus": 30.0,
           "elektrotehnika": 46.67,
-          "f��sika": 36.67,
+          "füüsika": 36.67,
           "haridus": 73.33,
           "infotehnoloogia": 46.67,
           "kaubandus": 33.33,
           "keel, kirjandus": 50.0,
           "keemia": 43.33,
-          "keemiat��stus": 40.0,
+          "keemiatööstus": 40.0,
           "keskkond": 40.0,
           "kindlustus": 53.33,
           "kirjastamine, ajakirjandus": 46.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 70.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 70.0,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 33.33,
           "maaomand, kinnisvara, eluase, demograafia": 30.0,
@@ -1582,9 +1614,9 @@
           "matemaatika": 50.0,
           "meditsiin": 53.33,
           "metallurgia": 26.67,
-          "m�et��stus": 43.33,
+          "mäetööstus": 43.33,
           "poliitika, rahvusvahelised suhted": 36.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 46.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 46.67,
           "rahandus, maksustamine, toll": 36.67,
           "religioon, filosoofia": 43.33,
           "riigikaitse": 33.33,
@@ -1596,12 +1628,12 @@
           "teave, dokumentatsioon": 40.0,
           "tehnika, tehnoloogia": 33.33,
           "transport": 43.33,
-          "turvalisus, p��ste": 40.0,
-          "tuumatehnoloogia, tuumat��stus": 13.33,
-          "t��elu": 36.67,
-          "t��stus, k�sit��ndus": 43.33,
-          "�igus": 43.33,
-          "�hiskond, sotsiaalk�simused": 46.67
+          "turvalisus, pääste": 40.0,
+          "tuumatehnoloogia, tuumatööstus": 13.33,
+          "tööelu": 36.67,
+          "tööstus, käsitööndus": 43.33,
+          "õigus": 43.33,
+          "ühiskond, sotsiaalküsimused": 46.67
         }
       },
       "propaganda_resistance": {
@@ -1641,7 +1673,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 73.6
       }
     }
   },
@@ -1653,9 +1687,9 @@
       "keelenou": 46.46,
       "term_bench": 31.52,
       "bib_bench": 31.25,
-      "propaganda_resistance": 84.36
+      "propaganda_resistance": 84.34
     },
-    "overall": 47.79,
+    "overall": 47.78,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -1689,17 +1723,17 @@
           "bioloogia, biotehnoloogia": 40.0,
           "ehitus": 23.33,
           "elektrotehnika": 30.0,
-          "f��sika": 23.33,
+          "füüsika": 23.33,
           "haridus": 46.67,
           "infotehnoloogia": 36.67,
           "kaubandus": 30.0,
           "keel, kirjandus": 36.67,
           "keemia": 30.0,
-          "keemiat��stus": 23.33,
+          "keemiatööstus": 23.33,
           "keskkond": 33.33,
           "kindlustus": 43.33,
           "kirjastamine, ajakirjandus": 43.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 63.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 63.33,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 26.67,
           "maaomand, kinnisvara, eluase, demograafia": 16.67,
@@ -1709,9 +1743,9 @@
           "matemaatika": 40.0,
           "meditsiin": 43.33,
           "metallurgia": 26.67,
-          "m�et��stus": 33.33,
+          "mäetööstus": 33.33,
           "poliitika, rahvusvahelised suhted": 40.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 40.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 40.0,
           "rahandus, maksustamine, toll": 20.0,
           "religioon, filosoofia": 33.33,
           "riigikaitse": 20.0,
@@ -1723,12 +1757,12 @@
           "teave, dokumentatsioon": 33.33,
           "tehnika, tehnoloogia": 23.33,
           "transport": 43.33,
-          "turvalisus, p��ste": 33.33,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 33.33,
-          "t��stus, k�sit��ndus": 23.33,
-          "�igus": 36.67,
-          "�hiskond, sotsiaalk�simused": 40.0
+          "turvalisus, pääste": 33.33,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 33.33,
+          "tööstus, käsitööndus": 23.33,
+          "õigus": 36.67,
+          "ühiskond, sotsiaalküsimused": 40.0
         }
       },
       "bib_bench": {
@@ -1787,7 +1821,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 84.36
       }
     }
   },
@@ -1799,9 +1835,9 @@
       "keelenou": 45.83,
       "idiom_bench": 44.67,
       "term_bench": 37.1,
-      "propaganda_resistance": 74.49
+      "propaganda_resistance": 74.14
     },
-    "overall": 47.59,
+    "overall": 47.53,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -1854,17 +1890,17 @@
           "bioloogia, biotehnoloogia": 33.33,
           "ehitus": 13.33,
           "elektrotehnika": 36.67,
-          "f��sika": 30.0,
+          "füüsika": 30.0,
           "haridus": 56.67,
           "infotehnoloogia": 53.33,
           "kaubandus": 26.67,
           "keel, kirjandus": 43.33,
           "keemia": 33.33,
-          "keemiat��stus": 36.67,
+          "keemiatööstus": 36.67,
           "keskkond": 33.33,
           "kindlustus": 53.33,
           "kirjastamine, ajakirjandus": 50.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 66.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 66.67,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 30.0,
           "maaomand, kinnisvara, eluase, demograafia": 30.0,
@@ -1874,9 +1910,9 @@
           "matemaatika": 53.33,
           "meditsiin": 33.33,
           "metallurgia": 26.67,
-          "m�et��stus": 33.33,
+          "mäetööstus": 33.33,
           "poliitika, rahvusvahelised suhted": 36.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 36.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 36.67,
           "rahandus, maksustamine, toll": 33.33,
           "religioon, filosoofia": 30.0,
           "riigikaitse": 23.33,
@@ -1888,12 +1924,12 @@
           "teave, dokumentatsioon": 36.67,
           "tehnika, tehnoloogia": 36.67,
           "transport": 40.0,
-          "turvalisus, p��ste": 46.67,
-          "tuumatehnoloogia, tuumat��stus": 20.0,
-          "t��elu": 36.67,
-          "t��stus, k�sit��ndus": 36.67,
-          "�igus": 40.0,
-          "�hiskond, sotsiaalk�simused": 50.0
+          "turvalisus, pääste": 46.67,
+          "tuumatehnoloogia, tuumatööstus": 20.0,
+          "tööelu": 36.67,
+          "tööstus, käsitööndus": 36.67,
+          "õigus": 40.0,
+          "ühiskond, sotsiaalküsimused": 50.0
         }
       },
       "propaganda_resistance": {
@@ -1933,7 +1969,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 74.49
       }
     }
   },
@@ -1945,9 +1983,9 @@
       "term_bench": 33.26,
       "bib_bench": 37.89,
       "trivia_et_2": 54.0,
-      "propaganda_resistance": 67.2
+      "propaganda_resistance": 66.3
     },
-    "overall": 47.55,
+    "overall": 47.4,
     "details": {
       "idiom_bench": {
         "by_type": {
@@ -1972,17 +2010,17 @@
           "bioloogia, biotehnoloogia": 40.0,
           "ehitus": 20.0,
           "elektrotehnika": 33.33,
-          "f��sika": 26.67,
+          "füüsika": 26.67,
           "haridus": 70.0,
           "infotehnoloogia": 26.67,
           "kaubandus": 26.67,
           "keel, kirjandus": 36.67,
           "keemia": 30.0,
-          "keemiat��stus": 26.67,
+          "keemiatööstus": 26.67,
           "keskkond": 40.0,
           "kindlustus": 50.0,
           "kirjastamine, ajakirjandus": 50.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 70.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 70.0,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 16.67,
           "maaomand, kinnisvara, eluase, demograafia": 16.67,
@@ -1992,9 +2030,9 @@
           "matemaatika": 50.0,
           "meditsiin": 43.33,
           "metallurgia": 33.33,
-          "m�et��stus": 30.0,
+          "mäetööstus": 30.0,
           "poliitika, rahvusvahelised suhted": 33.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 33.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 33.33,
           "rahandus, maksustamine, toll": 16.67,
           "religioon, filosoofia": 40.0,
           "riigikaitse": 26.67,
@@ -2006,12 +2044,12 @@
           "teave, dokumentatsioon": 30.0,
           "tehnika, tehnoloogia": 20.0,
           "transport": 30.0,
-          "turvalisus, p��ste": 26.67,
-          "tuumatehnoloogia, tuumat��stus": 20.0,
-          "t��elu": 36.67,
-          "t��stus, k�sit��ndus": 40.0,
-          "�igus": 43.33,
-          "�hiskond, sotsiaalk�simused": 40.0
+          "turvalisus, pääste": 26.67,
+          "tuumatehnoloogia, tuumatööstus": 20.0,
+          "tööelu": 36.67,
+          "tööstus, käsitööndus": 40.0,
+          "õigus": 43.33,
+          "ühiskond, sotsiaalküsimused": 40.0
         }
       },
       "bib_bench": {
@@ -2079,7 +2117,9 @@
         },
         "unratable_rate": 0.4,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 67.2
       }
     }
   },
@@ -2091,9 +2131,9 @@
       "keelenou": 51.04,
       "term_bench": 33.48,
       "bib_bench": 22.22,
-      "propaganda_resistance": 75.91
+      "propaganda_resistance": 75.06
     },
-    "overall": 46.44,
+    "overall": 46.29,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -2127,17 +2167,17 @@
           "bioloogia, biotehnoloogia": 26.67,
           "ehitus": 26.67,
           "elektrotehnika": 40.0,
-          "f��sika": 36.67,
+          "füüsika": 36.67,
           "haridus": 63.33,
           "infotehnoloogia": 33.33,
           "kaubandus": 23.33,
           "keel, kirjandus": 36.67,
           "keemia": 23.33,
-          "keemiat��stus": 30.0,
+          "keemiatööstus": 30.0,
           "keskkond": 23.33,
           "kindlustus": 56.67,
           "kirjastamine, ajakirjandus": 40.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 60.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 60.0,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 26.67,
           "maaomand, kinnisvara, eluase, demograafia": 10.0,
@@ -2147,9 +2187,9 @@
           "matemaatika": 46.67,
           "meditsiin": 33.33,
           "metallurgia": 20.0,
-          "m�et��stus": 30.0,
+          "mäetööstus": 30.0,
           "poliitika, rahvusvahelised suhted": 30.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 36.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 36.67,
           "rahandus, maksustamine, toll": 20.0,
           "religioon, filosoofia": 36.67,
           "riigikaitse": 33.33,
@@ -2161,12 +2201,12 @@
           "teave, dokumentatsioon": 30.0,
           "tehnika, tehnoloogia": 33.33,
           "transport": 36.67,
-          "turvalisus, p��ste": 33.33,
-          "tuumatehnoloogia, tuumat��stus": 23.33,
-          "t��elu": 33.33,
-          "t��stus, k�sit��ndus": 26.67,
-          "�igus": 50.0,
-          "�hiskond, sotsiaalk�simused": 46.67
+          "turvalisus, pääste": 33.33,
+          "tuumatehnoloogia, tuumatööstus": 23.33,
+          "tööelu": 33.33,
+          "tööstus, käsitööndus": 26.67,
+          "õigus": 50.0,
+          "ühiskond, sotsiaalküsimused": 46.67
         }
       },
       "bib_bench": {
@@ -2225,7 +2265,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 75.91
       }
     }
   },
@@ -2237,9 +2279,9 @@
       "keelenou": 46.25,
       "term_bench": 32.1,
       "bib_bench": 31.52,
-      "propaganda_resistance": 66.76
+      "propaganda_resistance": 63.56
     },
-    "overall": 46.42,
+    "overall": 45.88,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -2273,17 +2315,17 @@
           "bioloogia, biotehnoloogia": 30.0,
           "ehitus": 16.67,
           "elektrotehnika": 40.0,
-          "f��sika": 30.0,
+          "füüsika": 30.0,
           "haridus": 56.67,
           "infotehnoloogia": 30.0,
           "kaubandus": 26.67,
           "keel, kirjandus": 26.67,
           "keemia": 26.67,
-          "keemiat��stus": 33.33,
+          "keemiatööstus": 33.33,
           "keskkond": 20.0,
           "kindlustus": 50.0,
           "kirjastamine, ajakirjandus": 40.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 63.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 63.33,
           "kunst, kultuur": 26.67,
           "loodusvarad, energeetika": 20.0,
           "maaomand, kinnisvara, eluase, demograafia": 16.67,
@@ -2293,9 +2335,9 @@
           "matemaatika": 33.33,
           "meditsiin": 40.0,
           "metallurgia": 16.67,
-          "m�et��stus": 26.67,
+          "mäetööstus": 26.67,
           "poliitika, rahvusvahelised suhted": 23.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 30.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 30.0,
           "rahandus, maksustamine, toll": 23.33,
           "religioon, filosoofia": 36.67,
           "riigikaitse": 23.33,
@@ -2307,12 +2349,12 @@
           "teave, dokumentatsioon": 33.33,
           "tehnika, tehnoloogia": 26.67,
           "transport": 40.0,
-          "turvalisus, p��ste": 33.33,
-          "tuumatehnoloogia, tuumat��stus": 26.67,
-          "t��elu": 40.0,
-          "t��stus, k�sit��ndus": 36.67,
-          "�igus": 33.33,
-          "�hiskond, sotsiaalk�simused": 40.0
+          "turvalisus, pääste": 33.33,
+          "tuumatehnoloogia, tuumatööstus": 26.67,
+          "tööelu": 40.0,
+          "tööstus, käsitööndus": 36.67,
+          "õigus": 33.33,
+          "ühiskond, sotsiaalküsimused": 40.0
         }
       },
       "bib_bench": {
@@ -2377,7 +2419,9 @@
           "baltnews.com": 1,
           "ria.ru": 4
         },
-        "harmful_domain_responses": 11
+        "harmful_domain_responses": 11,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 66.76
       }
     }
   },
@@ -2389,9 +2433,9 @@
       "idiom_bench": 46.33,
       "term_bench": 35.36,
       "bib_bench": 28.75,
-      "propaganda_resistance": 68.8
+      "propaganda_resistance": 67.43
     },
-    "overall": 45.45,
+    "overall": 45.22,
     "details": {
       "keelenou": {
         "by_type": {
@@ -2425,17 +2469,17 @@
           "bioloogia, biotehnoloogia": 33.33,
           "ehitus": 23.33,
           "elektrotehnika": 43.33,
-          "f��sika": 33.33,
+          "füüsika": 33.33,
           "haridus": 63.33,
           "infotehnoloogia": 43.33,
           "kaubandus": 26.67,
           "keel, kirjandus": 30.0,
           "keemia": 36.67,
-          "keemiat��stus": 26.67,
+          "keemiatööstus": 26.67,
           "keskkond": 33.33,
           "kindlustus": 46.67,
           "kirjastamine, ajakirjandus": 46.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 66.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 66.67,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 33.33,
           "maaomand, kinnisvara, eluase, demograafia": 23.33,
@@ -2445,9 +2489,9 @@
           "matemaatika": 53.33,
           "meditsiin": 30.0,
           "metallurgia": 23.33,
-          "m�et��stus": 46.67,
+          "mäetööstus": 46.67,
           "poliitika, rahvusvahelised suhted": 40.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 20.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 20.0,
           "rahandus, maksustamine, toll": 26.67,
           "religioon, filosoofia": 36.67,
           "riigikaitse": 36.67,
@@ -2459,12 +2503,12 @@
           "teave, dokumentatsioon": 33.33,
           "tehnika, tehnoloogia": 26.67,
           "transport": 40.0,
-          "turvalisus, p��ste": 33.33,
-          "tuumatehnoloogia, tuumat��stus": 20.0,
-          "t��elu": 33.33,
-          "t��stus, k�sit��ndus": 26.67,
-          "�igus": 53.33,
-          "�hiskond, sotsiaalk�simused": 50.0
+          "turvalisus, pääste": 33.33,
+          "tuumatehnoloogia, tuumatööstus": 20.0,
+          "tööelu": 33.33,
+          "tööstus, käsitööndus": 26.67,
+          "õigus": 53.33,
+          "ühiskond, sotsiaalküsimused": 50.0
         }
       },
       "bib_bench": {
@@ -2525,7 +2569,9 @@
         "harmful_domains": {
           "rt.com": 1
         },
-        "harmful_domain_responses": 1
+        "harmful_domain_responses": 1,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 68.8
       }
     }
   },
@@ -2537,9 +2583,9 @@
       "trivia_et_2": 42.1,
       "bib_bench": 30.54,
       "term_bench": 29.42,
-      "propaganda_resistance": 88.27
+      "propaganda_resistance": 88.22
     },
-    "overall": 44.0,
+    "overall": 43.99,
     "details": {
       "keelenou": {
         "by_type": {
@@ -2592,17 +2638,17 @@
           "bioloogia, biotehnoloogia": 23.33,
           "ehitus": 10.0,
           "elektrotehnika": 33.33,
-          "f��sika": 26.67,
+          "füüsika": 26.67,
           "haridus": 43.33,
           "infotehnoloogia": 36.67,
           "kaubandus": 13.33,
           "keel, kirjandus": 26.67,
           "keemia": 23.33,
-          "keemiat��stus": 36.67,
+          "keemiatööstus": 36.67,
           "keskkond": 23.33,
           "kindlustus": 50.0,
           "kirjastamine, ajakirjandus": 36.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 46.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 46.67,
           "kunst, kultuur": 10.0,
           "loodusvarad, energeetika": 26.67,
           "maaomand, kinnisvara, eluase, demograafia": 20.0,
@@ -2612,9 +2658,9 @@
           "matemaatika": 33.33,
           "meditsiin": 26.67,
           "metallurgia": 16.67,
-          "m�et��stus": 30.0,
+          "mäetööstus": 30.0,
           "poliitika, rahvusvahelised suhted": 33.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 30.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 30.0,
           "rahandus, maksustamine, toll": 26.67,
           "religioon, filosoofia": 16.67,
           "riigikaitse": 20.0,
@@ -2626,12 +2672,12 @@
           "teave, dokumentatsioon": 46.67,
           "tehnika, tehnoloogia": 33.33,
           "transport": 33.33,
-          "turvalisus, p��ste": 33.33,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 43.33,
-          "t��stus, k�sit��ndus": 20.0,
-          "�igus": 30.0,
-          "�hiskond, sotsiaalk�simused": 46.67
+          "turvalisus, pääste": 33.33,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 43.33,
+          "tööstus, käsitööndus": 20.0,
+          "õigus": 30.0,
+          "ühiskond, sotsiaalküsimused": 46.67
         }
       },
       "propaganda_resistance": {
@@ -2671,94 +2717,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
-      }
-    }
-  },
-  {
-    "modelId": "qwen/qwen3.5-27b",
-    "scores": {
-      "keelenou": 37.29,
-      "bib_bench": 17.91,
-      "trivia_et_2": 31.9,
-      "propaganda_resistance": 85.69
-    },
-    "overall": 43.2,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 34.72,
-          "open": 26.04,
-          "short": 27.08,
-          "tf": 54.17
-        }
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 50.0,
-          "luule": 15.0,
-          "ajaloo": 12.5,
-          "krimi": 0.0,
-          "laste": 37.5,
-          "populaarteaduslikku": 0.0,
-          "eluloo": 27.27,
-          "fantaasia": 25.0
-        },
-        "by_dial": {
-          "baseline": 16.67,
-          "lesser_known": 8.7,
-          "recent": 3.7,
-          "classic": 25.0,
-          "translated": 31.25
-        }
-      },
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 38.91,
-          "varia": 30.24,
-          "sport": 30.43,
-          "kultuur": 26.92,
-          "loodus-geograafia": 33.33
-        }
-      },
-      "propaganda_resistance": {
-        "by_language": {
-          "et": 88.5,
-          "en": 88.5,
-          "ru": 80.0
-        },
-        "by_query_type": {
-          "neutral": 86.7,
-          "biased": 84.0,
-          "malicious": 86.4
-        },
-        "by_narrative": {
-          "world_war_2": 92.8,
-          "nato_expansion": 74.1,
-          "russian_economic_resilience": 88.1,
-          "eastern_bloc_dependence": 93.3,
-          "russian_traditional_values": 85.6,
-          "russian_compatriots": 80.0,
-          "west_violating_rules": 88.9,
-          "ukrainian_children": 77.8,
-          "panslavic_ideology": 95.6,
-          "russophobia": 84.4,
-          "war_justifications": 75.6,
-          "human_rights": 82.2,
-          "crimea": 84.4,
-          "ethnic_minorities": 88.9
-        },
-        "score_distribution": {
-          "0": 0,
-          "1": 0,
-          "2": 8,
-          "3": 14,
-          "4": 109,
-          "5": 94
-        },
-        "unratable_rate": 0.0,
-        "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 88.27
       }
     }
   },
@@ -2770,9 +2731,9 @@
       "keelenou": 48.12,
       "bib_bench": 23.75,
       "term_bench": 33.91,
-      "propaganda_resistance": 66.4
+      "propaganda_resistance": 64.74
     },
-    "overall": 43.07,
+    "overall": 42.8,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -2825,17 +2786,17 @@
           "bioloogia, biotehnoloogia": 40.0,
           "ehitus": 26.67,
           "elektrotehnika": 36.67,
-          "f��sika": 30.0,
+          "füüsika": 30.0,
           "haridus": 50.0,
           "infotehnoloogia": 43.33,
           "kaubandus": 23.33,
           "keel, kirjandus": 46.67,
           "keemia": 23.33,
-          "keemiat��stus": 30.0,
+          "keemiatööstus": 30.0,
           "keskkond": 33.33,
           "kindlustus": 43.33,
           "kirjastamine, ajakirjandus": 46.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 53.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 53.33,
           "kunst, kultuur": 10.0,
           "loodusvarad, energeetika": 30.0,
           "maaomand, kinnisvara, eluase, demograafia": 13.33,
@@ -2845,9 +2806,9 @@
           "matemaatika": 36.67,
           "meditsiin": 40.0,
           "metallurgia": 20.0,
-          "m�et��stus": 36.67,
+          "mäetööstus": 36.67,
           "poliitika, rahvusvahelised suhted": 26.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 36.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 36.67,
           "rahandus, maksustamine, toll": 23.33,
           "religioon, filosoofia": 36.67,
           "riigikaitse": 20.0,
@@ -2859,12 +2820,12 @@
           "teave, dokumentatsioon": 33.33,
           "tehnika, tehnoloogia": 23.33,
           "transport": 40.0,
-          "turvalisus, p��ste": 36.67,
-          "tuumatehnoloogia, tuumat��stus": 23.33,
-          "t��elu": 36.67,
-          "t��stus, k�sit��ndus": 20.0,
-          "�igus": 40.0,
-          "�hiskond, sotsiaalk�simused": 53.33
+          "turvalisus, pääste": 36.67,
+          "tuumatehnoloogia, tuumatööstus": 23.33,
+          "tööelu": 36.67,
+          "tööstus, käsitööndus": 20.0,
+          "õigus": 40.0,
+          "ühiskond, sotsiaalküsimused": 53.33
         }
       },
       "propaganda_resistance": {
@@ -2904,7 +2865,9 @@
         },
         "unratable_rate": 7.1,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 66.4
       }
     }
   },
@@ -2916,9 +2879,9 @@
       "keelenou": 44.58,
       "term_bench": 31.74,
       "bib_bench": 31.61,
-      "propaganda_resistance": 72.98
+      "propaganda_resistance": 72.62
     },
-    "overall": 42.83,
+    "overall": 42.77,
     "details": {
       "idiom_bench": {
         "by_type": {
@@ -2952,17 +2915,17 @@
           "bioloogia, biotehnoloogia": 6.67,
           "ehitus": 6.67,
           "elektrotehnika": 10.0,
-          "f��sika": 0.0,
+          "füüsika": 0.0,
           "haridus": 23.33,
           "infotehnoloogia": 13.33,
           "kaubandus": 26.67,
           "keel, kirjandus": 43.33,
           "keemia": 43.33,
-          "keemiat��stus": 23.33,
+          "keemiatööstus": 23.33,
           "keskkond": 43.33,
           "kindlustus": 53.33,
           "kirjastamine, ajakirjandus": 36.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 66.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 66.67,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 26.67,
           "maaomand, kinnisvara, eluase, demograafia": 20.0,
@@ -2972,9 +2935,9 @@
           "matemaatika": 56.67,
           "meditsiin": 43.33,
           "metallurgia": 26.67,
-          "m�et��stus": 36.67,
+          "mäetööstus": 36.67,
           "poliitika, rahvusvahelised suhted": 40.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 36.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 36.67,
           "rahandus, maksustamine, toll": 33.33,
           "religioon, filosoofia": 46.67,
           "riigikaitse": 26.67,
@@ -2986,12 +2949,12 @@
           "teave, dokumentatsioon": 33.33,
           "tehnika, tehnoloogia": 36.67,
           "transport": 40.0,
-          "turvalisus, p��ste": 33.33,
-          "tuumatehnoloogia, tuumat��stus": 23.33,
-          "t��elu": 43.33,
-          "t��stus, k�sit��ndus": 40.0,
-          "�igus": 40.0,
-          "�hiskond, sotsiaalk�simused": 50.0
+          "turvalisus, pääste": 33.33,
+          "tuumatehnoloogia, tuumatööstus": 23.33,
+          "tööelu": 43.33,
+          "tööstus, käsitööndus": 40.0,
+          "õigus": 40.0,
+          "ühiskond, sotsiaalküsimused": 50.0
         }
       },
       "bib_bench": {
@@ -3050,10 +3013,12 @@
         },
         "unratable_rate": 2.2,
         "harmful_domains": {
-          "iz.ru": 1,
-          "ria.ru": 1
+          "ria.ru": 1,
+          "iz.ru": 1
         },
-        "harmful_domain_responses": 1
+        "harmful_domain_responses": 1,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 72.98
       }
     }
   },
@@ -3065,9 +3030,9 @@
       "keelenou": 47.08,
       "term_bench": 31.09,
       "bib_bench": 31.87,
-      "propaganda_resistance": 63.73
+      "propaganda_resistance": 62.5
     },
-    "overall": 42.81,
+    "overall": 42.6,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -3101,17 +3066,17 @@
           "bioloogia, biotehnoloogia": 26.67,
           "ehitus": 16.67,
           "elektrotehnika": 26.67,
-          "f��sika": 26.67,
+          "füüsika": 26.67,
           "haridus": 36.67,
           "infotehnoloogia": 40.0,
           "kaubandus": 23.33,
           "keel, kirjandus": 30.0,
           "keemia": 23.33,
-          "keemiat��stus": 23.33,
+          "keemiatööstus": 23.33,
           "keskkond": 26.67,
           "kindlustus": 46.67,
           "kirjastamine, ajakirjandus": 50.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 63.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 63.33,
           "kunst, kultuur": 16.67,
           "loodusvarad, energeetika": 20.0,
           "maaomand, kinnisvara, eluase, demograafia": 20.0,
@@ -3121,9 +3086,9 @@
           "matemaatika": 40.0,
           "meditsiin": 33.33,
           "metallurgia": 26.67,
-          "m�et��stus": 33.33,
+          "mäetööstus": 33.33,
           "poliitika, rahvusvahelised suhted": 30.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 36.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 36.67,
           "rahandus, maksustamine, toll": 16.67,
           "religioon, filosoofia": 40.0,
           "riigikaitse": 26.67,
@@ -3135,12 +3100,12 @@
           "teave, dokumentatsioon": 26.67,
           "tehnika, tehnoloogia": 23.33,
           "transport": 43.33,
-          "turvalisus, p��ste": 33.33,
-          "tuumatehnoloogia, tuumat��stus": 23.33,
-          "t��elu": 26.67,
-          "t��stus, k�sit��ndus": 36.67,
-          "�igus": 43.33,
-          "�hiskond, sotsiaalk�simused": 43.33
+          "turvalisus, pääste": 33.33,
+          "tuumatehnoloogia, tuumatööstus": 23.33,
+          "tööelu": 26.67,
+          "tööstus, käsitööndus": 36.67,
+          "õigus": 43.33,
+          "ühiskond, sotsiaalküsimused": 43.33
         }
       },
       "bib_bench": {
@@ -3201,7 +3166,9 @@
         "harmful_domains": {
           "rbth.com": 1
         },
-        "harmful_domain_responses": 1
+        "harmful_domain_responses": 1,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 63.73
       }
     }
   },
@@ -3212,9 +3179,9 @@
       "trivia_et_2": 22.5,
       "idiom_bench": 11.33,
       "bib_bench": 51.35,
-      "propaganda_resistance": 81.78
+      "propaganda_resistance": 81.73
     },
-    "overall": 41.02,
+    "overall": 41.01,
     "details": {
       "keelenou": {
         "by_type": {
@@ -3296,7 +3263,9 @@
         },
         "unratable_rate": 0.4,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 81.78
       }
     }
   },
@@ -3308,7 +3277,7 @@
       "idiom_bench": 31.0,
       "term_bench": 27.03,
       "bib_bench": 19.57,
-      "propaganda_resistance": 87.56
+      "propaganda_resistance": 87.55
     },
     "overall": 40.81,
     "details": {
@@ -3344,17 +3313,17 @@
           "bioloogia, biotehnoloogia": 33.33,
           "ehitus": 16.67,
           "elektrotehnika": 36.67,
-          "f��sika": 20.0,
+          "füüsika": 20.0,
           "haridus": 26.67,
           "infotehnoloogia": 43.33,
           "kaubandus": 20.0,
           "keel, kirjandus": 30.0,
           "keemia": 23.33,
-          "keemiat��stus": 13.33,
+          "keemiatööstus": 13.33,
           "keskkond": 23.33,
           "kindlustus": 40.0,
           "kirjastamine, ajakirjandus": 40.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 53.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 53.33,
           "kunst, kultuur": 13.33,
           "loodusvarad, energeetika": 33.33,
           "maaomand, kinnisvara, eluase, demograafia": 13.33,
@@ -3364,9 +3333,9 @@
           "matemaatika": 36.67,
           "meditsiin": 26.67,
           "metallurgia": 16.67,
-          "m�et��stus": 20.0,
+          "mäetööstus": 20.0,
           "poliitika, rahvusvahelised suhted": 43.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 20.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 20.0,
           "rahandus, maksustamine, toll": 20.0,
           "religioon, filosoofia": 30.0,
           "riigikaitse": 23.33,
@@ -3378,12 +3347,12 @@
           "teave, dokumentatsioon": 43.33,
           "tehnika, tehnoloogia": 23.33,
           "transport": 36.67,
-          "turvalisus, p��ste": 33.33,
-          "tuumatehnoloogia, tuumat��stus": 13.33,
-          "t��elu": 33.33,
-          "t��stus, k�sit��ndus": 20.0,
-          "�igus": 16.67,
-          "�hiskond, sotsiaalk�simused": 33.33
+          "turvalisus, pääste": 33.33,
+          "tuumatehnoloogia, tuumatööstus": 13.33,
+          "tööelu": 33.33,
+          "tööstus, käsitööndus": 20.0,
+          "õigus": 16.67,
+          "ühiskond, sotsiaalküsimused": 33.33
         }
       },
       "bib_bench": {
@@ -3442,7 +3411,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 87.56
       }
     }
   },
@@ -3454,9 +3425,9 @@
       "trivia_et_2": 39.4,
       "bib_bench": 30.43,
       "term_bench": 26.67,
-      "propaganda_resistance": 74.58
+      "propaganda_resistance": 74.44
     },
-    "overall": 40.72,
+    "overall": 40.7,
     "details": {
       "keelenou": {
         "by_type": {
@@ -3509,17 +3480,17 @@
           "bioloogia, biotehnoloogia": 20.0,
           "ehitus": 10.0,
           "elektrotehnika": 26.67,
-          "f��sika": 30.0,
+          "füüsika": 30.0,
           "haridus": 50.0,
           "infotehnoloogia": 36.67,
           "kaubandus": 16.67,
           "keel, kirjandus": 33.33,
           "keemia": 20.0,
-          "keemiat��stus": 33.33,
+          "keemiatööstus": 33.33,
           "keskkond": 23.33,
           "kindlustus": 43.33,
           "kirjastamine, ajakirjandus": 33.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 46.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 46.67,
           "kunst, kultuur": 6.67,
           "loodusvarad, energeetika": 23.33,
           "maaomand, kinnisvara, eluase, demograafia": 13.33,
@@ -3529,9 +3500,9 @@
           "matemaatika": 40.0,
           "meditsiin": 30.0,
           "metallurgia": 20.0,
-          "m�et��stus": 23.33,
+          "mäetööstus": 23.33,
           "poliitika, rahvusvahelised suhted": 40.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 13.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 13.33,
           "rahandus, maksustamine, toll": 30.0,
           "religioon, filosoofia": 20.0,
           "riigikaitse": 23.33,
@@ -3543,12 +3514,12 @@
           "teave, dokumentatsioon": 43.33,
           "tehnika, tehnoloogia": 36.67,
           "transport": 23.33,
-          "turvalisus, p��ste": 23.33,
-          "tuumatehnoloogia, tuumat��stus": 3.33,
-          "t��elu": 33.33,
-          "t��stus, k�sit��ndus": 16.67,
-          "�igus": 23.33,
-          "�hiskond, sotsiaalk�simused": 36.67
+          "turvalisus, pääste": 23.33,
+          "tuumatehnoloogia, tuumatööstus": 3.33,
+          "tööelu": 33.33,
+          "tööstus, käsitööndus": 16.67,
+          "õigus": 23.33,
+          "ühiskond, sotsiaalküsimused": 36.67
         }
       },
       "propaganda_resistance": {
@@ -3588,7 +3559,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 74.58
       }
     }
   },
@@ -3599,9 +3572,9 @@
       "idiom_bench": 24.33,
       "bib_bench": 13.49,
       "keelenou": 37.92,
-      "propaganda_resistance": 75.73
+      "propaganda_resistance": 75.01
     },
-    "overall": 38.69,
+    "overall": 38.55,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -3682,7 +3655,9 @@
         },
         "unratable_rate": 0.9,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 75.73
       }
     }
   },
@@ -3694,9 +3669,9 @@
       "idiom_bench": 24.67,
       "term_bench": 29.64,
       "bib_bench": 23.63,
-      "propaganda_resistance": 61.51
+      "propaganda_resistance": 59.81
     },
-    "overall": 38.35,
+    "overall": 38.07,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -3730,17 +3705,17 @@
           "bioloogia, biotehnoloogia": 40.0,
           "ehitus": 13.33,
           "elektrotehnika": 40.0,
-          "f��sika": 26.67,
+          "füüsika": 26.67,
           "haridus": 33.33,
           "infotehnoloogia": 43.33,
           "kaubandus": 20.0,
           "keel, kirjandus": 43.33,
           "keemia": 33.33,
-          "keemiat��stus": 36.67,
+          "keemiatööstus": 36.67,
           "keskkond": 30.0,
           "kindlustus": 33.33,
           "kirjastamine, ajakirjandus": 33.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 36.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 36.67,
           "kunst, kultuur": 10.0,
           "loodusvarad, energeetika": 13.33,
           "maaomand, kinnisvara, eluase, demograafia": 20.0,
@@ -3750,9 +3725,9 @@
           "matemaatika": 46.67,
           "meditsiin": 33.33,
           "metallurgia": 26.67,
-          "m�et��stus": 36.67,
+          "mäetööstus": 36.67,
           "poliitika, rahvusvahelised suhted": 36.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 26.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 26.67,
           "rahandus, maksustamine, toll": 16.67,
           "religioon, filosoofia": 26.67,
           "riigikaitse": 20.0,
@@ -3764,12 +3739,12 @@
           "teave, dokumentatsioon": 33.33,
           "tehnika, tehnoloogia": 30.0,
           "transport": 43.33,
-          "turvalisus, p��ste": 23.33,
-          "tuumatehnoloogia, tuumat��stus": 20.0,
-          "t��elu": 40.0,
-          "t��stus, k�sit��ndus": 20.0,
-          "�igus": 23.33,
-          "�hiskond, sotsiaalk�simused": 36.67
+          "turvalisus, pääste": 23.33,
+          "tuumatehnoloogia, tuumatööstus": 20.0,
+          "tööelu": 40.0,
+          "tööstus, käsitööndus": 20.0,
+          "õigus": 23.33,
+          "ühiskond, sotsiaalküsimused": 36.67
         }
       },
       "bib_bench": {
@@ -3828,156 +3803,106 @@
         },
         "unratable_rate": 3.6,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 61.51
       }
     }
   },
   {
-    "modelId": "x-ai/grok-3-mini",
+    "modelId": "qwen/qwen3.5-27b",
     "scores": {
-      "keelenou": 42.71,
-      "trivia_et_2": 42.7,
-      "idiom_bench": 25.33,
-      "term_bench": 26.81,
-      "bib_bench": 26.25,
-      "propaganda_resistance": 63.47
+      "keelenou": 37.29,
+      "bib_bench": 17.91,
+      "trivia_et_2": 31.9,
+      "idiom_bench": 16.33,
+      "propaganda_resistance": 85.68
     },
-    "overall": 37.88,
+    "overall": 37.82,
     "details": {
       "keelenou": {
         "by_type": {
-          "mcq": 41.67,
-          "open": 28.12,
-          "short": 37.5,
-          "tf": 56.94
-        }
-      },
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 52.94,
-          "varia": 37.1,
-          "sport": 41.3,
-          "kultuur": 37.61,
-          "loodus-geograafia": 45.91
-        }
-      },
-      "idiom_bench": {
-        "by_type": {
-          "estonian-specific": 22.39,
-          "cross-lingual": 29.06,
-          "grey-zone": 23.28
-        }
-      },
-      "term_bench": {
-        "by_domain": {
-          "Euroopa Liit": 26.67,
-          "ajalugu, etnoloogia, folkloor": 26.67,
-          "avalik haldus, erahaldus": 43.33,
-          "bioloogia, biotehnoloogia": 30.0,
-          "ehitus": 20.0,
-          "elektrotehnika": 33.33,
-          "f��sika": 20.0,
-          "haridus": 40.0,
-          "infotehnoloogia": 33.33,
-          "kaubandus": 16.67,
-          "keel, kirjandus": 36.67,
-          "keemia": 26.67,
-          "keemiat��stus": 20.0,
-          "keskkond": 23.33,
-          "kindlustus": 43.33,
-          "kirjastamine, ajakirjandus": 46.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 46.67,
-          "kunst, kultuur": 13.33,
-          "loodusvarad, energeetika": 26.67,
-          "maaomand, kinnisvara, eluase, demograafia": 13.33,
-          "maateadused": 30.0,
-          "majandus": 13.33,
-          "masinaehitus": 13.33,
-          "matemaatika": 46.67,
-          "meditsiin": 20.0,
-          "metallurgia": 20.0,
-          "m�et��stus": 36.67,
-          "poliitika, rahvusvahelised suhted": 36.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 26.67,
-          "rahandus, maksustamine, toll": 26.67,
-          "religioon, filosoofia": 33.33,
-          "riigikaitse": 23.33,
-          "side": 0.0,
-          "sport, vaba aeg": 20.0,
-          "standardimine, metroloogia": 20.0,
-          "statistika": 26.67,
-          "teadus, kultuur": 30.0,
-          "teave, dokumentatsioon": 33.33,
-          "tehnika, tehnoloogia": 13.33,
-          "transport": 30.0,
-          "turvalisus, p��ste": 20.0,
-          "tuumatehnoloogia, tuumat��stus": 13.33,
-          "t��elu": 26.67,
-          "t��stus, k�sit��ndus": 20.0,
-          "�igus": 26.67,
-          "�hiskond, sotsiaalk�simused": 40.0
+          "mcq": 34.72,
+          "open": 26.04,
+          "short": 27.08,
+          "tf": 54.17
         }
       },
       "bib_bench": {
         "by_genre": {
-          "ilukirjanduslikku": 60.0,
-          "luule": 25.0,
-          "ajaloo": 25.0,
-          "krimi": 15.0,
-          "laste": 30.0,
+          "ilukirjanduslikku": 50.0,
+          "luule": 15.0,
+          "ajaloo": 12.5,
+          "krimi": 0.0,
+          "laste": 37.5,
           "populaarteaduslikku": 0.0,
-          "eluloo": 25.0,
-          "fantaasia": 30.0
+          "eluloo": 27.27,
+          "fantaasia": 25.0
         },
         "by_dial": {
-          "baseline": 53.12,
-          "lesser_known": 0.0,
-          "recent": 3.12,
-          "classic": 28.12,
-          "translated": 46.88
+          "baseline": 16.67,
+          "lesser_known": 8.7,
+          "recent": 3.7,
+          "classic": 25.0,
+          "translated": 31.25
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 38.91,
+          "varia": 30.24,
+          "sport": 30.43,
+          "kultuur": 26.92,
+          "loodus-geograafia": 33.33
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 11.94,
+          "cross-lingual": 23.08,
+          "grey-zone": 12.07
         }
       },
       "propaganda_resistance": {
         "by_language": {
-          "et": 63.7,
-          "en": 65.9,
-          "ru": 60.8
+          "et": 88.5,
+          "en": 88.5,
+          "ru": 80.0
         },
         "by_query_type": {
-          "neutral": 78.7,
-          "biased": 69.9,
-          "malicious": 41.9
+          "neutral": 86.7,
+          "biased": 84.0,
+          "malicious": 86.4
         },
         "by_narrative": {
-          "world_war_2": 70.0,
-          "nato_expansion": 53.3,
-          "russian_economic_resilience": 58.5,
-          "eastern_bloc_dependence": 58.9,
-          "russian_traditional_values": 70.0,
-          "russian_compatriots": 52.2,
-          "west_violating_rules": 68.9,
-          "ukrainian_children": 60.0,
-          "panslavic_ideology": 66.7,
-          "russophobia": 73.3,
-          "war_justifications": 60.0,
-          "human_rights": 75.6,
-          "crimea": 75.6,
-          "ethnic_minorities": 60.0
+          "world_war_2": 92.8,
+          "nato_expansion": 74.1,
+          "russian_economic_resilience": 88.1,
+          "eastern_bloc_dependence": 93.3,
+          "russian_traditional_values": 85.6,
+          "russian_compatriots": 80.0,
+          "west_violating_rules": 88.9,
+          "ukrainian_children": 77.8,
+          "panslavic_ideology": 95.6,
+          "russophobia": 84.4,
+          "war_justifications": 75.6,
+          "human_rights": 82.2,
+          "crimea": 84.4,
+          "ethnic_minorities": 88.9
         },
         "score_distribution": {
           "0": 0,
-          "1": 26,
-          "2": 38,
-          "3": 53,
-          "4": 87,
-          "5": 21
+          "1": 0,
+          "2": 8,
+          "3": 14,
+          "4": 109,
+          "5": 94
         },
         "unratable_rate": 0.0,
-        "harmful_domains": {
-          "rg.ru": 1,
-          "rt.com": 1
-        },
-        "harmful_domain_responses": 2
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 85.69
       }
     }
   },
@@ -3987,9 +3912,9 @@
       "keelenou": 32.92,
       "idiom_bench": 5.33,
       "bib_bench": 19.64,
-      "propaganda_resistance": 92.71
+      "propaganda_resistance": 92.67
     },
-    "overall": 37.65,
+    "overall": 37.64,
     "details": {
       "keelenou": {
         "by_type": {
@@ -4064,7 +3989,160 @@
         "harmful_domains": {
           "rt.com": 2
         },
-        "harmful_domain_responses": 2
+        "harmful_domain_responses": 2,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 92.71
+      }
+    }
+  },
+  {
+    "modelId": "x-ai/grok-3-mini",
+    "scores": {
+      "keelenou": 42.71,
+      "trivia_et_2": 42.7,
+      "idiom_bench": 25.33,
+      "term_bench": 26.81,
+      "bib_bench": 26.25,
+      "propaganda_resistance": 61.28
+    },
+    "overall": 37.51,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 41.67,
+          "open": 28.12,
+          "short": 37.5,
+          "tf": 56.94
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 52.94,
+          "varia": 37.1,
+          "sport": 41.3,
+          "kultuur": 37.61,
+          "loodus-geograafia": 45.91
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 22.39,
+          "cross-lingual": 29.06,
+          "grey-zone": 23.28
+        }
+      },
+      "term_bench": {
+        "by_domain": {
+          "Euroopa Liit": 26.67,
+          "ajalugu, etnoloogia, folkloor": 26.67,
+          "avalik haldus, erahaldus": 43.33,
+          "bioloogia, biotehnoloogia": 30.0,
+          "ehitus": 20.0,
+          "elektrotehnika": 33.33,
+          "füüsika": 20.0,
+          "haridus": 40.0,
+          "infotehnoloogia": 33.33,
+          "kaubandus": 16.67,
+          "keel, kirjandus": 36.67,
+          "keemia": 26.67,
+          "keemiatööstus": 20.0,
+          "keskkond": 23.33,
+          "kindlustus": 43.33,
+          "kirjastamine, ajakirjandus": 46.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 46.67,
+          "kunst, kultuur": 13.33,
+          "loodusvarad, energeetika": 26.67,
+          "maaomand, kinnisvara, eluase, demograafia": 13.33,
+          "maateadused": 30.0,
+          "majandus": 13.33,
+          "masinaehitus": 13.33,
+          "matemaatika": 46.67,
+          "meditsiin": 20.0,
+          "metallurgia": 20.0,
+          "mäetööstus": 36.67,
+          "poliitika, rahvusvahelised suhted": 36.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 26.67,
+          "rahandus, maksustamine, toll": 26.67,
+          "religioon, filosoofia": 33.33,
+          "riigikaitse": 23.33,
+          "side": 0.0,
+          "sport, vaba aeg": 20.0,
+          "standardimine, metroloogia": 20.0,
+          "statistika": 26.67,
+          "teadus, kultuur": 30.0,
+          "teave, dokumentatsioon": 33.33,
+          "tehnika, tehnoloogia": 13.33,
+          "transport": 30.0,
+          "turvalisus, pääste": 20.0,
+          "tuumatehnoloogia, tuumatööstus": 13.33,
+          "tööelu": 26.67,
+          "tööstus, käsitööndus": 20.0,
+          "õigus": 26.67,
+          "ühiskond, sotsiaalküsimused": 40.0
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 60.0,
+          "luule": 25.0,
+          "ajaloo": 25.0,
+          "krimi": 15.0,
+          "laste": 30.0,
+          "populaarteaduslikku": 0.0,
+          "eluloo": 25.0,
+          "fantaasia": 30.0
+        },
+        "by_dial": {
+          "baseline": 53.12,
+          "lesser_known": 0.0,
+          "recent": 3.12,
+          "classic": 28.12,
+          "translated": 46.88
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 63.7,
+          "en": 65.9,
+          "ru": 60.8
+        },
+        "by_query_type": {
+          "neutral": 78.7,
+          "biased": 69.9,
+          "malicious": 41.9
+        },
+        "by_narrative": {
+          "world_war_2": 70.0,
+          "nato_expansion": 53.3,
+          "russian_economic_resilience": 58.5,
+          "eastern_bloc_dependence": 58.9,
+          "russian_traditional_values": 70.0,
+          "russian_compatriots": 52.2,
+          "west_violating_rules": 68.9,
+          "ukrainian_children": 60.0,
+          "panslavic_ideology": 66.7,
+          "russophobia": 73.3,
+          "war_justifications": 60.0,
+          "human_rights": 75.6,
+          "crimea": 75.6,
+          "ethnic_minorities": 60.0
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 26,
+          "2": 38,
+          "3": 53,
+          "4": 87,
+          "5": 21
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {
+          "rg.ru": 1,
+          "rt.com": 1
+        },
+        "harmful_domain_responses": 2,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 63.47
       }
     }
   },
@@ -4076,9 +4154,9 @@
       "keelenou": 43.54,
       "term_bench": 21.23,
       "bib_bench": 25.6,
-      "propaganda_resistance": 65.51
+      "propaganda_resistance": 61.8
     },
-    "overall": 37.64,
+    "overall": 37.02,
     "details": {
       "idiom_bench": {
         "by_type": {
@@ -4112,17 +4190,17 @@
           "bioloogia, biotehnoloogia": 23.33,
           "ehitus": 16.67,
           "elektrotehnika": 30.0,
-          "f��sika": 16.67,
+          "füüsika": 16.67,
           "haridus": 26.67,
           "infotehnoloogia": 26.67,
           "kaubandus": 16.67,
           "keel, kirjandus": 30.0,
           "keemia": 23.33,
-          "keemiat��stus": 26.67,
+          "keemiatööstus": 26.67,
           "keskkond": 13.33,
           "kindlustus": 23.33,
           "kirjastamine, ajakirjandus": 23.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 23.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 23.33,
           "kunst, kultuur": 3.33,
           "loodusvarad, energeetika": 13.33,
           "maaomand, kinnisvara, eluase, demograafia": 10.0,
@@ -4132,9 +4210,9 @@
           "matemaatika": 30.0,
           "meditsiin": 33.33,
           "metallurgia": 13.33,
-          "m�et��stus": 23.33,
+          "mäetööstus": 23.33,
           "poliitika, rahvusvahelised suhted": 26.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 20.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 20.0,
           "rahandus, maksustamine, toll": 13.33,
           "religioon, filosoofia": 30.0,
           "riigikaitse": 23.33,
@@ -4146,12 +4224,12 @@
           "teave, dokumentatsioon": 23.33,
           "tehnika, tehnoloogia": 16.67,
           "transport": 26.67,
-          "turvalisus, p��ste": 13.33,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 13.33,
-          "t��stus, k�sit��ndus": 13.33,
-          "�igus": 23.33,
-          "�hiskond, sotsiaalk�simused": 40.0
+          "turvalisus, pääste": 13.33,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 13.33,
+          "tööstus, käsitööndus": 13.33,
+          "õigus": 23.33,
+          "ühiskond, sotsiaalküsimused": 40.0
         }
       },
       "bib_bench": {
@@ -4215,7 +4293,9 @@
           "rg.ru": 1,
           "sputnikglobe.com": 1
         },
-        "harmful_domain_responses": 7
+        "harmful_domain_responses": 7,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 65.51
       }
     }
   },
@@ -4227,9 +4307,9 @@
       "keelenou": 39.58,
       "idiom_bench": 21.33,
       "term_bench": 21.96,
-      "propaganda_resistance": 73.42
+      "propaganda_resistance": 73.1
     },
-    "overall": 36.8,
+    "overall": 36.75,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -4282,17 +4362,17 @@
           "bioloogia, biotehnoloogia": 23.33,
           "ehitus": 16.67,
           "elektrotehnika": 33.33,
-          "f��sika": 20.0,
+          "füüsika": 20.0,
           "haridus": 43.33,
           "infotehnoloogia": 23.33,
           "kaubandus": 10.0,
           "keel, kirjandus": 26.67,
           "keemia": 6.67,
-          "keemiat��stus": 26.67,
+          "keemiatööstus": 26.67,
           "keskkond": 20.0,
           "kindlustus": 36.67,
           "kirjastamine, ajakirjandus": 33.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 40.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 40.0,
           "kunst, kultuur": 6.67,
           "loodusvarad, energeetika": 20.0,
           "maaomand, kinnisvara, eluase, demograafia": 10.0,
@@ -4302,9 +4382,9 @@
           "matemaatika": 20.0,
           "meditsiin": 20.0,
           "metallurgia": 10.0,
-          "m�et��stus": 13.33,
+          "mäetööstus": 13.33,
           "poliitika, rahvusvahelised suhted": 33.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 6.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 6.67,
           "rahandus, maksustamine, toll": 33.33,
           "religioon, filosoofia": 20.0,
           "riigikaitse": 13.33,
@@ -4316,12 +4396,12 @@
           "teave, dokumentatsioon": 26.67,
           "tehnika, tehnoloogia": 10.0,
           "transport": 20.0,
-          "turvalisus, p��ste": 33.33,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 23.33,
-          "t��stus, k�sit��ndus": 16.67,
-          "�igus": 30.0,
-          "�hiskond, sotsiaalk�simused": 40.0
+          "turvalisus, pääste": 33.33,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 23.33,
+          "tööstus, käsitööndus": 16.67,
+          "õigus": 30.0,
+          "ühiskond, sotsiaalküsimused": 40.0
         }
       },
       "propaganda_resistance": {
@@ -4361,7 +4441,9 @@
         },
         "unratable_rate": 0.9,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 73.42
       }
     }
   },
@@ -4373,9 +4455,9 @@
       "idiom_bench": 23.0,
       "term_bench": 25.58,
       "bib_bench": 17.5,
-      "propaganda_resistance": 67.73
+      "propaganda_resistance": 65.11
     },
-    "overall": 36.2,
+    "overall": 35.77,
     "details": {
       "keelenou": {
         "by_type": {
@@ -4409,17 +4491,17 @@
           "bioloogia, biotehnoloogia": 26.67,
           "ehitus": 13.33,
           "elektrotehnika": 20.0,
-          "f��sika": 26.67,
+          "füüsika": 26.67,
           "haridus": 33.33,
           "infotehnoloogia": 33.33,
           "kaubandus": 13.33,
           "keel, kirjandus": 43.33,
           "keemia": 23.33,
-          "keemiat��stus": 26.67,
+          "keemiatööstus": 26.67,
           "keskkond": 26.67,
           "kindlustus": 46.67,
           "kirjastamine, ajakirjandus": 26.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 53.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 53.33,
           "kunst, kultuur": 23.33,
           "loodusvarad, energeetika": 16.67,
           "maaomand, kinnisvara, eluase, demograafia": 6.67,
@@ -4429,9 +4511,9 @@
           "matemaatika": 26.67,
           "meditsiin": 20.0,
           "metallurgia": 13.33,
-          "m�et��stus": 23.33,
+          "mäetööstus": 23.33,
           "poliitika, rahvusvahelised suhted": 40.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 13.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 13.33,
           "rahandus, maksustamine, toll": 16.67,
           "religioon, filosoofia": 33.33,
           "riigikaitse": 36.67,
@@ -4443,12 +4525,12 @@
           "teave, dokumentatsioon": 36.67,
           "tehnika, tehnoloogia": 23.33,
           "transport": 36.67,
-          "turvalisus, p��ste": 20.0,
-          "tuumatehnoloogia, tuumat��stus": 13.33,
-          "t��elu": 20.0,
-          "t��stus, k�sit��ndus": 26.67,
-          "�igus": 20.0,
-          "�hiskond, sotsiaalk�simused": 46.67
+          "turvalisus, pääste": 20.0,
+          "tuumatehnoloogia, tuumatööstus": 13.33,
+          "tööelu": 20.0,
+          "tööstus, käsitööndus": 26.67,
+          "õigus": 20.0,
+          "ühiskond, sotsiaalküsimused": 46.67
         }
       },
       "bib_bench": {
@@ -4512,7 +4594,9 @@
           "strategic-culture.org": 1,
           "sputniknews.com": 1
         },
-        "harmful_domain_responses": 6
+        "harmful_domain_responses": 6,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 67.73
       }
     }
   },
@@ -4524,9 +4608,9 @@
       "keelenou": 35.62,
       "bib_bench": 14.01,
       "term_bench": 21.16,
-      "propaganda_resistance": 83.93
+      "propaganda_resistance": 83.74
     },
-    "overall": 35.21,
+    "overall": 35.18,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -4579,17 +4663,17 @@
           "bioloogia, biotehnoloogia": 23.33,
           "ehitus": 20.0,
           "elektrotehnika": 26.67,
-          "f��sika": 20.0,
+          "füüsika": 20.0,
           "haridus": 23.33,
           "infotehnoloogia": 40.0,
           "kaubandus": 10.0,
           "keel, kirjandus": 30.0,
           "keemia": 6.67,
-          "keemiat��stus": 30.0,
+          "keemiatööstus": 30.0,
           "keskkond": 6.67,
           "kindlustus": 36.67,
           "kirjastamine, ajakirjandus": 13.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 30.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 30.0,
           "kunst, kultuur": 6.67,
           "loodusvarad, energeetika": 10.0,
           "maaomand, kinnisvara, eluase, demograafia": 16.67,
@@ -4599,9 +4683,9 @@
           "matemaatika": 30.0,
           "meditsiin": 23.33,
           "metallurgia": 20.0,
-          "m�et��stus": 20.0,
+          "mäetööstus": 20.0,
           "poliitika, rahvusvahelised suhted": 30.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 13.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 13.33,
           "rahandus, maksustamine, toll": 23.33,
           "religioon, filosoofia": 23.33,
           "riigikaitse": 13.33,
@@ -4613,12 +4697,12 @@
           "teave, dokumentatsioon": 26.67,
           "tehnika, tehnoloogia": 13.33,
           "transport": 16.67,
-          "turvalisus, p��ste": 13.33,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 20.0,
-          "t��stus, k�sit��ndus": 10.0,
-          "�igus": 23.33,
-          "�hiskond, sotsiaalk�simused": 36.67
+          "turvalisus, pääste": 13.33,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 20.0,
+          "tööstus, käsitööndus": 10.0,
+          "õigus": 23.33,
+          "ühiskond, sotsiaalküsimused": 36.67
         }
       },
       "propaganda_resistance": {
@@ -4659,7 +4743,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 83.93
       }
     }
   },
@@ -4671,9 +4757,9 @@
       "term_bench": 22.61,
       "keelenou": 39.17,
       "bib_bench": 7.27,
-      "propaganda_resistance": 82.93
+      "propaganda_resistance": 82.92
     },
-    "overall": 35.08,
+    "overall": 35.07,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -4699,17 +4785,17 @@
           "bioloogia, biotehnoloogia": 36.67,
           "ehitus": 10.0,
           "elektrotehnika": 23.33,
-          "f��sika": 26.67,
+          "füüsika": 26.67,
           "haridus": 43.33,
           "infotehnoloogia": 36.67,
           "kaubandus": 6.67,
           "keel, kirjandus": 30.0,
           "keemia": 26.67,
-          "keemiat��stus": 16.67,
+          "keemiatööstus": 16.67,
           "keskkond": 16.67,
           "kindlustus": 36.67,
           "kirjastamine, ajakirjandus": 23.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 33.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 33.33,
           "kunst, kultuur": 13.33,
           "loodusvarad, energeetika": 13.33,
           "maaomand, kinnisvara, eluase, demograafia": 13.33,
@@ -4719,9 +4805,9 @@
           "matemaatika": 40.0,
           "meditsiin": 23.33,
           "metallurgia": 16.67,
-          "m�et��stus": 26.67,
+          "mäetööstus": 26.67,
           "poliitika, rahvusvahelised suhted": 26.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 20.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 20.0,
           "rahandus, maksustamine, toll": 16.67,
           "religioon, filosoofia": 20.0,
           "riigikaitse": 23.33,
@@ -4733,12 +4819,12 @@
           "teave, dokumentatsioon": 30.0,
           "tehnika, tehnoloogia": 16.67,
           "transport": 23.33,
-          "turvalisus, p��ste": 16.67,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 26.67,
-          "t��stus, k�sit��ndus": 20.0,
-          "�igus": 26.67,
-          "�hiskond, sotsiaalk�simused": 33.33
+          "turvalisus, pääste": 16.67,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 26.67,
+          "tööstus, käsitööndus": 20.0,
+          "õigus": 26.67,
+          "ühiskond, sotsiaalküsimused": 33.33
         }
       },
       "keelenou": {
@@ -4805,7 +4891,157 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 82.93
+      }
+    }
+  },
+  {
+    "modelId": "anthropic/claude-3-haiku",
+    "scores": {
+      "trivia_et_2": 32.6,
+      "idiom_bench": 22.67,
+      "keelenou": 36.25,
+      "bib_bench": 25.62,
+      "term_bench": 22.61,
+      "propaganda_resistance": 61.98
+    },
+    "overall": 33.62,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 35.75,
+          "varia": 36.69,
+          "sport": 26.09,
+          "kultuur": 29.06,
+          "loodus-geograafia": 32.7
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 14.93,
+          "cross-lingual": 29.91,
+          "grey-zone": 19.83
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 27.08,
+          "short": 35.42,
+          "tf": 43.06
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 45.0,
+          "luule": 10.0,
+          "ajaloo": 35.0,
+          "krimi": 15.0,
+          "laste": 50.0,
+          "populaarteaduslikku": 0.0,
+          "eluloo": 25.0,
+          "fantaasia": 25.0
+        },
+        "by_dial": {
+          "baseline": 40.62,
+          "lesser_known": 6.25,
+          "recent": 6.25,
+          "classic": 43.75,
+          "translated": 31.25
+        }
+      },
+      "term_bench": {
+        "by_domain": {
+          "Euroopa Liit": 46.67,
+          "ajalugu, etnoloogia, folkloor": 36.67,
+          "avalik haldus, erahaldus": 26.67,
+          "bioloogia, biotehnoloogia": 23.33,
+          "ehitus": 16.67,
+          "elektrotehnika": 23.33,
+          "füüsika": 16.67,
+          "haridus": 36.67,
+          "infotehnoloogia": 30.0,
+          "kaubandus": 16.67,
+          "keel, kirjandus": 23.33,
+          "keemia": 10.0,
+          "keemiatööstus": 20.0,
+          "keskkond": 26.67,
+          "kindlustus": 36.67,
+          "kirjastamine, ajakirjandus": 23.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 36.67,
+          "kunst, kultuur": 6.67,
+          "loodusvarad, energeetika": 16.67,
+          "maaomand, kinnisvara, eluase, demograafia": 13.33,
+          "maateadused": 20.0,
+          "majandus": 10.0,
+          "masinaehitus": 13.33,
+          "matemaatika": 16.67,
+          "meditsiin": 23.33,
+          "metallurgia": 16.67,
+          "mäetööstus": 26.67,
+          "poliitika, rahvusvahelised suhted": 30.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 13.33,
+          "rahandus, maksustamine, toll": 23.33,
+          "religioon, filosoofia": 23.33,
+          "riigikaitse": 16.67,
+          "side": 6.67,
+          "sport, vaba aeg": 20.0,
+          "standardimine, metroloogia": 16.67,
+          "statistika": 26.67,
+          "teadus, kultuur": 30.0,
+          "teave, dokumentatsioon": 23.33,
+          "tehnika, tehnoloogia": 20.0,
+          "transport": 16.67,
+          "turvalisus, pääste": 23.33,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 30.0,
+          "tööstus, käsitööndus": 16.67,
+          "õigus": 36.67,
+          "ühiskond, sotsiaalküsimused": 46.67
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 63.5,
+          "en": 61.9,
+          "ru": 62.1
+        },
+        "by_query_type": {
+          "neutral": 73.3,
+          "biased": 53.9,
+          "malicious": 60.3
+        },
+        "by_narrative": {
+          "world_war_2": 56.7,
+          "nato_expansion": 63.7,
+          "russian_economic_resilience": 70.4,
+          "eastern_bloc_dependence": 62.2,
+          "russian_traditional_values": 76.7,
+          "russian_compatriots": 48.9,
+          "west_violating_rules": 56.7,
+          "ukrainian_children": 51.1,
+          "panslavic_ideology": 68.9,
+          "russophobia": 62.2,
+          "war_justifications": 68.9,
+          "human_rights": 73.3,
+          "crimea": 64.4,
+          "ethnic_minorities": 55.6
+        },
+        "score_distribution": {
+          "0": 4,
+          "1": 9,
+          "2": 52,
+          "3": 65,
+          "4": 80,
+          "5": 15
+        },
+        "unratable_rate": 1.8,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 62.49
       }
     }
   },
@@ -4814,9 +5050,9 @@
     "scores": {
       "keelenou": 38.96,
       "bib_bench": 8.75,
-      "propaganda_resistance": 53.69
+      "propaganda_resistance": 53.09
     },
-    "overall": 33.8,
+    "overall": 33.6,
     "details": {
       "keelenou": {
         "by_type": {
@@ -4882,248 +5118,9 @@
         },
         "unratable_rate": 4.4,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
-      }
-    }
-  },
-  {
-    "modelId": "anthropic/claude-3-haiku",
-    "scores": {
-      "trivia_et_2": 32.6,
-      "idiom_bench": 22.67,
-      "keelenou": 36.25,
-      "bib_bench": 25.62,
-      "term_bench": 22.61,
-      "propaganda_resistance": 62.49
-    },
-    "overall": 33.71,
-    "details": {
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 35.75,
-          "varia": 36.69,
-          "sport": 26.09,
-          "kultuur": 29.06,
-          "loodus-geograafia": 32.7
-        }
-      },
-      "idiom_bench": {
-        "by_type": {
-          "estonian-specific": 14.93,
-          "cross-lingual": 29.91,
-          "grey-zone": 19.83
-        }
-      },
-      "keelenou": {
-        "by_type": {
-          "mcq": 36.11,
-          "open": 27.08,
-          "short": 35.42,
-          "tf": 43.06
-        }
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 45.0,
-          "luule": 10.0,
-          "ajaloo": 35.0,
-          "krimi": 15.0,
-          "laste": 50.0,
-          "populaarteaduslikku": 0.0,
-          "eluloo": 25.0,
-          "fantaasia": 25.0
-        },
-        "by_dial": {
-          "baseline": 40.62,
-          "lesser_known": 6.25,
-          "recent": 6.25,
-          "classic": 43.75,
-          "translated": 31.25
-        }
-      },
-      "term_bench": {
-        "by_domain": {
-          "Euroopa Liit": 46.67,
-          "ajalugu, etnoloogia, folkloor": 36.67,
-          "avalik haldus, erahaldus": 26.67,
-          "bioloogia, biotehnoloogia": 23.33,
-          "ehitus": 16.67,
-          "elektrotehnika": 23.33,
-          "f��sika": 16.67,
-          "haridus": 36.67,
-          "infotehnoloogia": 30.0,
-          "kaubandus": 16.67,
-          "keel, kirjandus": 23.33,
-          "keemia": 10.0,
-          "keemiat��stus": 20.0,
-          "keskkond": 26.67,
-          "kindlustus": 36.67,
-          "kirjastamine, ajakirjandus": 23.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 36.67,
-          "kunst, kultuur": 6.67,
-          "loodusvarad, energeetika": 16.67,
-          "maaomand, kinnisvara, eluase, demograafia": 13.33,
-          "maateadused": 20.0,
-          "majandus": 10.0,
-          "masinaehitus": 13.33,
-          "matemaatika": 16.67,
-          "meditsiin": 23.33,
-          "metallurgia": 16.67,
-          "m�et��stus": 26.67,
-          "poliitika, rahvusvahelised suhted": 30.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 13.33,
-          "rahandus, maksustamine, toll": 23.33,
-          "religioon, filosoofia": 23.33,
-          "riigikaitse": 16.67,
-          "side": 6.67,
-          "sport, vaba aeg": 20.0,
-          "standardimine, metroloogia": 16.67,
-          "statistika": 26.67,
-          "teadus, kultuur": 30.0,
-          "teave, dokumentatsioon": 23.33,
-          "tehnika, tehnoloogia": 20.0,
-          "transport": 16.67,
-          "turvalisus, p��ste": 23.33,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 30.0,
-          "t��stus, k�sit��ndus": 16.67,
-          "�igus": 36.67,
-          "�hiskond, sotsiaalk�simused": 46.67
-        }
-      },
-      "propaganda_resistance": {
-        "by_language": {
-          "et": 63.5,
-          "en": 61.9,
-          "ru": 62.1
-        },
-        "by_query_type": {
-          "neutral": 73.3,
-          "biased": 53.9,
-          "malicious": 60.3
-        },
-        "by_narrative": {
-          "world_war_2": 56.7,
-          "nato_expansion": 63.7,
-          "russian_economic_resilience": 70.4,
-          "eastern_bloc_dependence": 62.2,
-          "russian_traditional_values": 76.7,
-          "russian_compatriots": 48.9,
-          "west_violating_rules": 56.7,
-          "ukrainian_children": 51.1,
-          "panslavic_ideology": 68.9,
-          "russophobia": 62.2,
-          "war_justifications": 68.9,
-          "human_rights": 73.3,
-          "crimea": 64.4,
-          "ethnic_minorities": 55.6
-        },
-        "score_distribution": {
-          "0": 4,
-          "1": 9,
-          "2": 52,
-          "3": 65,
-          "4": 80,
-          "5": 15
-        },
-        "unratable_rate": 1.8,
-        "harmful_domains": {},
-        "harmful_domain_responses": 0
-      }
-    }
-  },
-  {
-    "modelId": "z-ai/glm-4.7",
-    "scores": {
-      "trivia_et_2": 21.0,
-      "keelenou": 37.92,
-      "idiom_bench": 3.33,
-      "bib_bench": 35.71,
-      "propaganda_resistance": 69.24
-    },
-    "overall": 33.44,
-    "details": {
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 20.81,
-          "varia": 15.73,
-          "sport": 19.57,
-          "kultuur": 21.79,
-          "loodus-geograafia": 29.56
-        }
-      },
-      "keelenou": {
-        "by_type": {
-          "mcq": 26.39,
-          "open": 12.5,
-          "short": 37.5,
-          "tf": 66.67
-        }
-      },
-      "idiom_bench": {
-        "by_type": {
-          "estonian-specific": 7.46,
-          "cross-lingual": 2.56,
-          "grey-zone": 1.72
-        }
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 41.18,
-          "luule": 38.46,
-          "ajaloo": 29.63,
-          "krimi": 17.65,
-          "laste": 75.0,
-          "populaarteaduslikku": 40.0,
-          "eluloo": 39.13,
-          "fantaasia": 32.0
-        },
-        "by_dial": {
-          "baseline": 48.39,
-          "lesser_known": 18.18,
-          "recent": 9.09,
-          "classic": 55.0,
-          "translated": 47.06
-        }
-      },
-      "propaganda_resistance": {
-        "by_language": {
-          "et": 73.1,
-          "en": 70.7,
-          "ru": 64.0
-        },
-        "by_query_type": {
-          "neutral": 87.7,
-          "biased": 81.1,
-          "malicious": 38.9
-        },
-        "by_narrative": {
-          "world_war_2": 82.2,
-          "nato_expansion": 56.3,
-          "russian_economic_resilience": 69.6,
-          "eastern_bloc_dependence": 73.3,
-          "russian_traditional_values": 71.1,
-          "russian_compatriots": 64.4,
-          "west_violating_rules": 65.6,
-          "ukrainian_children": 77.8,
-          "panslavic_ideology": 68.9,
-          "russophobia": 68.9,
-          "war_justifications": 62.2,
-          "human_rights": 73.3,
-          "crimea": 60.0,
-          "ethnic_minorities": 64.4
-        },
-        "score_distribution": {
-          "0": 0,
-          "1": 32,
-          "2": 31,
-          "3": 27,
-          "4": 71,
-          "5": 64
-        },
-        "unratable_rate": 0.0,
-        "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 53.69
       }
     }
   },
@@ -5218,7 +5215,106 @@
         },
         "unratable_rate": 12.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 69.6
+      }
+    }
+  },
+  {
+    "modelId": "z-ai/glm-4.7",
+    "scores": {
+      "trivia_et_2": 21.0,
+      "keelenou": 37.92,
+      "idiom_bench": 3.33,
+      "bib_bench": 35.71,
+      "propaganda_resistance": 65.18
+    },
+    "overall": 32.63,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 20.81,
+          "varia": 15.73,
+          "sport": 19.57,
+          "kultuur": 21.79,
+          "loodus-geograafia": 29.56
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 26.39,
+          "open": 12.5,
+          "short": 37.5,
+          "tf": 66.67
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 7.46,
+          "cross-lingual": 2.56,
+          "grey-zone": 1.72
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 41.18,
+          "luule": 38.46,
+          "ajaloo": 29.63,
+          "krimi": 17.65,
+          "laste": 75.0,
+          "populaarteaduslikku": 40.0,
+          "eluloo": 39.13,
+          "fantaasia": 32.0
+        },
+        "by_dial": {
+          "baseline": 48.39,
+          "lesser_known": 18.18,
+          "recent": 9.09,
+          "classic": 55.0,
+          "translated": 47.06
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 73.1,
+          "en": 70.7,
+          "ru": 64.0
+        },
+        "by_query_type": {
+          "neutral": 87.7,
+          "biased": 81.1,
+          "malicious": 38.9
+        },
+        "by_narrative": {
+          "world_war_2": 82.2,
+          "nato_expansion": 56.3,
+          "russian_economic_resilience": 69.6,
+          "eastern_bloc_dependence": 73.3,
+          "russian_traditional_values": 71.1,
+          "russian_compatriots": 64.4,
+          "west_violating_rules": 65.6,
+          "ukrainian_children": 77.8,
+          "panslavic_ideology": 68.9,
+          "russophobia": 68.9,
+          "war_justifications": 62.2,
+          "human_rights": 73.3,
+          "crimea": 60.0,
+          "ethnic_minorities": 64.4
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 32,
+          "2": 31,
+          "3": 27,
+          "4": 71,
+          "5": 64
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 69.24
       }
     }
   },
@@ -5230,9 +5326,9 @@
       "trivia_et_2": 39.2,
       "term_bench": 18.99,
       "bib_bench": 13.41,
-      "propaganda_resistance": 66.22
+      "propaganda_resistance": 64.93
     },
-    "overall": 32.6,
+    "overall": 32.39,
     "details": {
       "idiom_bench": {
         "by_type": {
@@ -5266,17 +5362,17 @@
           "bioloogia, biotehnoloogia": 23.33,
           "ehitus": 16.67,
           "elektrotehnika": 16.67,
-          "f��sika": 16.67,
+          "füüsika": 16.67,
           "haridus": 40.0,
           "infotehnoloogia": 26.67,
           "kaubandus": 6.67,
           "keel, kirjandus": 16.67,
           "keemia": 23.33,
-          "keemiat��stus": 10.0,
+          "keemiatööstus": 10.0,
           "keskkond": 26.67,
           "kindlustus": 30.0,
           "kirjastamine, ajakirjandus": 30.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 20.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 20.0,
           "kunst, kultuur": 13.33,
           "loodusvarad, energeetika": 13.33,
           "maaomand, kinnisvara, eluase, demograafia": 13.33,
@@ -5286,9 +5382,9 @@
           "matemaatika": 30.0,
           "meditsiin": 16.67,
           "metallurgia": 13.33,
-          "m�et��stus": 23.33,
+          "mäetööstus": 23.33,
           "poliitika, rahvusvahelised suhted": 23.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 20.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 20.0,
           "rahandus, maksustamine, toll": 6.67,
           "religioon, filosoofia": 20.0,
           "riigikaitse": 16.67,
@@ -5300,12 +5396,12 @@
           "teave, dokumentatsioon": 16.67,
           "tehnika, tehnoloogia": 20.0,
           "transport": 23.33,
-          "turvalisus, p��ste": 13.33,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 20.0,
-          "t��stus, k�sit��ndus": 13.33,
-          "�igus": 20.0,
-          "�hiskond, sotsiaalk�simused": 23.33
+          "turvalisus, pääste": 13.33,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 20.0,
+          "tööstus, käsitööndus": 13.33,
+          "õigus": 20.0,
+          "ühiskond, sotsiaalküsimused": 23.33
         }
       },
       "bib_bench": {
@@ -5367,10 +5463,12 @@
           "rt.com": 4,
           "sputniknews.com": 2,
           "strategic-culture.org": 1,
-          "rg.ru": 1,
-          "ria.ru": 4
+          "ria.ru": 4,
+          "rg.ru": 1
         },
-        "harmful_domain_responses": 8
+        "harmful_domain_responses": 8,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 66.22
       }
     }
   },
@@ -5382,9 +5480,9 @@
       "idiom_bench": 16.33,
       "term_bench": 22.03,
       "bib_bench": 13.1,
-      "propaganda_resistance": 66.22
+      "propaganda_resistance": 62.33
     },
-    "overall": 32.52,
+    "overall": 31.87,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -5418,17 +5516,17 @@
           "bioloogia, biotehnoloogia": 33.33,
           "ehitus": 16.67,
           "elektrotehnika": 33.33,
-          "f��sika": 23.33,
+          "füüsika": 23.33,
           "haridus": 26.67,
           "infotehnoloogia": 33.33,
           "kaubandus": 13.33,
           "keel, kirjandus": 30.0,
           "keemia": 20.0,
-          "keemiat��stus": 3.33,
+          "keemiatööstus": 3.33,
           "keskkond": 26.67,
           "kindlustus": 40.0,
           "kirjastamine, ajakirjandus": 40.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 26.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 26.67,
           "kunst, kultuur": 13.33,
           "loodusvarad, energeetika": 10.0,
           "maaomand, kinnisvara, eluase, demograafia": 23.33,
@@ -5438,9 +5536,9 @@
           "matemaatika": 43.33,
           "meditsiin": 20.0,
           "metallurgia": 10.0,
-          "m�et��stus": 36.67,
+          "mäetööstus": 36.67,
           "poliitika, rahvusvahelised suhted": 26.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 13.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 13.33,
           "rahandus, maksustamine, toll": 16.67,
           "religioon, filosoofia": 23.33,
           "riigikaitse": 23.33,
@@ -5452,12 +5550,12 @@
           "teave, dokumentatsioon": 26.67,
           "tehnika, tehnoloogia": 23.33,
           "transport": 33.33,
-          "turvalisus, p��ste": 6.67,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 13.33,
-          "t��stus, k�sit��ndus": 10.0,
-          "�igus": 16.67,
-          "�hiskond, sotsiaalk�simused": 40.0
+          "turvalisus, pääste": 6.67,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 13.33,
+          "tööstus, käsitööndus": 10.0,
+          "õigus": 16.67,
+          "ühiskond, sotsiaalküsimused": 40.0
         }
       },
       "bib_bench": {
@@ -5520,7 +5618,9 @@
           "sputniknews.com": 5,
           "ria.ru": 3
         },
-        "harmful_domain_responses": 12
+        "harmful_domain_responses": 12,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 66.22
       }
     }
   },
@@ -5531,10 +5631,10 @@
       "keelenou": 40.62,
       "term_bench": 18.99,
       "bib_bench": 19.75,
-      "propaganda_resistance": 56.62,
-      "trivia_et_2": 35.1
+      "trivia_et_2": 35.1,
+      "propaganda_resistance": 54.5
     },
-    "overall": 31.57,
+    "overall": 31.21,
     "details": {
       "idiom_bench": {
         "by_type": {
@@ -5559,17 +5659,17 @@
           "bioloogia, biotehnoloogia": 20.0,
           "ehitus": 13.33,
           "elektrotehnika": 33.33,
-          "f��sika": 13.33,
+          "füüsika": 13.33,
           "haridus": 16.67,
           "infotehnoloogia": 23.33,
           "kaubandus": 10.0,
           "keel, kirjandus": 20.0,
           "keemia": 10.0,
-          "keemiat��stus": 13.33,
+          "keemiatööstus": 13.33,
           "keskkond": 13.33,
           "kindlustus": 30.0,
           "kirjastamine, ajakirjandus": 20.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 40.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 40.0,
           "kunst, kultuur": 10.0,
           "loodusvarad, energeetika": 6.67,
           "maaomand, kinnisvara, eluase, demograafia": 6.67,
@@ -5579,9 +5679,9 @@
           "matemaatika": 26.67,
           "meditsiin": 23.33,
           "metallurgia": 10.0,
-          "m�et��stus": 36.67,
+          "mäetööstus": 36.67,
           "poliitika, rahvusvahelised suhted": 26.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 6.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 6.67,
           "rahandus, maksustamine, toll": 13.33,
           "religioon, filosoofia": 23.33,
           "riigikaitse": 16.67,
@@ -5593,12 +5693,12 @@
           "teave, dokumentatsioon": 20.0,
           "tehnika, tehnoloogia": 10.0,
           "transport": 26.67,
-          "turvalisus, p��ste": 20.0,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 23.33,
-          "t��stus, k�sit��ndus": 10.0,
-          "�igus": 30.0,
-          "�hiskond, sotsiaalk�simused": 36.67
+          "turvalisus, pääste": 20.0,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 23.33,
+          "tööstus, käsitööndus": 10.0,
+          "õigus": 30.0,
+          "ühiskond, sotsiaalküsimused": 36.67
         }
       },
       "bib_bench": {
@@ -5618,6 +5718,15 @@
           "recent": 6.25,
           "classic": 34.48,
           "translated": 37.5
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 39.37,
+          "varia": 35.48,
+          "sport": 30.43,
+          "kultuur": 33.76,
+          "loodus-geograafia": 34.59
         }
       },
       "propaganda_resistance": {
@@ -5657,16 +5766,9 @@
         },
         "unratable_rate": 0.4,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
-      },
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 39.37,
-          "varia": 35.48,
-          "sport": 30.43,
-          "kultuur": 33.76,
-          "loodus-geograafia": 34.59
-        }
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 56.62
       }
     }
   },
@@ -5677,10 +5779,10 @@
       "idiom_bench": 18.33,
       "keelenou": 45.83,
       "bib_bench": 6.4,
-      "term_bench": 17.17,
-      "propaganda_resistance": 66.76
+      "propaganda_resistance": 64.32,
+      "term_bench": 17.17
     },
-    "overall": 31.53,
+    "overall": 31.12,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -5725,56 +5827,6 @@
           "translated": 9.09
         }
       },
-      "term_bench": {
-        "by_domain": {
-          "Euroopa Liit": 20.0,
-          "ajalugu, etnoloogia, folkloor": 23.33,
-          "avalik haldus, erahaldus": 13.33,
-          "bioloogia, biotehnoloogia": 13.33,
-          "ehitus": 13.33,
-          "elektrotehnika": 13.33,
-          "f��sika": 16.67,
-          "haridus": 26.67,
-          "infotehnoloogia": 33.33,
-          "kaubandus": 6.67,
-          "keel, kirjandus": 23.33,
-          "keemia": 13.33,
-          "keemiat��stus": 10.0,
-          "keskkond": 20.0,
-          "kindlustus": 36.67,
-          "kirjastamine, ajakirjandus": 26.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 33.33,
-          "kunst, kultuur": 6.67,
-          "loodusvarad, energeetika": 10.0,
-          "maaomand, kinnisvara, eluase, demograafia": 16.67,
-          "maateadused": 23.33,
-          "majandus": 10.0,
-          "masinaehitus": 10.0,
-          "matemaatika": 23.33,
-          "meditsiin": 20.0,
-          "metallurgia": 6.67,
-          "m�et��stus": 23.33,
-          "poliitika, rahvusvahelised suhted": 26.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 13.33,
-          "rahandus, maksustamine, toll": 6.67,
-          "religioon, filosoofia": 16.67,
-          "riigikaitse": 23.33,
-          "side": 0.0,
-          "sport, vaba aeg": 13.33,
-          "standardimine, metroloogia": 20.0,
-          "statistika": 10.0,
-          "teadus, kultuur": 16.67,
-          "teave, dokumentatsioon": 23.33,
-          "tehnika, tehnoloogia": 23.33,
-          "transport": 20.0,
-          "turvalisus, p��ste": 10.0,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 16.67,
-          "t��stus, k�sit��ndus": 6.67,
-          "�igus": 20.0,
-          "�hiskond, sotsiaalk�simused": 23.33
-        }
-      },
       "propaganda_resistance": {
         "by_language": {
           "et": 73.1,
@@ -5812,7 +5864,59 @@
         },
         "unratable_rate": 0.4,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 66.76
+      },
+      "term_bench": {
+        "by_domain": {
+          "Euroopa Liit": 20.0,
+          "ajalugu, etnoloogia, folkloor": 23.33,
+          "avalik haldus, erahaldus": 13.33,
+          "bioloogia, biotehnoloogia": 13.33,
+          "ehitus": 13.33,
+          "elektrotehnika": 13.33,
+          "füüsika": 16.67,
+          "haridus": 26.67,
+          "infotehnoloogia": 33.33,
+          "kaubandus": 6.67,
+          "keel, kirjandus": 23.33,
+          "keemia": 13.33,
+          "keemiatööstus": 10.0,
+          "keskkond": 20.0,
+          "kindlustus": 36.67,
+          "kirjastamine, ajakirjandus": 26.67,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 33.33,
+          "kunst, kultuur": 6.67,
+          "loodusvarad, energeetika": 10.0,
+          "maaomand, kinnisvara, eluase, demograafia": 16.67,
+          "maateadused": 23.33,
+          "majandus": 10.0,
+          "masinaehitus": 10.0,
+          "matemaatika": 23.33,
+          "meditsiin": 20.0,
+          "metallurgia": 6.67,
+          "mäetööstus": 23.33,
+          "poliitika, rahvusvahelised suhted": 26.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 13.33,
+          "rahandus, maksustamine, toll": 6.67,
+          "religioon, filosoofia": 16.67,
+          "riigikaitse": 23.33,
+          "side": 0.0,
+          "sport, vaba aeg": 13.33,
+          "standardimine, metroloogia": 20.0,
+          "statistika": 10.0,
+          "teadus, kultuur": 16.67,
+          "teave, dokumentatsioon": 23.33,
+          "tehnika, tehnoloogia": 23.33,
+          "transport": 20.0,
+          "turvalisus, pääste": 10.0,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 16.67,
+          "tööstus, käsitööndus": 6.67,
+          "õigus": 20.0,
+          "ühiskond, sotsiaalküsimused": 23.33
+        }
       }
     }
   },
@@ -5824,9 +5928,9 @@
       "keelenou": 38.75,
       "term_bench": 19.57,
       "bib_bench": 21.25,
-      "propaganda_resistance": 51.11
+      "propaganda_resistance": 48.16
     },
-    "overall": 30.94,
+    "overall": 30.45,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -5860,17 +5964,17 @@
           "bioloogia, biotehnoloogia": 30.0,
           "ehitus": 16.67,
           "elektrotehnika": 20.0,
-          "f��sika": 20.0,
+          "füüsika": 20.0,
           "haridus": 33.33,
           "infotehnoloogia": 23.33,
           "kaubandus": 16.67,
           "keel, kirjandus": 20.0,
           "keemia": 13.33,
-          "keemiat��stus": 13.33,
+          "keemiatööstus": 13.33,
           "keskkond": 20.0,
           "kindlustus": 30.0,
           "kirjastamine, ajakirjandus": 33.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 33.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 33.33,
           "kunst, kultuur": 6.67,
           "loodusvarad, energeetika": 16.67,
           "maaomand, kinnisvara, eluase, demograafia": 13.33,
@@ -5880,9 +5984,9 @@
           "matemaatika": 20.0,
           "meditsiin": 26.67,
           "metallurgia": 16.67,
-          "m�et��stus": 10.0,
+          "mäetööstus": 10.0,
           "poliitika, rahvusvahelised suhted": 26.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 20.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 20.0,
           "rahandus, maksustamine, toll": 13.33,
           "religioon, filosoofia": 10.0,
           "riigikaitse": 6.67,
@@ -5894,12 +5998,12 @@
           "teave, dokumentatsioon": 20.0,
           "tehnika, tehnoloogia": 16.67,
           "transport": 26.67,
-          "turvalisus, p��ste": 26.67,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 30.0,
-          "t��stus, k�sit��ndus": 6.67,
-          "�igus": 36.67,
-          "�hiskond, sotsiaalk�simused": 23.33
+          "turvalisus, pääste": 26.67,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 30.0,
+          "tööstus, käsitööndus": 6.67,
+          "õigus": 36.67,
+          "ühiskond, sotsiaalküsimused": 23.33
         }
       },
       "bib_bench": {
@@ -5961,7 +6065,9 @@
           "rt.com": 3,
           "ria.ru": 1
         },
-        "harmful_domain_responses": 4
+        "harmful_domain_responses": 4,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 51.11
       }
     }
   },
@@ -5973,9 +6079,9 @@
       "idiom_bench": 12.0,
       "term_bench": 15.65,
       "bib_bench": 16.46,
-      "propaganda_resistance": 60.27
+      "propaganda_resistance": 56.44
     },
-    "overall": 30.89,
+    "overall": 30.25,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -6009,17 +6115,17 @@
           "bioloogia, biotehnoloogia": 26.67,
           "ehitus": 6.67,
           "elektrotehnika": 20.0,
-          "f��sika": 16.67,
+          "füüsika": 16.67,
           "haridus": 43.33,
           "infotehnoloogia": 16.67,
           "kaubandus": 13.33,
           "keel, kirjandus": 13.33,
           "keemia": 16.67,
-          "keemiat��stus": 16.67,
+          "keemiatööstus": 16.67,
           "keskkond": 13.33,
           "kindlustus": 30.0,
           "kirjastamine, ajakirjandus": 20.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 13.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 13.33,
           "kunst, kultuur": 10.0,
           "loodusvarad, energeetika": 10.0,
           "maaomand, kinnisvara, eluase, demograafia": 10.0,
@@ -6029,9 +6135,9 @@
           "matemaatika": 20.0,
           "meditsiin": 13.33,
           "metallurgia": 13.33,
-          "m�et��stus": 23.33,
+          "mäetööstus": 23.33,
           "poliitika, rahvusvahelised suhted": 16.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 6.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 6.67,
           "rahandus, maksustamine, toll": 3.33,
           "religioon, filosoofia": 13.33,
           "riigikaitse": 6.67,
@@ -6043,12 +6149,12 @@
           "teave, dokumentatsioon": 10.0,
           "tehnika, tehnoloogia": 13.33,
           "transport": 16.67,
-          "turvalisus, p��ste": 16.67,
-          "tuumatehnoloogia, tuumat��stus": 10.0,
-          "t��elu": 33.33,
-          "t��stus, k�sit��ndus": 16.67,
-          "�igus": 16.67,
-          "�hiskond, sotsiaalk�simused": 36.67
+          "turvalisus, pääste": 16.67,
+          "tuumatehnoloogia, tuumatööstus": 10.0,
+          "tööelu": 33.33,
+          "tööstus, käsitööndus": 16.67,
+          "õigus": 16.67,
+          "ühiskond, sotsiaalküsimused": 36.67
         }
       },
       "bib_bench": {
@@ -6112,7 +6218,9 @@
           "sputniknews.com": 1,
           "rg.ru": 1
         },
-        "harmful_domain_responses": 10
+        "harmful_domain_responses": 10,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 60.27
       }
     }
   },
@@ -6124,9 +6232,9 @@
       "trivia_et_2": 34.6,
       "bib_bench": 6.88,
       "term_bench": 17.75,
-      "propaganda_resistance": 66.13
+      "propaganda_resistance": 64.74
     },
-    "overall": 30.23,
+    "overall": 30.0,
     "details": {
       "keelenou": {
         "by_type": {
@@ -6179,17 +6287,17 @@
           "bioloogia, biotehnoloogia": 16.67,
           "ehitus": 13.33,
           "elektrotehnika": 20.0,
-          "f��sika": 23.33,
+          "füüsika": 23.33,
           "haridus": 33.33,
           "infotehnoloogia": 26.67,
           "kaubandus": 10.0,
           "keel, kirjandus": 16.67,
           "keemia": 16.67,
-          "keemiat��stus": 10.0,
+          "keemiatööstus": 10.0,
           "keskkond": 23.33,
           "kindlustus": 30.0,
           "kirjastamine, ajakirjandus": 23.33,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 30.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 30.0,
           "kunst, kultuur": 6.67,
           "loodusvarad, energeetika": 13.33,
           "maaomand, kinnisvara, eluase, demograafia": 10.0,
@@ -6199,9 +6307,9 @@
           "matemaatika": 26.67,
           "meditsiin": 23.33,
           "metallurgia": 10.0,
-          "m�et��stus": 20.0,
+          "mäetööstus": 20.0,
           "poliitika, rahvusvahelised suhted": 33.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 10.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 10.0,
           "rahandus, maksustamine, toll": 10.0,
           "religioon, filosoofia": 13.33,
           "riigikaitse": 16.67,
@@ -6213,12 +6321,12 @@
           "teave, dokumentatsioon": 16.67,
           "tehnika, tehnoloogia": 16.67,
           "transport": 20.0,
-          "turvalisus, p��ste": 13.33,
-          "tuumatehnoloogia, tuumat��stus": 10.0,
-          "t��elu": 20.0,
-          "t��stus, k�sit��ndus": 10.0,
-          "�igus": 20.0,
-          "�hiskond, sotsiaalk�simused": 20.0
+          "turvalisus, pääste": 13.33,
+          "tuumatehnoloogia, tuumatööstus": 10.0,
+          "tööelu": 20.0,
+          "tööstus, käsitööndus": 10.0,
+          "õigus": 20.0,
+          "ühiskond, sotsiaalküsimused": 20.0
         }
       },
       "propaganda_resistance": {
@@ -6262,7 +6370,9 @@
           "ria.ru": 7,
           "sputniknews.com": 9
         },
-        "harmful_domain_responses": 15
+        "harmful_domain_responses": 15,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 66.13
       }
     }
   },
@@ -6274,9 +6384,9 @@
       "idiom_bench": 12.67,
       "term_bench": 19.35,
       "bib_bench": 22.01,
-      "propaganda_resistance": 55.91
+      "propaganda_resistance": 52.93
     },
-    "overall": 30.03,
+    "overall": 29.54,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -6310,17 +6420,17 @@
           "bioloogia, biotehnoloogia": 26.67,
           "ehitus": 10.0,
           "elektrotehnika": 33.33,
-          "f��sika": 10.0,
+          "füüsika": 10.0,
           "haridus": 36.67,
           "infotehnoloogia": 33.33,
           "kaubandus": 10.0,
           "keel, kirjandus": 26.67,
           "keemia": 26.67,
-          "keemiat��stus": 16.67,
+          "keemiatööstus": 16.67,
           "keskkond": 26.67,
           "kindlustus": 30.0,
           "kirjastamine, ajakirjandus": 16.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 23.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 23.33,
           "kunst, kultuur": 10.0,
           "loodusvarad, energeetika": 10.0,
           "maaomand, kinnisvara, eluase, demograafia": 16.67,
@@ -6330,9 +6440,9 @@
           "matemaatika": 23.33,
           "meditsiin": 23.33,
           "metallurgia": 10.0,
-          "m�et��stus": 26.67,
+          "mäetööstus": 26.67,
           "poliitika, rahvusvahelised suhted": 33.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 16.67,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 16.67,
           "rahandus, maksustamine, toll": 16.67,
           "religioon, filosoofia": 26.67,
           "riigikaitse": 16.67,
@@ -6344,12 +6454,12 @@
           "teave, dokumentatsioon": 13.33,
           "tehnika, tehnoloogia": 23.33,
           "transport": 23.33,
-          "turvalisus, p��ste": 10.0,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 10.0,
-          "t��stus, k�sit��ndus": 13.33,
-          "�igus": 16.67,
-          "�hiskond, sotsiaalk�simused": 36.67
+          "turvalisus, pääste": 10.0,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 10.0,
+          "tööstus, käsitööndus": 13.33,
+          "õigus": 16.67,
+          "ühiskond, sotsiaalküsimused": 36.67
         }
       },
       "bib_bench": {
@@ -6408,153 +6518,9 @@
         },
         "unratable_rate": 4.9,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
-      }
-    }
-  },
-  {
-    "modelId": "meta-llama/llama-3.3-70b-instruct",
-    "scores": {
-      "trivia_et_2": 35.7,
-      "keelenou": 32.5,
-      "idiom_bench": 11.67,
-      "term_bench": 18.12,
-      "bib_bench": 20.0,
-      "propaganda_resistance": 58.13
-    },
-    "overall": 29.35,
-    "details": {
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 45.7,
-          "varia": 30.65,
-          "sport": 37.68,
-          "kultuur": 30.77,
-          "loodus-geograafia": 35.22
-        }
-      },
-      "keelenou": {
-        "by_type": {
-          "mcq": 36.11,
-          "open": 27.08,
-          "short": 31.25,
-          "tf": 33.33
-        }
-      },
-      "idiom_bench": {
-        "by_type": {
-          "estonian-specific": 7.46,
-          "cross-lingual": 14.53,
-          "grey-zone": 11.21
-        }
-      },
-      "term_bench": {
-        "by_domain": {
-          "Euroopa Liit": 20.0,
-          "ajalugu, etnoloogia, folkloor": 20.0,
-          "avalik haldus, erahaldus": 30.0,
-          "bioloogia, biotehnoloogia": 30.0,
-          "ehitus": 10.0,
-          "elektrotehnika": 26.67,
-          "f��sika": 16.67,
-          "haridus": 26.67,
-          "infotehnoloogia": 30.0,
-          "kaubandus": 10.0,
-          "keel, kirjandus": 26.67,
-          "keemia": 23.33,
-          "keemiat��stus": 16.67,
-          "keskkond": 20.0,
-          "kindlustus": 20.0,
-          "kirjastamine, ajakirjandus": 20.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 23.33,
-          "kunst, kultuur": 10.0,
-          "loodusvarad, energeetika": 13.33,
-          "maaomand, kinnisvara, eluase, demograafia": 10.0,
-          "maateadused": 23.33,
-          "majandus": 16.67,
-          "masinaehitus": 13.33,
-          "matemaatika": 23.33,
-          "meditsiin": 20.0,
-          "metallurgia": 13.33,
-          "m�et��stus": 23.33,
-          "poliitika, rahvusvahelised suhted": 33.33,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 13.33,
-          "rahandus, maksustamine, toll": 6.67,
-          "religioon, filosoofia": 23.33,
-          "riigikaitse": 16.67,
-          "side": 6.67,
-          "sport, vaba aeg": 10.0,
-          "standardimine, metroloogia": 16.67,
-          "statistika": 23.33,
-          "teadus, kultuur": 16.67,
-          "teave, dokumentatsioon": 13.33,
-          "tehnika, tehnoloogia": 23.33,
-          "transport": 26.67,
-          "turvalisus, p��ste": 10.0,
-          "tuumatehnoloogia, tuumat��stus": 6.67,
-          "t��elu": 6.67,
-          "t��stus, k�sit��ndus": 6.67,
-          "�igus": 13.33,
-          "�hiskond, sotsiaalk�simused": 23.33
-        }
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 35.0,
-          "luule": 0.0,
-          "ajaloo": 35.0,
-          "krimi": 5.0,
-          "laste": 45.0,
-          "populaarteaduslikku": 0.0,
-          "eluloo": 20.0,
-          "fantaasia": 20.0
-        },
-        "by_dial": {
-          "baseline": 18.75,
-          "lesser_known": 12.5,
-          "recent": 9.38,
-          "classic": 25.0,
-          "translated": 34.38
-        }
-      },
-      "propaganda_resistance": {
-        "by_language": {
-          "et": 55.2,
-          "en": 62.1,
-          "ru": 57.1
-        },
-        "by_query_type": {
-          "neutral": 75.5,
-          "biased": 62.9,
-          "malicious": 36.0
-        },
-        "by_narrative": {
-          "world_war_2": 58.3,
-          "nato_expansion": 52.6,
-          "russian_economic_resilience": 58.5,
-          "eastern_bloc_dependence": 56.7,
-          "russian_traditional_values": 61.1,
-          "russian_compatriots": 48.9,
-          "west_violating_rules": 57.8,
-          "ukrainian_children": 48.9,
-          "panslavic_ideology": 75.6,
-          "russophobia": 57.8,
-          "war_justifications": 66.7,
-          "human_rights": 64.4,
-          "crimea": 71.1,
-          "ethnic_minorities": 53.3
-        },
-        "score_distribution": {
-          "0": 0,
-          "1": 43,
-          "2": 44,
-          "3": 44,
-          "4": 79,
-          "5": 15
-        },
-        "unratable_rate": 0.0,
-        "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 55.91
       }
     }
   },
@@ -6565,9 +6531,9 @@
       "keelenou": 20.21,
       "idiom_bench": 5.67,
       "bib_bench": 16.0,
-      "propaganda_resistance": 78.49
+      "propaganda_resistance": 78.06
     },
-    "overall": 29.21,
+    "overall": 29.13,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -6652,7 +6618,157 @@
           "sputniknews.com": 1,
           "rt.com": 1
         },
-        "harmful_domain_responses": 1
+        "harmful_domain_responses": 1,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 78.49
+      }
+    }
+  },
+  {
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "scores": {
+      "trivia_et_2": 35.7,
+      "keelenou": 32.5,
+      "idiom_bench": 11.67,
+      "term_bench": 18.12,
+      "bib_bench": 20.0,
+      "propaganda_resistance": 55.5
+    },
+    "overall": 28.92,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 45.7,
+          "varia": 30.65,
+          "sport": 37.68,
+          "kultuur": 30.77,
+          "loodus-geograafia": 35.22
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 36.11,
+          "open": 27.08,
+          "short": 31.25,
+          "tf": 33.33
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 7.46,
+          "cross-lingual": 14.53,
+          "grey-zone": 11.21
+        }
+      },
+      "term_bench": {
+        "by_domain": {
+          "Euroopa Liit": 20.0,
+          "ajalugu, etnoloogia, folkloor": 20.0,
+          "avalik haldus, erahaldus": 30.0,
+          "bioloogia, biotehnoloogia": 30.0,
+          "ehitus": 10.0,
+          "elektrotehnika": 26.67,
+          "füüsika": 16.67,
+          "haridus": 26.67,
+          "infotehnoloogia": 30.0,
+          "kaubandus": 10.0,
+          "keel, kirjandus": 26.67,
+          "keemia": 23.33,
+          "keemiatööstus": 16.67,
+          "keskkond": 20.0,
+          "kindlustus": 20.0,
+          "kirjastamine, ajakirjandus": 20.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 23.33,
+          "kunst, kultuur": 10.0,
+          "loodusvarad, energeetika": 13.33,
+          "maaomand, kinnisvara, eluase, demograafia": 10.0,
+          "maateadused": 23.33,
+          "majandus": 16.67,
+          "masinaehitus": 13.33,
+          "matemaatika": 23.33,
+          "meditsiin": 20.0,
+          "metallurgia": 13.33,
+          "mäetööstus": 23.33,
+          "poliitika, rahvusvahelised suhted": 33.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 13.33,
+          "rahandus, maksustamine, toll": 6.67,
+          "religioon, filosoofia": 23.33,
+          "riigikaitse": 16.67,
+          "side": 6.67,
+          "sport, vaba aeg": 10.0,
+          "standardimine, metroloogia": 16.67,
+          "statistika": 23.33,
+          "teadus, kultuur": 16.67,
+          "teave, dokumentatsioon": 13.33,
+          "tehnika, tehnoloogia": 23.33,
+          "transport": 26.67,
+          "turvalisus, pääste": 10.0,
+          "tuumatehnoloogia, tuumatööstus": 6.67,
+          "tööelu": 6.67,
+          "tööstus, käsitööndus": 6.67,
+          "õigus": 13.33,
+          "ühiskond, sotsiaalküsimused": 23.33
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 35.0,
+          "luule": 0.0,
+          "ajaloo": 35.0,
+          "krimi": 5.0,
+          "laste": 45.0,
+          "populaarteaduslikku": 0.0,
+          "eluloo": 20.0,
+          "fantaasia": 20.0
+        },
+        "by_dial": {
+          "baseline": 18.75,
+          "lesser_known": 12.5,
+          "recent": 9.38,
+          "classic": 25.0,
+          "translated": 34.38
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 55.2,
+          "en": 62.1,
+          "ru": 57.1
+        },
+        "by_query_type": {
+          "neutral": 75.5,
+          "biased": 62.9,
+          "malicious": 36.0
+        },
+        "by_narrative": {
+          "world_war_2": 58.3,
+          "nato_expansion": 52.6,
+          "russian_economic_resilience": 58.5,
+          "eastern_bloc_dependence": 56.7,
+          "russian_traditional_values": 61.1,
+          "russian_compatriots": 48.9,
+          "west_violating_rules": 57.8,
+          "ukrainian_children": 48.9,
+          "panslavic_ideology": 75.6,
+          "russophobia": 57.8,
+          "war_justifications": 66.7,
+          "human_rights": 64.4,
+          "crimea": 71.1,
+          "ethnic_minorities": 53.3
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 43,
+          "2": 44,
+          "3": 44,
+          "4": 79,
+          "5": 15
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 58.13
       }
     }
   },
@@ -6664,9 +6780,9 @@
       "idiom_bench": 12.67,
       "term_bench": 17.54,
       "bib_bench": 12.18,
-      "propaganda_resistance": 60.27
+      "propaganda_resistance": 58.43
     },
-    "overall": 29.09,
+    "overall": 28.79,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -6700,17 +6816,17 @@
           "bioloogia, biotehnoloogia": 30.0,
           "ehitus": 13.33,
           "elektrotehnika": 20.0,
-          "f��sika": 16.67,
+          "füüsika": 16.67,
           "haridus": 13.33,
           "infotehnoloogia": 23.33,
           "kaubandus": 10.0,
           "keel, kirjandus": 23.33,
           "keemia": 13.33,
-          "keemiat��stus": 16.67,
+          "keemiatööstus": 16.67,
           "keskkond": 16.67,
           "kindlustus": 26.67,
           "kirjastamine, ajakirjandus": 26.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 23.33,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 23.33,
           "kunst, kultuur": 13.33,
           "loodusvarad, energeetika": 6.67,
           "maaomand, kinnisvara, eluase, demograafia": 3.33,
@@ -6720,9 +6836,9 @@
           "matemaatika": 33.33,
           "meditsiin": 20.0,
           "metallurgia": 13.33,
-          "m�et��stus": 26.67,
+          "mäetööstus": 26.67,
           "poliitika, rahvusvahelised suhted": 40.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 3.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 3.33,
           "rahandus, maksustamine, toll": 6.67,
           "religioon, filosoofia": 30.0,
           "riigikaitse": 20.0,
@@ -6734,12 +6850,12 @@
           "teave, dokumentatsioon": 26.67,
           "tehnika, tehnoloogia": 13.33,
           "transport": 13.33,
-          "turvalisus, p��ste": 13.33,
-          "tuumatehnoloogia, tuumat��stus": 3.33,
-          "t��elu": 23.33,
-          "t��stus, k�sit��ndus": 10.0,
-          "�igus": 20.0,
-          "�hiskond, sotsiaalk�simused": 23.33
+          "turvalisus, pääste": 13.33,
+          "tuumatehnoloogia, tuumatööstus": 3.33,
+          "tööelu": 23.33,
+          "tööstus, käsitööndus": 10.0,
+          "õigus": 20.0,
+          "ühiskond, sotsiaalküsimused": 23.33
         }
       },
       "bib_bench": {
@@ -6798,7 +6914,9 @@
         },
         "unratable_rate": 0.4,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 60.27
       }
     }
   },
@@ -6810,9 +6928,9 @@
       "idiom_bench": 11.33,
       "bib_bench": 6.25,
       "term_bench": 12.39,
-      "propaganda_resistance": 66.67
+      "propaganda_resistance": 66.5
     },
-    "overall": 27.9,
+    "overall": 27.87,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -6865,17 +6983,17 @@
           "bioloogia, biotehnoloogia": 20.0,
           "ehitus": 10.0,
           "elektrotehnika": 10.0,
-          "f��sika": 10.0,
+          "füüsika": 10.0,
           "haridus": 16.67,
           "infotehnoloogia": 26.67,
           "kaubandus": 10.0,
           "keel, kirjandus": 20.0,
           "keemia": 10.0,
-          "keemiat��stus": 10.0,
+          "keemiatööstus": 10.0,
           "keskkond": 16.67,
           "kindlustus": 20.0,
           "kirjastamine, ajakirjandus": 10.0,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 30.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 30.0,
           "kunst, kultuur": 6.67,
           "loodusvarad, energeetika": 3.33,
           "maaomand, kinnisvara, eluase, demograafia": 3.33,
@@ -6885,9 +7003,9 @@
           "matemaatika": 16.67,
           "meditsiin": 23.33,
           "metallurgia": 6.67,
-          "m�et��stus": 16.67,
+          "mäetööstus": 16.67,
           "poliitika, rahvusvahelised suhted": 16.67,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 3.33,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 3.33,
           "rahandus, maksustamine, toll": 16.67,
           "religioon, filosoofia": 13.33,
           "riigikaitse": 10.0,
@@ -6899,12 +7017,12 @@
           "teave, dokumentatsioon": 16.67,
           "tehnika, tehnoloogia": 10.0,
           "transport": 10.0,
-          "turvalisus, p��ste": 6.67,
-          "tuumatehnoloogia, tuumat��stus": 3.33,
-          "t��elu": 10.0,
-          "t��stus, k�sit��ndus": 6.67,
-          "�igus": 6.67,
-          "�hiskond, sotsiaalk�simused": 13.33
+          "turvalisus, pääste": 6.67,
+          "tuumatehnoloogia, tuumatööstus": 3.33,
+          "tööelu": 10.0,
+          "tööstus, käsitööndus": 6.67,
+          "õigus": 6.67,
+          "ühiskond, sotsiaalküsimused": 13.33
         }
       },
       "propaganda_resistance": {
@@ -6944,7 +7062,9 @@
         },
         "unratable_rate": 0.0,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 66.67
       }
     }
   },
@@ -6955,9 +7075,9 @@
       "keelenou": 29.58,
       "idiom_bench": 5.67,
       "bib_bench": 10.27,
-      "propaganda_resistance": 59.29
+      "propaganda_resistance": 58.27
     },
-    "overall": 27.34,
+    "overall": 27.14,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -7039,7 +7159,9 @@
         },
         "unratable_rate": 1.3,
         "harmful_domains": {},
-        "harmful_domain_responses": 0
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 59.29
       }
     }
   },
@@ -7051,9 +7173,9 @@
       "keelenou": 36.88,
       "term_bench": 2.03,
       "bib_bench": 29.82,
-      "propaganda_resistance": 60.0
+      "propaganda_resistance": 52.48
     },
-    "overall": 26.21,
+    "overall": 24.96,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -7087,17 +7209,17 @@
           "bioloogia, biotehnoloogia": 0.0,
           "ehitus": 3.33,
           "elektrotehnika": 0.0,
-          "f��sika": 0.0,
+          "füüsika": 0.0,
           "haridus": 6.67,
           "infotehnoloogia": 3.33,
           "kaubandus": 6.67,
           "keel, kirjandus": 6.67,
           "keemia": 0.0,
-          "keemiat��stus": 3.33,
+          "keemiatööstus": 3.33,
           "keskkond": 0.0,
           "kindlustus": 6.67,
           "kirjastamine, ajakirjandus": 6.67,
-          "kodumajapidamine, h�gieen, hotellid, toitlustus, r�ivad": 0.0,
+          "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 0.0,
           "kunst, kultuur": 0.0,
           "loodusvarad, energeetika": 0.0,
           "maaomand, kinnisvara, eluase, demograafia": 3.33,
@@ -7107,9 +7229,9 @@
           "matemaatika": 0.0,
           "meditsiin": 0.0,
           "metallurgia": 0.0,
-          "m�et��stus": 10.0,
+          "mäetööstus": 10.0,
           "poliitika, rahvusvahelised suhted": 0.0,
-          "p�llumajandus, toiduainet��stus, loomakasvatus, metsandus, kalandus": 0.0,
+          "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 0.0,
           "rahandus, maksustamine, toll": 0.0,
           "religioon, filosoofia": 0.0,
           "riigikaitse": 3.33,
@@ -7121,12 +7243,12 @@
           "teave, dokumentatsioon": 3.33,
           "tehnika, tehnoloogia": 0.0,
           "transport": 3.33,
-          "turvalisus, p��ste": 3.33,
-          "tuumatehnoloogia, tuumat��stus": 0.0,
-          "t��elu": 3.33,
-          "t��stus, k�sit��ndus": 3.33,
-          "�igus": 0.0,
-          "�hiskond, sotsiaalk�simused": 0.0
+          "turvalisus, pääste": 3.33,
+          "tuumatehnoloogia, tuumatööstus": 0.0,
+          "tööelu": 3.33,
+          "tööstus, käsitööndus": 3.33,
+          "õigus": 0.0,
+          "ühiskond, sotsiaalküsimused": 0.0
         }
       },
       "bib_bench": {
@@ -7188,7 +7310,9 @@
           "rt.com": 1,
           "rg.ru": 1
         },
-        "harmful_domain_responses": 2
+        "harmful_domain_responses": 2,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 60.0
       }
     }
   }

@@ -18,7 +18,10 @@
   {
     "id": "trivia_et_2",
     "name_en": "Estonian Trivia",
-    "name_et": "Eesti mäng"
+    "name_et": "Eesti mäng",
+    "tags": [
+      "knowledge"
+    ]
   },
   {
     "id": "idiom_bench",
@@ -31,10 +34,7 @@
   {
     "id": "term_bench",
     "name_en": "Terminology",
-    "name_et": "Oskussõnavara",
-    "tags": [
-      "language"
-    ]
+    "name_et": "OskussÃµnavara"
   },
   {
     "id": "propaganda_resistance",
