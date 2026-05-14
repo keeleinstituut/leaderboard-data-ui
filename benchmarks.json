@@ -34,7 +34,10 @@
   {
     "id": "term_bench",
     "name_en": "Terminology",
-    "name_et": "OskussÃµnavara"
+    "name_et": "Oskussõnavara",
+    "tags": [
+      "language"
+    ]
   },
   {
     "id": "propaganda_resistance",
