@@ -135,6 +135,12 @@
     "release": "2026-04-16"
   },
   {
+    "id": "anthropic/claude-opus-4.8",
+    "name": "Claude Opus 4.8",
+    "provider": "Anthropic",
+    "release": "2026-05-27"
+  },
+  {
     "id": "google/gemini-2.0-flash-001",
     "name": "Gemini 2.0 Flash",
     "provider": "Google",
@@ -343,6 +349,24 @@
     "name": "Kimi K2",
     "provider": "Moonshot",
     "release": "2025-09-05",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "moonshotai/kimi-k2.5",
+    "name": "Kimi K2.5",
+    "provider": "Moonshot",
+    "release": "2026-01-27",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "moonshotai/kimi-k2.6",
+    "name": "Kimi K2.6",
+    "provider": "Moonshot",
+    "release": "2026-04-20",
     "tags": [
       "open"
     ]

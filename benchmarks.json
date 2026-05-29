@@ -26,12 +26,18 @@
   {
     "id": "idiom_bench",
     "name_en": "Idioms",
-    "name_et": "Kujundlikud väljendid"
+    "name_et": "Kujundlikud väljendid",
+    "tags": [
+      "language"
+    ]
   },
   {
     "id": "term_bench",
     "name_en": "Terminology",
-    "name_et": "Oskussõnavara"
+    "name_et": "Oskussõnavara",
+    "tags": [
+      "language"
+    ]
   },
   {
     "id": "propaganda_resistance",
