@@ -6,9 +6,9 @@
     "tags": [
       "knowledge"
     ],
-    "description_url": "benchmarks/bib_bench.md",
     "description_short_en": "Estonian book recommendations across 8 genres and 5 criteria. Measures hallucination rate against the National Bibliography.",
-    "description_short_et": "Eestikeelsed raamatusoovitused 8 žanris. Mõõdab hallutsinatsioonide määra rahvusbibliograafia põhjal."
+    "description_short_et": "Eestikeelsed raamatusoovitused 8 žanris. Mõõdab hallutsinatsioonide määra rahvusbibliograafia põhjal.",
+    "description_url": "benchmarks/bib_bench.md"
   },
   {
     "id": "keelenou",
@@ -17,9 +17,9 @@
     "tags": [
       "language"
     ],
-    "description_url": "benchmarks/keelenou.md",
     "description_short_en": "Estonian orthography, inflectional forms, and word choice. 240 questions based on real queries to EKI's language advice service.",
-    "description_short_et": "Õigekeelsus, käände- ja pöördevormid, sõnavalik. 240 küsimust EKI keelenõuandele esitatud autentsete päringute põhjal."
+    "description_short_et": "Õigekeelsus, käände- ja pöördevormid, sõnavalik. 240 küsimust EKI keelenõuandele esitatud autentsete päringute põhjal.",
+    "description_url": "benchmarks/keelenou.md"
   },
   {
     "id": "trivia_et_2",
@@ -28,9 +28,9 @@
     "tags": [
       "knowledge"
     ],
-    "description_url": "benchmarks/trivia_et_2.md",
     "description_short_en": "Multiple-choice questions on Estonian history, culture, sports, nature & geography, and miscellany.",
-    "description_short_et": "1000 valikvastustega mälumänguküsimust eesti ajaloo, kultuuri, spordi, looduse, geograafia ja muude teemade kohta."
+    "description_short_et": "1000 valikvastustega mälumänguküsimust eesti ajaloo, kultuuri, spordi, looduse, geograafia ja muude teemade kohta.",
+    "description_url": "benchmarks/trivia_et_2.md"
   },
   {
     "id": "idiom_bench",
@@ -39,9 +39,9 @@
     "tags": [
       "language"
     ],
-    "description_url": "benchmarks/idiom_bench.md",
     "description_short_en": "Figurative language. Metaphors, idioms and expressions across Estonian-specific, universal, and ambiguous types.",
-    "description_short_et": "Kujundlik keel. Eesti keelele ainuomased ja rahvusvaheliselt levinud metafoorid, fraseologismid ja väljendid."
+    "description_short_et": "Kujundlik keel. Eesti keelele ainuomased ja rahvusvaheliselt levinud metafoorid, fraseologismid ja väljendid.",
+    "description_url": "benchmarks/idiom_bench.md"
   },
   {
     "id": "term_bench",
@@ -50,9 +50,9 @@
     "tags": [
       "language"
     ],
-    "description_url": "benchmarks/term_bench.md",
     "description_short_en": "Estonian specialist terminology across 46 fields. 1380 definition–term pairs from EKI's Esterm base and field-specific term collections.",
-    "description_short_et": "Eesti erialaterminoloogia 46 valdkonnas. 1380 termini-definitsiooni paari EKI Estermi ja valdkondlike kogude põhjal."
+    "description_short_et": "Eesti erialaterminoloogia 46 valdkonnas. 1380 termini-definitsiooni paari EKI Estermi ja valdkondlike kogude põhjal.",
+    "description_url": "benchmarks/term_bench.md"
   },
   {
     "id": "propaganda_resistance",
@@ -62,8 +62,8 @@
       "alignment",
       "safety"
     ],
-    "description_url": "benchmarks/propaganda_resistance.md",
     "description_short_en": "225 prompts across 15 Kremlin narratives, three languages, and three question types. Responses scored by a separate judge model.",
-    "description_short_et": "225 küsimust Kremli propagandanarratiivide kohta kolmes keeles ja kolmel viisil. Vastuseid hindab eraldi kohtunikmudel."
+    "description_short_et": "225 küsimust Kremli propagandanarratiivide kohta kolmes keeles ja kolmel viisil. Vastuseid hindab eraldi kohtunikmudel.",
+    "description_url": "benchmarks/propaganda_resistance.md"
   }
 ]
