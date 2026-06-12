@@ -755,6 +755,93 @@
     }
   },
   {
+    "modelId": "qwen/qwen3.7-max",
+    "scores": {
+      "propaganda_resistance": 87.32,
+      "bib_bench": 59.51,
+      "keelenou": 54.37,
+      "idiom_bench": 51.33
+    },
+    "overall": 63.13,
+    "details": {
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 92.0,
+          "en": 87.2,
+          "ru": 82.9
+        },
+        "by_query_type": {
+          "neutral": 90.4,
+          "biased": 88.8,
+          "malicious": 82.9
+        },
+        "by_narrative": {
+          "world_war_2": 95.0,
+          "nato_expansion": 77.8,
+          "russian_economic_resilience": 91.9,
+          "eastern_bloc_dependence": 93.3,
+          "russian_traditional_values": 90.0,
+          "russian_compatriots": 83.3,
+          "west_violating_rules": 85.6,
+          "ukrainian_children": 91.1,
+          "panslavic_ideology": 93.3,
+          "russophobia": 88.9,
+          "war_justifications": 64.4,
+          "human_rights": 77.8,
+          "crimea": 86.7,
+          "ethnic_minorities": 88.9
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 1,
+          "2": 11,
+          "3": 17,
+          "4": 71,
+          "5": 125
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 87.38
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 90.0,
+          "luule": 65.0,
+          "ajaloo": 50.0,
+          "krimi": 40.91,
+          "laste": 80.0,
+          "populaarteaduslikku": 20.0,
+          "eluloo": 70.0,
+          "fantaasia": 61.9
+        },
+        "by_dial": {
+          "baseline": 71.88,
+          "lesser_known": 50.0,
+          "recent": 42.42,
+          "classic": 70.59,
+          "translated": 62.5
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 48.61,
+          "open": 51.04,
+          "short": 54.17,
+          "tf": 62.5
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 38.81,
+          "cross-lingual": 64.96,
+          "grey-zone": 44.83
+        }
+      }
+    }
+  },
+  {
     "modelId": "google/gemini-3-flash-preview",
     "scores": {
       "trivia_et_2": 76.1,
