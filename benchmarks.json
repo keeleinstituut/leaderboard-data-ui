@@ -36,6 +36,9 @@
     "id": "idiom_bench",
     "name_en": "Idioms",
     "name_et": "Kujundlikud väljendid",
+    "tags": [
+      "language"
+    ],
     "description_url": "benchmarks/idiom_bench.md",
     "description_short_en": "Figurative language. Metaphors, idioms and expressions across Estonian-specific, universal, and ambiguous types.",
     "description_short_et": "Kujundlik keel. Eesti keelele ainuomased ja rahvusvaheliselt levinud metafoorid, fraseologismid ja väljendid."

@@ -135,6 +135,18 @@
     "release": "2026-04-16"
   },
   {
+    "id": "anthropic/claude-opus-4.8",
+    "name": "Claude Opus 4.8",
+    "provider": "Anthropic",
+    "release": "2026-05-27"
+  },
+  {
+    "id": "anthropic/claude-fable-5",
+    "name": "Claude Fable 5",
+    "provider": "Anthropic",
+    "release": "2026-06-10"
+  },
+  {
     "id": "google/gemini-2.0-flash-001",
     "name": "Gemini 2.0 Flash",
     "provider": "Google",
@@ -321,6 +333,21 @@
     ]
   },
   {
+    "id": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek V4 Pro",
+    "provider": "DeepSeek",
+    "release": "2026-04-24",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "qwen/qwen3.7-max",
+    "name": "Qwen 3.7 Max",
+    "provider": "Alibaba",
+    "release": "2026-05-19"
+  },
+  {
     "id": "qwen/qwen3.6-plus",
     "name": "Qwen 3.6 Plus",
     "provider": "Alibaba",
@@ -348,6 +375,24 @@
     ]
   },
   {
+    "id": "moonshotai/kimi-k2.5",
+    "name": "Kimi K2.5",
+    "provider": "Moonshot",
+    "release": "2026-01-27",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "moonshotai/kimi-k2.6",
+    "name": "Kimi K2.6",
+    "provider": "Moonshot",
+    "release": "2026-04-20",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "xiaomi/mimo-v2-pro",
     "name": "MiMo V2 Pro",
     "provider": "Xiaomi",
@@ -363,7 +408,19 @@
     "id": "z-ai/glm-4.7",
     "name": "GLM 4.7",
     "provider": "Zhipu AI",
-    "release": "2025-12-22"
+    "release": "2025-12-22",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "z-ai/glm-5",
+    "name": "GLM-5",
+    "provider": "Zhipu AI",
+    "release": "2026-02-11",
+    "tags": [
+      "open"
+    ]
   },
   {
     "id": "bytedance-seed/seed-2.0-mini",
