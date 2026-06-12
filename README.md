@@ -35,7 +35,7 @@ Array of model entries.
   "name": "GPT-5.5",
   "provider": "OpenAI",
   "release": "2026-04-23",
-  "tags": \["open"]
+  "tags": ["open"]
 }
 ```
 
@@ -54,12 +54,12 @@ Array of benchmark entries. Only benchmarks that have at least one result appear
 ```json
 {
   "id": "keelenou",
-  "name\_en": "Language Advice",
-  "name\_et": "Keelenõu",
-  "tags": \["language"],
-  "description\_url": "benchmarks/keelenou.md",
-  "description\_short\_en": "240 Estonian language-norm questions sourced from EKI's language advice service…",
-  "description\_short\_et": "240 eesti keele õigekeelsuse küsimust EKI keelenõuandest…"
+  "name_en": "Language Advice",
+  "name_et": "Keelenõu",
+  "tags": ["language"],
+  "description_url": "benchmarks/keelenou.md",
+  "description_short_en": "240 Estonian language-norm questions sourced from EKI's language advice service…",
+  "description_short_et": "240 eesti keele õigekeelsuse küsimust EKI keelenõuandest…"
 }
 ```
 
@@ -76,8 +76,8 @@ Array of benchmark entries. Only benchmarks that have at least one result appear
 One row per model that has at least one result. Columns in order:
 
 ```
-model\_id, name, provider, release\_date, tags, overall, benchmarks\_covered,
-<benchmark\_id\_1>, <benchmark\_id\_2>, …
+model_id, name, provider, release_date, tags, overall, benchmarks_covered,
+<benchmark_id_1>, <benchmark_id_2>, …
 ```
 
 * `tags` is a space-separated string (`""` if no tags). E.g. `open` or `open beta`.
@@ -92,9 +92,9 @@ Array of per-model entries, sorted by `overall` descending.
 ```json
 {
   "modelId": "openai/gpt-5.5",
-  "scores": { "keelenou": 65.21, "bib\_bench": 75.44, ... },
+  "scores": { "keelenou": 65.21, "bib_bench": 75.44, ... },
   "overall": 72.98,
-  "details": { "keelenou": { "by\_type": { "mcq": 88.0, ... } }, ... }
+  "details": { "keelenou": { "by_type": { "mcq": 88.0, ... } }, ... }
 }
 ```
 
@@ -110,7 +110,7 @@ Array of per-model entries, sorted by `overall` descending.
 One JSON object per line — one record per (model, benchmark) run. Useful for streaming and for tracking when each evaluation happened.
 
 ```json
-{"model\_id": "openai/gpt-3.5-turbo", "benchmark\_id": "trivia\_et\_2", "score": 35.3, "timestamp": "2026-04-07T12:21:22Z", "details": {...}}
+{"model_id": "openai/gpt-3.5-turbo", "benchmark_id": "trivia_et_2", "score": 35.3, "timestamp": "2026-04-07T12:21:22Z", "details": {...}}
 ```
 
 |Field|Type|Notes|
