@@ -1219,43 +1219,6 @@
     }
   },
   {
-    "modelId": "qwen/qwen3.7-max",
-    "scores": {
-      "bib_bench": 59.51,
-      "keelenou": 54.37
-    },
-    "overall": 56.94,
-    "details": {
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 90.0,
-          "luule": 65.0,
-          "ajaloo": 50.0,
-          "krimi": 40.91,
-          "laste": 80.0,
-          "populaarteaduslikku": 20.0,
-          "eluloo": 70.0,
-          "fantaasia": 61.9
-        },
-        "by_dial": {
-          "baseline": 71.88,
-          "lesser_known": 50.0,
-          "recent": 42.42,
-          "classic": 70.59,
-          "translated": 62.5
-        }
-      },
-      "keelenou": {
-        "by_type": {
-          "mcq": 48.61,
-          "open": 51.04,
-          "short": 54.17,
-          "tf": 62.5
-        }
-      }
-    }
-  },
-  {
     "modelId": "google/gemini-2.5-pro",
     "scores": {
       "idiom_bench": 57.0,
