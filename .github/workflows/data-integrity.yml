@@ -1,0 +1,57 @@
+name: Generate data-integrity.json
+
+# When a pull request changes any of the data files, (re)generate
+# data-integrity.json (sha256 of each file) and commit it onto the PR's own
+# branch, so every PR carries a matching integrity manifest. The UI verifies
+# these hashes before using the data.
+
+on:
+  pull_request:
+    paths:
+      - models.json
+      - benchmarks.json
+      - results.json
+      - data-integrity.json
+
+permissions:
+  contents: write
+
+jobs:
+  integrity:
+    # Only same-repo PRs can be pushed back to (fork PRs get a read-only token).
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Regenerate data-integrity.json
+        run: |
+          set -euo pipefail
+          for f in models.json benchmarks.json results.json; do
+            test -f "$f" || { echo "::error::$f is missing; cannot build integrity manifest"; exit 1; }
+          done
+          jq -n \
+            --arg models     "$(sha256sum models.json     | cut -d' ' -f1)" \
+            --arg benchmarks "$(sha256sum benchmarks.json | cut -d' ' -f1)" \
+            --arg results    "$(sha256sum results.json    | cut -d' ' -f1)" \
+            '{"models.json":$models,"benchmarks.json":$benchmarks,"results.json":$results}' \
+            > data-integrity.json
+
+      - name: Commit and push if changed
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data-integrity.json; then
+            echo "data-integrity.json already matches the data files; nothing to do."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data-integrity.json
+          git commit -m "Update data-integrity.json for PR #${PR_NUMBER}"
+          git push origin "HEAD:$HEAD_REF"
