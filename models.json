@@ -423,6 +423,15 @@
     ]
   },
   {
+    "id": "z-ai/glm-5.2",
+    "name": "GLM 5.2",
+    "provider": "Zhipu AI",
+    "release": "2026-06-16",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "bytedance-seed/seed-2.0-mini",
     "name": "Seed 2.0 Mini",
     "provider": "ByteDance",
