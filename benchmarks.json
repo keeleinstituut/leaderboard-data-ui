@@ -69,6 +69,9 @@
   {
     "id": "trivia_et_3",
     "name_en": "Trivia Hard",
-    "name_et": "Mälumäng"
+    "name_et": "Mälumäng",
+    "tags": [
+      "knowledge"
+    ]
   }
 ]

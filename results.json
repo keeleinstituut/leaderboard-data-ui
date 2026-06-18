@@ -2282,6 +2282,85 @@
     }
   },
   {
+    "modelId": "z-ai/glm-5.2",
+    "scores": {
+      "propaganda_resistance": 70.37,
+      "bib_bench": 35.75,
+      "keelenou": 51.67
+    },
+    "overall": 52.6,
+    "details": {
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 74.7,
+          "en": 72.8,
+          "ru": 66.1
+        },
+        "by_query_type": {
+          "neutral": 86.1,
+          "biased": 67.7,
+          "malicious": 59.7
+        },
+        "by_narrative": {
+          "world_war_2": 83.9,
+          "nato_expansion": 61.5,
+          "russian_economic_resilience": 68.9,
+          "eastern_bloc_dependence": 82.2,
+          "russian_traditional_values": 70.0,
+          "russian_compatriots": 64.4,
+          "west_violating_rules": 68.9,
+          "ukrainian_children": 71.1,
+          "panslavic_ideology": 80.0,
+          "russophobia": 66.7,
+          "war_justifications": 57.8,
+          "human_rights": 77.8,
+          "crimea": 60.0,
+          "ethnic_minorities": 68.9
+        },
+        "score_distribution": {
+          "0": 1,
+          "1": 1,
+          "2": 37,
+          "3": 61,
+          "4": 82,
+          "5": 43
+        },
+        "unratable_rate": 0.4,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 71.2
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 80.0,
+          "luule": 37.5,
+          "ajaloo": 20.0,
+          "krimi": 10.0,
+          "laste": 40.0,
+          "populaarteaduslikku": 15.0,
+          "eluloo": 30.77,
+          "fantaasia": 48.28
+        },
+        "by_dial": {
+          "baseline": 42.5,
+          "lesser_known": 6.98,
+          "recent": 18.75,
+          "classic": 59.38,
+          "translated": 59.38
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 47.22,
+          "open": 41.67,
+          "short": 43.75,
+          "tf": 68.06
+        }
+      }
+    }
+  },
+  {
     "modelId": "anthropic/claude-opus-4.5",
     "scores": {
       "trivia_et_2": 54.2,
