@@ -3,6 +3,11 @@
 Source data for **Keelemudelite mõõdupuu** — Independent LLM leaderboard for Estonian by the Institute of the Estonian Language
 
 * **Live site:** [https://moodupuu.eki.ee](https://moodupuu.eki.ee)
+* **License:** [CC BY 4.0](LICENSE) — free to share and adapt, including commercially, with attribution
+
+> **Attribution.** This data is © [Eesti Keele Instituut (Institute of the Estonian Language)](https://www.eki.ee) and licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You are free to share and adapt it for any purpose, provided you give appropriate credit and link to the license. Suggested credit:
+>
+> > *Keelemudelite mõõdupuu: Independent LLM leaderboard for Estonian.* Eesti Keele Instituut. https://moodupuu.eki.ee — licensed under CC BY 4.0.
 
 ## Quick start for agents
 
@@ -132,5 +137,11 @@ EKI's custom runner CI pushes `models.json`, `benchmarks.json`, `results.json`, 
 
 ## License \& citation
 
-License and citation information: TBD — please contact [Eesti Keele Instituut](https://www.eki.ee) before redistributing the data.
+This data is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You are free to share and adapt it for any purpose, including commercially, provided you give appropriate credit, link to the license, and indicate if changes were made.
+
+Suggested citation:
+
+> *Keelemudelite mõõdupuu: Independent LLM leaderboard for Estonian.* Eesti Keele Instituut (Institute of the Estonian Language). https://moodupuu.eki.ee — licensed under CC BY 4.0.
+
+For questions about reuse or collaboration, contact [Eesti Keele Instituut](https://www.eki.ee).
 
