@@ -93,6 +93,12 @@
     "release": "2026-02-17"
   },
   {
+    "id": "anthropic/claude-sonnet-5",
+    "name": "Claude Sonnet 5",
+    "provider": "Anthropic",
+    "release": "2026-06-30"
+  },
+  {
     "id": "anthropic/claude-3-haiku",
     "name": "Claude 3 Haiku",
     "provider": "Anthropic",
