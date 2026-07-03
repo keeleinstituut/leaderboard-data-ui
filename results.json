@@ -7,9 +7,9 @@
       "bib_bench": 89.09,
       "keelenou": 74.79,
       "idiom_bench": 65.0,
-      "term_bench": 55.22
+      "term_bench": 55.14
     },
-    "overall": 75.2,
+    "overall": 75.19,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -98,89 +98,89 @@
       "term_bench": {
         "by_category": {
           "Loodusteadused": {
-            "mean": 49.33,
+            "mean": 50.67,
             "domains": {
-              "bioloogia, biotehnoloogia": 30.0,
-              "keemia": 43.33,
-              "maateadused": 50.0,
-              "matemaatika": 70.0,
-              "füüsika": 53.33
+              "bioloogia, biotehnoloogia": 26.67,
+              "keemia": 36.67,
+              "maateadused": 53.33,
+              "matemaatika": 73.33,
+              "füüsika": 63.33
             }
           },
           "Tervis ja heaolu": {
-            "mean": 55.0,
+            "mean": 55.83,
             "domains": {
-              "meditsiin": 60.0,
-              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 60.0,
-              "ühiskond, sotsiaalküsimused": 60.0,
-              "sport, vaba aeg": 40.0
+              "meditsiin": 70.0,
+              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 63.33,
+              "ühiskond, sotsiaalküsimused": 56.67,
+              "sport, vaba aeg": 33.33
             }
           },
           "Tehnika ja tööstus": {
-            "mean": 51.85,
+            "mean": 51.48,
             "domains": {
               "tuumatehnoloogia, tuumatööstus": 26.67,
               "elektrotehnika": 66.67,
-              "keemiatööstus": 63.33,
-              "tööstus, käsitööndus": 50.0,
-              "masinaehitus": 60.0,
-              "mäetööstus": 60.0,
-              "metallurgia": 46.67,
-              "standardimine, metroloogia": 46.67,
-              "tehnika, tehnoloogia": 46.67
+              "keemiatööstus": 53.33,
+              "tööstus, käsitööndus": 56.67,
+              "masinaehitus": 56.67,
+              "mäetööstus": 63.33,
+              "metallurgia": 43.33,
+              "standardimine, metroloogia": 53.33,
+              "tehnika, tehnoloogia": 43.33
             }
           },
           "Info ja side": {
-            "mean": 55.83,
+            "mean": 60.0,
             "domains": {
-              "infotehnoloogia": 56.67,
+              "infotehnoloogia": 63.33,
               "teave, dokumentatsioon": 56.67,
-              "side": 40.0,
-              "kirjastamine, ajakirjandus": 70.0
+              "side": 43.33,
+              "kirjastamine, ajakirjandus": 76.67
             }
           },
           "Keskkond ja taristu": {
-            "mean": 54.67,
+            "mean": 52.0,
             "domains": {
-              "ehitus": 40.0,
-              "keskkond": 46.67,
-              "loodusvarad, energeetika": 60.0,
+              "ehitus": 33.33,
+              "keskkond": 53.33,
+              "loodusvarad, energeetika": 50.0,
               "transport": 60.0,
-              "maaomand, kinnisvara, eluase, demograafia": 66.67
+              "maaomand, kinnisvara, eluase, demograafia": 63.33
             }
           },
           "Majandus ja rahandus": {
-            "mean": 55.56,
+            "mean": 57.78,
             "domains": {
-              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 56.67,
-              "kindlustus": 80.0,
+              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 66.67,
+              "kindlustus": 76.67,
               "kaubandus": 46.67,
               "majandus": 33.33,
-              "rahandus, maksustamine, toll": 46.67,
-              "statistika": 70.0
+              "rahandus, maksustamine, toll": 56.67,
+              "statistika": 66.67
             }
           },
           "Riik ja õigus": {
-            "mean": 58.1,
+            "mean": 57.14,
             "domains": {
-              "avalik haldus, erahaldus": 70.0,
+              "avalik haldus, erahaldus": 63.33,
               "Euroopa Liit": 63.33,
-              "riigikaitse": 30.0,
-              "õigus": 66.67,
-              "poliitika, rahvusvahelised suhted": 53.33,
-              "turvalisus, pääste": 63.33,
-              "tööelu": 60.0
+              "riigikaitse": 33.33,
+              "õigus": 70.0,
+              "poliitika, rahvusvahelised suhted": 46.67,
+              "turvalisus, pääste": 70.0,
+              "tööelu": 53.33
             }
           },
           "Kultuur ja haridus": {
-            "mean": 61.67,
+            "mean": 58.33,
             "domains": {
               "kunst, kultuur": 26.67,
-              "haridus": 83.33,
-              "teadus, kultuur": 73.33,
-              "ajalugu, etnoloogia, folkloor": 66.67,
-              "keel, kirjandus": 63.33,
-              "religioon, filosoofia": 56.67
+              "haridus": 76.67,
+              "teadus, kultuur": 66.67,
+              "ajalugu, etnoloogia, folkloor": 56.67,
+              "keel, kirjandus": 60.0,
+              "religioon, filosoofia": 63.33
             }
           }
         }
