@@ -417,6 +417,15 @@
     ]
   },
   {
+    "id": "moonshotai/kimi-k3",
+    "name": "Kimi K3",
+    "provider": "Moonshot",
+    "release": "2026-06-16",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "xiaomi/mimo-v2-pro",
     "name": "MiMo V2 Pro",
     "provider": "Xiaomi",
