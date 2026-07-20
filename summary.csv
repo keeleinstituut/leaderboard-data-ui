@@ -6,8 +6,8 @@ openai/gpt-5.5,GPT-5.5,OpenAI,2026-04-23,,68.04,7,75.44,65.21,76.6,73.67,59.13,8
 google/gemini-3.5-flash,Gemini 3.5 Flash,Google,2026-05-19,,66.33,6,65.0,61.88,80.0,64.0,54.13,72.96,
 openai/gpt-5.6-terra,GPT-5.6 Terra,OpenAI,2026-07-09,,61.21,7,77.5,61.04,62.9,64.33,49.64,92.96,20.12
 qwen/qwen3.7-max,Qwen 3.7 Max,Alibaba,2026-05-19,,60.41,6,59.51,54.37,64.9,51.33,45.0,87.32,
-openai/gpt-5.6-luna,GPT-5.6 Luna,OpenAI,2026-07-09,,59.23,7,67.5,62.29,61.3,64.0,51.38,89.49,18.62
 google/gemini-3-flash-preview,Gemini 3 Flash,Google,2025-12-17,,58.99,6,43.2,64.58,76.1,59.0,46.23,64.85,
+openai/gpt-5.6-luna,GPT-5.6 Luna,OpenAI,2026-07-09,,58.72,6,67.5,,61.3,64.0,51.38,89.49,18.62
 anthropic/claude-opus-4.7,Claude Opus 4.7,Anthropic,2026-04-16,,57.08,6,34.88,56.67,57.4,49.67,48.99,94.88,
 google/gemini-2.5-pro,Gemini 2.5 Pro,Google,2025-06-17,,56.93,6,33.75,51.04,71.5,57.0,46.3,82.01,
 anthropic/claude-opus-4.8,Claude Opus 4.8,Anthropic,2026-05-27,,56.01,6,32.52,59.17,55.8,49.0,46.81,92.73,
@@ -17,6 +17,7 @@ anthropic/claude-opus-4.6,Claude Opus 4.6,Anthropic,2026-02-05,,53.98,6,38.89,52
 openai/gpt-5.2,GPT-5.2,OpenAI,2025-12-11,,53.74,6,33.16,57.5,58.2,53.0,42.17,78.39,
 anthropic/claude-opus-4.5,Claude Opus 4.5,Anthropic,2025-11-24,,51.37,6,31.29,48.33,54.2,46.67,38.7,89.01,
 qwen/qwen3.6-plus,Qwen 3.6 Plus,Alibaba,2026-04-01,open,50.83,6,39.75,45.21,50.7,40.67,36.59,92.08,
+moonshotai/kimi-k3,Kimi K3,Moonshot,2026-06-16,open,50.64,5,40.56,48.33,,31.67,39.86,92.77,
 anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-06-30,,50.38,6,33.13,50.42,47.4,40.0,38.84,92.49,
 anthropic/claude-3.7-sonnet,Claude 3.7 Sonnet,Anthropic,2025-02-24,,50.09,6,35.62,45.83,50.7,51.33,40.29,76.79,
 google/gemini-2.5-flash,Gemini 2.5 Flash,Google,2025-06-17,,49.48,6,28.57,49.58,53.6,51.67,40.43,73.04,
