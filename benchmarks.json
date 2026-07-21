@@ -25,6 +25,9 @@
     "id": "trivia_et_2",
     "name_en": "Trivia",
     "name_et": "Eesti mäng",
+    "tags": [
+      "knowledge"
+    ],
     "description_short_en": "Multiple-choice questions on Estonian history, culture, sports, nature & geography, and miscellany.",
     "description_short_et": "1000 valikvastustega mälumänguküsimust eesti ajaloo, kultuuri, spordi, looduse, geograafia ja muude teemade kohta.",
     "description_url": "benchmarks/trivia_et_2.md"
