@@ -70,5 +70,10 @@
     "tags": [
       "knowledge"
     ]
+  },
+  {
+    "id": "wordornot",
+    "name_en": "Non-words",
+    "name_et": "Ebasõnad"
   }
 ]
