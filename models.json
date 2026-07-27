@@ -165,6 +165,12 @@
     "release": "2026-05-27"
   },
   {
+    "id": "anthropic/claude-opus-5",
+    "name": "Claude Opus 5",
+    "provider": "Anthropic",
+    "release": "2026-07-24"
+  },
+  {
     "id": "anthropic/claude-fable-5",
     "name": "Claude Fable 5",
     "provider": "Anthropic",
