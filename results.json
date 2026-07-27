@@ -12840,5 +12840,38 @@
         }
       }
     }
+  },
+  {
+    "modelId": "moonshotai/kimi-k2.6",
+    "scores": {
+      "wordornot": 0.0
+    },
+    "overall": 0.0,
+    "details": {
+      "wordornot": {
+        "score_status": "pending_manual_review",
+        "score_is_protocol_placeholder": true,
+        "pipeline": {
+          "prompts": 70,
+          "successful_responses": 55,
+          "target_clean_words": 50000,
+          "collected_clean_words": 50216,
+          "collection_rounds": 1,
+          "collection_max_rounds": 10,
+          "collection_target_reached": true,
+          "sentences": 4821,
+          "sentence_words": 50216,
+          "words_processed": 50004,
+          "guessed_lemmas": 10165,
+          "eligible_word_tokens": 49703,
+          "word_limit_reached": true,
+          "score_definition": "No automated metric; manual review required.",
+          "response_file": "data/moonshotai/kimi-k2.6/responses/kimi-k2.6_vastused.jsonl",
+          "sentence_file": "data/moonshotai/kimi-k2.6/sentences/kimi-k2.6_laused.txt",
+          "guessed_lemmas_file": "data/moonshotai/kimi-k2.6/guessed_lemmas/kimi-k2.6_guessed_lemmas.csv",
+          "preaggregation_results_file": "results/moonshotai/kimi-k2.6.jsonl"
+        }
+      }
+    }
   }
 ]

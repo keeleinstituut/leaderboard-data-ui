@@ -68,3 +68,4 @@ openai/gpt-oss-120b,GPT-OSS 120B,OpenAI,2025-08-05,open,27.07,6,29.82,36.88,20.2
 stepfun/step-3.5-flash,Step 3.5 Flash,StepFun,2026-02-11,open,26.81,6,14.11,20.21,25.7,5.67,17.1,78.06,,
 meta-llama/llama-3-70b-instruct,Llama 3 70B Instruct,Meta,2024-04-18,open,25.47,1,25.47,,,,,,,
 cohere/command-r-plus-08-2024,Command R+ (08-2024),Cohere,2024-08-30,,23.43,6,9.26,29.58,31.9,5.67,5.87,58.27,,
+moonshotai/kimi-k2.6,Kimi K2.6,Moonshot,2026-04-20,open,0.0,1,,,,,,,,0.0
