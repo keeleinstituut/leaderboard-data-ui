@@ -40,7 +40,6 @@ x-ai/grok-4.20,Grok 4.20,xAI,2026-03-10,,40.58,6,19.15,40.21,39.5,31.0,26.09,87.
 xiaomi/mimo-v2-pro,MiMo V2 Pro,Xiaomi,2026-03-18,,39.06,6,46.63,38.12,22.5,11.33,34.06,81.73,,
 meta-llama/llama-4-maverick,Llama 4 Maverick,Meta,2025-04-05,open,37.82,6,22.53,46.04,44.6,24.67,29.28,59.81,,
 x-ai/grok-3-mini,Grok 3 Mini,xAI,2025-04-09,,37.44,6,26.25,42.71,42.7,25.33,26.38,61.28,,
-qwen/qwen3.5-27b,Qwen 3.5 27B,Alibaba,2026-02-24,open,37.03,5,13.94,37.29,31.9,16.33,,85.68,,
 mistralai/mistral-large-2512,Mistral Large 2512,Mistral,2025-12-01,open,36.7,6,24.4,43.54,47.3,22.67,20.51,61.8,,
 openai/gpt-4,GPT-4,OpenAI,2023-03-14,,36.44,7,31.87,47.08,46.4,36.67,30.58,62.5,,0.0
 anthropic/claude-3.5-haiku,Claude 3.5 Haiku,Anthropic,2024-11-04,,36.44,6,23.46,39.58,39.2,21.33,21.96,73.1,,
@@ -53,6 +52,7 @@ bytedance-seed/seed-2.0-mini,Seed 2.0 Mini,ByteDance,2026-02-26,,33.6,3,8.75,38.
 mistralai/mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-04-29,open,31.77,6,13.1,35.42,42.0,16.33,21.45,62.33,,
 google/gemma-4-31b-it,Gemma 4 31B,Google,2026-04-02,open,31.03,6,5.81,45.83,34.7,18.33,17.17,64.32,,
 openai/gpt-4o-mini,GPT-4o Mini,OpenAI,2024-07-18,,31.03,6,19.38,40.62,35.1,18.33,18.26,54.5,,
+qwen/qwen3.5-27b,Qwen 3.5 27B,Alibaba,2026-02-24,open,30.86,6,13.94,37.29,31.9,16.33,,85.68,,0.0
 nvidia/nemotron-3-super-120b-a12b,Nemotron 3 Super 120B,NVIDIA,2026-03-11,open,30.76,5,12.79,32.92,,5.33,10.07,92.67,,
 google/gemma-3-27b-it,Gemma 3 27B,Google,2025-03-12,open,30.0,6,6.88,36.67,34.6,19.33,17.75,64.74,,
 mistralai/mistral-small-2603,Mistral Small 4,Mistral,2026-03-16,open,29.93,6,15.24,43.75,37.2,12.0,14.93,56.44,,
