@@ -77,9 +77,6 @@
   {
     "id": "wordornot",
     "name_en": "Non-words",
-    "name_et": "Ebasõnad",
-    "tags": [
-      "language"
-    ]
+    "name_et": "Ebasõnad"
   }
 ]

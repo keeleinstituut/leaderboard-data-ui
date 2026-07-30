@@ -7861,103 +7861,6 @@
     }
   },
   {
-    "modelId": "qwen/qwen3.5-27b",
-    "scores": {
-      "keelenou": 37.29,
-      "trivia_et_2": 31.9,
-      "idiom_bench": 16.33,
-      "propaganda_resistance": 85.68,
-      "bib_bench": 13.94
-    },
-    "overall": 37.03,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 34.72,
-          "open": 26.04,
-          "short": 27.08,
-          "tf": 54.17
-        }
-      },
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 38.91,
-          "varia": 30.24,
-          "sport": 30.43,
-          "kultuur": 26.92,
-          "loodus-geograafia": 33.33
-        }
-      },
-      "idiom_bench": {
-        "by_type": {
-          "estonian-specific": 11.94,
-          "cross-lingual": 23.08,
-          "grey-zone": 12.07
-        }
-      },
-      "propaganda_resistance": {
-        "by_language": {
-          "et": 88.5,
-          "en": 88.5,
-          "ru": 80.0
-        },
-        "by_query_type": {
-          "neutral": 86.7,
-          "biased": 84.0,
-          "malicious": 86.4
-        },
-        "by_narrative": {
-          "world_war_2": 92.8,
-          "nato_expansion": 74.1,
-          "russian_economic_resilience": 88.1,
-          "eastern_bloc_dependence": 93.3,
-          "russian_traditional_values": 85.6,
-          "russian_compatriots": 80.0,
-          "west_violating_rules": 88.9,
-          "ukrainian_children": 77.8,
-          "panslavic_ideology": 95.6,
-          "russophobia": 84.4,
-          "war_justifications": 75.6,
-          "human_rights": 82.2,
-          "crimea": 84.4,
-          "ethnic_minorities": 88.9
-        },
-        "score_distribution": {
-          "0": 0,
-          "1": 0,
-          "2": 8,
-          "3": 14,
-          "4": 109,
-          "5": 94
-        },
-        "unratable_rate": 0.0,
-        "harmful_domains": {},
-        "harmful_domain_responses": 0,
-        "scoring_method": "geometric_mean_of_query_type_macro_avg",
-        "flat_item_mean_score": 85.69
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 30.0,
-          "luule": 15.0,
-          "ajaloo": 10.0,
-          "krimi": 0.0,
-          "laste": 15.0,
-          "populaarteaduslikku": 0.0,
-          "eluloo": 22.73,
-          "fantaasia": 17.39
-        },
-        "by_dial": {
-          "baseline": 12.5,
-          "lesser_known": 2.94,
-          "recent": 2.86,
-          "classic": 21.88,
-          "translated": 31.25
-        }
-      }
-    }
-  },
-  {
     "modelId": "mistralai/mistral-large-2512",
     "scores": {
       "idiom_bench": 22.67,
@@ -9579,198 +9482,6 @@
     }
   },
   {
-    "modelId": "mistralai/mistral-medium-3-5",
-    "scores": {
-      "trivia_et_2": 42.0,
-      "keelenou": 35.42,
-      "idiom_bench": 16.33,
-      "propaganda_resistance": 62.33,
-      "term_bench": 21.45,
-      "bib_bench": 13.1
-    },
-    "overall": 31.77,
-    "details": {
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 46.61,
-          "varia": 40.73,
-          "sport": 43.48,
-          "kultuur": 37.61,
-          "loodus-geograafia": 42.77
-        }
-      },
-      "keelenou": {
-        "by_type": {
-          "mcq": 30.56,
-          "open": 33.33,
-          "short": 22.92,
-          "tf": 50.0
-        }
-      },
-      "idiom_bench": {
-        "by_type": {
-          "estonian-specific": 13.43,
-          "cross-lingual": 21.37,
-          "grey-zone": 12.93
-        }
-      },
-      "propaganda_resistance": {
-        "by_language": {
-          "et": 64.3,
-          "en": 71.7,
-          "ru": 62.7
-        },
-        "by_query_type": {
-          "neutral": 85.1,
-          "biased": 76.3,
-          "malicious": 37.3
-        },
-        "by_narrative": {
-          "world_war_2": 70.0,
-          "nato_expansion": 65.2,
-          "russian_economic_resilience": 65.9,
-          "eastern_bloc_dependence": 63.3,
-          "russian_traditional_values": 63.3,
-          "russian_compatriots": 65.6,
-          "west_violating_rules": 65.6,
-          "ukrainian_children": 60.0,
-          "panslavic_ideology": 77.8,
-          "russophobia": 66.7,
-          "war_justifications": 64.4,
-          "human_rights": 71.1,
-          "crimea": 64.4,
-          "ethnic_minorities": 62.2
-        },
-        "score_distribution": {
-          "0": 0,
-          "1": 38,
-          "2": 28,
-          "3": 30,
-          "4": 84,
-          "5": 45
-        },
-        "unratable_rate": 0.0,
-        "harmful_domains": {
-          "rt.com": 10,
-          "sputniknews.com": 5,
-          "ria.ru": 3
-        },
-        "harmful_domain_responses": 12,
-        "scoring_method": "geometric_mean_of_query_type_macro_avg",
-        "flat_item_mean_score": 66.22
-      },
-      "term_bench": {
-        "by_category": {
-          "Loodusteadused": {
-            "mean": 27.33,
-            "domains": {
-              "bioloogia, biotehnoloogia": 30.0,
-              "keemia": 20.0,
-              "maateadused": 23.33,
-              "matemaatika": 40.0,
-              "füüsika": 23.33
-            }
-          },
-          "Tervis ja heaolu": {
-            "mean": 24.17,
-            "domains": {
-              "meditsiin": 20.0,
-              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 23.33,
-              "ühiskond, sotsiaalküsimused": 40.0,
-              "sport, vaba aeg": 13.33
-            }
-          },
-          "Tehnika ja tööstus": {
-            "mean": 18.15,
-            "domains": {
-              "tuumatehnoloogia, tuumatööstus": 6.67,
-              "elektrotehnika": 33.33,
-              "keemiatööstus": 3.33,
-              "tööstus, käsitööndus": 6.67,
-              "masinaehitus": 16.67,
-              "mäetööstus": 36.67,
-              "metallurgia": 10.0,
-              "standardimine, metroloogia": 26.67,
-              "tehnika, tehnoloogia": 23.33
-            }
-          },
-          "Info ja side": {
-            "mean": 26.67,
-            "domains": {
-              "infotehnoloogia": 33.33,
-              "teave, dokumentatsioon": 26.67,
-              "side": 6.67,
-              "kirjastamine, ajakirjandus": 40.0
-            }
-          },
-          "Keskkond ja taristu": {
-            "mean": 22.0,
-            "domains": {
-              "ehitus": 16.67,
-              "keskkond": 26.67,
-              "loodusvarad, energeetika": 10.0,
-              "transport": 33.33,
-              "maaomand, kinnisvara, eluase, demograafia": 23.33
-            }
-          },
-          "Majandus ja rahandus": {
-            "mean": 16.67,
-            "domains": {
-              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 13.33,
-              "kindlustus": 36.67,
-              "kaubandus": 13.33,
-              "majandus": 6.67,
-              "rahandus, maksustamine, toll": 16.67,
-              "statistika": 13.33
-            }
-          },
-          "Riik ja õigus": {
-            "mean": 19.52,
-            "domains": {
-              "avalik haldus, erahaldus": 23.33,
-              "Euroopa Liit": 23.33,
-              "riigikaitse": 23.33,
-              "õigus": 16.67,
-              "poliitika, rahvusvahelised suhted": 26.67,
-              "turvalisus, pääste": 10.0,
-              "tööelu": 13.33
-            }
-          },
-          "Kultuur ja haridus": {
-            "mean": 22.78,
-            "domains": {
-              "kunst, kultuur": 13.33,
-              "haridus": 26.67,
-              "teadus, kultuur": 20.0,
-              "ajalugu, etnoloogia, folkloor": 26.67,
-              "keel, kirjandus": 30.0,
-              "religioon, filosoofia": 20.0
-            }
-          }
-        }
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 40.91,
-          "luule": 0.0,
-          "ajaloo": 10.0,
-          "krimi": 4.55,
-          "laste": 20.0,
-          "populaarteaduslikku": 5.0,
-          "eluloo": 13.64,
-          "fantaasia": 10.0
-        },
-        "by_dial": {
-          "baseline": 19.44,
-          "lesser_known": 2.78,
-          "recent": 3.12,
-          "classic": 6.25,
-          "translated": 34.38
-        }
-      }
-    }
-  },
-  {
     "modelId": "google/gemma-4-31b-it",
     "scores": {
       "trivia_et_2": 34.7,
@@ -10147,6 +9858,128 @@
     }
   },
   {
+    "modelId": "qwen/qwen3.5-27b",
+    "scores": {
+      "keelenou": 37.29,
+      "trivia_et_2": 31.9,
+      "idiom_bench": 16.33,
+      "propaganda_resistance": 85.68,
+      "bib_bench": 13.94,
+      "wordornot": 0.0
+    },
+    "overall": 30.86,
+    "details": {
+      "keelenou": {
+        "by_type": {
+          "mcq": 34.72,
+          "open": 26.04,
+          "short": 27.08,
+          "tf": 54.17
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 38.91,
+          "varia": 30.24,
+          "sport": 30.43,
+          "kultuur": 26.92,
+          "loodus-geograafia": 33.33
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 11.94,
+          "cross-lingual": 23.08,
+          "grey-zone": 12.07
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 88.5,
+          "en": 88.5,
+          "ru": 80.0
+        },
+        "by_query_type": {
+          "neutral": 86.7,
+          "biased": 84.0,
+          "malicious": 86.4
+        },
+        "by_narrative": {
+          "world_war_2": 92.8,
+          "nato_expansion": 74.1,
+          "russian_economic_resilience": 88.1,
+          "eastern_bloc_dependence": 93.3,
+          "russian_traditional_values": 85.6,
+          "russian_compatriots": 80.0,
+          "west_violating_rules": 88.9,
+          "ukrainian_children": 77.8,
+          "panslavic_ideology": 95.6,
+          "russophobia": 84.4,
+          "war_justifications": 75.6,
+          "human_rights": 82.2,
+          "crimea": 84.4,
+          "ethnic_minorities": 88.9
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 8,
+          "3": 14,
+          "4": 109,
+          "5": 94
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 85.69
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 30.0,
+          "luule": 15.0,
+          "ajaloo": 10.0,
+          "krimi": 0.0,
+          "laste": 15.0,
+          "populaarteaduslikku": 0.0,
+          "eluloo": 22.73,
+          "fantaasia": 17.39
+        },
+        "by_dial": {
+          "baseline": 12.5,
+          "lesser_known": 2.94,
+          "recent": 2.86,
+          "classic": 21.88,
+          "translated": 31.25
+        }
+      },
+      "wordornot": {
+        "score_status": "pending_manual_review",
+        "score_is_protocol_placeholder": true,
+        "pipeline": {
+          "prompts": 70,
+          "successful_responses": 60,
+          "target_clean_words": 50000,
+          "collected_clean_words": 51883,
+          "collection_rounds": 1,
+          "collection_max_rounds": 10,
+          "collection_target_reached": true,
+          "sentences": 5352,
+          "sentence_words": 51883,
+          "words_processed": 50003,
+          "guessed_lemmas": 12859,
+          "eligible_word_tokens": 49458,
+          "word_limit_reached": true,
+          "score_definition": "No automated metric; manual review required.",
+          "response_file": "data/qwen/qwen3.5-27b/responses/qwen3.5-27b_vastused.jsonl",
+          "sentence_file": "data/qwen/qwen3.5-27b/sentences/qwen3.5-27b_laused.txt",
+          "guessed_lemmas_file": "data/qwen/qwen3.5-27b/guessed_lemmas/qwen3.5-27b_guessed_lemmas.csv",
+          "preaggregation_results_file": "results/qwen/qwen3.5-27b.jsonl"
+        }
+      }
+    }
+  },
+  {
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "scores": {
       "keelenou": 32.92,
@@ -10322,198 +10155,6 @@
               "religioon, filosoofia": 20.0
             }
           }
-        }
-      }
-    }
-  },
-  {
-    "modelId": "google/gemma-3-27b-it",
-    "scores": {
-      "keelenou": 36.67,
-      "idiom_bench": 19.33,
-      "trivia_et_2": 34.6,
-      "propaganda_resistance": 64.74,
-      "term_bench": 17.75,
-      "bib_bench": 6.88
-    },
-    "overall": 30.0,
-    "details": {
-      "keelenou": {
-        "by_type": {
-          "mcq": 34.72,
-          "open": 29.17,
-          "short": 31.25,
-          "tf": 47.22
-        }
-      },
-      "idiom_bench": {
-        "by_type": {
-          "estonian-specific": 8.96,
-          "cross-lingual": 26.5,
-          "grey-zone": 18.1
-        }
-      },
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 37.56,
-          "varia": 37.9,
-          "sport": 23.19,
-          "kultuur": 33.33,
-          "loodus-geograafia": 37.11
-        }
-      },
-      "propaganda_resistance": {
-        "by_language": {
-          "et": 64.8,
-          "en": 70.4,
-          "ru": 63.2
-        },
-        "by_query_type": {
-          "neutral": 81.3,
-          "biased": 68.0,
-          "malicious": 49.1
-        },
-        "by_narrative": {
-          "world_war_2": 71.7,
-          "nato_expansion": 62.2,
-          "russian_economic_resilience": 63.7,
-          "eastern_bloc_dependence": 64.4,
-          "russian_traditional_values": 70.0,
-          "russian_compatriots": 53.3,
-          "west_violating_rules": 61.1,
-          "ukrainian_children": 60.0,
-          "panslavic_ideology": 75.6,
-          "russophobia": 71.1,
-          "war_justifications": 62.2,
-          "human_rights": 73.3,
-          "crimea": 86.7,
-          "ethnic_minorities": 62.2
-        },
-        "score_distribution": {
-          "0": 0,
-          "1": 18,
-          "2": 47,
-          "3": 39,
-          "4": 90,
-          "5": 31
-        },
-        "unratable_rate": 0.0,
-        "harmful_domains": {
-          "rt.com": 13,
-          "ria.ru": 7,
-          "sputniknews.com": 9
-        },
-        "harmful_domain_responses": 15,
-        "scoring_method": "geometric_mean_of_query_type_macro_avg",
-        "flat_item_mean_score": 66.13
-      },
-      "term_bench": {
-        "by_category": {
-          "Loodusteadused": {
-            "mean": 20.0,
-            "domains": {
-              "bioloogia, biotehnoloogia": 16.67,
-              "keemia": 16.67,
-              "maateadused": 16.67,
-              "matemaatika": 26.67,
-              "füüsika": 23.33
-            }
-          },
-          "Tervis ja heaolu": {
-            "mean": 21.67,
-            "domains": {
-              "meditsiin": 23.33,
-              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 30.0,
-              "ühiskond, sotsiaalküsimused": 20.0,
-              "sport, vaba aeg": 13.33
-            }
-          },
-          "Tehnika ja tööstus": {
-            "mean": 13.33,
-            "domains": {
-              "tuumatehnoloogia, tuumatööstus": 10.0,
-              "elektrotehnika": 20.0,
-              "keemiatööstus": 10.0,
-              "tööstus, käsitööndus": 10.0,
-              "masinaehitus": 13.33,
-              "mäetööstus": 20.0,
-              "metallurgia": 10.0,
-              "standardimine, metroloogia": 10.0,
-              "tehnika, tehnoloogia": 16.67
-            }
-          },
-          "Info ja side": {
-            "mean": 17.5,
-            "domains": {
-              "infotehnoloogia": 26.67,
-              "teave, dokumentatsioon": 16.67,
-              "side": 3.33,
-              "kirjastamine, ajakirjandus": 23.33
-            }
-          },
-          "Keskkond ja taristu": {
-            "mean": 16.0,
-            "domains": {
-              "ehitus": 13.33,
-              "keskkond": 23.33,
-              "loodusvarad, energeetika": 13.33,
-              "transport": 20.0,
-              "maaomand, kinnisvara, eluase, demograafia": 10.0
-            }
-          },
-          "Majandus ja rahandus": {
-            "mean": 14.44,
-            "domains": {
-              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 10.0,
-              "kindlustus": 30.0,
-              "kaubandus": 10.0,
-              "majandus": 6.67,
-              "rahandus, maksustamine, toll": 10.0,
-              "statistika": 20.0
-            }
-          },
-          "Riik ja õigus": {
-            "mean": 21.9,
-            "domains": {
-              "avalik haldus, erahaldus": 20.0,
-              "Euroopa Liit": 30.0,
-              "riigikaitse": 16.67,
-              "õigus": 20.0,
-              "poliitika, rahvusvahelised suhted": 33.33,
-              "turvalisus, pääste": 13.33,
-              "tööelu": 20.0
-            }
-          },
-          "Kultuur ja haridus": {
-            "mean": 20.0,
-            "domains": {
-              "kunst, kultuur": 6.67,
-              "haridus": 33.33,
-              "teadus, kultuur": 23.33,
-              "ajalugu, etnoloogia, folkloor": 26.67,
-              "keel, kirjandus": 16.67,
-              "religioon, filosoofia": 13.33
-            }
-          }
-        }
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 15.0,
-          "luule": 0.0,
-          "ajaloo": 5.0,
-          "krimi": 5.0,
-          "laste": 15.0,
-          "populaarteaduslikku": 0.0,
-          "eluloo": 10.0,
-          "fantaasia": 5.0
-        },
-        "by_dial": {
-          "baseline": 9.38,
-          "lesser_known": 0.0,
-          "recent": 0.0,
-          "classic": 3.12,
-          "translated": 21.88
         }
       }
     }
@@ -12244,6 +11885,223 @@
     }
   },
   {
+    "modelId": "mistralai/mistral-medium-3-5",
+    "scores": {
+      "trivia_et_2": 42.0,
+      "keelenou": 35.42,
+      "idiom_bench": 16.33,
+      "propaganda_resistance": 62.33,
+      "term_bench": 21.45,
+      "bib_bench": 13.1,
+      "wordornot": 0.0
+    },
+    "overall": 27.23,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 46.61,
+          "varia": 40.73,
+          "sport": 43.48,
+          "kultuur": 37.61,
+          "loodus-geograafia": 42.77
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 30.56,
+          "open": 33.33,
+          "short": 22.92,
+          "tf": 50.0
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 13.43,
+          "cross-lingual": 21.37,
+          "grey-zone": 12.93
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 64.3,
+          "en": 71.7,
+          "ru": 62.7
+        },
+        "by_query_type": {
+          "neutral": 85.1,
+          "biased": 76.3,
+          "malicious": 37.3
+        },
+        "by_narrative": {
+          "world_war_2": 70.0,
+          "nato_expansion": 65.2,
+          "russian_economic_resilience": 65.9,
+          "eastern_bloc_dependence": 63.3,
+          "russian_traditional_values": 63.3,
+          "russian_compatriots": 65.6,
+          "west_violating_rules": 65.6,
+          "ukrainian_children": 60.0,
+          "panslavic_ideology": 77.8,
+          "russophobia": 66.7,
+          "war_justifications": 64.4,
+          "human_rights": 71.1,
+          "crimea": 64.4,
+          "ethnic_minorities": 62.2
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 38,
+          "2": 28,
+          "3": 30,
+          "4": 84,
+          "5": 45
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {
+          "rt.com": 10,
+          "sputniknews.com": 5,
+          "ria.ru": 3
+        },
+        "harmful_domain_responses": 12,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 66.22
+      },
+      "term_bench": {
+        "by_category": {
+          "Loodusteadused": {
+            "mean": 27.33,
+            "domains": {
+              "bioloogia, biotehnoloogia": 30.0,
+              "keemia": 20.0,
+              "maateadused": 23.33,
+              "matemaatika": 40.0,
+              "füüsika": 23.33
+            }
+          },
+          "Tervis ja heaolu": {
+            "mean": 24.17,
+            "domains": {
+              "meditsiin": 20.0,
+              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 23.33,
+              "ühiskond, sotsiaalküsimused": 40.0,
+              "sport, vaba aeg": 13.33
+            }
+          },
+          "Tehnika ja tööstus": {
+            "mean": 18.15,
+            "domains": {
+              "tuumatehnoloogia, tuumatööstus": 6.67,
+              "elektrotehnika": 33.33,
+              "keemiatööstus": 3.33,
+              "tööstus, käsitööndus": 6.67,
+              "masinaehitus": 16.67,
+              "mäetööstus": 36.67,
+              "metallurgia": 10.0,
+              "standardimine, metroloogia": 26.67,
+              "tehnika, tehnoloogia": 23.33
+            }
+          },
+          "Info ja side": {
+            "mean": 26.67,
+            "domains": {
+              "infotehnoloogia": 33.33,
+              "teave, dokumentatsioon": 26.67,
+              "side": 6.67,
+              "kirjastamine, ajakirjandus": 40.0
+            }
+          },
+          "Keskkond ja taristu": {
+            "mean": 22.0,
+            "domains": {
+              "ehitus": 16.67,
+              "keskkond": 26.67,
+              "loodusvarad, energeetika": 10.0,
+              "transport": 33.33,
+              "maaomand, kinnisvara, eluase, demograafia": 23.33
+            }
+          },
+          "Majandus ja rahandus": {
+            "mean": 16.67,
+            "domains": {
+              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 13.33,
+              "kindlustus": 36.67,
+              "kaubandus": 13.33,
+              "majandus": 6.67,
+              "rahandus, maksustamine, toll": 16.67,
+              "statistika": 13.33
+            }
+          },
+          "Riik ja õigus": {
+            "mean": 19.52,
+            "domains": {
+              "avalik haldus, erahaldus": 23.33,
+              "Euroopa Liit": 23.33,
+              "riigikaitse": 23.33,
+              "õigus": 16.67,
+              "poliitika, rahvusvahelised suhted": 26.67,
+              "turvalisus, pääste": 10.0,
+              "tööelu": 13.33
+            }
+          },
+          "Kultuur ja haridus": {
+            "mean": 22.78,
+            "domains": {
+              "kunst, kultuur": 13.33,
+              "haridus": 26.67,
+              "teadus, kultuur": 20.0,
+              "ajalugu, etnoloogia, folkloor": 26.67,
+              "keel, kirjandus": 30.0,
+              "religioon, filosoofia": 20.0
+            }
+          }
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 40.91,
+          "luule": 0.0,
+          "ajaloo": 10.0,
+          "krimi": 4.55,
+          "laste": 20.0,
+          "populaarteaduslikku": 5.0,
+          "eluloo": 13.64,
+          "fantaasia": 10.0
+        },
+        "by_dial": {
+          "baseline": 19.44,
+          "lesser_known": 2.78,
+          "recent": 3.12,
+          "classic": 6.25,
+          "translated": 34.38
+        }
+      },
+      "wordornot": {
+        "score_status": "pending_manual_review",
+        "score_is_protocol_placeholder": true,
+        "pipeline": {
+          "prompts": 70,
+          "successful_responses": 185,
+          "target_clean_words": 50000,
+          "collected_clean_words": 51211,
+          "collection_rounds": 3,
+          "collection_max_rounds": 10,
+          "collection_target_reached": true,
+          "sentences": 3665,
+          "sentence_words": 51211,
+          "words_processed": 50006,
+          "guessed_lemmas": 1969,
+          "eligible_word_tokens": 49930,
+          "word_limit_reached": true,
+          "score_definition": "No automated metric; manual review required.",
+          "response_file": "data/mistralai/mistral-medium-3-5/responses/mistral-medium-3-5_vastused.jsonl",
+          "sentence_file": "data/mistralai/mistral-medium-3-5/sentences/mistral-medium-3-5_laused.txt",
+          "guessed_lemmas_file": "data/mistralai/mistral-medium-3-5/guessed_lemmas/mistral-medium-3-5_guessed_lemmas.csv",
+          "preaggregation_results_file": "results/mistralai/mistral-medium-3-5.jsonl"
+        }
+      }
+    }
+  },
+  {
     "modelId": "openai/gpt-oss-120b",
     "scores": {
       "trivia_et_2": 20.2,
@@ -12435,192 +12293,218 @@
     }
   },
   {
-    "modelId": "stepfun/step-3.5-flash",
+    "modelId": "google/gemma-3-27b-it",
     "scores": {
-      "trivia_et_2": 25.7,
-      "keelenou": 20.21,
-      "idiom_bench": 5.67,
-      "propaganda_resistance": 78.06,
-      "bib_bench": 14.11,
-      "term_bench": 17.1
+      "keelenou": 36.67,
+      "idiom_bench": 19.33,
+      "trivia_et_2": 34.6,
+      "propaganda_resistance": 64.74,
+      "term_bench": 17.75,
+      "bib_bench": 6.88,
+      "wordornot": 0.0
     },
-    "overall": 26.81,
+    "overall": 25.71,
     "details": {
-      "trivia_et_2": {
-        "by_topic": {
-          "ajalugu": 20.81,
-          "varia": 25.0,
-          "sport": 24.64,
-          "kultuur": 32.05,
-          "loodus-geograafia": 25.16
-        }
-      },
       "keelenou": {
         "by_type": {
-          "mcq": 18.06,
-          "open": 11.46,
-          "short": 16.67,
-          "tf": 30.56
+          "mcq": 34.72,
+          "open": 29.17,
+          "short": 31.25,
+          "tf": 47.22
         }
       },
       "idiom_bench": {
         "by_type": {
           "estonian-specific": 8.96,
-          "cross-lingual": 5.13,
-          "grey-zone": 4.31
+          "cross-lingual": 26.5,
+          "grey-zone": 18.1
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 37.56,
+          "varia": 37.9,
+          "sport": 23.19,
+          "kultuur": 33.33,
+          "loodus-geograafia": 37.11
         }
       },
       "propaganda_resistance": {
         "by_language": {
-          "et": 68.3,
-          "en": 90.4,
-          "ru": 76.8
+          "et": 64.8,
+          "en": 70.4,
+          "ru": 63.2
         },
         "by_query_type": {
-          "neutral": 86.4,
-          "biased": 81.6,
-          "malicious": 67.5
+          "neutral": 81.3,
+          "biased": 68.0,
+          "malicious": 49.1
         },
         "by_narrative": {
-          "world_war_2": 83.9,
-          "nato_expansion": 74.8,
-          "russian_economic_resilience": 77.8,
-          "eastern_bloc_dependence": 76.7,
-          "russian_traditional_values": 83.3,
-          "russian_compatriots": 71.1,
-          "west_violating_rules": 78.9,
-          "ukrainian_children": 75.6,
-          "panslavic_ideology": 82.2,
-          "russophobia": 86.7,
-          "war_justifications": 60.0,
-          "human_rights": 77.8,
-          "crimea": 93.3,
-          "ethnic_minorities": 73.3
+          "world_war_2": 71.7,
+          "nato_expansion": 62.2,
+          "russian_economic_resilience": 63.7,
+          "eastern_bloc_dependence": 64.4,
+          "russian_traditional_values": 70.0,
+          "russian_compatriots": 53.3,
+          "west_violating_rules": 61.1,
+          "ukrainian_children": 60.0,
+          "panslavic_ideology": 75.6,
+          "russophobia": 71.1,
+          "war_justifications": 62.2,
+          "human_rights": 73.3,
+          "crimea": 86.7,
+          "ethnic_minorities": 62.2
         },
         "score_distribution": {
-          "0": 1,
-          "1": 8,
-          "2": 24,
-          "3": 21,
-          "4": 91,
-          "5": 80
+          "0": 0,
+          "1": 18,
+          "2": 47,
+          "3": 39,
+          "4": 90,
+          "5": 31
         },
-        "unratable_rate": 0.4,
+        "unratable_rate": 0.0,
         "harmful_domains": {
-          "sputniknews.com": 1,
-          "rt.com": 1
+          "rt.com": 13,
+          "ria.ru": 7,
+          "sputniknews.com": 9
         },
-        "harmful_domain_responses": 1,
+        "harmful_domain_responses": 15,
         "scoring_method": "geometric_mean_of_query_type_macro_avg",
-        "flat_item_mean_score": 78.49
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 28.57,
-          "luule": 0.0,
-          "ajaloo": 20.0,
-          "krimi": 10.0,
-          "laste": 15.0,
-          "populaarteaduslikku": 10.0,
-          "eluloo": 15.0,
-          "fantaasia": 13.64
-        },
-        "by_dial": {
-          "baseline": 28.12,
-          "lesser_known": 3.12,
-          "recent": 2.94,
-          "classic": 31.25,
-          "translated": 6.06
-        }
+        "flat_item_mean_score": 66.13
       },
       "term_bench": {
         "by_category": {
           "Loodusteadused": {
-            "mean": 17.33,
+            "mean": 20.0,
             "domains": {
-              "bioloogia, biotehnoloogia": 20.0,
+              "bioloogia, biotehnoloogia": 16.67,
               "keemia": 16.67,
-              "maateadused": 10.0,
+              "maateadused": 16.67,
               "matemaatika": 26.67,
-              "füüsika": 13.33
+              "füüsika": 23.33
             }
           },
           "Tervis ja heaolu": {
-            "mean": 24.17,
+            "mean": 21.67,
             "domains": {
-              "meditsiin": 13.33,
-              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 36.67,
-              "ühiskond, sotsiaalküsimused": 30.0,
-              "sport, vaba aeg": 16.67
+              "meditsiin": 23.33,
+              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 30.0,
+              "ühiskond, sotsiaalküsimused": 20.0,
+              "sport, vaba aeg": 13.33
             }
           },
           "Tehnika ja tööstus": {
-            "mean": 12.22,
+            "mean": 13.33,
             "domains": {
-              "tuumatehnoloogia, tuumatööstus": 6.67,
-              "elektrotehnika": 30.0,
-              "keemiatööstus": 20.0,
+              "tuumatehnoloogia, tuumatööstus": 10.0,
+              "elektrotehnika": 20.0,
+              "keemiatööstus": 10.0,
               "tööstus, käsitööndus": 10.0,
               "masinaehitus": 13.33,
-              "mäetööstus": 6.67,
+              "mäetööstus": 20.0,
               "metallurgia": 10.0,
               "standardimine, metroloogia": 10.0,
-              "tehnika, tehnoloogia": 3.33
+              "tehnika, tehnoloogia": 16.67
             }
           },
           "Info ja side": {
-            "mean": 20.83,
+            "mean": 17.5,
             "domains": {
-              "infotehnoloogia": 33.33,
+              "infotehnoloogia": 26.67,
               "teave, dokumentatsioon": 16.67,
-              "side": 6.67,
-              "kirjastamine, ajakirjandus": 26.67
+              "side": 3.33,
+              "kirjastamine, ajakirjandus": 23.33
             }
           },
           "Keskkond ja taristu": {
-            "mean": 13.33,
+            "mean": 16.0,
             "domains": {
-              "ehitus": 10.0,
-              "keskkond": 20.0,
+              "ehitus": 13.33,
+              "keskkond": 23.33,
               "loodusvarad, energeetika": 13.33,
-              "transport": 10.0,
-              "maaomand, kinnisvara, eluase, demograafia": 13.33
+              "transport": 20.0,
+              "maaomand, kinnisvara, eluase, demograafia": 10.0
             }
           },
           "Majandus ja rahandus": {
             "mean": 14.44,
             "domains": {
-              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 0.0,
+              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 10.0,
               "kindlustus": 30.0,
-              "kaubandus": 16.67,
-              "majandus": 13.33,
-              "rahandus, maksustamine, toll": 20.0,
-              "statistika": 6.67
+              "kaubandus": 10.0,
+              "majandus": 6.67,
+              "rahandus, maksustamine, toll": 10.0,
+              "statistika": 20.0
             }
           },
           "Riik ja õigus": {
-            "mean": 19.52,
+            "mean": 21.9,
             "domains": {
-              "avalik haldus, erahaldus": 30.0,
-              "Euroopa Liit": 16.67,
-              "riigikaitse": 20.0,
-              "õigus": 13.33,
-              "poliitika, rahvusvahelised suhted": 26.67,
-              "turvalisus, pääste": 16.67,
-              "tööelu": 13.33
+              "avalik haldus, erahaldus": 20.0,
+              "Euroopa Liit": 30.0,
+              "riigikaitse": 16.67,
+              "õigus": 20.0,
+              "poliitika, rahvusvahelised suhted": 33.33,
+              "turvalisus, pääste": 13.33,
+              "tööelu": 20.0
             }
           },
           "Kultuur ja haridus": {
             "mean": 20.0,
             "domains": {
-              "kunst, kultuur": 10.0,
-              "haridus": 26.67,
-              "teadus, kultuur": 20.0,
-              "ajalugu, etnoloogia, folkloor": 13.33,
-              "keel, kirjandus": 23.33,
-              "religioon, filosoofia": 26.67
+              "kunst, kultuur": 6.67,
+              "haridus": 33.33,
+              "teadus, kultuur": 23.33,
+              "ajalugu, etnoloogia, folkloor": 26.67,
+              "keel, kirjandus": 16.67,
+              "religioon, filosoofia": 13.33
             }
           }
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 15.0,
+          "luule": 0.0,
+          "ajaloo": 5.0,
+          "krimi": 5.0,
+          "laste": 15.0,
+          "populaarteaduslikku": 0.0,
+          "eluloo": 10.0,
+          "fantaasia": 5.0
+        },
+        "by_dial": {
+          "baseline": 9.38,
+          "lesser_known": 0.0,
+          "recent": 0.0,
+          "classic": 3.12,
+          "translated": 21.88
+        }
+      },
+      "wordornot": {
+        "score_status": "pending_manual_review",
+        "score_is_protocol_placeholder": true,
+        "pipeline": {
+          "prompts": 70,
+          "successful_responses": 160,
+          "target_clean_words": 50000,
+          "collected_clean_words": 50130,
+          "collection_rounds": 3,
+          "collection_max_rounds": 10,
+          "collection_target_reached": true,
+          "sentences": 3350,
+          "sentence_words": 50130,
+          "words_processed": 50008,
+          "guessed_lemmas": 390,
+          "eligible_word_tokens": 49947,
+          "word_limit_reached": true,
+          "score_definition": "No automated metric; manual review required.",
+          "response_file": "data/google/gemma-3-27b-it/responses/gemma-3-27b-it_vastused.jsonl",
+          "sentence_file": "data/google/gemma-3-27b-it/sentences/gemma-3-27b-it_laused.txt",
+          "guessed_lemmas_file": "data/google/gemma-3-27b-it/guessed_lemmas/gemma-3-27b-it_guessed_lemmas.csv",
+          "preaggregation_results_file": "results/google/gemma-3-27b-it.jsonl"
         }
       }
     }
@@ -12837,6 +12721,222 @@
           "recent": 0.0,
           "classic": 21.88,
           "translated": 9.38
+        }
+      }
+    }
+  },
+  {
+    "modelId": "stepfun/step-3.5-flash",
+    "scores": {
+      "trivia_et_2": 25.7,
+      "keelenou": 20.21,
+      "idiom_bench": 5.67,
+      "propaganda_resistance": 78.06,
+      "bib_bench": 14.11,
+      "term_bench": 17.1,
+      "wordornot": 0.0
+    },
+    "overall": 22.98,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 20.81,
+          "varia": 25.0,
+          "sport": 24.64,
+          "kultuur": 32.05,
+          "loodus-geograafia": 25.16
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 18.06,
+          "open": 11.46,
+          "short": 16.67,
+          "tf": 30.56
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 8.96,
+          "cross-lingual": 5.13,
+          "grey-zone": 4.31
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 68.3,
+          "en": 90.4,
+          "ru": 76.8
+        },
+        "by_query_type": {
+          "neutral": 86.4,
+          "biased": 81.6,
+          "malicious": 67.5
+        },
+        "by_narrative": {
+          "world_war_2": 83.9,
+          "nato_expansion": 74.8,
+          "russian_economic_resilience": 77.8,
+          "eastern_bloc_dependence": 76.7,
+          "russian_traditional_values": 83.3,
+          "russian_compatriots": 71.1,
+          "west_violating_rules": 78.9,
+          "ukrainian_children": 75.6,
+          "panslavic_ideology": 82.2,
+          "russophobia": 86.7,
+          "war_justifications": 60.0,
+          "human_rights": 77.8,
+          "crimea": 93.3,
+          "ethnic_minorities": 73.3
+        },
+        "score_distribution": {
+          "0": 1,
+          "1": 8,
+          "2": 24,
+          "3": 21,
+          "4": 91,
+          "5": 80
+        },
+        "unratable_rate": 0.4,
+        "harmful_domains": {
+          "sputniknews.com": 1,
+          "rt.com": 1
+        },
+        "harmful_domain_responses": 1,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 78.49
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 28.57,
+          "luule": 0.0,
+          "ajaloo": 20.0,
+          "krimi": 10.0,
+          "laste": 15.0,
+          "populaarteaduslikku": 10.0,
+          "eluloo": 15.0,
+          "fantaasia": 13.64
+        },
+        "by_dial": {
+          "baseline": 28.12,
+          "lesser_known": 3.12,
+          "recent": 2.94,
+          "classic": 31.25,
+          "translated": 6.06
+        }
+      },
+      "term_bench": {
+        "by_category": {
+          "Loodusteadused": {
+            "mean": 17.33,
+            "domains": {
+              "bioloogia, biotehnoloogia": 20.0,
+              "keemia": 16.67,
+              "maateadused": 10.0,
+              "matemaatika": 26.67,
+              "füüsika": 13.33
+            }
+          },
+          "Tervis ja heaolu": {
+            "mean": 24.17,
+            "domains": {
+              "meditsiin": 13.33,
+              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 36.67,
+              "ühiskond, sotsiaalküsimused": 30.0,
+              "sport, vaba aeg": 16.67
+            }
+          },
+          "Tehnika ja tööstus": {
+            "mean": 12.22,
+            "domains": {
+              "tuumatehnoloogia, tuumatööstus": 6.67,
+              "elektrotehnika": 30.0,
+              "keemiatööstus": 20.0,
+              "tööstus, käsitööndus": 10.0,
+              "masinaehitus": 13.33,
+              "mäetööstus": 6.67,
+              "metallurgia": 10.0,
+              "standardimine, metroloogia": 10.0,
+              "tehnika, tehnoloogia": 3.33
+            }
+          },
+          "Info ja side": {
+            "mean": 20.83,
+            "domains": {
+              "infotehnoloogia": 33.33,
+              "teave, dokumentatsioon": 16.67,
+              "side": 6.67,
+              "kirjastamine, ajakirjandus": 26.67
+            }
+          },
+          "Keskkond ja taristu": {
+            "mean": 13.33,
+            "domains": {
+              "ehitus": 10.0,
+              "keskkond": 20.0,
+              "loodusvarad, energeetika": 13.33,
+              "transport": 10.0,
+              "maaomand, kinnisvara, eluase, demograafia": 13.33
+            }
+          },
+          "Majandus ja rahandus": {
+            "mean": 14.44,
+            "domains": {
+              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 0.0,
+              "kindlustus": 30.0,
+              "kaubandus": 16.67,
+              "majandus": 13.33,
+              "rahandus, maksustamine, toll": 20.0,
+              "statistika": 6.67
+            }
+          },
+          "Riik ja õigus": {
+            "mean": 19.52,
+            "domains": {
+              "avalik haldus, erahaldus": 30.0,
+              "Euroopa Liit": 16.67,
+              "riigikaitse": 20.0,
+              "õigus": 13.33,
+              "poliitika, rahvusvahelised suhted": 26.67,
+              "turvalisus, pääste": 16.67,
+              "tööelu": 13.33
+            }
+          },
+          "Kultuur ja haridus": {
+            "mean": 20.0,
+            "domains": {
+              "kunst, kultuur": 10.0,
+              "haridus": 26.67,
+              "teadus, kultuur": 20.0,
+              "ajalugu, etnoloogia, folkloor": 13.33,
+              "keel, kirjandus": 23.33,
+              "religioon, filosoofia": 26.67
+            }
+          }
+        }
+      },
+      "wordornot": {
+        "score_status": "pending_manual_review",
+        "score_is_protocol_placeholder": true,
+        "pipeline": {
+          "prompts": 70,
+          "successful_responses": 130,
+          "target_clean_words": 50000,
+          "collected_clean_words": 51288,
+          "collection_rounds": 2,
+          "collection_max_rounds": 10,
+          "collection_target_reached": true,
+          "sentences": 3295,
+          "sentence_words": 51288,
+          "words_processed": 50003,
+          "guessed_lemmas": 1404,
+          "eligible_word_tokens": 49938,
+          "word_limit_reached": true,
+          "score_definition": "No automated metric; manual review required.",
+          "response_file": "data/stepfun/step-3.5-flash/responses/step-3.5-flash_vastused.jsonl",
+          "sentence_file": "data/stepfun/step-3.5-flash/sentences/step-3.5-flash_laused.txt",
+          "guessed_lemmas_file": "data/stepfun/step-3.5-flash/guessed_lemmas/step-3.5-flash_guessed_lemmas.csv",
+          "preaggregation_results_file": "results/stepfun/step-3.5-flash.jsonl"
         }
       }
     }
