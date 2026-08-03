@@ -12882,5 +12882,38 @@
         }
       }
     }
+  },
+  {
+    "modelId": "openai/gpt-5",
+    "scores": {
+      "wordornot": 0.0
+    },
+    "overall": 0.0,
+    "details": {
+      "wordornot": {
+        "score_status": "pending_manual_review",
+        "score_is_protocol_placeholder": true,
+        "pipeline": {
+          "prompts": 70,
+          "successful_responses": 65,
+          "target_clean_words": 50000,
+          "collected_clean_words": 51137,
+          "collection_rounds": 1,
+          "collection_max_rounds": 10,
+          "collection_target_reached": true,
+          "sentences": 3488,
+          "sentence_words": 51137,
+          "words_processed": 50008,
+          "guessed_lemmas": 1471,
+          "eligible_word_tokens": 49866,
+          "word_limit_reached": true,
+          "score_definition": "No automated metric; manual review required.",
+          "response_file": "data/openai/gpt-5/responses/gpt-5_vastused.jsonl",
+          "sentence_file": "data/openai/gpt-5/sentences/gpt-5_laused.txt",
+          "guessed_lemmas_file": "data/openai/gpt-5/guessed_lemmas/gpt-5_guessed_lemmas.csv",
+          "preaggregation_results_file": "results/openai/gpt-5.jsonl"
+        }
+      }
+    }
   }
 ]
