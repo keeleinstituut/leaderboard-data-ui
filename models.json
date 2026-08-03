@@ -156,7 +156,13 @@
     "id": "anthropic/claude-opus-4.7",
     "name": "Claude Opus 4.7",
     "provider": "Anthropic",
-    "release": "2026-04-16"
+    "release": "2026-04-"
+  },
+  {
+    "id": "anthropic/claude-fable-5",
+    "name": "Claude Fable 5",
+    "provider": "Anthropic",
+    "release": "2026-06-10"
   },
   {
     "id": "anthropic/claude-opus-4.8",
@@ -412,24 +418,6 @@
     "name": "Kimi K2",
     "provider": "Moonshot",
     "release": "2025-09-05",
-    "tags": [
-      "open"
-    ]
-  },
-  {
-    "id": "moonshotai/kimi-k2.5",
-    "name": "Kimi K2.5",
-    "provider": "Moonshot",
-    "release": "2026-01-27",
-    "tags": [
-      "open"
-    ]
-  },
-  {
-    "id": "moonshotai/kimi-k2.6",
-    "name": "Kimi K2.6",
-    "provider": "Moonshot",
-    "release": "2026-04-20",
     "tags": [
       "open"
     ]
