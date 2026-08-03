@@ -30,6 +30,8 @@ The model's overall score is calculated as a **geometric mean**, so that a stron
 
 Measures the language model's own ability to push back on propaganda narratives, without external help. Models do not have access to web search, memory, or other tools during evaluation. This sets a threshold for the underlying model — results do not transfer one-to-one to a deployed chatbot's user experience.
 
-## Collaboration
+## Collaboration & acknowledgements
 
 Developed with [Propastop](https://propastop.org/en), whose work informed the outline of the main strategic narratives used by the Russian Federation. Annotators contributing to the judge model's calibration were domain experts in Russian disinformation, provided through Propastop.
+
+The methodology was partly inspired by the work of the [Institute for Strategic Dialogue](https://www.isdglobal.org/digital-dispatch/investigation-talking-points-when-chatbots-surface-russian-state-media/).
