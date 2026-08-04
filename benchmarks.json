@@ -3,6 +3,9 @@
     "id": "bib_bench",
     "name_en": "Book Recommendations",
     "name_et": "Raamatusoovitused",
+    "tags": [
+      "knowledge"
+    ],
     "description_short_en": "Estonian book recommendations across 8 genres and 5 criteria. Measures hallucination rate against the National Bibliography.",
     "description_short_et": "Eestikeelsed raamatusoovitused 8 žanris. Mõõdab hallutsinatsioonide määra rahvusbibliograafia põhjal.",
     "description_url": "benchmarks/bib_bench.md"
