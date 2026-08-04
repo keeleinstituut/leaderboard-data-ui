@@ -65,10 +65,7 @@
   {
     "id": "trivia_et_3",
     "name_en": "Trivia Hard",
-    "name_et": "Mälumäng",
-    "tags": [
-      "knowledge"
-    ]
+    "name_et": "Mälumäng"
   },
   {
     "id": "wordornot",
