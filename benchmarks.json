@@ -65,7 +65,10 @@
     "name_et": "Mälumäng",
     "tags": [
       "knowledge"
-    ]
+    ],
+    "description_short_en": "800 open-answer trivia questions (80 per category) on Estonian politics, history, culture, literature, language, sports, nature and geography. Deliberately hard; some answers scored by a judge model.",
+    "description_short_et": "800 avatud vastusega mälumänguküsimust (80 igas kategoorias) eesti poliitika, ajaloo, kultuuri, kirjanduse, keele, spordi, looduse ja geograafia teemadel. Meelega raskemad küsimused; osa vastuseid hindab kohtunikmudel.",
+    "description_url": "benchmarks/trivia_et_3.md"
   },
   {
     "id": "wordornot",
