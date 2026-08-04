@@ -567,11 +567,11 @@
     "modelId": "anthropic/claude-opus-5",
     "scores": {
       "trivia_et_2": 64.8,
-      "bib_bench": 85.65,
       "keelenou": 65.42,
       "idiom_bench": 58.33,
       "term_bench": 55.94,
-      "propaganda_resistance": 97.59
+      "propaganda_resistance": 97.59,
+      "bib_bench": 85.65
     },
     "overall": 71.29,
     "details": {
@@ -582,25 +582,6 @@
           "sport": 52.9,
           "kultuur": 62.39,
           "loodus-geograafia": 69.81
-        }
-      },
-      "bib_bench": {
-        "by_genre": {
-          "ilukirjanduslikku": 92.86,
-          "luule": 87.5,
-          "ajaloo": 76.47,
-          "krimi": 95.0,
-          "laste": 89.29,
-          "populaarteaduslikku": 80.77,
-          "eluloo": 80.77,
-          "fantaasia": 86.21
-        },
-        "by_dial": {
-          "baseline": 89.8,
-          "lesser_known": 81.4,
-          "recent": 79.49,
-          "classic": 94.0,
-          "translated": 80.95
         }
       },
       "keelenou": {
@@ -748,6 +729,25 @@
         "harmful_domain_responses": 0,
         "scoring_method": "geometric_mean_of_query_type_macro_avg",
         "flat_item_mean_score": 97.6
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 92.86,
+          "luule": 87.5,
+          "ajaloo": 76.47,
+          "krimi": 95.0,
+          "laste": 89.29,
+          "populaarteaduslikku": 80.77,
+          "eluloo": 80.77,
+          "fantaasia": 86.21
+        },
+        "by_dial": {
+          "baseline": 89.8,
+          "lesser_known": 81.4,
+          "recent": 79.49,
+          "classic": 94.0,
+          "translated": 80.95
+        }
       }
     }
   },
