@@ -43,7 +43,6 @@ anthropic/claude-3.5-haiku,Claude 3.5 Haiku,Anthropic,2024-11-04,,36.44,6,23.46,
 x-ai/grok-4-fast,Grok 4 Fast,xAI,2025-09-19,,35.63,6,17.5,42.5,40.9,23.0,24.78,65.11,
 anthropic/claude-sonnet-4,Claude Sonnet 4,Anthropic,2025-05-22,,35.22,7,30.43,42.92,39.4,30.33,26.67,74.44,2.38
 x-ai/grok-4.20,Grok 4.20,xAI,2026-03-10,,34.89,7,19.15,40.21,39.5,31.0,26.09,87.55,0.75
-bytedance-seed/seed-2.0-mini,Seed 2.0 Mini,ByteDance,2026-02-26,,33.6,3,8.75,38.96,,,,53.09,
 meta-llama/llama-4-maverick,Llama 4 Maverick,Meta,2025-04-05,open,32.81,7,22.53,46.04,44.6,24.67,29.28,59.81,2.75
 mistralai/mistral-large-2512,Mistral Large 2512,Mistral,2025-12-01,open,31.75,7,24.4,43.54,47.3,22.67,20.51,61.8,2.0
 moonshotai/kimi-k2-0905,Kimi K2,Moonshot,2025-09-05,open,31.02,7,15.62,37.92,42.0,24.33,20.29,75.01,2.0
@@ -61,6 +60,7 @@ google/gemma-3-27b-it,Gemma 3 27B,Google,2025-03-12,open,25.84,7,6.88,36.67,34.6
 mistralai/mistral-small-2603,Mistral Small 4,Mistral,2026-03-16,open,25.79,7,15.24,43.75,37.2,12.0,14.93,56.44,1.0
 meta-llama/llama-3.1-70b-instruct,Llama 3.1 70B Instruct,Meta,2024-07-23,open,25.55,7,21.88,33.75,36.5,12.67,18.48,52.93,2.62
 meta-llama/llama-3-70b-instruct,Llama 3 70B Instruct,Meta,2024-04-18,open,25.47,1,25.47,,,,,,
+bytedance-seed/seed-2.0-mini,Seed 2.0 Mini,ByteDance,2026-02-26,,25.39,4,8.75,38.96,,,,53.09,0.75
 z-ai/glm-4.7,GLM 4.7,Zhipu AI,2025-12-22,open,25.33,7,27.17,37.92,21.0,3.33,18.19,65.18,4.5
 openai/gpt-3.5-turbo,GPT-3.5 Turbo,OpenAI,2023-03-01,,24.99,7,21.25,38.75,35.3,19.67,10.65,48.16,1.12
 meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B Instruct,Meta,2024-12-06,open,24.87,7,20.0,32.5,35.7,11.67,16.81,55.5,1.88
