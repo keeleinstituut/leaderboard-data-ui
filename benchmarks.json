@@ -61,5 +61,19 @@
     "description_short_en": "225 prompts across 15 Kremlin narratives, three languages, and three question types. Responses scored by a separate judge model.",
     "description_short_et": "225 küsimust Kremli propagandanarratiivide kohta kolmes keeles ja kolmel viisil. Vastuseid hindab eraldi kohtunikmudel.",
     "description_url": "benchmarks/propaganda_resistance.md"
+  },
+  {
+    "id": "trivia_et_3",
+    "name_en": "Trivia Hard",
+    "name_et": "Mälumäng",
+    "description_url": "benchmarks/trivia_et_3.md"
+  },
+  {
+    "id": "wordornot",
+    "name_en": "Non-words",
+    "name_et": "Ebasõnad",
+    "tags": [
+      "language"
+    ]
   }
 ]
