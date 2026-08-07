@@ -36,7 +36,6 @@ xiaomi/mimo-v2-pro,MiMo V2 Pro,Xiaomi,2026-03-18,,39.06,6,46.63,38.12,22.5,11.33
 z-ai/glm-5,GLM-5,Zhipu AI,2026-02-11,open,37.9,7,35.0,49.17,50.3,24.33,34.86,64.51,7.12
 anthropic/claude-sonnet-4.5,Claude Sonnet 4.5,Anthropic,2025-09-29,,37.87,7,30.54,40.0,42.1,33.67,29.42,88.22,1.12
 x-ai/grok-3-mini,Grok 3 Mini,xAI,2025-04-09,,37.44,6,26.25,42.71,42.7,25.33,26.38,61.28,
-qwen/qwen3.5-27b,Qwen 3.5 27B,Alibaba,2026-02-24,open,37.03,5,13.94,37.29,31.9,16.33,,85.68,
 deepseek/deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-04-24,open,37.01,7,30.06,44.58,38.4,37.67,30.65,72.62,5.12
 openai/gpt-4,GPT-4,OpenAI,2023-03-14,,36.93,7,31.87,47.08,46.4,36.67,30.58,62.5,3.38
 anthropic/claude-3.5-haiku,Claude 3.5 Haiku,Anthropic,2024-11-04,,36.44,6,23.46,39.58,39.2,21.33,21.96,73.1,
@@ -45,6 +44,7 @@ anthropic/claude-sonnet-4,Claude Sonnet 4,Anthropic,2025-05-22,,35.22,7,30.43,42
 x-ai/grok-4.20,Grok 4.20,xAI,2026-03-10,,34.89,7,19.15,40.21,39.5,31.0,26.09,87.55,0.75
 meta-llama/llama-4-maverick,Llama 4 Maverick,Meta,2025-04-05,open,32.81,7,22.53,46.04,44.6,24.67,29.28,59.81,2.75
 mistralai/mistral-large-2512,Mistral Large 2512,Mistral,2025-12-01,open,31.75,7,24.4,43.54,47.3,22.67,20.51,61.8,2.0
+qwen/qwen3.5-27b,Qwen 3.5 27B,Alibaba,2026-02-24,open,31.04,6,13.94,37.29,31.9,16.33,,85.68,1.12
 moonshotai/kimi-k2-0905,Kimi K2,Moonshot,2025-09-05,open,31.02,7,15.62,37.92,42.0,24.33,20.29,75.01,2.0
 deepseek/deepseek-v3.2,DeepSeek V3.2,DeepSeek,2025-12-01,open,30.28,7,7.27,39.17,37.8,20.67,21.88,82.92,2.25
 anthropic/claude-haiku-4.5,Claude 4.5 Haiku,Anthropic,2025-10-15,,30.21,7,13.66,35.62,34.9,21.67,21.16,83.74,0.75
