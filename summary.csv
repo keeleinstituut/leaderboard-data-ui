@@ -44,10 +44,10 @@ anthropic/claude-sonnet-4,Claude Sonnet 4,Anthropic,2025-05-22,,35.22,7,30.43,42
 x-ai/grok-4.20,Grok 4.20,xAI,2026-03-10,,34.89,7,19.15,40.21,39.5,31.0,26.09,87.55,0.75
 meta-llama/llama-4-maverick,Llama 4 Maverick,Meta,2025-04-05,open,32.81,7,22.53,46.04,44.6,24.67,29.28,59.81,2.75
 mistralai/mistral-large-2512,Mistral Large 2512,Mistral,2025-12-01,open,31.75,7,24.4,43.54,47.3,22.67,20.51,61.8,2.0
-qwen/qwen3.5-27b,Qwen 3.5 27B,Alibaba,2026-02-24,open,31.04,6,13.94,37.29,31.9,16.33,,85.68,1.12
 moonshotai/kimi-k2-0905,Kimi K2,Moonshot,2025-09-05,open,31.02,7,15.62,37.92,42.0,24.33,20.29,75.01,2.0
 deepseek/deepseek-v3.2,DeepSeek V3.2,DeepSeek,2025-12-01,open,30.28,7,7.27,39.17,37.8,20.67,21.88,82.92,2.25
 anthropic/claude-haiku-4.5,Claude 4.5 Haiku,Anthropic,2025-10-15,,30.21,7,13.66,35.62,34.9,21.67,21.16,83.74,0.75
+qwen/qwen3.5-27b,Qwen 3.5 27B,Alibaba,2026-02-24,open,30.0,7,13.94,37.29,31.9,16.33,23.77,85.68,1.12
 anthropic/claude-3-haiku,Claude 3 Haiku,Anthropic,2024-03-13,,28.93,7,25.62,36.25,32.6,22.67,22.61,61.98,0.75
 mistralai/mistral-large-2411,Mistral Large 2411,Mistral,2024-11-18,open,28.66,6,11.88,37.29,34.6,12.67,17.1,58.43,
 mistralai/mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-04-29,open,27.39,7,13.1,35.42,42.0,16.33,21.45,62.33,1.12
