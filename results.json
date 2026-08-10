@@ -4950,9 +4950,10 @@
       "wordornot": 0.0,
       "trivia_et_3": 19.25,
       "propaganda_resistance": 79.17,
-      "keelenou": 47.29
+      "keelenou": 47.29,
+      "term_bench": 44.35
     },
-    "overall": 43.6,
+    "overall": 43.71,
     "details": {
       "bib_bench": {
         "by_genre": {
@@ -5069,6 +5070,96 @@
           "open": 32.29,
           "short": 62.5,
           "tf": 48.61
+        }
+      },
+      "term_bench": {
+        "by_category": {
+          "Loodusteadused": {
+            "mean": 46.0,
+            "domains": {
+              "bioloogia, biotehnoloogia": 50.0,
+              "keemia": 40.0,
+              "maateadused": 50.0,
+              "matemaatika": 50.0,
+              "füüsika": 40.0
+            }
+          },
+          "Tervis ja heaolu": {
+            "mean": 47.5,
+            "domains": {
+              "meditsiin": 50.0,
+              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 56.67,
+              "ühiskond, sotsiaalküsimused": 46.67,
+              "sport, vaba aeg": 36.67
+            }
+          },
+          "Tehnika ja tööstus": {
+            "mean": 40.37,
+            "domains": {
+              "tuumatehnoloogia, tuumatööstus": 33.33,
+              "elektrotehnika": 50.0,
+              "keemiatööstus": 46.67,
+              "tööstus, käsitööndus": 36.67,
+              "masinaehitus": 36.67,
+              "mäetööstus": 50.0,
+              "metallurgia": 26.67,
+              "standardimine, metroloogia": 40.0,
+              "tehnika, tehnoloogia": 43.33
+            }
+          },
+          "Info ja side": {
+            "mean": 45.0,
+            "domains": {
+              "infotehnoloogia": 53.33,
+              "teave, dokumentatsioon": 40.0,
+              "side": 30.0,
+              "kirjastamine, ajakirjandus": 56.67
+            }
+          },
+          "Keskkond ja taristu": {
+            "mean": 42.0,
+            "domains": {
+              "ehitus": 30.0,
+              "keskkond": 46.67,
+              "loodusvarad, energeetika": 53.33,
+              "transport": 50.0,
+              "maaomand, kinnisvara, eluase, demograafia": 30.0
+            }
+          },
+          "Majandus ja rahandus": {
+            "mean": 42.22,
+            "domains": {
+              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 50.0,
+              "kindlustus": 60.0,
+              "kaubandus": 40.0,
+              "majandus": 40.0,
+              "rahandus, maksustamine, toll": 23.33,
+              "statistika": 40.0
+            }
+          },
+          "Riik ja õigus": {
+            "mean": 46.19,
+            "domains": {
+              "avalik haldus, erahaldus": 50.0,
+              "Euroopa Liit": 53.33,
+              "riigikaitse": 33.33,
+              "õigus": 46.67,
+              "poliitika, rahvusvahelised suhted": 46.67,
+              "turvalisus, pääste": 43.33,
+              "tööelu": 50.0
+            }
+          },
+          "Kultuur ja haridus": {
+            "mean": 48.33,
+            "domains": {
+              "kunst, kultuur": 20.0,
+              "haridus": 70.0,
+              "teadus, kultuur": 53.33,
+              "ajalugu, etnoloogia, folkloor": 43.33,
+              "keel, kirjandus": 53.33,
+              "religioon, filosoofia": 50.0
+            }
+          }
         }
       }
     }
