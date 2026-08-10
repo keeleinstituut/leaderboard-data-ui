@@ -19,12 +19,12 @@ deepseek/deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-04-24,open,48.73,7,50.3,5
 openai/gpt-5.4,GPT-5.4,OpenAI,2026-03-05,,48.36,7,34.16,53.12,52.1,61.0,44.42,88.87,4.88,
 openai/gpt-5.2,GPT-5.2,OpenAI,2025-12-11,,47.81,7,33.16,57.5,58.2,53.0,42.17,78.39,12.25,
 anthropic/claude-opus-4.6,Claude Opus 4.6,Anthropic,2026-02-05,,47.28,7,38.89,52.92,54.4,48.33,39.49,89.84,7.12,
+openai/gpt-5,GPT-5,OpenAI,2025-08-07,,46.08,8,61.88,47.29,62.7,54.0,44.35,79.17,19.25,0.0
 moonshotai/kimi-k3,Kimi K3,Moonshot,2026-06-16,open,45.56,7,40.56,48.33,55.7,31.67,39.86,92.77,10.0,
 x-ai/grok-3,Grok 3,xAI,2025-02-17,,45.11,6,28.75,43.54,49.9,46.33,34.71,67.43,,
 anthropic/claude-opus-4.5,Claude Opus 4.5,Anthropic,2025-11-24,,44.87,7,31.29,48.33,54.2,46.67,38.7,89.01,5.88,
 qwen/qwen3.6-plus,Qwen 3.6 Plus,Alibaba,2026-04-01,open,44.07,7,39.75,45.21,50.7,40.67,36.59,92.08,3.5,
 anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-06-30,,43.79,7,33.13,50.42,47.4,40.0,38.84,92.49,4.25,
-openai/gpt-5,GPT-5,OpenAI,2025-08-07,,43.71,7,61.88,47.29,,54.0,44.35,79.17,19.25,0.0
 google/gemini-2.0-flash-001,Gemini 2.0 Flash,Google,2025-02-05,,42.8,6,23.75,48.12,48.6,37.67,33.91,64.74,,
 google/gemini-2.5-flash,Gemini 2.5 Flash,Google,2025-06-17,,42.7,7,28.57,49.58,53.6,51.67,40.43,73.04,2.0,
 anthropic/claude-opus-4,Claude Opus 4,Anthropic,2025-05-22,,41.62,7,31.87,45.83,51.6,44.67,37.1,74.14,6.12,
