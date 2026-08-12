@@ -90,7 +90,8 @@
     "id": "anthropic/claude-3.7-sonnet",
     "name": "Claude 3.7 Sonnet",
     "provider": "Anthropic",
-    "release": "2025-02-24"
+    "release": "2025-02-24",
+    "retired": true
   },
   {
     "id": "anthropic/claude-sonnet-4",
@@ -126,7 +127,8 @@
     "id": "anthropic/claude-3.5-haiku",
     "name": "Claude 3.5 Haiku",
     "provider": "Anthropic",
-    "release": "2024-11-04"
+    "release": "2024-11-04",
+    "retired": true
   },
   {
     "id": "anthropic/claude-haiku-4.5",
@@ -186,7 +188,8 @@
     "id": "google/gemini-2.0-flash-001",
     "name": "Gemini 2.0 Flash",
     "provider": "Google",
-    "release": "2025-02-05"
+    "release": "2025-02-05",
+    "retired": true
   },
   {
     "id": "google/gemini-2.5-flash",
@@ -255,19 +258,22 @@
     "id": "x-ai/grok-3",
     "name": "Grok 3",
     "provider": "xAI",
-    "release": "2025-02-17"
+    "release": "2025-02-17",
+    "retired": true
   },
   {
     "id": "x-ai/grok-3-mini",
     "name": "Grok 3 Mini",
     "provider": "xAI",
-    "release": "2025-04-09"
+    "release": "2025-04-09",
+    "retired": true
   },
   {
     "id": "x-ai/grok-4-fast",
     "name": "Grok 4 Fast",
     "provider": "xAI",
-    "release": "2025-09-19"
+    "release": "2025-09-19",
+    "retired": true
   },
   {
     "id": "x-ai/grok-4.20",
@@ -315,7 +321,8 @@
     "release": "2024-11-18",
     "tags": [
       "open"
-    ]
+    ],
+    "retired": true
   },
   {
     "id": "mistralai/mistral-large-2512",
@@ -435,7 +442,8 @@
     "id": "xiaomi/mimo-v2-pro",
     "name": "MiMo V2 Pro",
     "provider": "Xiaomi",
-    "release": "2026-03-18"
+    "release": "2026-03-18",
+    "retired": true
   },
   {
     "id": "minimax/minimax-m2.7",
