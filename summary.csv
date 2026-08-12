@@ -1,72 +1,72 @@
-model_id,name,provider,release_date,tags,retired,overall,benchmarks_covered,bib_bench,keelenou,trivia_et_2,idiom_bench,term_bench,propaganda_resistance,trivia_et_3
-openai/gpt-5.6-sol,GPT-5.6 Sol,OpenAI,2026-07-09,,false,71.26,7,90.62,66.25,78.0,70.67,56.59,92.79,43.88
-google/gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,Google,2026-02-19,,false,69.52,7,80.62,61.88,85.0,72.33,57.03,79.05,50.75
-anthropic/claude-fable-5,Claude Fable 5,Anthropic,2026-06-10,,false,68.53,7,89.09,74.79,71.9,65.0,55.22,95.23,28.5
-openai/gpt-5.5,GPT-5.5,OpenAI,2026-04-23,,false,68.04,7,75.44,65.21,76.6,73.67,59.13,87.86,38.38
-anthropic/claude-opus-5,Claude Opus 5,Anthropic,2026-07-24,,false,64.1,7,85.65,65.42,64.8,58.33,55.94,97.59,21.0
-google/gemini-3.5-flash,Gemini 3.5 Flash,Google,2026-05-19,,false,62.89,7,65.0,61.88,80.0,64.0,54.13,72.96,42.25
-openai/gpt-5.6-terra,GPT-5.6 Terra,OpenAI,2026-07-09,,false,61.21,7,77.5,61.04,62.9,64.33,49.64,92.96,20.12
-google/gemini-3.6-flash,Gemini 3.6 Flash,Google,2026-07-21,,false,60.98,7,54.37,60.0,80.9,63.33,52.17,74.87,41.25
-openai/gpt-5.6-luna,GPT-5.6 Luna,OpenAI,2026-07-09,,false,59.23,7,67.5,62.29,61.3,64.0,51.38,89.49,18.62
-x-ai/grok-4.5,Grok 4.5,xAI,2026-07-08,,false,57.51,7,65.62,59.79,63.2,52.67,47.54,95.24,18.5
-google/gemini-3-flash-preview,Gemini 3 Flash,Google,2025-12-17,,false,54.39,7,43.2,64.58,76.1,59.0,46.23,64.85,26.75
-qwen/qwen3.7-max,Qwen 3.7 Max,Alibaba,2026-05-19,,false,53.56,7,59.51,54.37,64.9,51.33,45.0,87.32,12.5
-openai/gpt-5,GPT-5,OpenAI,2025-08-07,,false,52.66,7,61.88,47.29,62.7,54.0,44.35,79.17,19.25
-google/gemini-2.5-pro,Gemini 2.5 Pro,Google,2025-06-17,,false,52.51,7,33.75,51.04,71.5,57.0,46.3,82.01,26.0
-anthropic/claude-opus-4.7,Claude Opus 4.7,Anthropic,2026-04-,,false,50.16,7,34.88,56.67,57.4,49.67,48.99,94.88,8.62
-anthropic/claude-3.7-sonnet,Claude 3.7 Sonnet,Anthropic,2025-02-24,,true,50.09,6,35.62,45.83,50.7,51.33,40.29,76.79,
-anthropic/claude-opus-4.8,Claude Opus 4.8,Anthropic,2026-05-27,,false,49.24,7,32.52,59.17,55.8,49.0,46.81,92.73,8.62
-deepseek/deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-04-24,open,false,48.73,7,50.3,50.0,62.4,48.67,45.29,72.31,12.12
-openai/gpt-5.4,GPT-5.4,OpenAI,2026-03-05,,false,48.36,7,34.16,53.12,52.1,61.0,44.42,88.87,4.88
-openai/gpt-5.2,GPT-5.2,OpenAI,2025-12-11,,false,47.81,7,33.16,57.5,58.2,53.0,42.17,78.39,12.25
-anthropic/claude-opus-4.6,Claude Opus 4.6,Anthropic,2026-02-05,,false,47.28,7,38.89,52.92,54.4,48.33,39.49,89.84,7.12
-moonshotai/kimi-k3,Kimi K3,Moonshot,2026-06-16,open,false,45.56,7,40.56,48.33,55.7,31.67,39.86,92.77,10.0
-x-ai/grok-3,Grok 3,xAI,2025-02-17,,true,45.11,6,28.75,43.54,49.9,46.33,34.71,67.43,
-anthropic/claude-opus-4.5,Claude Opus 4.5,Anthropic,2025-11-24,,false,44.87,7,31.29,48.33,54.2,46.67,38.7,89.01,5.88
-qwen/qwen3.6-plus,Qwen 3.6 Plus,Alibaba,2026-04-01,open,false,44.07,7,39.75,45.21,50.7,40.67,36.59,92.08,3.5
-anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-06-30,,false,43.79,7,33.13,50.42,47.4,40.0,38.84,92.49,4.25
-google/gemini-2.0-flash-001,Gemini 2.0 Flash,Google,2025-02-05,,true,42.8,6,23.75,48.12,48.6,37.67,33.91,64.74,
-google/gemini-2.5-flash,Gemini 2.5 Flash,Google,2025-06-17,,false,42.7,7,28.57,49.58,53.6,51.67,40.43,73.04,2.0
-anthropic/claude-opus-4,Claude Opus 4,Anthropic,2025-05-22,,false,41.62,7,31.87,45.83,51.6,44.67,37.1,74.14,6.12
-openai/gpt-5.4-mini,GPT-5.4 Mini,OpenAI,2026-03-18,,false,41.3,7,31.25,46.46,50.8,42.33,30.8,84.34,3.12
-openai/gpt-4o,GPT-4o,OpenAI,2024-05-13,,false,41.14,7,37.89,47.29,54.0,45.67,32.61,66.3,4.25
-anthropic/claude-sonnet-4.6,Claude Sonnet 4.6,Anthropic,2026-02-17,,false,40.24,7,22.5,46.67,45.7,37.33,35.51,91.23,2.75
-z-ai/glm-5.2,GLM 5.2,Zhipu AI,2026-06-16,open,false,40.13,7,35.75,51.67,53.0,28.0,36.01,70.37,6.12
-openai/gpt-4.1,GPT-4.1,OpenAI,2025-04-14,,false,39.93,7,31.52,46.25,53.2,48.67,31.96,63.56,4.38
-minimax/minimax-m3,MiniMax M3,MiniMax,2026-05-31,,false,39.21,7,22.81,44.17,46.8,32.67,36.96,88.18,2.88
-xiaomi/mimo-v2-pro,MiMo V2 Pro,Xiaomi,2026-03-18,,true,39.06,6,46.63,38.12,22.5,11.33,34.06,81.73,
-z-ai/glm-5,GLM-5,Zhipu AI,2026-02-11,open,false,37.9,7,35.0,49.17,50.3,24.33,34.86,64.51,7.12
-anthropic/claude-sonnet-4.5,Claude Sonnet 4.5,Anthropic,2025-09-29,,false,37.87,7,30.54,40.0,42.1,33.67,29.42,88.22,1.12
-x-ai/grok-3-mini,Grok 3 Mini,xAI,2025-04-09,,true,37.44,6,26.25,42.71,42.7,25.33,26.38,61.28,
-deepseek/deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-04-24,open,false,37.01,7,30.06,44.58,38.4,37.67,30.65,72.62,5.12
-openai/gpt-4,GPT-4,OpenAI,2023-03-14,,false,36.93,7,31.87,47.08,46.4,36.67,30.58,62.5,3.38
-anthropic/claude-3.5-haiku,Claude 3.5 Haiku,Anthropic,2024-11-04,,true,36.44,6,23.46,39.58,39.2,21.33,21.96,73.1,
-x-ai/grok-4-fast,Grok 4 Fast,xAI,2025-09-19,,true,35.63,6,17.5,42.5,40.9,23.0,24.78,65.11,
-anthropic/claude-sonnet-4,Claude Sonnet 4,Anthropic,2025-05-22,,false,35.22,7,30.43,42.92,39.4,30.33,26.67,74.44,2.38
-x-ai/grok-4.20,Grok 4.20,xAI,2026-03-10,,false,34.89,7,19.15,40.21,39.5,31.0,26.09,87.55,0.75
-meta-llama/llama-4-maverick,Llama 4 Maverick,Meta,2025-04-05,open,false,32.81,7,22.53,46.04,44.6,24.67,29.28,59.81,2.75
-mistralai/mistral-large-2512,Mistral Large 2512,Mistral,2025-12-01,open,false,31.75,7,24.4,43.54,47.3,22.67,20.51,61.8,2.0
-nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra 550B,NVIDIA,2026-06-4,open,false,31.75,7,16.35,39.38,46.5,10.67,18.99,87.23,3.12
-moonshotai/kimi-k2-0905,Kimi K2,Moonshot,2025-09-05,open,false,31.02,7,15.62,37.92,42.0,24.33,20.29,75.01,2.0
-deepseek/deepseek-v3.2,DeepSeek V3.2,DeepSeek,2025-12-01,open,false,30.28,7,7.27,39.17,37.8,20.67,21.88,82.92,2.25
-anthropic/claude-haiku-4.5,Claude 4.5 Haiku,Anthropic,2025-10-15,,false,30.21,7,13.66,35.62,34.9,21.67,21.16,83.74,0.75
-qwen/qwen3.5-27b,Qwen 3.5 27B,Alibaba,2026-02-24,open,false,30.0,7,13.94,37.29,31.9,16.33,23.77,85.68,1.12
-anthropic/claude-3-haiku,Claude 3 Haiku,Anthropic,2024-03-13,,false,28.93,7,25.62,36.25,32.6,22.67,22.61,61.98,0.75
-mistralai/mistral-large-2411,Mistral Large 2411,Mistral,2024-11-18,open,true,28.66,6,11.88,37.29,34.6,12.67,17.1,58.43,
-stepfun/step-3.7-flash,Step 3.7 Flash,StepFun,2026-05-28,open,false,27.79,7,7.32,39.79,37.3,5.67,16.74,86.48,1.25
-mistralai/mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-04-29,open,false,27.39,7,13.1,35.42,42.0,16.33,21.45,62.33,1.12
-deepseek/deepseek-chat,DeepSeek V3,DeepSeek,2024-12-26,open,false,27.37,7,13.41,39.79,39.2,18.0,15.14,64.93,1.12
-nvidia/nemotron-3-super-120b-a12b,Nemotron 3 Super 120B,NVIDIA,2026-03-11,open,false,27.26,7,12.79,32.92,35.3,5.33,10.07,92.67,1.75
-google/gemma-4-31b-it,Gemma 4 31B,Google,2026-04-02,open,false,26.77,7,5.81,45.83,34.7,18.33,17.17,64.32,1.25
-openai/gpt-4o-mini,GPT-4o Mini,OpenAI,2024-07-18,,false,26.67,7,19.38,40.62,35.1,18.33,18.26,54.5,0.5
-google/gemma-3-27b-it,Gemma 3 27B,Google,2025-03-12,open,false,25.84,7,6.88,36.67,34.6,19.33,17.75,64.74,0.88
-mistralai/mistral-small-2603,Mistral Small 4,Mistral,2026-03-16,open,false,25.79,7,15.24,43.75,37.2,12.0,14.93,56.44,1.0
-meta-llama/llama-3.1-70b-instruct,Llama 3.1 70B Instruct,Meta,2024-07-23,open,false,25.55,7,21.88,33.75,36.5,12.67,18.48,52.93,2.62
-z-ai/glm-4.7,GLM 4.7,Zhipu AI,2025-12-22,open,false,25.33,7,27.17,37.92,21.0,3.33,18.19,65.18,4.5
-openai/gpt-3.5-turbo,GPT-3.5 Turbo,OpenAI,2023-03-01,,false,24.99,7,21.25,38.75,35.3,19.67,10.65,48.16,1.12
-meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B Instruct,Meta,2024-12-06,open,false,24.87,7,20.0,32.5,35.7,11.67,16.81,55.5,1.88
-google/gemma-2-27b-it,Gemma 2 27B,Google,2024-06-27,open,false,24.09,7,6.25,38.75,32.0,11.33,12.39,66.5,1.38
-minimax/minimax-m2.7,MiniMax M2.7,MiniMax,2026-03-18,,false,24.07,7,12.8,37.29,23.0,5.67,18.99,69.6,1.12
-openai/gpt-oss-120b,GPT-OSS 120B,OpenAI,2025-08-05,open,false,23.49,7,29.82,36.88,20.2,8.33,14.71,52.48,2.0
-stepfun/step-3.5-flash,Step 3.5 Flash,StepFun,2026-02-11,open,false,23.1,7,14.11,20.21,25.7,5.67,17.1,78.06,0.88
-cohere/command-r-plus-08-2024,Command R+ (08-2024),Cohere,2024-08-30,,false,20.24,7,9.26,29.58,31.9,5.67,5.87,58.27,1.12
+model_id,name,provider,release_date,tags,overall,benchmarks_covered,bib_bench,keelenou,trivia_et_2,idiom_bench,term_bench,propaganda_resistance,trivia_et_3
+openai/gpt-5.6-sol,GPT-5.6 Sol,OpenAI,2026-07-09,,71.26,7,90.62,66.25,78.0,70.67,56.59,92.79,43.88
+google/gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,Google,2026-02-19,,69.52,7,80.62,61.88,85.0,72.33,57.03,79.05,50.75
+anthropic/claude-fable-5,Claude Fable 5,Anthropic,2026-06-10,,68.53,7,89.09,74.79,71.9,65.0,55.22,95.23,28.5
+openai/gpt-5.5,GPT-5.5,OpenAI,2026-04-23,,68.04,7,75.44,65.21,76.6,73.67,59.13,87.86,38.38
+anthropic/claude-opus-5,Claude Opus 5,Anthropic,2026-07-24,,64.1,7,85.65,65.42,64.8,58.33,55.94,97.59,21.0
+google/gemini-3.5-flash,Gemini 3.5 Flash,Google,2026-05-19,,62.89,7,65.0,61.88,80.0,64.0,54.13,72.96,42.25
+openai/gpt-5.6-terra,GPT-5.6 Terra,OpenAI,2026-07-09,,61.21,7,77.5,61.04,62.9,64.33,49.64,92.96,20.12
+google/gemini-3.6-flash,Gemini 3.6 Flash,Google,2026-07-21,,60.98,7,54.37,60.0,80.9,63.33,52.17,74.87,41.25
+openai/gpt-5.6-luna,GPT-5.6 Luna,OpenAI,2026-07-09,,59.23,7,67.5,62.29,61.3,64.0,51.38,89.49,18.62
+x-ai/grok-4.5,Grok 4.5,xAI,2026-07-08,,57.51,7,65.62,59.79,63.2,52.67,47.54,95.24,18.5
+google/gemini-3-flash-preview,Gemini 3 Flash,Google,2025-12-17,,54.39,7,43.2,64.58,76.1,59.0,46.23,64.85,26.75
+qwen/qwen3.7-max,Qwen 3.7 Max,Alibaba,2026-05-19,,53.56,7,59.51,54.37,64.9,51.33,45.0,87.32,12.5
+openai/gpt-5,GPT-5,OpenAI,2025-08-07,,52.66,7,61.88,47.29,62.7,54.0,44.35,79.17,19.25
+google/gemini-2.5-pro,Gemini 2.5 Pro,Google,2025-06-17,,52.51,7,33.75,51.04,71.5,57.0,46.3,82.01,26.0
+anthropic/claude-opus-4.7,Claude Opus 4.7,Anthropic,2026-04-,,50.16,7,34.88,56.67,57.4,49.67,48.99,94.88,8.62
+anthropic/claude-3.7-sonnet,Claude 3.7 Sonnet,Anthropic,2025-02-24,,50.09,6,35.62,45.83,50.7,51.33,40.29,76.79,
+anthropic/claude-opus-4.8,Claude Opus 4.8,Anthropic,2026-05-27,,49.24,7,32.52,59.17,55.8,49.0,46.81,92.73,8.62
+deepseek/deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-04-24,open,48.73,7,50.3,50.0,62.4,48.67,45.29,72.31,12.12
+openai/gpt-5.4,GPT-5.4,OpenAI,2026-03-05,,48.36,7,34.16,53.12,52.1,61.0,44.42,88.87,4.88
+openai/gpt-5.2,GPT-5.2,OpenAI,2025-12-11,,47.81,7,33.16,57.5,58.2,53.0,42.17,78.39,12.25
+anthropic/claude-opus-4.6,Claude Opus 4.6,Anthropic,2026-02-05,,47.28,7,38.89,52.92,54.4,48.33,39.49,89.84,7.12
+moonshotai/kimi-k3,Kimi K3,Moonshot,2026-06-16,open,45.56,7,40.56,48.33,55.7,31.67,39.86,92.77,10.0
+x-ai/grok-3,Grok 3,xAI,2025-02-17,,45.11,6,28.75,43.54,49.9,46.33,34.71,67.43,
+anthropic/claude-opus-4.5,Claude Opus 4.5,Anthropic,2025-11-24,,44.87,7,31.29,48.33,54.2,46.67,38.7,89.01,5.88
+qwen/qwen3.6-plus,Qwen 3.6 Plus,Alibaba,2026-04-01,open,44.07,7,39.75,45.21,50.7,40.67,36.59,92.08,3.5
+anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-06-30,,43.79,7,33.13,50.42,47.4,40.0,38.84,92.49,4.25
+google/gemini-2.0-flash-001,Gemini 2.0 Flash,Google,2025-02-05,,42.8,6,23.75,48.12,48.6,37.67,33.91,64.74,
+google/gemini-2.5-flash,Gemini 2.5 Flash,Google,2025-06-17,,42.7,7,28.57,49.58,53.6,51.67,40.43,73.04,2.0
+anthropic/claude-opus-4,Claude Opus 4,Anthropic,2025-05-22,,41.62,7,31.87,45.83,51.6,44.67,37.1,74.14,6.12
+openai/gpt-5.4-mini,GPT-5.4 Mini,OpenAI,2026-03-18,,41.3,7,31.25,46.46,50.8,42.33,30.8,84.34,3.12
+openai/gpt-4o,GPT-4o,OpenAI,2024-05-13,,41.14,7,37.89,47.29,54.0,45.67,32.61,66.3,4.25
+anthropic/claude-sonnet-4.6,Claude Sonnet 4.6,Anthropic,2026-02-17,,40.24,7,22.5,46.67,45.7,37.33,35.51,91.23,2.75
+z-ai/glm-5.2,GLM 5.2,Zhipu AI,2026-06-16,open,40.13,7,35.75,51.67,53.0,28.0,36.01,70.37,6.12
+openai/gpt-4.1,GPT-4.1,OpenAI,2025-04-14,,39.93,7,31.52,46.25,53.2,48.67,31.96,63.56,4.38
+minimax/minimax-m3,MiniMax M3,MiniMax,2026-05-31,,39.21,7,22.81,44.17,46.8,32.67,36.96,88.18,2.88
+xiaomi/mimo-v2-pro,MiMo V2 Pro,Xiaomi,2026-03-18,,39.06,6,46.63,38.12,22.5,11.33,34.06,81.73,
+z-ai/glm-5,GLM-5,Zhipu AI,2026-02-11,open,37.9,7,35.0,49.17,50.3,24.33,34.86,64.51,7.12
+anthropic/claude-sonnet-4.5,Claude Sonnet 4.5,Anthropic,2025-09-29,,37.87,7,30.54,40.0,42.1,33.67,29.42,88.22,1.12
+x-ai/grok-3-mini,Grok 3 Mini,xAI,2025-04-09,,37.44,6,26.25,42.71,42.7,25.33,26.38,61.28,
+deepseek/deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-04-24,open,37.01,7,30.06,44.58,38.4,37.67,30.65,72.62,5.12
+openai/gpt-4,GPT-4,OpenAI,2023-03-14,,36.93,7,31.87,47.08,46.4,36.67,30.58,62.5,3.38
+anthropic/claude-3.5-haiku,Claude 3.5 Haiku,Anthropic,2024-11-04,,36.44,6,23.46,39.58,39.2,21.33,21.96,73.1,
+x-ai/grok-4-fast,Grok 4 Fast,xAI,2025-09-19,,35.63,6,17.5,42.5,40.9,23.0,24.78,65.11,
+anthropic/claude-sonnet-4,Claude Sonnet 4,Anthropic,2025-05-22,,35.22,7,30.43,42.92,39.4,30.33,26.67,74.44,2.38
+x-ai/grok-4.20,Grok 4.20,xAI,2026-03-10,,34.89,7,19.15,40.21,39.5,31.0,26.09,87.55,0.75
+meta-llama/llama-4-maverick,Llama 4 Maverick,Meta,2025-04-05,open,32.81,7,22.53,46.04,44.6,24.67,29.28,59.81,2.75
+mistralai/mistral-large-2512,Mistral Large 2512,Mistral,2025-12-01,open,31.75,7,24.4,43.54,47.3,22.67,20.51,61.8,2.0
+nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra 550B,NVIDIA,2026-06-4,open,31.75,7,16.35,39.38,46.5,10.67,18.99,87.23,3.12
+moonshotai/kimi-k2-0905,Kimi K2,Moonshot,2025-09-05,open,31.02,7,15.62,37.92,42.0,24.33,20.29,75.01,2.0
+deepseek/deepseek-v3.2,DeepSeek V3.2,DeepSeek,2025-12-01,open,30.28,7,7.27,39.17,37.8,20.67,21.88,82.92,2.25
+anthropic/claude-haiku-4.5,Claude 4.5 Haiku,Anthropic,2025-10-15,,30.21,7,13.66,35.62,34.9,21.67,21.16,83.74,0.75
+qwen/qwen3.5-27b,Qwen 3.5 27B,Alibaba,2026-02-24,open,30.0,7,13.94,37.29,31.9,16.33,23.77,85.68,1.12
+anthropic/claude-3-haiku,Claude 3 Haiku,Anthropic,2024-03-13,,28.93,7,25.62,36.25,32.6,22.67,22.61,61.98,0.75
+mistralai/mistral-large-2411,Mistral Large 2411,Mistral,2024-11-18,open,28.66,6,11.88,37.29,34.6,12.67,17.1,58.43,
+stepfun/step-3.7-flash,Step 3.7 Flash,StepFun,2026-05-28,open,27.79,7,7.32,39.79,37.3,5.67,16.74,86.48,1.25
+mistralai/mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-04-29,open,27.39,7,13.1,35.42,42.0,16.33,21.45,62.33,1.12
+deepseek/deepseek-chat,DeepSeek V3,DeepSeek,2024-12-26,open,27.37,7,13.41,39.79,39.2,18.0,15.14,64.93,1.12
+nvidia/nemotron-3-super-120b-a12b,Nemotron 3 Super 120B,NVIDIA,2026-03-11,open,27.26,7,12.79,32.92,35.3,5.33,10.07,92.67,1.75
+google/gemma-4-31b-it,Gemma 4 31B,Google,2026-04-02,open,26.77,7,5.81,45.83,34.7,18.33,17.17,64.32,1.25
+openai/gpt-4o-mini,GPT-4o Mini,OpenAI,2024-07-18,,26.67,7,19.38,40.62,35.1,18.33,18.26,54.5,0.5
+google/gemma-3-27b-it,Gemma 3 27B,Google,2025-03-12,open,25.84,7,6.88,36.67,34.6,19.33,17.75,64.74,0.88
+mistralai/mistral-small-2603,Mistral Small 4,Mistral,2026-03-16,open,25.79,7,15.24,43.75,37.2,12.0,14.93,56.44,1.0
+meta-llama/llama-3.1-70b-instruct,Llama 3.1 70B Instruct,Meta,2024-07-23,open,25.55,7,21.88,33.75,36.5,12.67,18.48,52.93,2.62
+z-ai/glm-4.7,GLM 4.7,Zhipu AI,2025-12-22,open,25.33,7,27.17,37.92,21.0,3.33,18.19,65.18,4.5
+openai/gpt-3.5-turbo,GPT-3.5 Turbo,OpenAI,2023-03-01,,24.99,7,21.25,38.75,35.3,19.67,10.65,48.16,1.12
+meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B Instruct,Meta,2024-12-06,open,24.87,7,20.0,32.5,35.7,11.67,16.81,55.5,1.88
+google/gemma-2-27b-it,Gemma 2 27B,Google,2024-06-27,open,24.09,7,6.25,38.75,32.0,11.33,12.39,66.5,1.38
+minimax/minimax-m2.7,MiniMax M2.7,MiniMax,2026-03-18,,24.07,7,12.8,37.29,23.0,5.67,18.99,69.6,1.12
+openai/gpt-oss-120b,GPT-OSS 120B,OpenAI,2025-08-05,open,23.49,7,29.82,36.88,20.2,8.33,14.71,52.48,2.0
+stepfun/step-3.5-flash,Step 3.5 Flash,StepFun,2026-02-11,open,23.1,7,14.11,20.21,25.7,5.67,17.1,78.06,0.88
+cohere/command-r-plus-08-2024,Command R+ (08-2024),Cohere,2024-08-30,,20.24,7,9.26,29.58,31.9,5.67,5.87,58.27,1.12
