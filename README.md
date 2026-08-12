@@ -28,6 +28,8 @@ Raw base URL: `https://raw.githubusercontent.com/keeleinstituut/leaderboard-data
 
 Use `benchmarks\_covered` in `summary.csv` (or `len(scores)` in `results.json`) to filter out partial runs if you want like-for-like comparisons.
 
+**This matters most for retired models.** A model marked `"retired": true` in `models.json` is gone from its provider's API, so it is permanently frozen at whichever benchmarks it had completed before retirement and can never gain the ones added later. Its `overall` is therefore an average over a *different, smaller* benchmark set than an active model's, and the two are not comparable — the retired model's figure is systematically flattered if the newer benchmarks are harder. Per-benchmark scores are unaffected and remain directly comparable. The leaderboard UI withholds aggregates for any model with incomplete coverage; consumers of this data should apply the same filter.
+
 ## Schema
 
 ### `models.json`
@@ -51,6 +53,7 @@ Array of model entries.
 |`provider`|string|OpenAI, Anthropic, Google, etc.|
 |`release`|string|ISO 8601 date (`YYYY-MM-DD`). Optional.|
 |`tags`|string\[]|Optional. Currently used: `open` for open-weights models.|
+|`retired`|boolean|Optional, only ever present as `true`. The model is no longer served by the provider's API. Its scores stay published, but it can never be run again — see below.|
 
 ### `benchmarks.json`
 
@@ -81,11 +84,12 @@ Array of benchmark entries. Only benchmarks that have at least one result appear
 One row per model that has at least one result. Columns in order:
 
 ```
-model_id, name, provider, release_date, tags, overall, benchmarks_covered,
+model_id, name, provider, release_date, tags, retired, overall, benchmarks_covered,
 <benchmark_id_1>, <benchmark_id_2>, …
 ```
 
 * `tags` is a space-separated string (`""` if no tags). E.g. `open` or `open beta`.
+* `retired` is `true` or `false` (always present, unlike the `models.json` field).
 * Per-benchmark cells are floats (percent or geometric-mean score, 0–100). Empty cell = the model was not evaluated on that benchmark. **Do not treat empty as zero.**
 * `benchmarks\_covered` is the count of non-empty per-benchmark cells.
 * Rows sorted by `overall` descending.
