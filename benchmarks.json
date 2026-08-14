@@ -54,10 +54,5 @@
     "description_short_en": "Ilma vastusevariantideta keerulisemad mälumänguküsimused. 800 küsimust kümnes valdkonnas.",
     "description_short_et": "Harder, open-answer trivia questions. 800 questions across ten topics.",
     "description_url": "benchmarks/trivia_et_3.md"
-  },
-  {
-    "id": "wordornot",
-    "name_en": "Non-words",
-    "name_et": "Ebasõnad"
   }
 ]
