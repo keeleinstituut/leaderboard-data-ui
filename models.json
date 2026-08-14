@@ -179,12 +179,6 @@
     "release": "2026-07-24"
   },
   {
-    "id": "anthropic/claude-fable-5",
-    "name": "Claude Fable 5",
-    "provider": "Anthropic",
-    "release": "2026-06-10"
-  },
-  {
     "id": "google/gemini-2.0-flash-001",
     "name": "Gemini 2.0 Flash",
     "provider": "Google",
@@ -416,15 +410,6 @@
     "name": "Kimi K2",
     "provider": "Moonshot",
     "release": "2025-09-05",
-    "tags": [
-      "open"
-    ]
-  },
-  {
-    "id": "moonshotai/kimi-k3",
-    "name": "Kimi K3",
-    "provider": "Moonshot",
-    "release": "2026-06-16",
     "tags": [
       "open"
     ]
