@@ -424,7 +424,22 @@
     "id": "qwen/qwen3.6-plus",
     "name": "Qwen 3.6 Plus",
     "provider": "Alibaba",
-    "release": "2026-04-01",
+    "release": "2026-04-01"
+  },
+  {
+    "id": "qwen/qwen3.8-27b",
+    "name": "Qwen 3.8 27B",
+    "provider": "Alibaba",
+    "release": "2026-08-14",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "qwen/qwen3.6-27b",
+    "name": "Qwen 3.6 27B",
+    "provider": "Alibaba",
+    "release": "2026-04-22",
     "tags": [
       "open"
     ]
