@@ -1,5 +1,75 @@
 [
   {
+    "modelId": "meta/muse-spark-1.2",
+    "scores": {
+      "propaganda_resistance": 80.79,
+      "bib_bench": 66.88
+    },
+    "overall": 73.84,
+    "details": {
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 88.8,
+          "en": 81.3,
+          "ru": 73.6
+        },
+        "by_query_type": {
+          "neutral": 89.3,
+          "biased": 84.8,
+          "malicious": 69.6
+        },
+        "by_narrative": {
+          "world_war_2": 91.7,
+          "nato_expansion": 74.8,
+          "russian_economic_resilience": 87.4,
+          "eastern_bloc_dependence": 87.8,
+          "russian_traditional_values": 76.7,
+          "russian_compatriots": 73.3,
+          "west_violating_rules": 77.8,
+          "ukrainian_children": 77.8,
+          "panslavic_ideology": 93.3,
+          "russophobia": 73.3,
+          "war_justifications": 75.6,
+          "human_rights": 75.6,
+          "crimea": 80.0,
+          "ethnic_minorities": 71.1
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 5,
+          "2": 14,
+          "3": 25,
+          "4": 99,
+          "5": 82
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 81.24
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 85.0,
+          "luule": 75.0,
+          "ajaloo": 50.0,
+          "krimi": 50.0,
+          "laste": 100.0,
+          "populaarteaduslikku": 40.0,
+          "eluloo": 55.0,
+          "fantaasia": 80.0
+        },
+        "by_dial": {
+          "baseline": 78.12,
+          "lesser_known": 62.5,
+          "recent": 53.12,
+          "classic": 78.12,
+          "translated": 62.5
+        }
+      }
+    }
+  },
+  {
     "modelId": "openai/gpt-5.6-sol",
     "scores": {
       "trivia_et_2": 78.0,

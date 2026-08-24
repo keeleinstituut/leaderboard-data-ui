@@ -47,6 +47,9 @@
     "id": "term_bench",
     "name_en": "Terminology",
     "name_et": "Oskussõnavara",
+    "tags": [
+      "language"
+    ],
     "description_short_en": "Estonian specialist terminology across 46 fields. 1380 definition–term pairs from EKI's Esterm base and field-specific term collections.",
     "description_short_et": "Eesti erialaterminoloogia 46 valdkonnas. 1380 termini-definitsiooni paari EKI Estermi ja valdkondlike kogude põhjal.",
     "description_url": "benchmarks/term_bench.md"
@@ -67,6 +70,9 @@
     "id": "trivia_et_3",
     "name_en": "Trivia Hard",
     "name_et": "Mälumäng",
+    "tags": [
+      "knowledge"
+    ],
     "description_short_en": "Ilma vastusevariantideta keerulisemad mälumänguküsimused. 800 küsimust kümnes valdkonnas.",
     "description_short_et": "Harder, open-answer trivia questions. 800 questions across ten topics.",
     "description_url": "benchmarks/trivia_et_3.md"
