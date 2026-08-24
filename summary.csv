@@ -27,7 +27,7 @@ anthropic/claude-opus-4.6,Claude Opus 4.6,Anthropic,2026-02-05,,false,47.28,7,38
 moonshotai/kimi-k3,Kimi K3,Moonshot,2026-06-16,open,false,45.56,7,40.56,48.33,55.7,31.67,39.86,92.77,10.0
 x-ai/grok-3,Grok 3,xAI,2025-02-17,,true,45.11,6,28.75,43.54,49.9,46.33,34.71,67.43,
 anthropic/claude-opus-4.5,Claude Opus 4.5,Anthropic,2025-11-24,,false,44.87,7,31.29,48.33,54.2,46.67,38.7,89.01,5.88
-qwen/qwen3.6-plus,Qwen 3.6 Plus,Alibaba,2026-04-01,open,false,44.07,7,39.75,45.21,50.7,40.67,36.59,92.08,3.5
+qwen/qwen3.6-plus,Qwen 3.6 Plus,Alibaba,2026-04-01,,false,44.07,7,39.75,45.21,50.7,40.67,36.59,92.08,3.5
 anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-06-30,,false,43.79,7,33.13,50.42,47.4,40.0,38.84,92.49,4.25
 google/gemini-2.0-flash-001,Gemini 2.0 Flash,Google,2025-02-05,,true,42.8,6,23.75,48.12,48.6,37.67,33.91,64.74,
 google/gemini-2.5-flash,Gemini 2.5 Flash,Google,2025-06-17,,false,42.7,7,28.57,49.58,53.6,51.67,40.43,73.04,2.0
@@ -35,6 +35,7 @@ anthropic/claude-opus-4,Claude Opus 4,Anthropic,2025-05-22,,false,41.62,7,31.87,
 openai/gpt-5.4-mini,GPT-5.4 Mini,OpenAI,2026-03-18,,false,41.3,7,31.25,46.46,50.8,42.33,30.8,84.34,3.12
 openai/gpt-4o,GPT-4o,OpenAI,2024-05-13,,false,41.14,7,37.89,47.29,54.0,45.67,32.61,66.3,4.25
 anthropic/claude-sonnet-4.6,Claude Sonnet 4.6,Anthropic,2026-02-17,,false,40.24,7,22.5,46.67,45.7,37.33,35.51,91.23,2.75
+qwen/qwen3.6-27b,Qwen 3.6 27B,Alibaba,2026-04-22,open,false,40.18,4,13.04,40.62,,18.33,,88.72,
 z-ai/glm-5.2,GLM 5.2,Zhipu AI,2026-06-16,open,false,40.13,7,35.75,51.67,53.0,28.0,36.01,70.37,6.12
 openai/gpt-4.1,GPT-4.1,OpenAI,2025-04-14,,false,39.93,7,31.52,46.25,53.2,48.67,31.96,63.56,4.38
 minimax/minimax-m3,MiniMax M3,MiniMax,2026-05-31,,false,39.21,7,22.81,44.17,46.8,32.67,36.96,88.18,2.88
@@ -74,5 +75,6 @@ google/gemma-2-27b-it,Gemma 2 27B,Google,2024-06-27,open,false,24.09,7,6.25,38.7
 minimax/minimax-m2.7,MiniMax M2.7,MiniMax,2026-03-18,,false,24.07,7,12.8,37.29,23.0,5.67,18.99,69.6,1.12
 openai/gpt-oss-120b,GPT-OSS 120B,OpenAI,2025-08-05,open,false,23.49,7,29.82,36.88,20.2,8.33,14.71,52.48,2.0
 stepfun/step-3.5-flash,Step 3.5 Flash,StepFun,2026-02-11,open,false,23.1,7,14.11,20.21,25.7,5.67,17.1,78.06,0.88
+qwen/qwen3.8-27b,Qwen 3.8 27B,Alibaba,2026-08-14,open,false,22.16,3,9.94,40.21,,16.33,,,
 poolside/laguna-s-2.1,Laguna S 2.1,Poolside,2026-07-21,,false,20.8,7,3.75,32.08,34.5,1.33,9.57,63.74,0.62
 cohere/command-r-plus-08-2024,Command R+ (08-2024),Cohere,2024-08-30,,false,20.24,7,9.26,29.58,31.9,5.67,5.87,58.27,1.12
