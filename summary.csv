@@ -50,6 +50,7 @@ x-ai/grok-4-fast,Grok 4 Fast,xAI,2025-09-19,,true,35.63,6,17.5,42.5,40.9,23.0,24
 anthropic/claude-sonnet-4,Claude Sonnet 4,Anthropic,2025-05-22,,false,35.22,7,30.43,42.92,39.4,30.33,26.67,74.44,2.38
 meta/muse-glimmer-30b,Muse Glimmer 30B,Meta,2026-08-09,open,false,34.93,7,27.5,45.21,40.0,21.0,32.25,76.44,2.12
 x-ai/grok-4.20,Grok 4.20,xAI,2026-03-10,,false,34.89,7,19.15,40.21,39.5,31.0,26.09,87.55,0.75
+qwen/qwen3.8-27b,Qwen 3.8 27B,Alibaba,2026-08-14,open,false,33.92,4,9.94,40.21,,16.33,,69.2,
 meta-llama/llama-4-maverick,Llama 4 Maverick,Meta,2025-04-05,open,false,32.81,7,22.53,46.04,44.6,24.67,29.28,59.81,2.75
 mistralai/mistral-large-2512,Mistral Large 2512,Mistral,2025-12-01,open,false,31.75,7,24.4,43.54,47.3,22.67,20.51,61.8,2.0
 nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra 550B,NVIDIA,2026-06-4,open,false,31.75,7,16.35,39.38,46.5,10.67,18.99,87.23,3.12
@@ -75,6 +76,5 @@ google/gemma-2-27b-it,Gemma 2 27B,Google,2024-06-27,open,false,24.09,7,6.25,38.7
 minimax/minimax-m2.7,MiniMax M2.7,MiniMax,2026-03-18,,false,24.07,7,12.8,37.29,23.0,5.67,18.99,69.6,1.12
 openai/gpt-oss-120b,GPT-OSS 120B,OpenAI,2025-08-05,open,false,23.49,7,29.82,36.88,20.2,8.33,14.71,52.48,2.0
 stepfun/step-3.5-flash,Step 3.5 Flash,StepFun,2026-02-11,open,false,23.1,7,14.11,20.21,25.7,5.67,17.1,78.06,0.88
-qwen/qwen3.8-27b,Qwen 3.8 27B,Alibaba,2026-08-14,open,false,22.16,3,9.94,40.21,,16.33,,,
 poolside/laguna-s-2.1,Laguna S 2.1,Poolside,2026-07-21,,false,20.8,7,3.75,32.08,34.5,1.33,9.57,63.74,0.62
 cohere/command-r-plus-08-2024,Command R+ (08-2024),Cohere,2024-08-30,,false,20.24,7,9.26,29.58,31.9,5.67,5.87,58.27,1.12
