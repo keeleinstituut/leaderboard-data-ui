@@ -10249,6 +10249,51 @@
     }
   },
   {
+    "modelId": "z-ai/glm-5.3-flash",
+    "scores": {
+      "bib_bench": 32.8,
+      "keelenou": 41.88,
+      "idiom_bench": 27.0
+    },
+    "overall": 33.89,
+    "details": {
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 65.0,
+          "luule": 39.13,
+          "ajaloo": 10.0,
+          "krimi": 21.43,
+          "laste": 59.09,
+          "populaarteaduslikku": 21.74,
+          "eluloo": 12.0,
+          "fantaasia": 39.29
+        },
+        "by_dial": {
+          "baseline": 41.86,
+          "lesser_known": 7.69,
+          "recent": 11.76,
+          "classic": 47.37,
+          "translated": 54.29
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 30.56,
+          "open": 34.38,
+          "short": 47.92,
+          "tf": 54.17
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 20.9,
+          "cross-lingual": 34.19,
+          "grey-zone": 23.28
+        }
+      }
+    }
+  },
+  {
     "modelId": "meta-llama/llama-4-maverick",
     "scores": {
       "trivia_et_2": 44.6,
