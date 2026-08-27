@@ -45,6 +45,7 @@ anthropic/claude-sonnet-4.5,Claude Sonnet 4.5,Anthropic,2025-09-29,,false,37.87,
 x-ai/grok-3-mini,Grok 3 Mini,xAI,2025-04-09,,true,37.44,6,26.25,42.71,42.7,25.33,26.38,61.28,
 deepseek/deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-04-24,open,false,37.01,7,30.06,44.58,38.4,37.67,30.65,72.62,5.12
 openai/gpt-4,GPT-4,OpenAI,2023-03-14,,false,36.93,7,31.87,47.08,46.4,36.67,30.58,62.5,3.38
+z-ai/glm-5.3,GLM 5.3,Zhipu AI,2026-08-18,open,false,36.46,3,38.66,41.04,,29.67,,,
 anthropic/claude-3.5-haiku,Claude 3.5 Haiku,Anthropic,2024-11-04,,true,36.44,6,23.46,39.58,39.2,21.33,21.96,73.1,
 x-ai/grok-4-fast,Grok 4 Fast,xAI,2025-09-19,,true,35.63,6,17.5,42.5,40.9,23.0,24.78,65.11,
 anthropic/claude-sonnet-4,Claude Sonnet 4,Anthropic,2025-05-22,,false,35.22,7,30.43,42.92,39.4,30.33,26.67,74.44,2.38

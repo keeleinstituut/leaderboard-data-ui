@@ -524,6 +524,15 @@
     ]
   },
   {
+    "id": "z-ai/glm-5.3",
+    "name": "GLM 5.3",
+    "provider": "Zhipu AI",
+    "release": "2026-08-18",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "z-ai/glm-5.3-flash",
     "name": "GLM 5.3 Flash",
     "provider": "Zhipu AI",

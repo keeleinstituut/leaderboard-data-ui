@@ -9454,6 +9454,51 @@
     }
   },
   {
+    "modelId": "z-ai/glm-5.3",
+    "scores": {
+      "bib_bench": 38.66,
+      "keelenou": 41.04,
+      "idiom_bench": 29.67
+    },
+    "overall": 36.46,
+    "details": {
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 75.0,
+          "luule": 45.0,
+          "ajaloo": 34.78,
+          "krimi": 10.0,
+          "laste": 54.84,
+          "populaarteaduslikku": 15.0,
+          "eluloo": 9.09,
+          "fantaasia": 64.29
+        },
+        "by_dial": {
+          "baseline": 56.82,
+          "lesser_known": 31.58,
+          "recent": 12.82,
+          "classic": 43.9,
+          "translated": 46.88
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 33.33,
+          "open": 36.46,
+          "short": 45.83,
+          "tf": 48.61
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 19.4,
+          "cross-lingual": 36.75,
+          "grey-zone": 28.45
+        }
+      }
+    }
+  },
+  {
     "modelId": "anthropic/claude-3.5-haiku",
     "scores": {
       "trivia_et_2": 39.2,
