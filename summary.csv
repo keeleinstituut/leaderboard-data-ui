@@ -19,6 +19,7 @@ google/gemini-2.5-pro,Gemini 2.5 Pro,Google,2025-06-17,,false,52.51,7,33.75,51.0
 anthropic/claude-opus-4.7,Claude Opus 4.7,Anthropic,2026-04-,,false,50.16,7,34.88,56.67,57.4,49.67,48.99,94.88,8.62
 anthropic/claude-3.7-sonnet,Claude 3.7 Sonnet,Anthropic,2025-02-24,,true,50.09,6,35.62,45.83,50.7,51.33,40.29,76.79,
 anthropic/claude-opus-4.8,Claude Opus 4.8,Anthropic,2026-05-27,,false,49.24,7,32.52,59.17,55.8,49.0,46.81,92.73,8.62
+z-ai/glm-5.3,GLM 5.3,Zhipu AI,2026-08-18,open,false,48.83,6,38.66,41.04,52.4,29.67,35.51,95.7,
 deepseek/deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-04-24,open,false,48.73,7,50.3,50.0,62.4,48.67,45.29,72.31,12.12
 openai/gpt-5.4,GPT-5.4,OpenAI,2026-03-05,,false,48.36,7,34.16,53.12,52.1,61.0,44.42,88.87,4.88
 openai/gpt-5.2,GPT-5.2,OpenAI,2025-12-11,,false,47.81,7,33.16,57.5,58.2,53.0,42.17,78.39,12.25
