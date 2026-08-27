@@ -35,6 +35,7 @@ anthropic/claude-opus-4,Claude Opus 4,Anthropic,2025-05-22,,false,41.62,7,31.87,
 z-ai/glm-5.3-flash,GLM 5.3 Flash,Zhipu AI,2026-08-26,open,false,41.55,7,32.8,41.88,54.0,27.0,34.57,94.38,6.25
 openai/gpt-5.4-mini,GPT-5.4 Mini,OpenAI,2026-03-18,,false,41.3,7,31.25,46.46,50.8,42.33,30.8,84.34,3.12
 openai/gpt-4o,GPT-4o,OpenAI,2024-05-13,,false,41.14,7,37.89,47.29,54.0,45.67,32.61,66.3,4.25
+z-ai/glm-5.3,GLM 5.3,Zhipu AI,2026-08-18,open,false,41.07,4,38.66,41.04,54.9,29.67,,,
 anthropic/claude-sonnet-4.6,Claude Sonnet 4.6,Anthropic,2026-02-17,,false,40.24,7,22.5,46.67,45.7,37.33,35.51,91.23,2.75
 z-ai/glm-5.2,GLM 5.2,Zhipu AI,2026-06-16,open,false,40.13,7,35.75,51.67,53.0,28.0,36.01,70.37,6.12
 openai/gpt-4.1,GPT-4.1,OpenAI,2025-04-14,,false,39.93,7,31.52,46.25,53.2,48.67,31.96,63.56,4.38
