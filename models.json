@@ -524,6 +524,24 @@
     ]
   },
   {
+    "id": "z-ai/glm-5.3",
+    "name": "GLM 5.3",
+    "provider": "Zhipu AI",
+    "release": "2026-08-18",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "z-ai/glm-5.3-flash",
+    "name": "GLM 5.3 Flash",
+    "provider": "Zhipu AI",
+    "release": "2026-08-26",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "stepfun/step-3.5-flash",
     "name": "Step 3.5 Flash",
     "provider": "StepFun",
