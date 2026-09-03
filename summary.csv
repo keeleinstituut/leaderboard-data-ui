@@ -1,10 +1,10 @@
 model_id,name,provider,release_date,tags,retired,overall,benchmarks_covered,bib_bench,keelenou,trivia_et_2,idiom_bench,term_bench,propaganda_resistance,trivia_et_3
 openai/gpt-5.6-sol,GPT-5.6 Sol,OpenAI,2026-07-09,,false,71.26,7,90.62,66.25,78.0,70.67,56.59,92.79,43.88
-anthropic/claude-fable-5.1,Claude Fable 5.1,Anthropic,2026-08-31,,false,70.28,5,90.45,72.71,70.8,61.33,56.09,,
 google/gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,Google,2026-02-19,,false,69.52,7,80.62,61.88,85.0,72.33,57.03,79.05,50.75
 anthropic/claude-fable-5,Claude Fable 5,Anthropic,2026-06-10,,false,68.53,7,89.09,74.79,71.9,65.0,55.22,95.23,28.5
 google/gemini-3.7-flash,Gemini 3.7 Flash,Google,2026-08-13,,false,68.22,7,80.25,66.46,81.9,70.33,57.25,74.33,47.0
 openai/gpt-5.5,GPT-5.5,OpenAI,2026-04-23,,false,68.04,7,75.44,65.21,76.6,73.67,59.13,87.86,38.38
+anthropic/claude-fable-5.1,Claude Fable 5.1,Anthropic,2026-08-31,,false,67.94,7,90.45,72.71,70.8,61.33,56.09,97.05,27.12
 anthropic/claude-opus-5,Claude Opus 5,Anthropic,2026-07-24,,false,64.1,7,85.65,65.42,64.8,58.33,55.94,97.59,21.0
 google/gemini-3.5-flash,Gemini 3.5 Flash,Google,2026-05-19,,false,62.89,7,65.0,61.88,80.0,64.0,54.13,72.96,42.25
 openai/gpt-5.6-terra,GPT-5.6 Terra,OpenAI,2026-07-09,,false,61.21,7,77.5,61.04,62.9,64.33,49.64,92.96,20.12
@@ -33,6 +33,7 @@ anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-06-30,,false,43.79,7,33
 z-ai/glm-5.3,GLM 5.3,Zhipu AI,2026-08-18,open,false,42.89,7,38.66,41.04,52.4,29.67,35.51,95.7,7.25
 google/gemini-2.0-flash-001,Gemini 2.0 Flash,Google,2025-02-05,,true,42.8,6,23.75,48.12,48.6,37.67,33.91,64.74,
 google/gemini-2.5-flash,Gemini 2.5 Flash,Google,2025-06-17,,false,42.7,7,28.57,49.58,53.6,51.67,40.43,73.04,2.0
+qwen/qwen3.8-flash,Qwen 3.8 Flash,Alibaba,2026-08-26,open,false,42.21,4,17.5,41.25,,22.67,,87.41,
 anthropic/claude-opus-4,Claude Opus 4,Anthropic,2025-05-22,,false,41.62,7,31.87,45.83,51.6,44.67,37.1,74.14,6.12
 z-ai/glm-5.3-flash,GLM 5.3 Flash,Zhipu AI,2026-08-26,open,false,41.55,7,32.8,41.88,54.0,27.0,34.57,94.38,6.25
 openai/gpt-5.4-mini,GPT-5.4 Mini,OpenAI,2026-03-18,,false,41.3,7,31.25,46.46,50.8,42.33,30.8,84.34,3.12
