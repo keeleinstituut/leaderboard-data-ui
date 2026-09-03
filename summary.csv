@@ -1,5 +1,6 @@
 model_id,name,provider,release_date,tags,retired,overall,benchmarks_covered,bib_bench,keelenou,trivia_et_2,idiom_bench,term_bench,propaganda_resistance,trivia_et_3
 openai/gpt-5.6-sol,GPT-5.6 Sol,OpenAI,2026-07-09,,false,71.26,7,90.62,66.25,78.0,70.67,56.59,92.79,43.88
+anthropic/claude-fable-5.1,Claude Fable 5.1,Anthropic,2026-08-31,,false,70.28,5,90.45,72.71,70.8,61.33,56.09,,
 google/gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,Google,2026-02-19,,false,69.52,7,80.62,61.88,85.0,72.33,57.03,79.05,50.75
 anthropic/claude-fable-5,Claude Fable 5,Anthropic,2026-06-10,,false,68.53,7,89.09,74.79,71.9,65.0,55.22,95.23,28.5
 google/gemini-3.7-flash,Gemini 3.7 Flash,Google,2026-08-13,,false,68.22,7,80.25,66.46,81.9,70.33,57.25,74.33,47.0

@@ -207,6 +207,152 @@
     }
   },
   {
+    "modelId": "anthropic/claude-fable-5.1",
+    "scores": {
+      "trivia_et_2": 70.8,
+      "bib_bench": 90.45,
+      "keelenou": 72.71,
+      "idiom_bench": 61.33,
+      "term_bench": 56.09
+    },
+    "overall": 70.28,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 83.71,
+          "varia": 63.31,
+          "sport": 64.49,
+          "kultuur": 67.95,
+          "loodus-geograafia": 74.21
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 96.0,
+          "luule": 88.46,
+          "ajaloo": 81.82,
+          "krimi": 95.24,
+          "laste": 100.0,
+          "populaarteaduslikku": 84.0,
+          "eluloo": 85.71,
+          "fantaasia": 93.1
+        },
+        "by_dial": {
+          "baseline": 94.74,
+          "lesser_known": 89.47,
+          "recent": 85.0,
+          "classic": 91.49,
+          "translated": 91.67
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 61.11,
+          "open": 65.62,
+          "short": 77.08,
+          "tf": 86.11
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 44.78,
+          "cross-lingual": 70.09,
+          "grey-zone": 62.07
+        }
+      },
+      "term_bench": {
+        "by_category": {
+          "Loodusteadused": {
+            "mean": 54.67,
+            "domains": {
+              "bioloogia, biotehnoloogia": 60.0,
+              "keemia": 53.33,
+              "maateadused": 60.0,
+              "matemaatika": 63.33,
+              "füüsika": 36.67
+            }
+          },
+          "Tervis ja heaolu": {
+            "mean": 54.17,
+            "domains": {
+              "meditsiin": 63.33,
+              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 56.67,
+              "ühiskond, sotsiaalküsimused": 56.67,
+              "sport, vaba aeg": 40.0
+            }
+          },
+          "Tehnika ja tööstus": {
+            "mean": 50.0,
+            "domains": {
+              "tuumatehnoloogia, tuumatööstus": 26.67,
+              "elektrotehnika": 63.33,
+              "keemiatööstus": 60.0,
+              "tööstus, käsitööndus": 50.0,
+              "masinaehitus": 56.67,
+              "mäetööstus": 53.33,
+              "metallurgia": 40.0,
+              "standardimine, metroloogia": 50.0,
+              "tehnika, tehnoloogia": 50.0
+            }
+          },
+          "Info ja side": {
+            "mean": 51.67,
+            "domains": {
+              "infotehnoloogia": 53.33,
+              "teave, dokumentatsioon": 56.67,
+              "side": 30.0,
+              "kirjastamine, ajakirjandus": 66.67
+            }
+          },
+          "Keskkond ja taristu": {
+            "mean": 57.33,
+            "domains": {
+              "ehitus": 33.33,
+              "keskkond": 53.33,
+              "loodusvarad, energeetika": 60.0,
+              "transport": 70.0,
+              "maaomand, kinnisvara, eluase, demograafia": 70.0
+            }
+          },
+          "Majandus ja rahandus": {
+            "mean": 58.89,
+            "domains": {
+              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 66.67,
+              "kindlustus": 83.33,
+              "kaubandus": 50.0,
+              "majandus": 40.0,
+              "rahandus, maksustamine, toll": 53.33,
+              "statistika": 60.0
+            }
+          },
+          "Riik ja õigus": {
+            "mean": 60.95,
+            "domains": {
+              "avalik haldus, erahaldus": 66.67,
+              "Euroopa Liit": 66.67,
+              "riigikaitse": 40.0,
+              "õigus": 76.67,
+              "poliitika, rahvusvahelised suhted": 46.67,
+              "turvalisus, pääste": 70.0,
+              "tööelu": 60.0
+            }
+          },
+          "Kultuur ja haridus": {
+            "mean": 61.11,
+            "domains": {
+              "kunst, kultuur": 30.0,
+              "haridus": 83.33,
+              "teadus, kultuur": 70.0,
+              "ajalugu, etnoloogia, folkloor": 60.0,
+              "keel, kirjandus": 63.33,
+              "religioon, filosoofia": 60.0
+            }
+          }
+        }
+      }
+    }
+  },
+  {
     "modelId": "google/gemini-3.1-pro-preview",
     "scores": {
       "idiom_bench": 72.33,
