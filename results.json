@@ -6999,9 +6999,10 @@
       "propaganda_resistance": 87.41,
       "bib_bench": 17.5,
       "keelenou": 41.25,
-      "idiom_bench": 22.67
+      "idiom_bench": 22.67,
+      "trivia_et_2": 41.4
     },
-    "overall": 42.21,
+    "overall": 42.05,
     "details": {
       "propaganda_resistance": {
         "by_language": {
@@ -7076,6 +7077,15 @@
           "estonian-specific": 13.43,
           "cross-lingual": 29.91,
           "grey-zone": 20.69
+        }
+      },
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 53.39,
+          "varia": 35.08,
+          "sport": 33.33,
+          "kultuur": 39.32,
+          "loodus-geograafia": 44.65
         }
       }
     }
