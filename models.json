@@ -161,6 +161,12 @@
     "release": "2026-04-"
   },
   {
+    "id": "anthropic/claude-fable-5.1",
+    "name": "Claude Fable 5.1",
+    "provider": "Anthropic",
+    "release": "2026-08-31"
+  },
+  {
     "id": "anthropic/claude-fable-5",
     "name": "Claude Fable 5",
     "provider": "Anthropic",
@@ -253,6 +259,12 @@
     "name": "Gemini 3.7 Flash",
     "provider": "Google",
     "release": "2026-08-13"
+  },
+  {
+    "id": "google/gemini-3.8-flash",
+    "name": "Gemini 3.8 Flash",
+    "provider": "Google",
+    "release": "2026-09-02"
   },
   {
     "id": "x-ai/grok-3",
@@ -404,6 +416,15 @@
     "name": "DeepSeek V4 Pro",
     "provider": "DeepSeek",
     "release": "2026-04-24",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "qwen/qwen3.8-flash",
+    "name": "Qwen 3.8 Flash",
+    "provider": "Alibaba",
+    "release": "2026-08-26",
     "tags": [
       "open"
     ]
