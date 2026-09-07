@@ -1,5 +1,60 @@
 [
   {
+    "modelId": "openai/gpt-6-astra",
+    "scores": {
+      "trivia_et_2": 81.1,
+      "bib_bench": 89.38,
+      "keelenou": 76.04,
+      "idiom_bench": 74.0
+    },
+    "overall": 80.13,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 90.95,
+          "varia": 72.58,
+          "sport": 80.43,
+          "kultuur": 77.78,
+          "loodus-geograafia": 86.16
+        }
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 100.0,
+          "luule": 100.0,
+          "ajaloo": 85.0,
+          "krimi": 65.0,
+          "laste": 100.0,
+          "populaarteaduslikku": 85.0,
+          "eluloo": 85.0,
+          "fantaasia": 95.0
+        },
+        "by_dial": {
+          "baseline": 96.88,
+          "lesser_known": 84.38,
+          "recent": 87.5,
+          "classic": 84.38,
+          "translated": 93.75
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 65.28,
+          "open": 73.96,
+          "short": 81.25,
+          "tf": 84.72
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 56.72,
+          "cross-lingual": 79.49,
+          "grey-zone": 78.45
+        }
+      }
+    }
+  },
+  {
     "modelId": "openai/gpt-5.6-sol",
     "scores": {
       "trivia_et_2": 78.0,
