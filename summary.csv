@@ -1,4 +1,5 @@
 model_id,name,provider,release_date,tags,retired,overall,benchmarks_covered,bib_bench,keelenou,trivia_et_2,idiom_bench,term_bench,propaganda_resistance,trivia_et_3
+openai/gpt-6-astra,GPT-6 Astra,OpenAI,2026-09-04,,false,74.32,7,89.38,76.04,81.1,74.0,61.81,92.16,45.75
 openai/gpt-5.6-sol,GPT-5.6 Sol,OpenAI,2026-07-09,,false,71.26,7,90.62,66.25,78.0,70.67,56.59,92.79,43.88
 google/gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,Google,2026-02-19,,false,69.52,7,80.62,61.88,85.0,72.33,57.03,79.05,50.75
 google/gemini-3.8-flash,Gemini 3.8 Flash,Google,2026-09-02,,false,68.9,7,74.07,66.88,82.8,73.33,57.68,77.28,50.25

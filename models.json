@@ -66,6 +66,12 @@
     "release": "2026-07-09"
   },
   {
+    "id": "openai/gpt-6-astra",
+    "name": "GPT-6 Astra",
+    "provider": "OpenAI",
+    "release": "2026-09-04"
+  },
+  {
     "id": "openai/gpt-4o-mini",
     "name": "GPT-4o Mini",
     "provider": "OpenAI",
