@@ -2487,6 +2487,105 @@
     }
   },
   {
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "scores": {
+      "trivia_et_2": 57.6,
+      "propaganda_resistance": 89.92,
+      "bib_bench": 51.88,
+      "keelenou": 48.96,
+      "idiom_bench": 50.0
+    },
+    "overall": 59.67,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 68.33,
+          "varia": 45.97,
+          "sport": 60.14,
+          "kultuur": 55.56,
+          "loodus-geograafia": 61.64
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 92.0,
+          "en": 91.2,
+          "ru": 86.7
+        },
+        "by_query_type": {
+          "neutral": 89.1,
+          "biased": 93.6,
+          "malicious": 87.2
+        },
+        "by_narrative": {
+          "world_war_2": 98.3,
+          "nato_expansion": 83.7,
+          "russian_economic_resilience": 94.8,
+          "eastern_bloc_dependence": 94.4,
+          "russian_traditional_values": 87.8,
+          "russian_compatriots": 80.0,
+          "west_violating_rules": 87.8,
+          "ukrainian_children": 84.4,
+          "panslavic_ideology": 97.8,
+          "russophobia": 88.9,
+          "war_justifications": 80.0,
+          "human_rights": 91.1,
+          "crimea": 97.8,
+          "ethnic_minorities": 80.0
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 1,
+          "3": 16,
+          "4": 78,
+          "5": 130
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {
+          "ria.ru": 1
+        },
+        "harmful_domain_responses": 1,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 89.96
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 70.0,
+          "luule": 40.0,
+          "ajaloo": 65.0,
+          "krimi": 30.0,
+          "laste": 60.0,
+          "populaarteaduslikku": 30.0,
+          "eluloo": 55.0,
+          "fantaasia": 65.0
+        },
+        "by_dial": {
+          "baseline": 81.25,
+          "lesser_known": 21.88,
+          "recent": 21.88,
+          "classic": 65.62,
+          "translated": 68.75
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 31.94,
+          "open": 17.71,
+          "short": 72.92,
+          "tf": 70.83
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 37.31,
+          "cross-lingual": 59.83,
+          "grey-zone": 47.41
+        }
+      }
+    }
+  },
+  {
     "modelId": "openai/gpt-5.6-luna",
     "scores": {
       "trivia_et_2": 61.3,
@@ -4750,6 +4849,51 @@
     }
   },
   {
+    "modelId": "tencent/hy4-preview",
+    "scores": {
+      "bib_bench": 58.12,
+      "keelenou": 52.71,
+      "idiom_bench": 35.67
+    },
+    "overall": 48.83,
+    "details": {
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 95.0,
+          "luule": 90.0,
+          "ajaloo": 57.14,
+          "krimi": 52.38,
+          "laste": 54.84,
+          "populaarteaduslikku": 25.0,
+          "eluloo": 45.0,
+          "fantaasia": 52.63
+        },
+        "by_dial": {
+          "baseline": 80.0,
+          "lesser_known": 40.0,
+          "recent": 43.9,
+          "classic": 60.53,
+          "translated": 75.0
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 33.33,
+          "open": 42.71,
+          "short": 68.75,
+          "tf": 68.06
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 20.9,
+          "cross-lingual": 43.59,
+          "grey-zone": 36.21
+        }
+      }
+    }
+  },
+  {
     "modelId": "deepseek/deepseek-v4-pro",
     "scores": {
       "trivia_et_2": 62.4,
@@ -5784,6 +5928,51 @@
         "det_correct": 49,
         "judge_correct": 8,
         "judge_total": 629
+      }
+    }
+  },
+  {
+    "modelId": "meta/muse-spark-1.3",
+    "scores": {
+      "bib_bench": 77.5,
+      "keelenou": 28.33,
+      "idiom_bench": 34.67
+    },
+    "overall": 46.83,
+    "details": {
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 100.0,
+          "luule": 85.0,
+          "ajaloo": 60.0,
+          "krimi": 70.0,
+          "laste": 100.0,
+          "populaarteaduslikku": 60.0,
+          "eluloo": 55.0,
+          "fantaasia": 90.0
+        },
+        "by_dial": {
+          "baseline": 90.62,
+          "lesser_known": 71.88,
+          "recent": 68.75,
+          "classic": 78.12,
+          "translated": 78.12
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 33.33,
+          "open": 16.67,
+          "short": 41.67,
+          "tf": 22.22
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 14.93,
+          "cross-lingual": 47.01,
+          "grey-zone": 33.62
+        }
       }
     }
   },

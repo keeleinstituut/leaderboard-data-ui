@@ -345,6 +345,12 @@
     "release": "2026-08-05"
   },
   {
+    "id": "meta/muse-spark-1.3",
+    "name": "Muse Spark 1.3",
+    "provider": "Meta",
+    "release": "2026-09-02"
+  },
+  {
     "id": "meta/muse-glimmer-30b",
     "name": "Muse Glimmer 30B",
     "provider": "Meta",
@@ -427,6 +433,15 @@
     ]
   },
   {
+    "id": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek V4.1 Flash",
+    "provider": "DeepSeek",
+    "release": "2026-09-10",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "qwen/qwen3.8-flash",
     "name": "Qwen 3.8 Flash",
     "provider": "Alibaba",
@@ -503,6 +518,12 @@
     "name": "Laguna S 2.1",
     "provider": "Poolside",
     "release": "2026-07-21"
+  },
+  {
+    "id": "tencent/hy4-preview",
+    "name": "Hy4 Preview",
+    "provider": "Tencent",
+    "release": "2026-08-28"
   },
   {
     "id": "xiaomi/mimo-v2-pro",
