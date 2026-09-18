@@ -808,3 +808,13 @@
 {"model_id": "qwen/qwen3.5-27b", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:51:09Z", "details": {"mtld": 84.71, "total_non_words": 11280, "total_words": 50002}}
 {"model_id": "moonshotai/kimi-k3", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:51:09Z", "details": {"mtld": 73.28, "total_non_words": 16647, "total_words": 50009}}
 {"model_id": "qwen/qwen3.8-27b", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:51:11Z", "details": {"mtld": 57.96, "total_non_words": 6436, "total_words": 50018}}
+{"model_id": "z-ai/glm-4.7", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:54:54Z", "details": {"mtld": 160.7, "total_non_words": 2271, "total_words": 50015}}
+{"model_id": "stepfun/step-3.7-flash", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:54:55Z", "details": {"mtld": 65.81, "total_non_words": 590, "total_words": 50021}}
+{"model_id": "nvidia/nemotron-3-super-120b-a12b", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:54:56Z", "details": {"mtld": 64.77, "total_non_words": 10263, "total_words": 50027}}
+{"model_id": "z-ai/glm-5.2", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:54:56Z", "details": {"mtld": 111.34, "total_non_words": 592, "total_words": 50006}}
+{"model_id": "stepfun/step-3.5-flash", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:54:57Z", "details": {"mtld": 89.84, "total_non_words": 1316, "total_words": 50010}}
+{"model_id": "z-ai/glm-5", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:54:59Z", "details": {"mtld": 127.72, "total_non_words": 998, "total_words": 50010}}
+{"model_id": "cohere/command-r-plus-08-2024", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:54:59Z", "details": {"mtld": 126.52, "total_non_words": 4801, "total_words": 50019}}
+{"model_id": "nvidia/nemotron-3-ultra-550b-a55b", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:55:01Z", "details": {"mtld": 141.6, "total_non_words": 2108, "total_words": 50004}}
+{"model_id": "z-ai/glm-5.3", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:55:02Z", "details": {"mtld": 60.88, "total_non_words": 22573, "total_words": 50023}}
+{"model_id": "z-ai/glm-5.3-flash", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-09-18T08:55:05Z", "details": {"mtld": 60.17, "total_non_words": 20988, "total_words": 50001}}
