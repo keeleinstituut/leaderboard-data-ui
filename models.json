@@ -72,6 +72,30 @@
     "release": "2026-09-04"
   },
   {
+    "id": "openai/gpt-6-sol",
+    "name": "GPT-6 Sol",
+    "provider": "OpenAI",
+    "release": "2026-09-22"
+  },
+  {
+    "id": "openai/gpt-6-sol-pro",
+    "name": "GPT-6 Sol Pro",
+    "provider": "OpenAI",
+    "release": "2026-09-22"
+  },
+  {
+    "id": "openai/gpt-6-luna",
+    "name": "GPT-6 Luna",
+    "provider": "OpenAI",
+    "release": "2026-09-22"
+  },
+  {
+    "id": "openai/gpt-6-luna-pro",
+    "name": "GPT-6 Luna Pro",
+    "provider": "OpenAI",
+    "release": "2026-09-22"
+  },
+  {
     "id": "openai/gpt-4o-mini",
     "name": "GPT-4o Mini",
     "provider": "OpenAI",
@@ -189,6 +213,12 @@
     "name": "Claude Opus 5",
     "provider": "Anthropic",
     "release": "2026-07-24"
+  },
+  {
+    "id": "anthropic/claude-opus-5.5",
+    "name": "Claude Opus 5.5",
+    "provider": "Anthropic",
+    "release": "2026-09-22"
   },
   {
     "id": "google/gemini-2.0-flash-001",
@@ -310,6 +340,12 @@
     "name": "Grok 4.6",
     "provider": "xAI",
     "release": "2026-08-12"
+  },
+  {
+    "id": "x-ai/grok-4.7",
+    "name": "Grok 4.7",
+    "provider": "xAI",
+    "release": "2026-09-21"
   },
   {
     "id": "meta-llama/llama-3.1-70b-instruct",
@@ -523,7 +559,10 @@
     "id": "tencent/hy4-preview",
     "name": "Hy4 Preview",
     "provider": "Tencent",
-    "release": "2026-08-28"
+    "release": "2026-08-28",
+    "tags": [
+      "open"
+    ]
   },
   {
     "id": "xiaomi/mimo-v2-pro",
@@ -531,6 +570,24 @@
     "provider": "Xiaomi",
     "release": "2026-03-18",
     "retired": true
+  },
+  {
+    "id": "xiaomi/mimo-v2.6-flash",
+    "name": "MiMo V2.6 Flash",
+    "provider": "Xiaomi",
+    "release": "2026-09-21",
+    "tags": [
+      "open"
+    ]
+  },
+  {
+    "id": "xiaomi/mimo-v2.6-pro",
+    "name": "MiMo V2.6 Pro",
+    "provider": "Xiaomi",
+    "release": "2026-09-21",
+    "tags": [
+      "open"
+    ]
   },
   {
     "id": "minimax/minimax-m2.7",
