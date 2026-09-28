@@ -3115,9 +3115,10 @@
       "trivia_et_3": 22.25,
       "propaganda_resistance": 90.22,
       "idiom_bench": 64.67,
-      "term_bench": 49.42
+      "term_bench": 49.42,
+      "keelenou": 63.75
     },
-    "overall": 61.69,
+    "overall": 61.98,
     "details": {
       "bib_bench": {
         "by_genre": {
@@ -3301,6 +3302,14 @@
               "religioon, filosoofia": 46.67
             }
           }
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 62.5,
+          "open": 45.83,
+          "short": 66.67,
+          "tf": 75.0
         }
       }
     }
