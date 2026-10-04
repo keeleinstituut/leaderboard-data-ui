@@ -722,3 +722,15 @@
 {"model_id": "openai/gpt-4o-mini", "benchmark_id": "wordornot", "score": 69.4, "timestamp": "2026-10-04T19:59:17Z", "details": {"mtld": 118.7, "total_non_words": 153, "total_words": 50007}}
 {"model_id": "openai/gpt-4.1", "benchmark_id": "wordornot", "score": 86.8, "timestamp": "2026-10-04T19:59:17Z", "details": {"mtld": 175.38, "total_non_words": 66, "total_words": 50003}}
 {"model_id": "openai/gpt-5", "benchmark_id": "wordornot", "score": 71.2, "timestamp": "2026-10-04T19:59:17Z", "details": {"mtld": 208.68, "total_non_words": 144, "total_words": 50005}}
+{"model_id": "anthropic/claude-opus-4.8", "benchmark_id": "wordornot", "score": 95.6, "timestamp": "2026-10-04T20:07:49Z", "details": {"mtld": 139.77, "total_non_words": 22, "total_words": 50006}}
+{"model_id": "anthropic/claude-opus-5", "benchmark_id": "wordornot", "score": 89.4, "timestamp": "2026-10-04T20:07:49Z", "details": {"mtld": 123.87, "total_non_words": 53, "total_words": 50014}}
+{"model_id": "anthropic/claude-sonnet-5", "benchmark_id": "wordornot", "score": 89.2, "timestamp": "2026-10-04T20:07:50Z", "details": {"mtld": 145.63, "total_non_words": 54, "total_words": 50018}}
+{"model_id": "anthropic/claude-fable-5.1", "benchmark_id": "wordornot", "score": 93.4, "timestamp": "2026-10-04T20:07:51Z", "details": {"mtld": 116.76, "total_non_words": 33, "total_words": 50006}}
+{"model_id": "anthropic/claude-opus-4.7", "benchmark_id": "wordornot", "score": 92.8, "timestamp": "2026-10-04T20:07:53Z", "details": {"mtld": 136.51, "total_non_words": 36, "total_words": 50005}}
+{"model_id": "anthropic/claude-haiku-4.5", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-04T20:07:53Z", "details": {"mtld": 118.35, "total_non_words": 1077, "total_words": 50003}}
+{"model_id": "anthropic/claude-opus-4.5", "benchmark_id": "wordornot", "score": 83.0, "timestamp": "2026-10-04T20:07:54Z", "details": {"mtld": 167.9, "total_non_words": 85, "total_words": 50005}}
+{"model_id": "anthropic/claude-fable-5", "benchmark_id": "wordornot", "score": 95.4, "timestamp": "2026-10-04T20:07:54Z", "details": {"mtld": 164.1, "total_non_words": 23, "total_words": 50002}}
+{"model_id": "anthropic/claude-sonnet-4.5", "benchmark_id": "wordornot", "score": 47.2, "timestamp": "2026-10-04T20:07:54Z", "details": {"mtld": 152.36, "total_non_words": 264, "total_words": 50009}}
+{"model_id": "anthropic/claude-sonnet-4", "benchmark_id": "wordornot", "score": 40.4, "timestamp": "2026-10-04T20:07:55Z", "details": {"mtld": 167.2, "total_non_words": 298, "total_words": 50000}}
+{"model_id": "anthropic/claude-sonnet-4.6", "benchmark_id": "wordornot", "score": 62.0, "timestamp": "2026-10-04T20:07:55Z", "details": {"mtld": 106.22, "total_non_words": 190, "total_words": 50020}}
+{"model_id": "anthropic/claude-opus-4.6", "benchmark_id": "wordornot", "score": 82.0, "timestamp": "2026-10-04T20:07:55Z", "details": {"mtld": 125.75, "total_non_words": 90, "total_words": 50006}}
