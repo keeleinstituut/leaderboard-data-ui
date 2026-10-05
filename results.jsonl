@@ -771,3 +771,4 @@
 {"model_id": "nvidia/nemotron-3-super-120b-a12b", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-04T20:32:42Z", "details": {"mtld": 88.39, "total_non_words": 4337, "total_words": 50024}}
 {"model_id": "z-ai/glm-5.3-flash", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-04T20:32:49Z", "details": {"mtld": 81.22, "total_non_words": 11152, "total_words": 50005}}
 {"model_id": "z-ai/glm-5.3", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-04T20:32:51Z", "details": {"mtld": 77.22, "total_non_words": 17340, "total_words": 50009}}
+{"model_id": "openai/gpt-3.5-turbo", "benchmark_id": "wordornot", "score": 87.8, "timestamp": "2026-10-05T07:55:05Z", "details": {"mtld": 85.35, "total_non_words": 61, "total_words": 50011}}
