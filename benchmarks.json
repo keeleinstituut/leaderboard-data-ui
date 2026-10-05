@@ -76,5 +76,12 @@
     "description_short_en": "Harder, open-answer trivia questions. 800 questions across ten topics.",
     "description_short_et": "Ilma vastusevariantideta keerulisemad mälumänguküsimused. 800 küsimust kümnes valdkonnas.",
     "description_url": "benchmarks/trivia_et_3.md"
+  },
+  {
+    "id": "wordornot",
+    "name_en": "Non-words",
+    "name_et": "Ebasõnad",
+    "description_short_en": "Measures how often a model invents non-existent Estonian word forms when writing longer free-form Estonian text.",
+    "description_short_et": "Mõõdab, kui sageli tekitab mudel pikemat eestikeelset teksti kirjutades ebasõnu ehk olematuid sõnakujusid."
   }
 ]
