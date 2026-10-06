@@ -772,3 +772,14 @@
 {"model_id": "z-ai/glm-5.3-flash", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-04T20:32:49Z", "details": {"mtld": 81.22, "total_non_words": 11152, "total_words": 50005}}
 {"model_id": "openai/gpt-3.5-turbo", "benchmark_id": "wordornot", "score": 87.8, "timestamp": "2026-10-05T08:48:20Z", "details": {"mtld": 85.35, "total_non_words": 61, "total_words": 50011}}
 {"model_id": "z-ai/glm-5.3", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-05T09:12:43Z", "details": {"mtld": 53.43, "total_non_words": 18481, "total_words": 50004}}
+{"model_id": "minimax/minimax-m2.7", "benchmark_id": "wordornot", "score": 33.8, "timestamp": "2026-10-06T09:02:40Z", "details": {"mtld": 114.75, "total_non_words": 331, "total_words": 50005}}
+{"model_id": "minimax/minimax-m3", "benchmark_id": "wordornot", "score": 79.8, "timestamp": "2026-10-06T09:03:59Z", "details": {"mtld": 129.04, "total_non_words": 101, "total_words": 50016}}
+{"model_id": "poolside/laguna-s-2.1", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-06T09:08:45Z", "details": {"mtld": 19.14, "total_non_words": 2801, "total_words": 50008}}
+{"model_id": "moonshotai/kimi-k3", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-06T09:13:21Z", "details": {"mtld": 80.69, "total_non_words": 11346, "total_words": 50004}}
+{"model_id": "qwen/qwen3.8-max", "benchmark_id": "wordornot", "score": 87.0, "timestamp": "2026-10-06T09:13:53Z", "details": {"mtld": 99.77, "total_non_words": 65, "total_words": 50001}}
+{"model_id": "moonshotai/kimi-k2-0905", "benchmark_id": "wordornot", "score": 51.2, "timestamp": "2026-10-06T09:14:00Z", "details": {"mtld": 107.98, "total_non_words": 244, "total_words": 50014}}
+{"model_id": "qwen/qwen3.7-max", "benchmark_id": "wordornot", "score": 72.0, "timestamp": "2026-10-06T09:19:49Z", "details": {"mtld": 181.26, "total_non_words": 140, "total_words": 50011}}
+{"model_id": "qwen/qwen3.6-plus", "benchmark_id": "wordornot", "score": 73.0, "timestamp": "2026-10-06T09:22:57Z", "details": {"mtld": 161.04, "total_non_words": 135, "total_words": 50009}}
+{"model_id": "qwen/qwen3.6-27b", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-06T09:25:54Z", "details": {"mtld": 159.58, "total_non_words": 533, "total_words": 50002}}
+{"model_id": "qwen/qwen3.5-27b", "benchmark_id": "wordornot", "score": 0.0, "timestamp": "2026-10-06T09:36:02Z", "details": {"mtld": 254.74, "total_non_words": 638, "total_words": 50003}}
+{"model_id": "tencent/hy4-preview", "benchmark_id": "wordornot", "score": 90.0, "timestamp": "2026-10-06T09:42:19Z", "details": {"mtld": 229.17, "total_non_words": 50, "total_words": 50002}}
