@@ -86,5 +86,12 @@
     ],
     "description_short_en": "Measures how often a model invents non-existent Estonian word forms when writing longer free-form Estonian text.",
     "description_short_et": "Mõõdab, kui sageli tekitab mudel pikemat eestikeelset teksti kirjutades ebasõnu ehk olematuid sõnakujusid."
+  },
+  {
+    "id": "refusal_bench",
+    "name_en": "Safety Response",
+    "name_et": "Ohutaju",
+    "description_short_en": "Measures whether a model handles harmful or regulated requests safely in Estonian, with an English control split to expose language-driven safety drift.",
+    "description_short_et": "Mõõdab, kas mudel käsitleb eestikeelseid kahjulikke või reguleeritud päringuid ohutult, kõrvutades tulemust ingliskeelse kontrollrühmaga, et tuvastada keelest tingitud ohutusnihe."
   }
 ]
