@@ -78,20 +78,8 @@
     "release": "2026-09-22"
   },
   {
-    "id": "openai/gpt-6-sol-pro",
-    "name": "GPT-6 Sol Pro",
-    "provider": "OpenAI",
-    "release": "2026-09-22"
-  },
-  {
     "id": "openai/gpt-6-luna",
     "name": "GPT-6 Luna",
-    "provider": "OpenAI",
-    "release": "2026-09-22"
-  },
-  {
-    "id": "openai/gpt-6-luna-pro",
-    "name": "GPT-6 Luna Pro",
     "provider": "OpenAI",
     "release": "2026-09-22"
   },
@@ -313,6 +301,12 @@
     "name": "Gemini 3.8 Flash",
     "provider": "Google",
     "release": "2026-09-02"
+  },
+  {
+    "id": "google/gemini-4-argon",
+    "name": "Gemini 4 Argon",
+    "provider": "Google",
+    "release": "2026-10-13"
   },
   {
     "id": "x-ai/grok-3",
