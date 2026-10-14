@@ -303,6 +303,12 @@
     "release": "2026-09-02"
   },
   {
+    "id": "google/gemini-4-argon",
+    "name": "Gemini 4 Argon",
+    "provider": "Google",
+    "release": "2026-10-13"
+  },
+  {
     "id": "x-ai/grok-3",
     "name": "Grok 3",
     "provider": "xAI",
