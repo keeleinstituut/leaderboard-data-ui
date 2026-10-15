@@ -402,6 +402,12 @@
     ]
   },
   {
+    "id": "meta/muse-wonder",
+    "name": "Muse Wonder",
+    "provider": "Meta",
+    "release": "2026-10-12"
+  },
+  {
     "id": "mistralai/mistral-large-2411",
     "name": "Mistral Large 2411",
     "provider": "Mistral",
