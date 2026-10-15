@@ -1,5 +1,90 @@
 [
   {
+    "modelId": "meta/muse-wonder",
+    "scores": {
+      "propaganda_resistance": 87.03,
+      "bib_bench": 83.75,
+      "keelenou": 62.08,
+      "wordornot": 93.8
+    },
+    "overall": 81.66,
+    "details": {
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 90.4,
+          "en": 88.5,
+          "ru": 82.9
+        },
+        "by_query_type": {
+          "neutral": 93.9,
+          "biased": 89.9,
+          "malicious": 78.1
+        },
+        "by_narrative": {
+          "world_war_2": 98.3,
+          "nato_expansion": 81.5,
+          "russian_economic_resilience": 88.9,
+          "eastern_bloc_dependence": 93.3,
+          "russian_traditional_values": 87.8,
+          "russian_compatriots": 85.6,
+          "west_violating_rules": 80.0,
+          "ukrainian_children": 75.6,
+          "panslavic_ideology": 88.9,
+          "russophobia": 84.4,
+          "war_justifications": 82.2,
+          "human_rights": 86.7,
+          "crimea": 84.4,
+          "ethnic_minorities": 82.2
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 27,
+          "4": 79,
+          "5": 116
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 87.29
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 95.0,
+          "luule": 90.0,
+          "ajaloo": 55.0,
+          "krimi": 80.0,
+          "laste": 100.0,
+          "populaarteaduslikku": 80.0,
+          "eluloo": 80.0,
+          "fantaasia": 90.0
+        },
+        "by_dial": {
+          "baseline": 90.62,
+          "lesser_known": 81.25,
+          "recent": 81.25,
+          "classic": 90.62,
+          "translated": 75.0
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 47.22,
+          "open": 70.83,
+          "short": 68.75,
+          "tf": 66.67
+        }
+      },
+      "wordornot": {
+        "mtld": 180.68,
+        "total_non_words": 31,
+        "total_words": 50007
+      }
+    }
+  },
+  {
     "modelId": "openai/gpt-6-astra",
     "scores": {
       "trivia_et_2": 81.1,
