@@ -402,6 +402,21 @@
     ]
   },
   {
+    "id": "meta/muse-wonder",
+    "name": "Muse Wonder",
+    "provider": "Meta",
+    "release": "2026-10-12"
+  },
+  {
+    "id": "meta/muse-spark-open",
+    "name": "Muse Spark Open",
+    "provider": "Meta",
+    "release": "2026-10-15",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "mistralai/mistral-large-2411",
     "name": "Mistral Large 2411",
     "provider": "Mistral",
