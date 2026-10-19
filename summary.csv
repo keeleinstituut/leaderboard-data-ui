@@ -8,6 +8,7 @@ google/gemini-3.8-flash,Gemini 3.8 Flash,Google,2026-09-02,,false,71.49,8,74.07,
 google/gemini-3.7-flash,Gemini 3.7 Flash,Google,2026-08-13,,false,71.29,8,80.25,66.46,81.9,70.33,57.25,74.33,47.0,92.8
 anthropic/claude-fable-5.1,Claude Fable 5.1,Anthropic,2026-08-31,,false,71.12,8,90.45,72.71,70.8,61.33,56.09,97.05,27.12,93.4
 openai/gpt-6-sol,GPT-6 Sol,OpenAI,2026-09-22,,false,69.16,7,86.25,67.08,76.4,70.67,57.54,89.05,37.12,
+meta/muse-spark-open,Muse Spark Open,Meta,2026-10-15,open,false,68.8,7,69.38,58.96,67.8,58.67,49.35,90.66,,86.8
 anthropic/claude-opus-5,Claude Opus 5,Anthropic,2026-07-24,,false,67.27,8,85.65,65.42,64.8,58.33,55.94,97.59,21.0,89.4
 google/gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,Google,2026-02-19,,false,66.81,8,80.62,61.88,85.0,72.33,57.03,79.05,50.75,47.8
 google/gemini-3.5-flash,Gemini 3.5 Flash,Google,2026-05-19,,false,66.1,8,65.0,61.88,80.0,64.0,54.13,72.96,42.25,88.6
