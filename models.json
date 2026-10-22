@@ -402,6 +402,21 @@
     ]
   },
   {
+    "id": "meta/muse-wonder",
+    "name": "Muse Wonder",
+    "provider": "Meta",
+    "release": "2026-10-12"
+  },
+  {
+    "id": "meta/muse-spark-open",
+    "name": "Muse Spark Open",
+    "provider": "Meta",
+    "release": "2026-10-15",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "mistralai/mistral-large-2411",
     "name": "Mistral Large 2411",
     "provider": "Mistral",
@@ -569,6 +584,15 @@
     "name": "Laguna S 2.1",
     "provider": "Poolside",
     "release": "2026-07-21"
+  },
+  {
+    "id": "reflection/beam-1.0-501b-a23b",
+    "name": "Beam 1.0 501B A23B",
+    "provider": "Reflection",
+    "release": "2026-10-16",
+    "tags": [
+      "open"
+    ]
   },
   {
     "id": "tencent/hy4-preview",
