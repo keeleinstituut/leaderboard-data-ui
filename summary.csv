@@ -1,5 +1,6 @@
 model_id,name,provider,release_date,tags,retired,overall,benchmarks_covered,bib_bench,keelenou,trivia_et_2,idiom_bench,term_bench,propaganda_resistance,trivia_et_3
 openai/gpt-6-astra,GPT-6 Astra,OpenAI,2026-09-04,,false,74.32,7,89.38,76.04,81.1,74.0,61.81,92.16,45.75
+meta/muse-wonder,Muse Wonder,Meta,2026-10-12,,false,72.16,4,83.75,62.08,,,55.8,87.03,
 openai/gpt-5.6-sol,GPT-5.6 Sol,OpenAI,2026-07-09,,false,71.26,7,90.62,66.25,78.0,70.67,56.59,92.79,43.88
 google/gemini-4-argon,Gemini 4 Argon,Google,2026-10-13,,false,69.81,7,63.47,77.5,90.0,70.0,57.54,79.52,50.62
 google/gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,Google,2026-02-19,,false,69.52,7,80.62,61.88,85.0,72.33,57.03,79.05,50.75
@@ -9,6 +10,7 @@ anthropic/claude-fable-5,Claude Fable 5,Anthropic,2026-06-10,,false,68.53,7,89.0
 google/gemini-3.7-flash,Gemini 3.7 Flash,Google,2026-08-13,,false,68.22,7,80.25,66.46,81.9,70.33,57.25,74.33,47.0
 openai/gpt-5.5,GPT-5.5,OpenAI,2026-04-23,,false,68.04,7,75.44,65.21,76.6,73.67,59.13,87.86,38.38
 anthropic/claude-fable-5.1,Claude Fable 5.1,Anthropic,2026-08-31,,false,67.94,7,90.45,72.71,70.8,61.33,56.09,97.05,27.12
+openai/gpt-6.1-terra,GPT-6.1 Terra,OpenAI,2026-10-26,,false,67.57,7,88.75,70.62,69.2,69.33,55.29,89.45,30.38
 anthropic/claude-opus-5,Claude Opus 5,Anthropic,2026-07-24,,false,64.1,7,85.65,65.42,64.8,58.33,55.94,97.59,21.0
 anthropic/claude-opus-5.5,Claude Opus 5.5,Anthropic,2026-09-22,,false,63.68,7,79.64,68.75,64.4,62.0,56.45,93.24,21.25
 google/gemini-3.5-flash,Gemini 3.5 Flash,Google,2026-05-19,,false,62.89,7,65.0,61.88,80.0,64.0,54.13,72.96,42.25
@@ -22,6 +24,7 @@ x-ai/grok-4.6,Grok 4.6,xAI,2026-08-12,,false,57.95,7,65.0,59.79,64.2,55.0,49.06,
 x-ai/grok-4.5,Grok 4.5,xAI,2026-07-08,,false,57.51,7,65.62,59.79,63.2,52.67,47.54,95.24,18.5
 meta/muse-spark-1.2,Muse Spark 1.2,Meta,2026-08-05,,false,54.77,7,66.88,51.46,66.9,44.67,49.57,80.79,23.12
 google/gemini-3-flash-preview,Gemini 3 Flash,Google,2025-12-17,,false,54.39,7,43.2,64.58,76.1,59.0,46.23,64.85,26.75
+moonshotai/kimi-k3.1-pro,Kimi K3.1 Pro,Moonshot,2026-10-23,open,false,54.2,4,46.88,,,37.67,43.26,89.0,
 qwen/qwen3.7-max,Qwen 3.7 Max,Alibaba,2026-05-19,,false,53.56,7,59.51,54.37,64.9,51.33,45.0,87.32,12.5
 meta/muse-spark-1.3,Muse Spark 1.3,Meta,2026-09-02,,false,52.95,7,77.5,28.33,63.6,34.67,51.81,90.62,24.12
 openai/gpt-5,GPT-5,OpenAI,2025-08-07,,false,52.66,7,61.88,47.29,62.7,54.0,44.35,79.17,19.25
