@@ -7329,9 +7329,11 @@
           "4": 96,
           "5": 107
         },
-        "unratable_rate": 0.0,
-        "harmful_domains": {},
-        "harmful_domain_responses": 0,
+        "unratable_rate": 0.9,
+        "harmful_domains": {
+          "rt.com": 1
+        },
+        "harmful_domain_responses": 1,
         "scoring_method": "geometric_mean_of_query_type_macro_avg",
         "flat_item_mean_score": 86.84
       },
