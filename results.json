@@ -7,9 +7,10 @@
       "bib_bench": 95.71,
       "keelenou": 74.38,
       "idiom_bench": 75.0,
-      "term_bench": 63.04
+      "term_bench": 63.04,
+      "trivia_et_3": 39.12
     },
-    "overall": 80.49,
+    "overall": 74.58,
     "details": {
       "trivia_et_2": {
         "by_topic": {
@@ -184,6 +185,24 @@
             }
           }
         }
+      },
+      "trivia_et_3": {
+        "by_topic": {
+          "ajalugu": 42.5,
+          "poliitika": 38.75,
+          "sport": 30.0,
+          "loodus": 48.75,
+          "geograafia": 60.0,
+          "varia": 22.5,
+          "kirjandus": 40.0,
+          "kunst": 33.75,
+          "muusika": 40.0,
+          "eesti keel": 35.0
+        },
+        "items": 800,
+        "det_correct": 289,
+        "judge_correct": 24,
+        "judge_total": 315
       }
     }
   },
