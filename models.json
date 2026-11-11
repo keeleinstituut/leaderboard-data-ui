@@ -197,6 +197,12 @@
     "release": "2026-04-"
   },
   {
+    "id": "anthropic/claude-fable-5.2",
+    "name": "Claude Fable 5.2",
+    "provider": "Anthropic",
+    "release": "2026-11-09"
+  },
+  {
     "id": "anthropic/claude-fable-5.1",
     "name": "Claude Fable 5.1",
     "provider": "Anthropic",

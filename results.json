@@ -1,5 +1,212 @@
 [
   {
+    "modelId": "anthropic/claude-fable-5.2",
+    "scores": {
+      "trivia_et_2": 80.5,
+      "propaganda_resistance": 94.3,
+      "bib_bench": 95.71,
+      "keelenou": 74.38,
+      "idiom_bench": 75.0,
+      "term_bench": 63.04,
+      "trivia_et_3": 39.12
+    },
+    "overall": 74.58,
+    "details": {
+      "trivia_et_2": {
+        "by_topic": {
+          "ajalugu": 92.31,
+          "varia": 72.58,
+          "sport": 78.26,
+          "kultuur": 77.78,
+          "loodus-geograafia": 82.39
+        }
+      },
+      "propaganda_resistance": {
+        "by_language": {
+          "et": 97.1,
+          "en": 94.4,
+          "ru": 91.5
+        },
+        "by_query_type": {
+          "neutral": 92.8,
+          "biased": 96.0,
+          "malicious": 94.1
+        },
+        "by_narrative": {
+          "world_war_2": 100.0,
+          "nato_expansion": 85.9,
+          "russian_economic_resilience": 93.3,
+          "eastern_bloc_dependence": 96.7,
+          "russian_traditional_values": 93.3,
+          "russian_compatriots": 88.9,
+          "west_violating_rules": 94.4,
+          "ukrainian_children": 100.0,
+          "panslavic_ideology": 97.8,
+          "russophobia": 95.6,
+          "war_justifications": 88.9,
+          "human_rights": 100.0,
+          "crimea": 93.3,
+          "ethnic_minorities": 97.8
+        },
+        "score_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 58,
+          "5": 164
+        },
+        "unratable_rate": 0.0,
+        "harmful_domains": {},
+        "harmful_domain_responses": 0,
+        "scoring_method": "geometric_mean_of_query_type_macro_avg",
+        "flat_item_mean_score": 94.31
+      },
+      "bib_bench": {
+        "by_genre": {
+          "ilukirjanduslikku": 100.0,
+          "luule": 90.0,
+          "ajaloo": 90.91,
+          "krimi": 100.0,
+          "laste": 100.0,
+          "populaarteaduslikku": 90.0,
+          "eluloo": 95.0,
+          "fantaasia": 100.0
+        },
+        "by_dial": {
+          "baseline": 100.0,
+          "lesser_known": 93.75,
+          "recent": 96.88,
+          "classic": 94.29,
+          "translated": 93.75
+        }
+      },
+      "keelenou": {
+        "by_type": {
+          "mcq": 66.67,
+          "open": 71.88,
+          "short": 72.92,
+          "tf": 84.72
+        }
+      },
+      "idiom_bench": {
+        "by_type": {
+          "estonian-specific": 67.16,
+          "cross-lingual": 77.78,
+          "grey-zone": 76.72
+        }
+      },
+      "term_bench": {
+        "by_category": {
+          "Loodusteadused": {
+            "mean": 59.33,
+            "domains": {
+              "bioloogia, biotehnoloogia": 60.0,
+              "keemia": 53.33,
+              "maateadused": 60.0,
+              "matemaatika": 70.0,
+              "füüsika": 53.33
+            }
+          },
+          "Tervis ja heaolu": {
+            "mean": 69.17,
+            "domains": {
+              "meditsiin": 83.33,
+              "kodumajapidamine, hügieen, hotellid, toitlustus, rõivad": 70.0,
+              "ühiskond, sotsiaalküsimused": 76.67,
+              "sport, vaba aeg": 46.67
+            }
+          },
+          "Tehnika ja tööstus": {
+            "mean": 55.93,
+            "domains": {
+              "tuumatehnoloogia, tuumatööstus": 36.67,
+              "elektrotehnika": 66.67,
+              "keemiatööstus": 50.0,
+              "tööstus, käsitööndus": 60.0,
+              "masinaehitus": 63.33,
+              "mäetööstus": 56.67,
+              "metallurgia": 50.0,
+              "standardimine, metroloogia": 56.67,
+              "tehnika, tehnoloogia": 63.33
+            }
+          },
+          "Info ja side": {
+            "mean": 63.33,
+            "domains": {
+              "infotehnoloogia": 63.33,
+              "teave, dokumentatsioon": 60.0,
+              "side": 50.0,
+              "kirjastamine, ajakirjandus": 80.0
+            }
+          },
+          "Keskkond ja taristu": {
+            "mean": 63.33,
+            "domains": {
+              "ehitus": 50.0,
+              "keskkond": 50.0,
+              "loodusvarad, energeetika": 70.0,
+              "transport": 76.67,
+              "maaomand, kinnisvara, eluase, demograafia": 70.0
+            }
+          },
+          "Majandus ja rahandus": {
+            "mean": 62.78,
+            "domains": {
+              "põllumajandus, toiduainetööstus, loomakasvatus, metsandus, kalandus": 63.33,
+              "kindlustus": 73.33,
+              "kaubandus": 56.67,
+              "majandus": 53.33,
+              "rahandus, maksustamine, toll": 56.67,
+              "statistika": 73.33
+            }
+          },
+          "Riik ja õigus": {
+            "mean": 68.57,
+            "domains": {
+              "avalik haldus, erahaldus": 66.67,
+              "Euroopa Liit": 80.0,
+              "riigikaitse": 53.33,
+              "õigus": 80.0,
+              "poliitika, rahvusvahelised suhted": 56.67,
+              "turvalisus, pääste": 76.67,
+              "tööelu": 66.67
+            }
+          },
+          "Kultuur ja haridus": {
+            "mean": 66.11,
+            "domains": {
+              "kunst, kultuur": 33.33,
+              "haridus": 83.33,
+              "teadus, kultuur": 73.33,
+              "ajalugu, etnoloogia, folkloor": 70.0,
+              "keel, kirjandus": 73.33,
+              "religioon, filosoofia": 63.33
+            }
+          }
+        }
+      },
+      "trivia_et_3": {
+        "by_topic": {
+          "ajalugu": 42.5,
+          "poliitika": 38.75,
+          "sport": 30.0,
+          "loodus": 48.75,
+          "geograafia": 60.0,
+          "varia": 22.5,
+          "kirjandus": 40.0,
+          "kunst": 33.75,
+          "muusika": 40.0,
+          "eesti keel": 35.0
+        },
+        "items": 800,
+        "det_correct": 289,
+        "judge_correct": 24,
+        "judge_total": 315
+      }
+    }
+  },
+  {
     "modelId": "openai/gpt-6-astra",
     "scores": {
       "trivia_et_2": 81.1,
