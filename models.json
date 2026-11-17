@@ -520,6 +520,12 @@
     ]
   },
   {
+    "id": "qwen/qwen4-max",
+    "name": "Qwen 4 Max",
+    "provider": "Alibaba",
+    "release": "2026-11-16"
+  },
+  {
     "id": "qwen/qwen3.8-flash",
     "name": "Qwen 3.8 Flash",
     "provider": "Alibaba",
