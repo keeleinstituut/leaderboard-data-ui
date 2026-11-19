@@ -90,6 +90,18 @@
     "release": "2026-10-26"
   },
   {
+    "id": "openai/gpt-6.2-astra",
+    "name": "GPT-6.2 Astra",
+    "provider": "OpenAI",
+    "release": "2026-11-17"
+  },
+  {
+    "id": "openai/gpt-6.2-sol",
+    "name": "GPT-6.2 Sol",
+    "provider": "OpenAI",
+    "release": "2026-11-17"
+  },
+  {
     "id": "openai/gpt-4o-mini",
     "name": "GPT-4o Mini",
     "provider": "OpenAI",
@@ -518,6 +530,12 @@
     "tags": [
       "open"
     ]
+  },
+  {
+    "id": "qwen/qwen4-max",
+    "name": "Qwen 4 Max",
+    "provider": "Alibaba",
+    "release": "2026-11-16"
   },
   {
     "id": "qwen/qwen3.8-flash",
