@@ -625,6 +625,15 @@
     "release": "2026-07-21"
   },
   {
+    "id": "thinkingmachines/inkling-2-mini",
+    "name": "Inkling 2 Mini",
+    "provider": "Thinking Machines",
+    "release": "2026-11-21",
+    "tags": [
+      "open"
+    ]
+  },
+  {
     "id": "reflection/beam-1.0-501b-a23b",
     "name": "Beam 1.0 501B A23B",
     "provider": "Reflection",
