@@ -333,6 +333,18 @@
     "release": "2026-10-13"
   },
   {
+    "id": "google/gemini-4-hydrogen",
+    "name": "Gemini 4 Hydrogen",
+    "provider": "Google",
+    "release": "2026-11-12"
+  },
+  {
+    "id": "google/gemini-4-neon",
+    "name": "Gemini 4 Neon",
+    "provider": "Google",
+    "release": "2026-11-18"
+  },
+  {
     "id": "x-ai/grok-3",
     "name": "Grok 3",
     "provider": "xAI",
@@ -623,6 +635,15 @@
     "name": "Laguna S 2.1",
     "provider": "Poolside",
     "release": "2026-07-21"
+  },
+  {
+    "id": "thinkingmachines/inkling-2-mini",
+    "name": "Inkling 2 Mini",
+    "provider": "Thinking Machines",
+    "release": "2026-11-21",
+    "tags": [
+      "open"
+    ]
   },
   {
     "id": "reflection/beam-1.0-501b-a23b",
